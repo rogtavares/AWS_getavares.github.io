@@ -6,9 +6,9 @@ markmap:
     selector: h1,h2,h3,ul,ol,li,table,pre
 ---
 
-# **Mapa Mental: Architect:(SAA-C03)** 
+# **Mapa Mental: Architect Ge T:(SAA-C03)** 
 
-GE TAVARES v3 
+GE TAVARES v4 
 
 
 ## **1.0 Análise de Dados**
@@ -16,7 +16,7 @@ GE TAVARES v3
    - Serviço de consulta interativa que facilita a análise de dados no Amazon S3 usando SQL padrão.
 
 ### 1.2 Amazon QuickSight
-   - Serviço de business intelligence (BI) na nuvem que permite criar e publicar painéis e visualizações de dados
+   - Serviço de business intelligence (BI) na nuvem que permite criar e publicar painéis e visualizações de dados.
 
 ### 1.3 Amazon OpenSearch Service
    - Serviço de pesquisa e análise distribuído e de alto desempenho derivado do Elasticsearch
@@ -464,5 +464,5 @@ GE TAVARES v3
 
 ### 15.5 Amazon Honeycode
    - Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código
-versao 2.
-## **FIM:**
+
+## **FIM Gé Tavares :**

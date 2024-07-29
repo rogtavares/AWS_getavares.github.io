@@ -1,11 +1,3 @@
----
-markmap:
-  maxWidth: 300
-  initialExpandLevel: 1
-  htmlParser:
-    selector: h1,h2,h3,ul,ol,li,table,pre
----
-
 # **Mapa Mental: Solutions Architect (SAA-C03)** GE TAVARES  
 
 
@@ -466,3 +458,4 @@ markmap:
 
 
 ## **FIM:**
+### **GE TAVARES v9**
