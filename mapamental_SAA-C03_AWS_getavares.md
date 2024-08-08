@@ -152,23 +152,26 @@ GE TAVARES v7
 
 ## **4.1 Contêineres**
 
-### 4.1.1 Amazon Elastic Container Registry
+### 4.1.1 Elastic Container Service (ECS)
+- é um serviço de gerenciamento de contêineres altamente escalável e rápido que facilita a execução, a interrupção e o gerenciamento de contêineres em um cluster.
+
+### 4.1.2 Amazon Elastic Container Registry (ECR)
 
 - Armazene, compartilhe e implante facilmente seu software de contêiner em qualquer lugar
 
-### 4.1.2 Amazon Elastic Kubernetes Service
+### 4.1.3 Amazon Elastic Kubernetes Service
 
 - A maneira mais confiável de iniciar, executar e escalar o Kubernetes
 
-### 4.1.3 Amazon EKS Anywhere
+### 4.1.4 Amazon EKS Anywhere
 
 - Criação e operação de clusters do Kubernetes em sua própria infraestrutura
 
-### 4.1.4 Amazon EKS Distro
+### 4.1.5 Amazon EKS Distro
 
 - Distribuição de código aberto do Kubernetes a partir da AWS
 
-### 4.1.5 AWS Fargate
+### 4.1.6 AWS Fargate
 
 - Computação sem servidor para contêineres
 
@@ -214,11 +217,13 @@ GE TAVARES v7
 
 - Serviço de integração de dados com tecnologia sem servidor para facilitar a descoberta, preparação, movimentação e integração de dados
 
-## **6.0 DEV + WEB/FRONT-END + MÍDIA (Front-end para plataformas móveis e Web)**
+## **6.0 DEV + WEB/FRONT-END Plataformas móveis e Web + MÍDIA**
 
 ### 6.1 Amazon API Gateway
 
 - Serviço gerenciado que permite criar, publicar, manter, monitorar e proteger APIs em qualquer escala
+- Ajuda os desenvolvedores a criar e gerenciar APIs em sistemas back-end em execução no Amazon EC2, no AWS Lambda ou em qualquer serviço da web endereçável publicamente
+- é possível gerar SDKs personalizados para suas APIs para conectar 
 
 ### 6.2 AWS X-Ray
 
@@ -644,9 +649,27 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
 ### 15.6 Amazon Honeycode
 
-- Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código
+- Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código.
 
-## **16.0 FIM Gé Tavares**
+## **16.0 CAPACITACAO DO CLIENTE**
+
+### 16.1 Activate for Startups
+- Fornece recursos para ajudar start-ups construirem e crescerem na AWS
+
+### 16.2 AWS IQ
+- Conclua projetos mais rapidamente com a ajuda de especialistas certificados pela AWS de terceiros
+
+### 16.3 Managed Services
+- Gerenciamento de operações de TI para a AWS
+
+
+### 16.4 AWS re:Post Private
+- Aumente a colaboração interna e a inovação por meio de um recurso de conhecimento em nuvem com curadoria.
+
+### 16.5 Support
+- Entre em contato com a AWS para suporte técnico e da conta.
+
+## **17.0 FIM Gé Tavares**
 
 - Você conhece Laranjal Paulista?
   Nasci lá, sabia !
