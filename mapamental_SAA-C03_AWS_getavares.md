@@ -8,7 +8,7 @@ markmap:
 
 # **Mapa Mental: Architect Ge T:(SAA-C03)** 
 
-GE TAVARES v4 
+GE TAVARES v5 
 
 
 ## **1.0 Análise de Dados**
@@ -341,11 +341,27 @@ GE TAVARES v4
    - Serviço que permite usar diretórios do Microsoft Active Directory para gerenciar acesso e permissões em seus recursos na Nuvem AWS
 
 ## **11.STORAGE**
-### 11.1 Amazon S3
-   - Serviço de armazenamento de objetos escalável e durável foi projetado para 99,999999999% (11 9's) de durabilidade de dados porque ele cria e armazena automaticamente cópias de todos os objetos S3 em vários sistemas
 
-### 11.2 Amazon S3 Glacier
-   - Serviço de armazenamento de baixo custo e longo prazo para backup e arquivamento de dados
+
+### 11.0 Amazon S3         
+- Serviço de armazenamento de objetos escalável e durável foi projetado para 99,999999999% (11 9's) de durabilidade de dados porque ele cria e armazena automaticamente cópias de todos os objetos S3 em vários sistemas
+
+### 11.1 Amazon S3
+   - **BALDES** S3
+   - **OBJETOS** S3
+   - **VERSIONAMETO** S3
+   - **SEGURANÇA** S3
+   - **SITES** S3
+
+
+### 11.2 Amazon S3 CLASSES
+   - S3 STANDARD :Dados acessados com frequencias 
+   - S3 STANADRD IA:custos mais baixos,sao acessados menos frequencias.
+   - S3 INTELLIGENT TIERING:ideal para usos de dados desconhecidos.
+   - S3 ONE ZONE IA:para DADOS pouco acessado.
+   - S3 GLACIER : arquivados 
+   - S3 GLACIER DEEP: arquivados  e recuperar em 12 horas.
+   - S3 OUTPOST :recurso e APIs de armazemanto de objetos 
 
 ### 11.3 Amazon FSx
    - Serviço de sistemas de arquivos totalmente gerenciados para aplicativos empresariais e HPC (High-Performance Computing)
@@ -358,6 +374,7 @@ GE TAVARES v4
 
 ### 11.6 AWS Storage Gateway
    - Serviço de integração de armazenamento híbrido que facilita a conexão de seus ambientes locais à Nuvem AWS
+  
 
 ### 11.7 AWS Backup
    - Serviço de backup e recuperação centralizado e automatizado para proteger dados
