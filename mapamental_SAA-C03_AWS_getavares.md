@@ -8,7 +8,7 @@ markmap:
 
 # **Mapa Mental: Architect Ge T:(SAA-C03)** 
 
-GE TAVARES v5 
+GE TAVARES v6 
 
 
 ## **1.0 Análise de Dados**
@@ -482,4 +482,8 @@ GE TAVARES v5
 ### 15.5 Amazon Honeycode
    - Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código
 
-## **FIM Gé Tavares :**
+
+
+## **16.0 FIM Gé Tavares** 
+ - Você conhece Laranjal Paulista? 
+ Nasci lá, sabia !?
