@@ -387,83 +387,88 @@ GE TAVARES v7
 
 - Serviço de transferência de dados para automatizar a movimentação de dados entre locais locais e a Nuvem AWS
 
-## **10.0 REDE/NETWORKING + IDENTIDADE E ACESSO**
+## **10.0 IDENTIDADE E ACESSO + REDE/NETWORKING**
 
-### 10.1 Amazon VPC
+### 10.01 Ferramentas de Gerenciamentos.
+
+ - Via Console
+ - CLI (intervalo de linhas de comandos)
+ - SDKs (Kits de desenvolvimentos de sofware da AWS)
+
+### 10.02 AWS Identity and Access Management (IAM)
+
+- Controle de acesso e gerenciamento de permissões para recursos da Nuvem AWS
+
+### 10.03 AWS Single Sign-On (SSO)
+
+- Serviço que permite gerenciar o acesso a várias contas da AWS e aplicações empresariais
+
+### 10.04 Amazon VPC
 
 - Rede virtual na Nuvem AWS que permite controlar totalmente seu ambiente de rede virtual
+- O AWS VPN é composto por dois serviços: **AWS Site-to-Site VPN e AWS Client VPN**
 
-### 10.2 Amazon CloudFront
+
+
+### 10.05 Amazon CloudFront
 
 - Serviço de CDN (Content Delivery Network) para distribuição de conteúdo de baixa latência e alta transferência
 
-### 10.3 Amazon Route 53
+### 10.06 Amazon Route 53
 
 - Serviço de DNS (Domain Name System) escalável e altamente disponível
 
-### 10.4 AWS Direct Connect
-
-- Estabeleça uma conexão de rede privada entre seu ambiente local e a Nuvem AWS
-
-### 10.5 AWS Global Accelerator
-
+\
+### 10.07 AWS Global Accelerator
 - Serviço que melhora a disponibilidade e performance das aplicações com base na Nuvem AWS
 
-### 10.6 AWS Cloud WAN
+### 10.08 AWS WAN
 
 - Rede global totalmente gerenciada que facilita a construção, o gerenciamento e a operação de uma rede de área ampla (WAN) privada
 
-### 10.7 AWS PrivateLink
+### 10.09 AWS PrivateLink
 
 - Serviço que permite acessar os serviços da AWS e de terceiros de forma segura
 
-### 10.8 AWS Transit Gateway
+### 10.10 AWS Transit Gateway
 
 - Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway
 
-### 10.9 AWS Network Firewall
+### 10.11 AWS Network Firewall
 
 - Serviço de firewall gerenciado para proteção e controle do tráfego de rede
 
-### 10.10 Amazon Inspector
+### 10.12 Amazon Inspector
 
 - Serviço de análise de segurança automatizada que avalia a exposição, as vulnerabilidades e as não conformidades das workloads da AWS
 
-### 10.11 AWS WAF
+### 10.13 AWS WAF
 
 - Firewall de aplicação web que protege suas aplicações web contra explorações comuns
 
-### 10.12 AWS Shield
+### 10.14 AWS Shield
 
-- Serviço de proteção contra ))**DDoS** (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS 
+- Serviço de proteção contra **DDoS** (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS 
 
 - **AWS Shield Advanced** é um **serviço PAGO** que fornece diagnósticos detalhados de ataques e a capacidade de detectar e mitigar ataques.
 
 - O **AWS Shield Standard** protege automaticamente todos os clientes AWS **SEM NEHUM CUSTOS**.
 
-### 10.13 AWS Firewall Manager
+### 10.15 AWS Firewall Manager
 
 - Serviço que permite configurar e gerenciar regras de firewall em várias contas e aplicações da AWS
 
-### 10.14 Amazon GuardDuty
+### 10.16 Amazon GuardDuty
 
 - Serviço de detecção de ameaças que monitora atividades maliciosas e comportamentos anômalos para proteger suas contas, workloads e dados da AWS
 
-### 10.15 Amazon Macie
+### 10.17 Amazon Macie
 
 - Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais na Nuvem AWS
 
-### 10.16 AWS Identity and Access Management (IAM)
-
-- Controle de acesso e gerenciamento de permissões para recursos da Nuvem AWS
-
-### 10.17 AWS Single Sign-On (SSO)
-
-- Serviço que permite gerenciar o acesso a várias contas da AWS e aplicações empresariais
-
 ### 10.18 AWS Directory Service
 
-- Serviço que permite usar diretórios do Microsoft Active Directory para gerenciar acesso e permissões em seus recursos na Nuvem AWS
+- Serviço que permite usar diretórios do Microsoft Active Directory para gerenciar acesso e permissões em seus recursos na Nuvem AWS.
 
 ## **11.STORAGE**
 
