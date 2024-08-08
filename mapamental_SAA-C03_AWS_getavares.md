@@ -384,17 +384,17 @@ GE TAVARES v7
 
 ## **10.0 REDE/NETWORKING + IDENTIDADE E ACESSO**
 
-### 10.1 Amazon CloudFront
+### 10.1 Amazon VPC
+
+- Rede virtual na Nuvem AWS que permite controlar totalmente seu ambiente de rede virtual
+
+### 10.2 Amazon CloudFront
 
 - Serviço de CDN (Content Delivery Network) para distribuição de conteúdo de baixa latência e alta transferência
 
-### 10.2 Amazon Route 53
+### 10.3 Amazon Route 53
 
 - Serviço de DNS (Domain Name System) escalável e altamente disponível
-
-### 10.3 Amazon VPC
-
-- Rede virtual na Nuvem AWS que permite controlar totalmente seu ambiente de rede virtual
 
 ### 10.4 AWS Direct Connect
 
@@ -430,7 +430,11 @@ GE TAVARES v7
 
 ### 10.12 AWS Shield
 
-- Serviço de proteção contra DDoS (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS
+- Serviço de proteção contra ))**DDoS** (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS 
+
+- **AWS Shield Advanced** é um **serviço PAGO** que fornece diagnósticos detalhados de ataques e a capacidade de detectar e mitigar ataques.
+
+- O **AWS Shield Standard** protege automaticamente todos os clientes AWS **SEM NEHUM CUSTOS**.
 
 ### 10.13 AWS Firewall Manager
 
@@ -530,15 +534,7 @@ GE TAVARES v7
 
 - Serviço de detecção de ameaças que monitora atividades maliciosas e comportamentos anômalos
 
-
-### 12.6 AWS Shield
-
-- Serviço de proteção contra DDoS que protege suas aplicações na Nuvem AWS
-- **AWS Shield Advanced** é um **serviço PAGO** que fornece diagnósticos detalhados de ataques e a capacidade de detectar e mitigar ataques.
-
-- O **AWS Shield Standard** protege automaticamente todos os clientes AWS **SEM NEHUM CUSTOS**.
- 
-### 12.7 AWS Macie
+### 12.6 AWS Macie
 
 - Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais
 
@@ -588,15 +584,16 @@ GE TAVARES v7
 
 ### 14.1 AWS IoT Core
 
-- Serviço que permite conectar dispositivos IoT à nuvem de forma segura e escalável
+- Serviço que permite conectar dispositivos IoT à nuvem.
 
 ### 14.2 AWS IoT Greengrass
 
-- Serviço de edge computing que permite a execução de aplicativos de IoT localmente nos dispositivos
+- Implante e execute códigos nos seus dispositivos
 
 ### 14.3 AWS IoT Analytics
 
-- Serviço de análise de dados de IoT totalmente gerenciado
+- Serviço de análise de dados de IoT .
+Colete, pré-processe, armazene, analise e visualize dados de dispositivos de IoT
 
 ### 14.4 AWS IoT Device Management
 
@@ -624,27 +621,32 @@ GE TAVARES v7
 
 ## **15.0 OUTROS**
 
-### 15.1 AWS Step Functions
+### 15.1 Quantum Technologies
+
+- **Amazon Braket**
+Serviço para explorar, avaliar e realizar testes com a computação quântica.
+
+### 15.2 AWS Step Functions
 
 - Serviço de orquestração que facilita a coordenação de múltiplos serviços da AWS em fluxos de trabalho complexos
 
-### 15.2 Amazon Managed Blockchain
+### 15.3 Amazon Managed Blockchain
 
 - Serviço totalmente gerenciado que facilita a criação e gerenciamento de redes blockchain escaláveis
 
-### 15.3 AWS Ground Station
+### 15.4 AWS Ground Station
 
 - Serviço totalmente gerenciado que facilita a comunicação com satélites e o processamento de dados de satélites
 
-### 15.4 AWS RoboMaker
+### 15.5 AWS RoboMaker
 
 - Serviço que facilita o desenvolvimento, teste e implantação de aplicativos de robótica inteligentes
 
-### 15.5 Amazon Honeycode
+### 15.6 Amazon Honeycode
 
 - Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código
 
 ## **16.0 FIM Gé Tavares**
 
 - Você conhece Laranjal Paulista?
- Nasci lá, sabia !?
+  Nasci lá, sabia !
