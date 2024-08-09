@@ -52,6 +52,9 @@ GE TAVARES v7
 
 - Serviço de mercado de dados na nuvem que facilita a descoberta, assinatura e uso de dados de terceiros
 
+### 1.11 Amazon A2I
+- Faça as perguntas certas para construir sua arquitetura de dados moderna nos serviços da AWS
+
 ## **2.0 Integração de Aplicativo/Aplicações Empresariais**
 
 ### 2.1 Amazon AppFlow
@@ -118,25 +121,26 @@ GE TAVARES v7
 
 - Serviço de computação em nuvem seguro e redimensionável para hospedar aplicativos na nuvem
 
-### 4.2 AWS Batch
+### 4.2 AWS Lambda
+
+- Execute código sem se preocupar com servidores ou clusters.
+- Não há cobrança quando seu código não está em execução. Você pode executar código para praticamente qualquer tipo de aplicativo ou serviço de backend 
+
+### 4.3 AWS Batch
 
 - Serviço que ajuda a executar cargas de trabalho em lote na nuvem de forma eficiente e econômica
 
-### 4.3 AWS Auto Scaling
+### 4.4 AWS Auto Scaling
 
 - Serviço que monitora seus aplicativos e recursos automaticamente para manter a disponibilidade ideal
 
-### 4.4 AWS Elastic Beanstalk
+### 4.5 AWS Elastic Beanstalk
 
 - Serviço que facilita o provisionamento e gerenciamento de recursos da AWS para aplicativos web
 
-### 4.5 AWS Outposts
+### 4.6 AWS Outposts
 
 - Solução que permite executar serviços da AWS em seu próprio data center
-
-### 4.6 AWS Lambda
-
-- Execute código sem se preocupar com servidores ou clusters
 
 ### 4.7 AWS SAR (Serverless Application Repository)
 
