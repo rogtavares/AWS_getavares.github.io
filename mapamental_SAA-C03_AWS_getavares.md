@@ -179,6 +179,11 @@ GE TAVARES v7
 
 - Computação sem servidor para contêineres
 
+### 4.1.7 AWS Copilot
+
+- Foi projetado para usuários ECS novos e existentes que desejam ir além do gerenciamento manual de infraestrutura e começar a pensar em seu aplicativo e ciclo de vida. 
+- O AWS Copilot cria distribuições modernas de aplicativos com base em configurações prontas para produção que incluem melhores práticas recomendadas por engenheiros do ECS.
+
 ## **5.0 Banco de Dados**
 
 ### 5.1 Amazon Aurora
@@ -555,7 +560,7 @@ GE TAVARES v7
 ## **13.0 DEVOPS**
 
 ### 13.1 AWS Cloud9
-- Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador
+- Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador.
 
 ### 13.2 AWS CodeCommit
 
