@@ -221,7 +221,7 @@ GE TAVARES v7
 
 - Serviço de integração de dados com tecnologia sem servidor para facilitar a descoberta, preparação, movimentação e integração de dados
 
-## **6.0 DEV + WEB/FRONT-END Plataformas móveis e Web + MÍDIA**
+## **6.0 DEV +Web/FRONT-END Plataformas móveis e Web + MÍDIA**
 
 ### 6.1 Amazon API Gateway
 
@@ -554,29 +554,28 @@ GE TAVARES v7
 
 ## **13.0 DEVOPS**
 
-### 13.1 AWS CodeCommit
+### 13.1 AWS Cloud9
+- Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador
+
+### 13.2 AWS CodeCommit
 
 - Serviço de controle de versões totalmente gerenciado que hospeda repositórios Git privados
 
-### 13.2 AWS CodeBuild
+### 13.3 AWS CodeBuild
 
 - Serviço de build totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação
 
-### 13.3 AWS CodeDeploy
+### 13.4 AWS CodeDeploy
 
 - Serviço de implantação totalmente gerenciado que automatiza implantações de código para qualquer instância
 
-### 13.4 AWS CodePipeline
+### 13.5 AWS CodePipeline
 
 - Serviço de entrega contínua que ajuda a automatizar seus pipelines de lançamento para implantação rápida e segura
 
-### 13.5 AWS CodeStar
+### 13.6 AWS CodeStar
 
 - Serviço que fornece um conjunto de ferramentas integrado para desenvolvimento, build e implantação de aplicativos na AWS
-
-### 13.6 AWS Cloud9
-
-- IDE de desenvolvimento que permite escrever, executar e depurar código diretamente no navegador
 
 ### 13.7 AWS X-Ray
 
