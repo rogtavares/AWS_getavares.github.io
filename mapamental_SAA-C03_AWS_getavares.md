@@ -259,7 +259,7 @@ GE TAVARES v7
 ### 7.0 Amazon Q
 - O assistente baseado em **IA** generativa para acelerar o desenvolvimento de software e otimizar os dados internos das empresas
 
-- **Amazon Q Business** assistente baseado em **IA generativa** que pode responder a perguntas, fornecer resumos, gerar conteúdo e concluir tarefas de maneira segura com base em dados e informações nos seus sistemas corporativos. 
+- **Amazon Q Business** assistente baseado em **IA generativa** que pode responder a perguntas, fornecer resumos, gerar conteúdo e concluir tarefas de maneira segura com base em dados e informações nos seus sistemas corporativos.
 
 - **Amazon Q Developer**
 auxilia desenvolvedores em todas as suas tarefas, desde codificar, testar e atualizar aplicações até diagnosticar erros, realizar verificações e correções de segurança e otimizar os recursos da AWS. 
