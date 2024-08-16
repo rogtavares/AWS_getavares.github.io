@@ -261,7 +261,7 @@ GE TAVARES v7
 
 - **Amazon Q Business** assistente baseado em **IA generativa** que pode responder a perguntas, fornecer resumos, gerar conteúdo e concluir tarefas de maneira segura com base em dados e informações nos seus sistemas corporativos. 
 
--**Amazon Q Developer**
+- **Amazon Q Developer**
 auxilia desenvolvedores em todas as suas tarefas, desde codificar, testar e atualizar aplicações até diagnosticar erros, realizar verificações e correções de segurança e otimizar os recursos da AWS. 
 
 Tem recursos avançados de planejamento e(por exemplo, realizar atualizações de versão do Java)
@@ -322,6 +322,9 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 
 ### 7.14 Amazon Personalize
 - Serviço para criar recomendações personalizadas. Usado para gerar recomendações de produtos, conteúdo e personalizações em tempo real.
+
+### 7.15 AWS Panorama
+- Serviço para análise de vídeo em dispositivos locais.Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
 
 ## **8.0 GERENCIAMENTO E GOVERNANÇA**
 
