@@ -254,7 +254,17 @@ GE TAVARES v7
 
 - Aprimore a qualidade das suas aplicações móveis e Web ao realizar testes em navegadores e dispositivos móveis reais na Nuvem AWS
 
-## **7.0 MACHINE LEARNING**
+## **7.0 IA e MACHINE LEARNING**
+
+### 7.0 Amazon Q
+- O assistente baseado em **IA** generativa para acelerar o desenvolvimento de software e otimizar os dados internos das empresas
+
+- **Amazon Q Business** assistente baseado em **IA generativa** que pode responder a perguntas, fornecer resumos, gerar conteúdo e concluir tarefas de maneira segura com base em dados e informações nos seus sistemas corporativos. 
+
+-**Amazon Q Developer**
+auxilia desenvolvedores em todas as suas tarefas, desde codificar, testar e atualizar aplicações até diagnosticar erros, realizar verificações e correções de segurança e otimizar os recursos da AWS. 
+
+Tem recursos avançados de planejamento e(por exemplo, realizar atualizações de versão do Java)
 
 ### 7.1 Amazon Comprehend
 
@@ -266,7 +276,11 @@ GE TAVARES v7
 
 ### 7.3 Amazon Fraud Detector
 
-- Detecte fraudes online com mais rapidez com machine learning
+- Detecte fraudes online com mais rapidez com machine learning 
+
+### 7.8 Amazon SageMaker
+
+- Crie, treine e implante modelos de machine learning para qualquer caso de uso com infraestrutura, ferramentas e fluxos de trabalho totalmente gerenciados
 
 ### 7.4 Amazon Kendra
 
@@ -284,9 +298,6 @@ GE TAVARES v7
 
 - Automatize e reduza o custo de reconhecimento de imagem e análise de vídeo com machine learning
 
-### 7.8 Amazon SageMaker
-
-- Crie, treine e implante modelos de machine learning para qualquer caso de uso com infraestrutura, ferramentas e fluxos de trabalho totalmente gerenciados
 
 ### 7.9 Amazon Textract
 
@@ -299,6 +310,18 @@ GE TAVARES v7
 ### 7.11 Amazon Translate
 
 - Tradução automática fluente e precisa
+
+### 7.12 AWS DeepLens
+
+- Descrição: Câmera de aprendizado profundo com integração ao AWS.
+Funcionalidades: Permite a implementação de modelos de visão computacional para reconhecimento de imagens e vídeo.
+
+### 7.13 AWS Glue DataBrew
+- Ferramenta para preparar e limpar dados.Facilita a transformação de dados para uso em análises e modelos de ML.
+- Permitem que desenvolvedores e cientistas de dados criem e implementem soluções de IA em larga escala, beneficiando-se da infraestrutura e escalabilidade da AWS.
+
+### 7.14 Amazon Personalize
+- Serviço para criar recomendações personalizadas. Usado para gerar recomendações de produtos, conteúdo e personalizações em tempo real.
 
 ## **8.0 GERENCIAMENTO E GOVERNANÇA**
 
