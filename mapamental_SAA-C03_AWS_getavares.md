@@ -421,7 +421,7 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 ### 9.7 AWS DataSync
 
 - Serviço de transferência de dados para automatizar a movimentação de dados entre locais locais e a Nuvem AWS
-## 10.0.1 VPC
+## **10.0.1 VPC**
 
 ### 10.0.1.1 VPC:
 - nuvem privada virtual
