@@ -421,6 +421,42 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 ### 9.7 AWS DataSync
 
 - Serviço de transferência de dados para automatizar a movimentação de dados entre locais locais e a Nuvem AWS
+## 10.0.1 VPC
+
+### 10.0.1.1 VPC:
+- nuvem privada virtual
+
+### 10.0.1.2 Sub-redes: 
+- vinculadas a uma AZ, partição de rede da VPC
+
+### 10.0.1.3 Gateway de Internet: 
+- no nível da VPC, fornece acesso à Internet.
+
+### 10.0.1.4 Gateway / Instâncias NAT: 
+- fornece acesso à Internet para sub-redes privadas.
+
+### 10.0.1.5 NACL: 
+- regras de sub-rede sem estado para entrada e saída.
+
+### 10.0.1.6 Grupos de segurança:
+- stateful, operam no nível da instância EC2 ou ENI.
+
+### 10.0.1.7 Peering de VPC: 
+- conecte duas VPC com intervalos de IP não sobrepostos, não transitivos
+
+### 10.0.1.8 VPC Endpoints: 
+- forneça acesso privado aos serviços da AWS dentro do VPC
+Logs de fluxo de VPC: logs de tráfego de rede
+
+### 10.0.1.9 Site to Site VPN: 
+- VPN pela Internet pública entre DC local e AWS
+
+### 10.0.1.10 Direct Connect: 
+-conexão privada direta com AWS.
+
+### 10.0.1.11 Transit Gateway: 
+- conecte milhares de redes VPC e locais /Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
+
 
 ## **10.0 IDENTIDADE E ACESSO + REDE/NETWORKING**
 
@@ -438,50 +474,39 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 
 - Serviço que permite gerenciar o acesso a várias contas da AWS e aplicações empresariais
 
-### 10.04 Amazon VPC
-
-- Rede virtual na Nuvem AWS que permite controlar totalmente seu ambiente de rede virtual
-- O AWS VPN é composto por dois serviços: **AWS Site-to-Site VPN e AWS Client VPN**
-
-
-
-### 10.05 Amazon CloudFront
+### 10.04 Amazon CloudFront
 
 - Serviço de CDN (Content Delivery Network) para distribuição de conteúdo de baixa latência e alta transferência
 
-### 10.06 Amazon Route 53
+### 10.05 Amazon Route 53
 
 - Serviço de DNS (Domain Name System) escalável e altamente disponível
 
-\
-### 10.07 AWS Global Accelerator
+### 10.06 AWS Global Accelerator
 - Serviço que melhora a disponibilidade e performance das aplicações com base na Nuvem AWS
 
-### 10.08 AWS WAN
+### 10.07 AWS WAN
 
 - Rede global totalmente gerenciada que facilita a construção, o gerenciamento e a operação de uma rede de área ampla (WAN) privada
 
-### 10.09 AWS PrivateLink
+### 10.08 AWS PrivateLink
 
 - Serviço que permite acessar os serviços da AWS e de terceiros de forma segura
 
-### 10.10 AWS Transit Gateway
 
-- Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway
-
-### 10.11 AWS Network Firewall
+### 10.09 AWS Network Firewall
 
 - Serviço de firewall gerenciado para proteção e controle do tráfego de rede
 
-### 10.12 Amazon Inspector
+### 10.10 Amazon Inspector
 
 - Serviço de análise de segurança automatizada que avalia a exposição, as vulnerabilidades e as não conformidades das workloads da AWS
 
-### 10.13 AWS WAF
+### 10.11 AWS WAF
 
 - Firewall de aplicação web que protege suas aplicações web contra explorações comuns
 
-### 10.14 AWS Shield
+### 10.12 AWS Shield
 
 - Serviço de proteção contra **DDoS** (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS 
 
@@ -489,19 +514,19 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 
 - O **AWS Shield Standard** protege automaticamente todos os clientes AWS **SEM NEHUM CUSTOS**.
 
-### 10.15 AWS Firewall Manager
+### 10.13 AWS Firewall Manager
 
 - Serviço que permite configurar e gerenciar regras de firewall em várias contas e aplicações da AWS
 
-### 10.16 Amazon GuardDuty
+### 10.14 Amazon GuardDuty
 
 - Serviço de detecção de ameaças que monitora atividades maliciosas e comportamentos anômalos para proteger suas contas, workloads e dados da AWS
 
-### 10.17 Amazon Macie
+### 10.15 Amazon Macie
 
 - Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais na Nuvem AWS
 
-### 10.18 AWS Directory Service
+### 10.16 AWS Directory Service
 
 - Serviço que permite usar diretórios do Microsoft Active Directory para gerenciar acesso e permissões em seus recursos na Nuvem AWS.
 
