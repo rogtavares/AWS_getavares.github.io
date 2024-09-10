@@ -119,7 +119,16 @@ GE TAVARES v7
 
 ### 4.1 Amazon EC2
 
-- Serviço de computação em nuvem seguro e redimensionável para hospedar aplicativos na nuvem
+- **Amazon EC2** Amazon Elastic Compute Cloud fornece capacidade de computação escalável na Amazon(AWS) Cloud.
+
+- Infraestrutura como serviço (é uma das ofertas mais populares da AWS)
+
+- consiste principalmente na capacidade de:
+Aluguel de máquinas virtuais **(EC2)** 
+- Armazenando dados em unidades virtuais **(EBS)**
+- Distribuição de carga entre máquinas **(ELB)**
+- Escalando os serviços usando um grupo de dimensionamento automático **(ASG)**
+Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 ### 4.2 AWS Lambda
 
@@ -427,10 +436,14 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 - nuvem privada virtual
 
 ### 10.0.1.2 Sub-redes: 
-- vinculadas a uma AZ, partição de rede da VPC
+- Vinculadas a uma AZ, partição de rede da VPC 
+- Uma sub-rede é um intervalo de enderenços IP em sua VPC.
+Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 
 ### 10.0.1.3 Gateway de Internet: 
-- no nível da VPC, fornece acesso à Internet.
+- No nível da VPC, fornece acesso à Internet.
+- Fornecer um dostino nas tabelas de rotas da sua VPC.
+- Realizar a tradução de endereços da rede(NAT)para instancias que receberam endereço IPv4 públicos. 
 
 ### 10.0.1.4 Gateway / Instâncias NAT: 
 - fornece acesso à Internet para sub-redes privadas.
