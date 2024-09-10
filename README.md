@@ -2,4 +2,4 @@ Mapas Mentais de Gé Tavares sobre SOLUCTION ARCHITECT ASSOCIATE & DEVELOP,têm 
 
 https://rogtavares.github.io/mapamentalSAA-C03_getavares.github.io/
 
-versao 11 
+versao 13
