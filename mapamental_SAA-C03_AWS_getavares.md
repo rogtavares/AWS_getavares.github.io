@@ -182,7 +182,7 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 ### 4.1.5 Amazon EKS Distro
 
-- Distribuição de código aberto do Kubernetes a partir da AWS
+- Distribuição de código aberto do Kubernetes a partir da AWS.
 
 ### 4.1.6 AWS Fargate
 
