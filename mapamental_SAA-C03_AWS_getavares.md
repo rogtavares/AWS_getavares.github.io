@@ -468,8 +468,8 @@ Logs de fluxo de VPC: logs de tráfego de rede
 - VPN pela Internet pública entre DC local e AWS
 
 ### 10.0.1.10 Direct Connect: 
--conexão privada direta com AWS.
-
+- Criar uma conexão de rede dedicada para a AWS 
+- (é o caminho mais curto para seus recursos na AWS. Seu tráfego de rede permanece todo o tempo na rede global da AWS e nunca entra na Internet pública.)
 ### 10.0.1.11 Transit Gateway: 
 - conecte milhares de redes VPC e locais /Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
 
