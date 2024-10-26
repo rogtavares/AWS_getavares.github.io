@@ -329,9 +329,9 @@ auxilia **desenvolvedores** em todas as suas tarefas, desde codificar, testar e 
 - Tradução automática fluente e precisa
 
 
-### 7.16 AWS Panorama
-- Serviço para análise de vídeo em dispositivos locais.Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
-
+### 7.17 AWS Panorama
+- Serviço para análise de vídeo em dispositivos locais.
+Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
 
 
 ## **8.0 GERENCIAMENTO E GOVERNANÇA**
