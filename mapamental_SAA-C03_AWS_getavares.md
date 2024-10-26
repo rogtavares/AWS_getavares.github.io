@@ -52,8 +52,6 @@ GE TAVARES v8
 
 - Serviço de mercado de dados na nuvem que facilita a descoberta, assinatura e uso de dados de terceiros
 
-### 1.11 Amazon A2I
-- Faça as perguntas certas para construir sua arquitetura de dados moderna nos serviços da AWS
 
 ## **2.0 Integração de Aplicativo/Aplicações Empresariais**
 
@@ -263,80 +261,78 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 - Aprimore a qualidade das suas aplicações móveis e Web ao realizar testes em navegadores e dispositivos móveis reais na Nuvem AWS
 
-## **7.0 IA e MACHINE LEARNING**
+## **7.0 MACHINE LEARNING services**
 
-### 7.0 Amazon Bedrock
+### 7.0  Amazon Augmented AI (Amazon A2I) 
+- Permite que você realize uma análise humana de sistemas de machine learning (ML) para garantir a precisão. 
+Implemente análises e auditorias humanas de previsões de ML com base em seus requisitos específicos, incluindo vários revisores.
+
+### 7.1 Amazon Bedrock
 -   é um serviço totalmente gerenciado que oferece várias opções de modelos de base (FMs) de alta performance das principais empresas de IA, como AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI e Amazon, por meio de uma única API, além de um amplo conjunto de recursos necessários para criar aplicações de IA generativa com segurança,
 
-### 7.1 Amazon Q
+### 7.2 Amazon Comprehend
+- Deriva e entende insights valiosos a partir do texto dentro de documentos
+
+
+### 7.3 AWS DeepLens
+- Descrição: Câmera de aprendizado profundo com integração ao AWS.
+Funcionalidades: Permite a implementação de modelos de visão computacional para reconhecimento de imagens e vídeo.
+
+### 7.4 Amazon Fraud Detector
+- Detecte fraudes online com mais rapidez com machine learning 
+é um serviço totalmente gerenciado que permite aos clientes identificar atividades potencialmente fraudulentas e detectar mais fraudes online com mais rapidez.
+
+### 7.5 Amazon Forecast
+- Preveja resultados de negócios com facilidade e precisão usando machine learning
+
+### 7.6 AWS Glue DataBrew
+- Ferramenta para preparar e limpar dados.Facilita a transformação de dados para uso em análises e modelos de ML.
+- Permitem que **desenvolvedores e cientistas de dados** criem e implementem soluções de IA em larga escala, beneficiando-se da infraestrutura e escalabilidade da AWS.
+
+
+### 7.7 Amazon Kendra
+- Crie experiências de conversação seguras com tecnologia de IA generativa para seus usuários
+
+
+### 7.8 Amazon Lex
+- Crie bots e implante interfaces de IA conversacionais
+(crie interface de voz e texto perfeitas)
+
+### 7.9 Amazon Polly
+- Implante vozes humanas de alta qualidade e som natural em dezenas de idiomas
+(Os casos incluem : aplicativos móveis, como leitores de notícias, jogos, eLearning plataformas, aplicativos de acessibilidade para pessoas com deficiência visual e o segmento em rápido crescimento da Internet das Coisas (IoT).)
+
+### 7.10 Amazon Personalize
+- Serviço para criar recomendações personalizadas. Usado para gerar recomendações de produtos, conteúdo e personalizações em tempo real.
+
+### 7.11 Amazon Q
 - O assistente baseado em **IA** generativa para acelerar o desenvolvimento de software e otimizar os dados internos das empresas
 
 - **Amazon Q Business** assistente baseado em **IA generativa** que pode responder a perguntas, fornecer resumos, gerar conteúdo e concluir tarefas de maneira segura com base em dados e informações nos seus sistemas corporativos.
 
 - **Amazon Q Developer**
-auxilia desenvolvedores em todas as suas tarefas, desde codificar, testar e atualizar aplicações até diagnosticar erros, realizar verificações e correções de segurança e otimizar os recursos da AWS. 
+auxilia **desenvolvedores** em todas as suas tarefas, desde codificar, testar e atualizar aplicações até diagnosticar erros, realizar verificações e correções de segurança e otimizar os recursos da AWS. Tem recursos avançados de planejamento e(por exemplo, realizar atualizações de versão do Java)
 
-Tem recursos avançados de planejamento e(por exemplo, realizar atualizações de versão do Java)
+### 7.12 Amazon Rekognition
+- Automatize e reduza o custo de reconhecimento de imagem e análise de vídeo com machine learning (portao de minha casa)
 
-### 7.2 Amazon Comprehend
-
-- Deriva e entende insights valiosos a partir do texto dentro de documentos
-
-### 7.3 Amazon Forecast
-
-- Preveja resultados de negócios com facilidade e precisão usando machine learning
-
-### 7.4 Amazon Fraud Detector
-
-- Detecte fraudes online com mais rapidez com machine learning 
-
-### 7.5 Amazon SageMaker
-
+### 7.13 Amazon SageMaker 
 - Crie, treine e implante modelos de machine learning para qualquer caso de uso com infraestrutura, ferramentas e fluxos de trabalho totalmente gerenciados
 
-### 7.6 Amazon Kendra
-
-- Crie experiências de conversação seguras com tecnologia de IA generativa para seus usuários
-
-### 7.7 Amazon Lex
-
-- Crie e implante interfaces de IA conversacionais
-
-### 7.8 Amazon Polly
-
-- Implante vozes humanas de alta qualidade e som natural em dezenas de idiomas
-
-### 7.9 Amazon Rekognition
-
-- Automatize e reduza o custo de reconhecimento de imagem e análise de vídeo com machine learning
-
-
-### 7.10 Amazon Textract
-
+### 7.14 Amazon Textract
 - Extraia automaticamente texto impresso, manuscrito, elementos de layout e dados de qualquer documento
 
-### 7.11 Amazon Transcribe
-
+### 7.15 Amazon Transcribe
 - Converta automaticamente voz em texto e obtenha insights
 
-### 7.12 Amazon Translate
-
+### 7.16 Amazon Translate
 - Tradução automática fluente e precisa
 
-### 7.13 AWS DeepLens
-
-- Descrição: Câmera de aprendizado profundo com integração ao AWS.
-Funcionalidades: Permite a implementação de modelos de visão computacional para reconhecimento de imagens e vídeo.
-
-### 7.14 AWS Glue DataBrew
-- Ferramenta para preparar e limpar dados.Facilita a transformação de dados para uso em análises e modelos de ML.
-- Permitem que desenvolvedores e cientistas de dados criem e implementem soluções de IA em larga escala, beneficiando-se da infraestrutura e escalabilidade da AWS.
-
-### 7.15 Amazon Personalize
-- Serviço para criar recomendações personalizadas. Usado para gerar recomendações de produtos, conteúdo e personalizações em tempo real.
 
 ### 7.16 AWS Panorama
 - Serviço para análise de vídeo em dispositivos locais.Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
+
+
 
 ## **8.0 GERENCIAMENTO E GOVERNANÇA**
 
