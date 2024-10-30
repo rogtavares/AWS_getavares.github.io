@@ -330,7 +330,8 @@ auxilia **desenvolvedores** em todas as suas tarefas, desde codificar, testar e 
 
 
 ### 7.17 AWS Panorama
-- Serviço para análise de vídeo em dispositivos locais.
+- Serviço para análise de vídeo em dispositivos locaispython sao_paulo_fc_tracker.py
+.
 Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
 
 
@@ -434,31 +435,34 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 ### 10.0.1.1 VPC:
 - nuvem privada virtual
 
+### 10.0.1.1 VPC Endpoints: 
+- forneça acesso privado aos serviços da AWS dentro do VPC
+Logs de fluxo de VPC: logs de tráfego de rede
+
 ### 10.0.1.2 Sub-redes: 
 - Vinculadas a uma AZ, partição de rede da VPC 
 - Uma sub-rede é um intervalo de enderenços IP em sua VPC.
 Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 
-### 10.0.1.3 Gateway de Internet: 
+### 10.0.1.3 Grupos de segurança:
+- stateful, operam no nível da instância EC2 ou ENI.
+
+### 10.0.1.4 Gateway de Internet: 
 - No nível da VPC, fornece acesso à Internet.
 - Fornecer um dostino nas tabelas de rotas da sua VPC.
 - Realizar a tradução de endereços da rede(NAT)para instancias que receberam endereço IPv4 públicos. 
 
-### 10.0.1.4 Gateway / Instâncias NAT: 
+### 10.0.1.5 Gateway / Instâncias NAT: 
 - fornece acesso à Internet para sub-redes privadas.
 
-### 10.0.1.5 NACL: 
+### 10.0.1.6 NACL: 
 - regras de sub-rede sem estado para entrada e saída.
 
-### 10.0.1.6 Grupos de segurança:
-- stateful, operam no nível da instância EC2 ou ENI.
+### 10.0.1.7 Transit Gateway: 
+- conecte milhares de redes VPC e locais /Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
 
-### 10.0.1.7 Peering de VPC: 
+### 10.0.1.8 Peering de VPC: 
 - conecte duas VPC com intervalos de IP não sobrepostos, não transitivos
-
-### 10.0.1.8 VPC Endpoints: 
-- forneça acesso privado aos serviços da AWS dentro do VPC
-Logs de fluxo de VPC: logs de tráfego de rede
 
 ### 10.0.1.9 Site to Site VPN: 
 - VPN pela Internet pública entre DC local e AWS
@@ -466,8 +470,6 @@ Logs de fluxo de VPC: logs de tráfego de rede
 ### 10.0.1.10 Direct Connect: 
 - Criar uma conexão de rede dedicada para a AWS 
 - (é o caminho mais curto para seus recursos na AWS. Seu tráfego de rede permanece todo o tempo na rede global da AWS e nunca entra na Internet pública.)
-### 10.0.1.11 Transit Gateway: 
-- conecte milhares de redes VPC e locais /Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
 
 
 ## **10.0 IDENTIDADE E ACESSO + REDE/NETWORKING**
@@ -534,11 +536,7 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 - Serviço de detecção de ameaças que monitora atividades maliciosas e comportamentos anômalos para proteger suas contas, workloads e dados da AWS
 
-### 10.15 Amazon Macie
-
-- Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais na Nuvem AWS
-
-### 10.16 AWS Directory Service
+### 10.15 AWS Directory Service
 
 - Serviço que permite usar diretórios do Microsoft Active Directory para gerenciar acesso e permissões em seus recursos na Nuvem AWS.
 
@@ -618,7 +616,7 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 ### 12.6 AWS Macie
 
-- Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais
+- Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais  P.I.I
 
 ## **13.0 DEVOPS**
 
