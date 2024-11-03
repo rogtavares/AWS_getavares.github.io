@@ -8,7 +8,7 @@ markmap:
 
 # **GE TAVARES AWS**
 
-GE TAVARES v8 
+GE TAVARES v9 
 
 ## **1.0 Análise de Dados**
 
@@ -30,9 +30,14 @@ GE TAVARES v8
 
 ### 1.5 AWS Glue
 
-- Serviço de integração de dados totalmente gerenciado que prepara e carrega dados para análise
-
-### 1.6 Amazon Kinesis
+- Serviço de integração de dados totalmente gerenciado que prepara e carrega dados para análise 
+- é uma ferramenta da Amazon que permite criar, gerenciar e automatizar processos **ETL (Extract, Transform, Load)**, simplificando o trabalho de integrar dados de várias fontes para análise e armazenamento em data lakes ou data warehouses.
+- **ETL significa Extração, Transformação e Carga** (do inglês Extract, Transform, Load)
+  
+### 1.6 AWS Glue DataBrew
+  - é um serviço de preparação de dados oferecido pela AWS que permite aos usuários limpar e transformar dados visualmente, sem necessidade de código. Ele é uma ferramenta ideal para profissionais que precisam organizar, formatar e limpar dados antes de usá-los em análise ou aprendizado de máquina. 
+  
+### 1.7 Amazon Kinesis
 
 - Plataforma de streaming de dados que facilita a captura, processamento e análise de dados de streaming em tempo real
 
@@ -91,7 +96,7 @@ GE TAVARES v8
 
 - Serviço de centro de contato baseado em nuvem que facilita o gerenciamento de operações de atendimento ao cliente
 
-## **3.0 Gerenciamento de Custo**
+## **3.0 Gerenciamento financeiro da nuvem**
 
 ### 3.1 AWS Budgets
 
@@ -170,7 +175,7 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 - Armazene, compartilhe e implante facilmente seu software de contêiner em qualquer lugar
 
-### 4.1.3 Amazon Elastic Kubernetes Service
+### 4.1.3 Amazon Elastic Kubernetes Service (EKS)
 
 - A maneira mais confiável de iniciar, executar e escalar o Kubernetes
 
@@ -229,9 +234,6 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 - Serviço de banco de dados rápido e escalável para workloads de séries temporais
 
-### 5.10 AWS Glue
-
-- Serviço de integração de dados com tecnologia sem servidor para facilitar a descoberta, preparação, movimentação e integração de dados
 
 ## **6.0 DEV +Web/FRONT-END Plataformas móveis e Web + MÍDIA**
 
@@ -347,10 +349,12 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 8.3 AWS Trusted Advisor
 
-- Otimize os custos, melhore a performance e corrija as lacunas de segurança
+- analisa seu ambiente AWS e fornece recomendações de práticas recomendadas em **5 categorias:**
+- **Cinco categorias** :Otimização de custos, Desempenho, Segurança, Tolerância a falhas, Limites de serviço.
+- **((OC +D+S+TF+ LS))**
+
 
 ### 8.4 AWS Well-Architected Tool
-
 - Melhore suas workloads ao revisar suas workloads atuais e obter recomendações para suas workloads na Nuvem AWS
 
 ### 8.5 AWS Config
@@ -359,7 +363,7 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 8.6 AWS CloudTrail
 
-- Registre, monitore e retenha a atividade da conta relacionada a ações em toda a infraestrutura da AWS
+-**((API DEDO DURO))** Registre, monitore e retenha a atividade da conta relacionada a ações em toda a infraestrutura da AWS, OU SEJA,é um serviço de auditoria e monitoramento... 
 
 ### 8.7 AWS Control Tower
 
@@ -428,8 +432,8 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 - Migração de bancos de dados relacionais, NoSQL e de data warehouses
 
 ### 9.7 AWS DataSync
-
 - Serviço de transferência de dados para automatizar a movimentação de dados entre locais locais e a Nuvem AWS
+- 
 ## **10.0.1 VPC**
 
 ### 10.0.1.1 VPC:
@@ -442,7 +446,7 @@ Logs de fluxo de VPC: logs de tráfego de rede
 ### 10.0.1.2 Sub-redes: 
 - Vinculadas a uma AZ, partição de rede da VPC 
 - Uma sub-rede é um intervalo de enderenços IP em sua VPC.
-Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
+- Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 
 ### 10.0.1.3 Grupos de segurança:
 - stateful, operam no nível da instância EC2 ou ENI.
@@ -467,11 +471,10 @@ Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 ### 10.0.1.9 Site to Site VPN: 
 - VPN pela Internet pública entre DC local e AWS
 
-### 10.0.1.10 Direct Connect: 
-- Criar uma conexão de rede dedicada para a AWS 
+### 10.0.1.10 Direct Connect
+- ((Rede dedicada)) Criar uma conexão de rede dedicada para a AWS
 - (é o caminho mais curto para seus recursos na AWS. Seu tráfego de rede permanece todo o tempo na rede global da AWS e nunca entra na Internet pública.)
-
-
+  
 ## **10.0 IDENTIDADE E ACESSO + REDE/NETWORKING**
 
 ### 10.01 Ferramentas de Gerenciamentos.
@@ -552,7 +555,6 @@ Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 - **OBJETOS** S3
 - **VERSIONAMETO** S3
 - **SEGURANÇA** S3
-- **SITES** S3
 
 ### 11.2 Amazon S3 CLASSES
 
@@ -594,9 +596,16 @@ Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 
 ## **12.0 SEGURANÇA + GOVERNANÇA**
 
+### 12.0 MFA 
+- MFA (( SEGUNDA PERNA ))   (OTP)328
+-  é uma camada de segurança extra no seu(MFA),no seu ambiente. Ao acessar um site da AWS, um usuário com a MFA habilitada deve informar o nome de usuário e a senha (o primeiro fator, que o usuário conhece) e uma resposta de autenticação do seu dispositivo de MFA (o segundo fator, que o usuário tem).
+  
+### 12.1 AWS Artifact
+- fornece um recurso central para AWS **relatórios de segurança e conformidade**. Os artefatos disponíveis em Organizacional de Serviços (SOC), relatórios do Setor de Cartões de Pagamento (PCI)
+
 ### 12.1 Amazon Inspector
 
-- Serviço de análise de segurança automatizada que avalia a exposição, as vulnerabilidades e as não conformidades das workloads da AWS
+- Serviço de análise de segurança automatizada que avalia a exposição, as **vulnerabilidades** e as não conformidades das workloads da AWS
 
 ### 12.2 AWS Certificate Manager (ACM)
 
@@ -617,6 +626,11 @@ Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 ### 12.6 AWS Macie
 
 - Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais  P.I.I
+
+### 12.7 AWS Secrets Manager
+
+- você a gerenciar, recuperar e alternar credenciais de banco de dados, chaves de API e outros segredos ao longo de seus ciclos de vida.
+- ajuda você a gerenciar o acesso a aplicações, serviços e recursos de TI.
 
 ## **13.0 DEVOPS**
 
@@ -742,6 +756,14 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
 ### 16.5 Support
 - Entre em contato com a AWS para suporte técnico e da conta.
+- B.D.B.E   eles estarão como 
+-Basic, Developer, Business e Enterprise.
+(Básico, Desenvolvedor, Negócios e Empresarial).
+
+- **Basic** não inclui acesso por chat nem chamadas telefônicas. 
+-**Developer** não inclui acesso por chat nem chamadas telefônicas. Ele fornece suporte por e-mail somente durante o horário comercial.
+-**Business** fornece acesso ininterrupto por telefone, e-mail e chat. Tem um tempo de resposta inferior a um hora/
+-**Enterprise** fornece acesso ininterrupto por telefone, e-mail e chat. O plano tem um tempo de resposta inferior a 15 minutos caso Produção sofra uma interrupção de serviço.
 
 ## **17.0 FIM Gé Tavares**
 
