@@ -293,7 +293,8 @@ Funcionalidades: Permite a implementação de modelos de visão computacional pa
 
 
 ### 7.7 Amazon Kendra
-- Crie experiências de conversação seguras com tecnologia de IA generativa para seus usuários
+- pesquisa corporativa inteligente baseada em machine learning. 
+ Facilitam os funcionários encontrar as informações de que precisam no momento certo dento da empresa.
 
 
 ### 7.8 Amazon Lex
