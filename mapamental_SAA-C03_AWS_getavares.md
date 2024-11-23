@@ -336,6 +336,10 @@ auxilia **desenvolvedores** em todas as suas tarefas, desde codificar, testar e 
 .
 Usado para processamento de vídeo em tempo real em dispositivos conectados à rede local. 
 
+### 7.18 Amazon DevOps Guru para RDS
+- é um serviço com a tecnologia de machine learning (ML), disponível para todos os mecanismos do Amazon Relational Database Service (RDS), que ajuda a facilitar melhorias na performance operacional e na disponibilidade de uma aplicação
+- é um recurso baseado em ML, projetado para capacitar desenvolvedores e engenheiros de DevOps a detectar, diagnosticar e corrigir rapidamente uma grande variedade de problemas relacionados a bancos de dados no Amazon RDS
+
 
 ## **8.0 GERENCIAMENTO E GOVERNANÇA**
 
