@@ -118,6 +118,11 @@ GE TAVARES v9
 
 - Ferramenta que simplifica o gerenciamento de custos e faturamento para provedores de software na nuvem
 
+### 3.6 Savings Plans Purchase Analyzer
+- Agora vai ficar mais fácil planejar e otimizar seus custos
+     - (**Antes: Era preciso analisar manualmente históricos de uso, calcular compromissos e criar projeções, ou seja, era mais no braço)** 
+   Você vai poder simular cenários ajustando valores por hora, analisar períodos personalizados e excluir Savings Plans expirando (pra não ficar aquela simulação errada que às vezes acontecia nas sugestões). via console,
+
 ## **4.0 Computação**
 
 ### 4.1 Amazon EC2
