@@ -213,44 +213,47 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 ### 5.1 Amazon Aurora
 
 - Banco de dados relacional compatível com MySQL e PostgreSQL, combinando desempenho e disponibilidade
+  
+### 5.2 Amazon Aurora Serverless V2 Scale to 0 
+- Este recurso reduz significativamente o custo de execução de bancos de dados para aplicativos com cargas de trabalho variáveis ​​ou intermitentes, os custos do banco de dados durante períodos de baixo tráfego
 
-### 5.2 Amazon DocumentDB (compatível com MongoDB)
+### 5.3 Amazon DocumentDB (compatível com MongoDB)
 
 - Banco de dados de documentos JSON nativo totalmente gerenciado para operar workloads de documentos essenciais em qualquer escala
 
-### 5.3 Amazon DynamoDB
+### 5.4 Amazon DynamoDB
 
 - Banco de dados NoSQL chave-valor totalmente gerenciado para aplicações sem servidor
   
-### 5.4 Amazon DynamoDB ( multi AZs)
+### 5.5 Amazon DynamoDB ( multi AZs)
 
 - tabelas globais multi-Região consistência forte - Até agora, as tabelas globais do DynamoDB sempre usaram consistência eventual. Agora você pode executar leituras fortemente consistentes em regiões da AWS.
 
-### 5.5 Amazon ElastiCache
+### 5.6 Amazon ElastiCache
 
 - Serviço de cache sem servidor, compatível com Redis, para performance em tempo real e com custo otimizado
 
-### 5.6 Amazon ElastiCache versão 8.0 para Valkey
+### 5.7 Amazon ElastiCache versão 8.0 para Valkey
   - Melhor escalabilidade e otimização de memória se traduzem em desempenho mais consistente e menores custos operacionais. Para soluções SaaS que exigem acesso a dados em tempo real — como mecanismos de personalização, armazenamentos de sessão ou tabelas de classificação de jogos — dimensionamento mais rápido significa tempos de resposta e confiabilidade aprimorados.
 
 
-### 5.7 Amazon Keyspaces (for Apache Cassandra)
+### 5.8 Amazon Keyspaces (for Apache Cassandra)
 
 - Serviço de banco de dados compatível com Apache Cassandra, escalável, altamente disponível e gerenciado
 
-### 5.8 Amazon Neptune
+### 5.9 Amazon Neptune
 
 - Serviço de banco de dados de grafo totalmente gerenciado e de alta performance
 
-### 5.9 Amazon Quantum Ledger Database (Amazon QLDB)
+### 5.10 Amazon Quantum Ledger Database (Amazon QLDB)
 
 - Banco de dados ledger totalmente gerenciado que fornece um log de transações transparente, imutável e criptograficamente verificável
 
-### 5.10 Amazon RDS
+### 5.11 Amazon RDS
 
 - Serviço de banco de dados relacional gerenciado para PostgreSQL, MySQL, MariaDB, Oracle e SQL Server
 
-### 5.11 Amazon Timestream
+### 5.12 Amazon Timestream
 
 - Serviço de banco de dados rápido e escalável para workloads de séries temporais
 
