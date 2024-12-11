@@ -8,7 +8,7 @@ markmap:
 
 # **GE TAVARES AWS**
 
-GE TAVARES v9 
+GE TAVARES v10 
 
 ## **1.0 Análise de Dados**
 
@@ -203,9 +203,12 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 ## **5.0 Banco de Dados**
 
-### 5.0 Amazon Aurora DSQL 
--  é um banco de dados serverless compatível com PostgreSQL, projetado para escalabilidade automática e disponível em múltiplas regiões com alta resiliência e desempenho.
-  - Ideal para aplicações modernas que exigem simplicidade, escalabilidade e confiabilidade  
+### 5.0 Amazon Aurora DSQL (re:Invent 24)
+-  é um banco de dados serverless (distribuído sem servidor) compatível com PostgreSQL, projetado para escalabilidade automática e disponível em múltiplas 
+  regiões com alta resiliência e desempenho.
+  Particularmente interessante para implantações multirregionais que exigem forte consistência  
+  - Ideal para aplicações modernas que exigem simplicidade, escalabilidade e confiabilidade
+  
 
 ### 5.1 Amazon Aurora
 
@@ -218,28 +221,36 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 ### 5.3 Amazon DynamoDB
 
 - Banco de dados NoSQL chave-valor totalmente gerenciado para aplicações sem servidor
+  
+### 5.4 Amazon DynamoDB ( multi AZs)
 
-### 5.4 Amazon ElastiCache
+- tabelas globais multi-Região consistência forte - Até agora, as tabelas globais do DynamoDB sempre usaram consistência eventual. Agora você pode executar leituras fortemente consistentes em regiões da AWS.
+
+### 5.5 Amazon ElastiCache
 
 - Serviço de cache sem servidor, compatível com Redis, para performance em tempo real e com custo otimizado
 
-### 5.5 Amazon Keyspaces (for Apache Cassandra)
+### 5.6 Amazon ElastiCache versão 8.0 para Valkey
+  - Melhor escalabilidade e otimização de memória se traduzem em desempenho mais consistente e menores custos operacionais. Para soluções SaaS que exigem acesso a dados em tempo real — como mecanismos de personalização, armazenamentos de sessão ou tabelas de classificação de jogos — dimensionamento mais rápido significa tempos de resposta e confiabilidade aprimorados.
+
+
+### 5.7 Amazon Keyspaces (for Apache Cassandra)
 
 - Serviço de banco de dados compatível com Apache Cassandra, escalável, altamente disponível e gerenciado
 
-### 5.6 Amazon Neptune
+### 5.8 Amazon Neptune
 
 - Serviço de banco de dados de grafo totalmente gerenciado e de alta performance
 
-### 5.7 Amazon Quantum Ledger Database (Amazon QLDB)
+### 5.9 Amazon Quantum Ledger Database (Amazon QLDB)
 
 - Banco de dados ledger totalmente gerenciado que fornece um log de transações transparente, imutável e criptograficamente verificável
 
-### 5.8 Amazon RDS
+### 5.10 Amazon RDS
 
 - Serviço de banco de dados relacional gerenciado para PostgreSQL, MySQL, MariaDB, Oracle e SQL Server
 
-### 5.9 Amazon Timestream
+### 5.11 Amazon Timestream
 
 - Serviço de banco de dados rápido e escalável para workloads de séries temporais
 
@@ -579,6 +590,9 @@ Logs de fluxo de VPC: logs de tráfego de rede
 - **S3 GLACIER** : arquivados
 - **S3 GLACIER DEEP**: arquivados  e recuperar em 12 horas.
 - **S3 OUTPOST** :Recurso e APIs de armazemanto de objetos
+- **S3 Tables** e  **1 milhão de buckets por conta**(re:Invent 24)
+   -  Ser capaz de criar mais buckets e atribuir metadados estruturados permite melhor isolamento e simplifica a organização de dados do cliente. 
+
 
 ### 11.3 Amazon FSx
 
