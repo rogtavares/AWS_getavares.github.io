@@ -203,6 +203,10 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
 
 ## **5.0 Banco de Dados**
 
+### 5.0 Amazon Aurora DSQL 
+-  é um banco de dados serverless compatível com PostgreSQL, projetado para escalabilidade automática e disponível em múltiplas regiões com alta resiliência e desempenho.
+  - Ideal para aplicações modernas que exigem simplicidade, escalabilidade e confiabilidade  
+
 ### 5.1 Amazon Aurora
 
 - Banco de dados relacional compatível com MySQL e PostgreSQL, combinando desempenho e disponibilidade
