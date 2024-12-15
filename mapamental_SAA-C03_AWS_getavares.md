@@ -1,205 +1,238 @@
 ---
 markmap:
   maxWidth: 300
-  initialExpandLevel: 1
+  initialExpandLevel: 2
   htmlParser:
     selector: h1,h2,h3,ul,ol,li,table,pre
 ---
 
 # **GE TAVARES AWS**
 
-GE TAVARES v10 
+GE TAVARES v12
 
-## **1.0 Análise de Dados**
+## **1.0 Computação**
 
-### 1.1 Amazon Athena
+### 1.1 Amazon EC2
+
+- **Amazon EC2** Amazon Elastic Compute Cloud fornece capacidade de computação escalável na Amazon(AWS) 
+
+ - Infraestrutura como serviço (é uma das ofertas mais populares da AWS)
+
+ 
+  - **(EC2)** - Aluguel de máquinas virtuais
+   **(EBS)**  - Armazenamento em bloco baseado em SSD 
+  **(ELB)**   - Distribuição de carga entre máquinas 
+  **(ASG)**   - Escalando os serviços usando um grupo de dimensionamento automático
+
+
+### 1.2 EC2 Global View
+- Permite que você visualize alguns dos seus recursos do Amazon EC2 e do Amazon VPC em uma única região da AWS ou em várias regiões em um único console. 
+ - O Amazon EC2 Global View também fornece funcionalidade de pesquisa global que permite que você pesquise recursos específicos, como :  
+
+   - Grupos de dimensionamento automático
+   - Reservas de capacidade e blocos de capacidade
+   - Conjunto de opções DHCP
+   -Gateways de internet somente de saída
+   - IPs elásticos
+   - Serviços de endpoint
+   - Instâncias
+   - Portais de internet
+   - Listas de prefixos gerenciadas
+   - Portais NAT
+   -ACLs de rede
+   - Interfaces de rede
+   - Tabelas de rotas
+   - Grupos de segurança
+   - Sub-redes
+   - VPCs
+   - Pontos de extremidade VPC
+   - Conexões de peering VPC
+
+### 1.2 AWS Lambda
+
+- Execute código sem se preocupar com servidores ou clusters.
+- Não há cobrança quando seu código não está em execução. Você pode executar código para praticamente qualquer tipo de aplicativo ou serviço de backend 
+  
+
+### 1.3 AWS Batch
+
+- Serviço que ajuda a executar cargas de trabalho em lote na nuvem de forma eficiente e econômica
+
+### 1.4 AWS Auto Scaling
+
+- Serviço que monitora seus aplicativos e recursos automaticamente para manter a disponibilidade ideal
+
+### 1.5 AWS Elastic Beanstalk
+
+- Serviço que facilita o provisionamento e gerenciamento de recursos da AWS para aplicativos web
+
+
+### 1.6 AWS Amazon Linux
+-  é um portfólio de sistemas operacionais modernos de alto desempenho baseados em Linux, focados em segurança e estáveis.
+### 1.7 AWS Amazon Lightsail
+- O Lightsail inclui os recursos necessários para iniciar projetos rapidamente: instâncias (servidores virtuais privados), bancos de dados gerenciados, armazenamento de objetos, balanceadores de carga, distribuições de rede de entrega de conteúdo (CDN), etc
+### 1.8 AWS Local Zone
+- coloca os principais serviços dos seus aplicativos mais próximos dos seus usuários.
+- 
+### 1.8 AWS Outposts
+
+- Solução que permite executar serviços da AWS em seu próprio data center
+
+### 1.7 AWS SAR (Serverless Application Repository)
+
+- Descubra, implante e publique aplicativos sem servidor
+
+### 1.8 AWS para VMware
+
+- Migre e otimize suas workloads baseadas em VMware para a AWS
+
+### 1.9 AWS Wavelength
+
+- Serviço que permite criar aplicativos com baixa latência para dispositivos 5G
+
+## **1.1 Contêineres**
+
+### 1.1.1 Elastic Container Service (ECS)
+- é um serviço de gerenciamento de contêineres altamente escalável e rápido que facilita a execução, a interrupção e o gerenciamento de contêineres em um cluster.
+
+### 1.1.2 Amazon Elastic Container Registry (ECR)
+
+- Armazene, compartilhe e implante facilmente seu software de contêiner em qualquer lugar
+
+### 1.1.3 Amazon Elastic Kubernetes Service (EKS)
+
+- A maneira mais confiável de iniciar, executar e escalar o Kubernetes
+
+### 1.1.4 Amazon EKS Anywhere
+
+- Criação e operação de clusters do Kubernetes em sua própria infraestrutura
+
+### 1.1.5 Amazon EKS Distro
+
+- Distribuição de código aberto do Kubernetes a partir da AWS.
+
+### 1.1.6 AWS Fargate
+
+- Computação sem servidor para contêineres
+
+### 1.1.7 AWS Copilot
+
+- Foi projetado para usuários ECS novos e existentes que desejam ir além do gerenciamento manual de infraestrutura e começar a pensar em seu aplicativo e ciclo de vida. 
+- O AWS Copilot cria distribuições modernas de aplicativos com base em configurações prontas para produção que incluem melhores práticas recomendadas por engenheiros do ECS.
+
+## **2.0 Análise de Dados**
+
+### 21.1 Amazon Athena
 
 - Serviço de consulta interativa que facilita a análise de dados no Amazon S3 usando SQL padrão.
 
-### 1.2 Amazon QuickSight
+### 2.2 Amazon QuickSight
 
 - Serviço de business intelligence (BI) na nuvem que permite criar e publicar painéis e visualizações de dados.
 
-### 1.3 Amazon OpenSearch Service
+### 2.3 Amazon OpenSearch Service
 
 - Serviço de pesquisa e análise distribuído e de alto desempenho derivado do Elasticsearch
 
-### 1.4 Amazon EMR
+### 2.4 Amazon EMR
 
 - Serviço de cluster gerenciado para processamento de big data usando frameworks open source como Apache Spark, Hadoop, HBase, Presto, Flink
 
-### 1.5 AWS Glue
+### 2.5 AWS Glue
 
 - Serviço de integração de dados totalmente gerenciado que prepara e carrega dados para análise 
 - é uma ferramenta da Amazon que permite criar, gerenciar e automatizar processos **ETL (Extract, Transform, Load)**, simplificando o trabalho de integrar dados de várias fontes para análise e armazenamento em data lakes ou data warehouses.
 - **ETL significa Extração, Transformação e Carga** (do inglês Extract, Transform, Load)
   
-### 1.6 AWS Glue DataBrew
+### 2.6 AWS Glue DataBrew
   - é um serviço de preparação de dados oferecido pela AWS que permite aos usuários limpar e transformar dados visualmente, sem necessidade de código. Ele é uma ferramenta ideal para profissionais que precisam organizar, formatar e limpar dados antes de usá-los em análise ou aprendizado de máquina. 
   
-### 1.7 Amazon Kinesis
+### 2.7 Amazon Kinesis
 
 - Plataforma de streaming de dados que facilita a captura, processamento e análise de dados de streaming em tempo real
 
-### 1.7 Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+### 2.7 Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 
 - Serviço gerenciado para Apache Kafka que facilita a construção e execução de aplicativos de streaming de dados
 
-### 1.8 AWS Lake Formation
+### 2.8 AWS Lake Formation
 
 - Governe, proteja e compartilhe dados de forma centralizada para análise e aprendizado de máquina
 
-### 1.9 Amazon Redshift
+### 2.9 Amazon Redshift
 
 - Solução de data warehouse rápida, simples e econômica para análise de dados usando SQL padrão
 
-### 1.10 AWS Data Exchange
+### 2.10 AWS Data Exchange
 
 - Serviço de mercado de dados na nuvem que facilita a descoberta, assinatura e uso de dados de terceiros
 
 
-## **2.0 Integração de Aplicativo/Aplicações Empresariais**
+## **3.0 Integração de Aplicativo/Aplicações Empresariais**
 
-### 2.1 Amazon AppFlow
+### 3.1 Amazon AppFlow
 
 - Serviço de integração totalmente gerenciado que transfere dados com segurança entre aplicações SaaS e serviços da AWS
 
-### 2.2 AWS AppSync
+### 3.2 AWS AppSync
 
 - Cria APIs GraphQL e Pub/Sub com tecnologia sem servidor para simplificar o desenvolvimento de aplicações
 
-### 2.3 Amazon EventBridge
+### 3.3 Amazon EventBridge
 
 - Crie aplicações orientadas por eventos em escala na AWS, sistemas existentes ou aplicações SaaS
 
-### 2.4 Amazon MQ
+### 3.4 Amazon MQ
 
 - Serviço de agente de mensagens gerenciado para Apache ActiveMQ e RabbitMQ
 
-### 2.5 Amazon SNS
+### 3.5 Amazon SNS
 
 - Serviço de mensagens totalmente gerenciado para coordenação de comunicações entre sistemas, serviços e dispositivos
 
-### 2.6 Amazon SQS
+### 3.6 Amazon SQS
 
 - Serviço de filas de mensagens totalmente gerenciado que permite desacoplar e escalar microserviços, sistemas distribuídos e aplicativos sem servidor
 
-### 2.7 AWS Step Functions
+### 3.7 AWS Step Functions
 
 - Serviço que permite coordenar componentes distribuídos de aplicativos usando máquinas de estado visual
 
-### 2.8 Amazon Simple Email Service (Amazon SES)
+### 3.8 Amazon Simple Email Service (Amazon SES)
 
 - Serviço de e-mail econômico e escalável para envio e recebimento de e-mails
 
-### 2.9 Amazon Connect
+### 3.9 Amazon Connect
 
 - Serviço de centro de contato baseado em nuvem que facilita o gerenciamento de operações de atendimento ao cliente
 
-## **3.0 Gerenciamento financeiro da nuvem**
+## **4.0 Gerenciamento financeiro da nuvem**
 
-### 3.1 AWS Budgets
+### 4.1 AWS Budgets
 
 - Ferramenta para definir orçamentos personalizados e receber alertas quando os custos ou uso excedem o orçamento
 
-### 3.2 AWS CUR
+### 4.2 AWS CUR
 
 - Ferramenta que fornece um único relatório detalhado sobre seus custos e uso da AWS
 
-### 3.3 AWS Cost Explorer
+### 4.3 AWS Cost Explorer
 
 - Ferramenta que fornece visualizações e análises dos custos e uso da AWS ao longo do tempo
 
-### 3.4 Savings Plans
+### 4.4 Savings Plans
 
 - Modelo de preço flexível que reduz a fatura em até 72% em comparação com os preços sob demanda, comprometendo-se com gastos por hora durante um período de um ou três anos
 
-### 3.5 AWS Billing Conductor
+### 4.5 AWS Billing Conductor
 
 - Ferramenta que simplifica o gerenciamento de custos e faturamento para provedores de software na nuvem
 
-### 3.6 Savings Plans Purchase Analyzer
+### 4.6 Savings Plans Purchase Analyzer
 - Agora vai ficar mais fácil planejar e otimizar seus custos
      - (**Antes: Era preciso analisar manualmente históricos de uso, calcular compromissos e criar projeções, ou seja, era mais no braço)** 
    Você vai poder simular cenários ajustando valores por hora, analisar períodos personalizados e excluir Savings Plans expirando (pra não ficar aquela simulação errada que às vezes acontecia nas sugestões). via console,
 
-## **4.0 Computação**
-
-### 4.1 Amazon EC2
-
-- **Amazon EC2** Amazon Elastic Compute Cloud fornece capacidade de computação escalável na Amazon(AWS) Cloud.
-
-- Infraestrutura como serviço (é uma das ofertas mais populares da AWS)
-
-- consiste principalmente na capacidade de:
-Aluguel de máquinas virtuais **(EC2)** 
-- Armazenando dados em unidades virtuais **(EBS)**
-- Distribuição de carga entre máquinas **(ELB)**
-- Escalando os serviços usando um grupo de dimensionamento automático **(ASG)**
-Conhecer EC2 é fundamental para entender como funciona a Nuvem
-
-### 4.2 AWS Lambda
-
-- Execute código sem se preocupar com servidores ou clusters.
-- Não há cobrança quando seu código não está em execução. Você pode executar código para praticamente qualquer tipo de aplicativo ou serviço de backend 
-
-### 4.3 AWS Batch
-
-- Serviço que ajuda a executar cargas de trabalho em lote na nuvem de forma eficiente e econômica
-
-### 4.4 AWS Auto Scaling
-
-- Serviço que monitora seus aplicativos e recursos automaticamente para manter a disponibilidade ideal
-
-### 4.5 AWS Elastic Beanstalk
-
-- Serviço que facilita o provisionamento e gerenciamento de recursos da AWS para aplicativos web
-
-### 4.6 AWS Outposts
-
-- Solução que permite executar serviços da AWS em seu próprio data center
-
-### 4.7 AWS SAR (Serverless Application Repository)
-
-- Descubra, implante e publique aplicativos sem servidor
-
-### 4.8 AWS para VMware
-
-- Migre e otimize suas workloads baseadas em VMware para a AWS
-
-### 4.9 AWS Wavelength
-
-- Serviço que permite criar aplicativos com baixa latência para dispositivos 5G
-
-## **4.1 Contêineres**
-
-### 4.1.1 Elastic Container Service (ECS)
-- é um serviço de gerenciamento de contêineres altamente escalável e rápido que facilita a execução, a interrupção e o gerenciamento de contêineres em um cluster.
-
-### 4.1.2 Amazon Elastic Container Registry (ECR)
-
-- Armazene, compartilhe e implante facilmente seu software de contêiner em qualquer lugar
-
-### 4.1.3 Amazon Elastic Kubernetes Service (EKS)
-
-- A maneira mais confiável de iniciar, executar e escalar o Kubernetes
-
-### 4.1.4 Amazon EKS Anywhere
-
-- Criação e operação de clusters do Kubernetes em sua própria infraestrutura
-
-### 4.1.5 Amazon EKS Distro
-
-- Distribuição de código aberto do Kubernetes a partir da AWS.
-
-### 4.1.6 AWS Fargate
-
-- Computação sem servidor para contêineres
-
-### 4.1.7 AWS Copilot
-
-- Foi projetado para usuários ECS novos e existentes que desejam ir além do gerenciamento manual de infraestrutura e começar a pensar em seu aplicativo e ciclo de vida. 
-- O AWS Copilot cria distribuições modernas de aplicativos com base em configurações prontas para produção que incluem melhores práticas recomendadas por engenheiros do ECS.
 
 ## **5.0 Banco de Dados**
 
@@ -209,7 +242,6 @@ Conhecer EC2 é fundamental para entender como funciona a Nuvem
   Particularmente interessante para implantações multirregionais que exigem forte consistência  
   - Ideal para aplicações modernas que exigem simplicidade, escalabilidade e confiabilidade
   
-
 ### 5.1 Amazon Aurora
 
 - Banco de dados relacional compatível com MySQL e PostgreSQL, combinando desempenho e disponibilidade
