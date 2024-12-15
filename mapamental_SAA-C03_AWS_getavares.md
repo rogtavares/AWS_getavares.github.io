@@ -814,6 +814,7 @@ Logs de fluxo de VPC: logs de tráfego de rede
   - **Dashboards**: Visualização interativa de métricas e logs em tempo real.
   - **Alertas e Notificações**: Definição de alertas personalizados com base em métricas e logs.
   - **Integração com AWS**: Conexão direta com serviços da AWS como EC2, Lambda, S3, CloudWatch, entre outros.
+ - **Integração datadog com Salesforce**: Monitoramento de logs e transações relacionadas ao Salesforce.
 
 
 ## **15.0 IoT ((Internet das Coisas))**
@@ -911,8 +912,39 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
 ## **18.0  [GE-Artificial-Intelligence (IA)](https://rogtavares.github.io/A.I.GE-Artificial-Intelligence/)**
 
+## **19.0 Salesforce**  ***( VEJA GE TAVARES Salesforce)***
 
-## **19.0 FIM Gé Tavares**
+## **20.0 FIM Gé Tavares**
 
 - Você conhece Laranjal Paulista?
   Nasci lá, sabia !
+
+# **GE TAVARES Salesforce**
+
+## **Serviços para CRM, automação e integrações empresariais**
+
+### **1.1. Principais Nuvens Salesforce**  
+1. ![#3498db](https://via.placeholder.com/15/3498db/000000?text=+) **Salesforce Service Cloud**: Gerenciamento de suporte ao cliente.  
+2. ![#e74c3c](https://via.placeholder.com/15/e74c3c/000000?text=+) **Salesforce Sales Cloud**: Ferramentas de vendas e automação de processos comerciais.  
+3. ![#2ecc71](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
+4. ![#f1c40f](https://via.placeholder.com/15/f1c40f/000000?text=+) **Salesforce Experience Cloud**: Plataformas para portais e comunidades.  
+5. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Salesforce Commerce Cloud**: Soluções para e-commerce.  
+
+### **1.2. Inteligência e Analytics**  
+6. ![#34495e](https://via.placeholder.com/15/34495e/000000?text=+) **Einstein Analytics**: Relatórios e análises com IA.  
+7. ![#9b59b6](https://via.placeholder.com/15/9b59b6/000000?text=+) **Tableau**: Visualização e análise avançada de dados.  
+
+### **1.3. Desenvolvimento e Integração**  
+8. ![#1abc9c](https://via.placeholder.com/15/1abc9c/000000?text=+) **MuleSoft**: Integração de APIs e gerenciamento de integrações com Salesforce e AWS.  
+9. ![#e67e22](https://via.placeholder.com/15/e67e22/000000?text=+) **Heroku**: Desenvolvimento e hospedagem de aplicações escaláveis.  
+
+### **1.4. Segurança e Compliance**  
+10. ![#c0392b](https://via.placeholder.com/15/c0392b/000000?text=+) **Salesforce Shield**: Segurança e monitoramento de compliance.  
+
+### **1.5. Integração com AWS**  
+11. ![#2980b9](https://via.placeholder.com/15/2980b9/000000?text=+) **Integração com S3**: Armazenamento de dados em nuvem.  
+12. ![#27ae60](https://via.placeholder.com/15/27ae60/000000?text=+) **Conexão com Lambda**: Automações serverless.  
+13. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
+
+  
+GE TAVARES V19
