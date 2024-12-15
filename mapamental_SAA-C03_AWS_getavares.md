@@ -923,7 +923,7 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
 ## **Serviços para CRM, automação e integrações empresariais**
 
-### **1.1. Principais Nuvens Salesforce**  
+### **1.1. Principais Salesforce via Nuvem**  
 1. ![#3498db](https://via.placeholder.com/15/3498db/000000?text=+) **Salesforce Service Cloud**: Gerenciamento de suporte ao cliente.  
 2. ![#e74c3c](https://via.placeholder.com/15/e74c3c/000000?text=+) **Salesforce Sales Cloud**: Ferramentas de vendas e automação de processos comerciais.  
 3. ![#2ecc71](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
