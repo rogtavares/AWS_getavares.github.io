@@ -908,7 +908,11 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 -**Business** fornece acesso ininterrupto por telefone, e-mail e chat. Tem um tempo de resposta inferior a um hora/
 -**Enterprise** fornece acesso ininterrupto por telefone, e-mail e chat. O plano tem um tempo de resposta inferior a 15 minutos caso Produção sofra uma interrupção de serviço.
 
-## **18.0 FIM Gé Tavares**
+
+## **18.0  [GE-Artificial-Intelligence (IA)](https://rogtavares.github.io/A.I.GE-Artificial-Intelligence/)**
+
+
+## **19.0 FIM Gé Tavares**
 
 - Você conhece Laranjal Paulista?
   Nasci lá, sabia !
