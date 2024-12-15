@@ -940,11 +940,12 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
 ### **1.4. Segurança e Compliance**  
 10. ![#c0392b](https://via.placeholder.com/15/c0392b/000000?text=+) **Salesforce Shield**: Segurança e monitoramento de compliance.  
+11. ![#2c3e50](https://via.placeholder.com/15/2c3e50/000000?text=+) **Monitorar eventos de uso total da API**: Controle de limites de uso e otimização.  
 
 ### **1.5. Integração com AWS**  
-11. ![#2980b9](https://via.placeholder.com/15/2980b9/000000?text=+) **Integração com S3**: Armazenamento de dados em nuvem.  
-12. ![#27ae60](https://via.placeholder.com/15/27ae60/000000?text=+) **Conexão com Lambda**: Automações serverless.  
-13. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
+12. ![#2980b9](https://via.placeholder.com/15/2980b9/000000?text=+) **Integração com S3**: Armazenamento de dados em nuvem.  
+13. ![#27ae60](https://via.placeholder.com/15/27ae60/000000?text=+) **Conexão com Lambda**: Automações serverless.  
+14. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
 
   
-GE TAVARES V19
+GE TAVARES V20
