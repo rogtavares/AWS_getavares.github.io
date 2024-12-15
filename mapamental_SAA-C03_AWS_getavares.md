@@ -20,7 +20,6 @@ GE TAVARES v13
 
  
   - **(EC2)** - Aluguel de máquinas virtuais
-   **(EBS)**  - Armazenamento em bloco baseado em SSD 
   **(ELB)**   - Distribuição de carga entre máquinas 
   **(ASG)**   - Escalando os serviços usando um grupo de dimensionamento automático
 
@@ -139,8 +138,8 @@ GE TAVARES v13
 - Serviço de cluster gerenciado para processamento de big data usando frameworks open source como Apache Spark, Hadoop, HBase, Presto, Flink
 
 ### 2.5 AWS Glue
-
-- Serviço de integração de dados totalmente gerenciado que prepara e carrega dados para análise 
+-  1.Serviço **ETL** para preparação de dados. 
+-  2.Serviço de integração de dados totalmente gerenciado que prepara e carrega dados para análise 
 - é uma ferramenta da Amazon que permite criar, gerenciar e automatizar processos **ETL (Extract, Transform, Load)**, simplificando o trabalho de integrar dados de várias fontes para análise e armazenamento em data lakes ou data warehouses.
 - **ETL significa Extração, Transformação e Carga** (do inglês Extract, Transform, Load)
   
@@ -557,7 +556,7 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 ### 10.05 Amazon Route 53
 
-- Serviço de DNS (Domain Name System) escalável e altamente disponível
+- Serviço de(DNS e roteamento global).escalável e altamente disponível
 
 ### 10.06 AWS Global Accelerator
 - Serviço que melhora a disponibilidade e performance das aplicações com base na Nuvem AWS
@@ -629,17 +628,18 @@ Logs de fluxo de VPC: logs de tráfego de rede
    -  Ser capaz de criar mais buckets e atribuir metadados estruturados permite melhor isolamento e simplifica a organização de dados do cliente. 
 
 
-### 11.3 Amazon FSx
+### 11.3 Amazon EBS
 
-- Serviço de sistemas de arquivos totalmente gerenciados para aplicativos empresariais e HPC (High-Performance Computing)
+- Serviço de armazenamento em bloco escalável e persistente para instâncias Amazon EC2
 
 ### 11.4 Amazon EFS
 
 - Serviço de sistema de arquivos elástico para armazenamento de dados compartilhado
 
-### 11.5 Amazon EBS
+  
+### 11.5 Amazon FSx
 
-- Serviço de armazenamento em bloco escalável e persistente para instâncias Amazon EC2
+- Serviço de sistemas de arquivos totalmente gerenciados para aplicativos empresariais e HPC (High-Performance Computing)
 
 ### 11.6 AWS Storage Gateway
 
@@ -668,7 +668,8 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 ### 12.1 Amazon Inspector
 
-- Serviço de análise de segurança automatizada que avalia a exposição, as **vulnerabilidades** e as não conformidades das workloads da AWS
+- (avaliação de vulnerabilidades).
+  Serviço de análise de segurança automatizada que avalia a exposição, as **vulnerabilidades** e as não conformidades das workloads da AWS
 
 ### 12.2 AWS Certificate Manager (ACM)
 
@@ -697,6 +698,10 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 ## **13.0 DEVOPS**
 
+### 13.0 Gerenciamento 
+
+- AWS CodePipeline , CodeBuild , CodeDeploy
+
 ### 13.1 AWS Cloud9
 - Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador.
 
@@ -704,15 +709,15 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 - Serviço de controle de versões totalmente gerenciado que hospeda repositórios Git privados
 
-### 13.3 AWS CodeBuild
+### 13.3 AWS CodeBuild .2
 
 - Serviço de build totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação
 
-### 13.4 AWS CodeDeploy
+### 13.4 AWS CodeDeploy .3
 
 - Serviço de implantação totalmente gerenciado que automatiza implantações de código para qualquer instância
 
-### 13.5 AWS CodePipeline
+### 13.5 AWS CodePipeline .1
 
 - Serviço de entrega contínua que ajuda a automatizar seus pipelines de lançamento para implantação rápida e segura
 
@@ -736,88 +741,163 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 - Serviço que facilita a criação e execução de aplicações web e APIs escaláveis e seguras, sem se preocupar com a infraestrutura
 
-## **14.0 IoT ((Internet das Coisas))**
+## **14.OBSERVABILIDADE- AWS**
 
-### 14.1 AWS IoT Core
+### 14.1 CloudWatch
+
+- Monitoramento de recursos AWS e aplicações.
+- Logs: Armazenamento e consulta de logs.
+- Metrics: Métricas personalizadas e automáticas.
+  - Alarms: Configuração de alarmes para eventos críticos.
+  - Dashboards: Painéis de visualização de métricas.
+
+### 14.2 X-Ray
+- Rastreamento de requisições de ponta a ponta.
+  - Identificação de gargalos em aplicações distribuídas.
+  - Análise de desempenho em microsserviços.
+  - Suporte a aplicativos desenvolvidos em várias linguagens.
+
+### 14.3 AWS Health Dashboard
+- Painel de integridade personalizado.
+  - **AWS Personal Health Dashboard**: Alertas e notificações sobre problemas que afetam os recursos do cliente.
+  - **AWS Service Health Dashboard**: Status global dos serviços AWS.
+
+### 14.4 AWS Config
+- Monitoramento contínuo da conformidade.
+  - Rastreamento de alterações de configuração.
+  - Avaliação de recursos com regras predefinidas.
+
+### 14.5 CloudTrail
+- Auditoria e logs de atividade.
+  - Registro de chamadas de API.
+  - Suporte à segurança e conformidade.
+
+### 14.6 Amazon Managed Grafana
+- Visualização e análise de métricas.
+  - Integração com CloudWatch, Prometheus e outras fontes de dados.
+
+### 14.7 AWS Distro for OpenTelemetry
+- Coleta de métricas, logs e rastreamentos.
+  - Compatibilidade com OpenTelemetry.
+
+### 14.8 Service Lens (CloudWatch)
+- Visualização unificada de métricas, logs e rastreamentos.
+  - Integração com X-Ray.
+  - Diagnóstico de problemas em aplicações distribuídas.
+
+### 14.9 Trusted Advisor
+- Recomendações para otimização de custos, segurança e desempenho.
+  - Insights para práticas recomendadas.
+
+### 14.10 DevOps Guru
+- Detecção de anomalias em aplicações.
+  - Diagnóstico automatizado com Machine Learning.
+
+### 14.11 Systems Manager
+- Monitoramento e automação operacional.
+  - AWS OpsCenter: Gerenciamento centralizado de operações.
+  - AWS Application Manager: Monitoramento de estado de aplicações.
+
+### 14.12 Elastic Load Balancer (ELB) Monitoring
+- Monitoramento de desempenho do balanceamento de carga.
+  - Integração com CloudWatch para métricas detalhadas.
+
+### 14.13 VPC Flow Logs
+- Monitoramento de tráfego de rede.
+  - Armazenamento em S3 ou CloudWatch Logs.
+
+### 14.15 Datadog (terceiro)
+- Plataforma de observabilidade de aplicações em tempo real.
+  - **Monitoramento de Infraestrutura**: Coleta de métricas de servidores, bancos de dados, e mais.
+  - **APM (Application Performance Monitoring)**: Rastreamento de transações e monitoramento de desempenho.
+  - **Log Management**: Armazenamento, análise e visualização de logs.
+  - **Dashboards**: Visualização interativa de métricas e logs em tempo real.
+  - **Alertas e Notificações**: Definição de alertas personalizados com base em métricas e logs.
+  - **Integração com AWS**: Conexão direta com serviços da AWS como EC2, Lambda, S3, CloudWatch, entre outros.
+
+
+## **15.0 IoT ((Internet das Coisas))**
+
+### 15.1 AWS IoT Core
 
 - Serviço que permite conectar dispositivos IoT à nuvem.
 
-### 14.2 AWS IoT Greengrass
+### 15.2 AWS IoT Greengrass
 
 - Implante e execute códigos nos seus dispositivos
 
-### 14.3 AWS IoT Analytics
+### 15.3 AWS IoT Analytics
 
 - Serviço de análise de dados de IoT .
 Colete, pré-processe, armazene, analise e visualize dados de dispositivos de IoT
 
-### 14.4 AWS IoT Device Management
+### 15.4 AWS IoT Device Management
 
 - Serviço que facilita o gerenciamento de dispositivos IoT em escala,
 
-### 14.5 AWS IoT Events
+### 15.5 AWS IoT Events
 
 - Serviço que facilita a detecção e resposta a eventos de IoT
 
-### 14.6 AWS IoT SiteWise
+### 15.6 AWS IoT SiteWise
 
 - Serviço que facilita a coleta, armazenamento e análise de dados de sensores industriais
 
-### 14.7 AWS IoT Things Graph
+### 15.7 AWS IoT Things Graph
 
 - Serviço que facilita a criação de fluxos de trabalho de IoT para conectar dispositivos e serviços web
 
-### 14.8 AWS IoT 1-Click
+### 15.8 AWS IoT 1-Click
 
 - Serviço que permite que dispositivos simples acionem funções AWS Lambda.
 
-### 14.9 AWS FreeRTOS
+### 15.9 AWS FreeRTOS
 
 - Sistema operacional de código aberto para microcontroladores que facilita a programação, implantação e gerenciamento de dispositivos IoT
 
-## **15.0 OUTROS**
+## **16.0 OUTROS**
 
-### 15.1 Quantum Technologies
+### 16.1 Quantum Technologies
 
 - **Amazon Braket**
 Serviço para explorar, avaliar e realizar testes com a computação quântica.
 
-### 15.2 AWS Step Functions
+### 16.2 AWS Step Functions
 
 - Serviço de orquestração que facilita a coordenação de múltiplos serviços da AWS em fluxos de trabalho complexos
 
-### 15.3 Amazon Managed Blockchain
+### 16.3 Amazon Managed Blockchain
 
 - Serviço totalmente gerenciado que facilita a criação e gerenciamento de redes blockchain escaláveis
 
-### 15.4 AWS Ground Station
+### 16.4 AWS Ground Station
 
 - Serviço totalmente gerenciado que facilita a comunicação com satélites e o processamento de dados de satélites
 
-### 15.5 AWS RoboMaker
+### 16.5 AWS RoboMaker
 
 - Serviço que facilita o desenvolvimento, teste e implantação de aplicativos de robótica inteligentes
 
-### 15.6 Amazon Honeycode
+### 16.6 Amazon Honeycode
 
 - Serviço que permite criar aplicativos móveis e web sem necessidade de escrever código.
 
-## **16.0 CAPACITACAO DO CLIENTE**
+## **17.0 CAPACITACAO DO CLIENTE**
 
-### 16.1 Activate for Startups
+### 17.1 Activate for Startups
 - Fornece recursos para ajudar start-ups construirem e crescerem na AWS
 
-### 16.2 AWS IQ
+### 17.2 AWS IQ
 - Conclua projetos mais rapidamente com a ajuda de especialistas certificados pela AWS de terceiros
 
-### 16.3 Managed Services
+### 17.3 Managed Services
 - Gerenciamento de operações de TI para a AWS
 
 
-### 16.4 AWS re:Post Private
+### 17.4 AWS re:Post Private
 - Aumente a colaboração interna e a inovação por meio de um recurso de conhecimento em nuvem com curadoria.
 
-### 16.5 Support
+### 17.5 Support
 - Entre em contato com a AWS para suporte técnico e da conta.
 - B.D.B.E   eles estarão como 
 -Basic, Developer, Business e Enterprise.
@@ -828,7 +908,7 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 -**Business** fornece acesso ininterrupto por telefone, e-mail e chat. Tem um tempo de resposta inferior a um hora/
 -**Enterprise** fornece acesso ininterrupto por telefone, e-mail e chat. O plano tem um tempo de resposta inferior a 15 minutos caso Produção sofra uma interrupção de serviço.
 
-## **17.0 FIM Gé Tavares**
+## **18.0 FIM Gé Tavares**
 
 - Você conhece Laranjal Paulista?
   Nasci lá, sabia !
