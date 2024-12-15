@@ -8,7 +8,7 @@ markmap:
 
 # **GE TAVARES AWS**
 
-GE TAVARES v12
+GE TAVARES v13 
 
 ## **1.0 Computação**
 
