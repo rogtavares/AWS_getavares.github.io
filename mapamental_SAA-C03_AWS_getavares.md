@@ -64,6 +64,7 @@ GE TAVARES v13
 ### 1.5 AWS Elastic Beanstalk
 
 - Serviço que facilita o provisionamento e gerenciamento de recursos da AWS para aplicativos web
+   - é ideal para desenvolvedores que querem executar seu código (aplicativos web) sem se preocupar com infraestrutura, mas ainda mantendo o controle sobre a configuração. A maioria dos aplicativos web geralmente segue a mesma arquitetura: um Load Balancer e um Auto Scaling Group. 
 
 
 ### 1.6 AWS Amazon Linux
