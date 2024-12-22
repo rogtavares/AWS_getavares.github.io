@@ -14,7 +14,7 @@ GE TAVARES v13
 
 ### 1.1 Amazon EC2
 
-- **Amazon EC2** Amazon Elastic Compute Cloud fornece capacidade de computação escalável na Amazon(AWS) 
+- **Amazon EC2**  oferece a plataforma de computação mais ampla e profunda, com mais de 500 instâncias e opções de processador, armazenamento, redes, sistema operacional e modelo de compra mais recentes para te ajudar a atender melhor às necessidades da sua workload.
 
  - Infraestrutura como serviço (é uma das ofertas mais populares da AWS)
 
@@ -136,7 +136,8 @@ GE TAVARES v13
 
 ### 2.4 Amazon EMR
 
-- Serviço de cluster gerenciado para processamento de big data usando frameworks open source como Apache Spark, Hadoop, HBase, Presto, Flink
+- Serviço de cluster gerenciado para processamento de big data usando frameworks open source como Apache Spark, Hadoop, Presto, Flink
+   Que permite processar e analisar grandes volumes de dados de forma escalável usando estruturas de código aberto, como Hadoop e Spark.
 
 ### 2.5 AWS Glue
 -  1.Serviço **ETL** para preparação de dados. 
@@ -447,7 +448,7 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 8.12 AWS Managed Services
 
-- Melhore a operação, o suporte e a segurança de seus aplicativos na Nuvem AWS com serviços gerenciados
+- Melhore a operação, o suporte e a segurança de seus aplicativos na AWS com serviços gerenciados, ou seja, é um serviço que oferece gerenciamento totalmente gerenciado da infraestrutura na nuvem da AWS, incluindo monitoramento, segurança e conformidade.
 
 ### 8.13 AWS Proton
 
@@ -485,7 +486,7 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 9.5 AWS Application Migration Service (MGN)
 
-- Serviço que permite migrar facilmente servidores físicos, virtuais e baseados na nuvem para a AWS
+- Serviço que permite migrar facilmente servidores físicos, virtuais e baseados na nuvem para a AWS.é usado para coletar informações sobre os recursos de TI em ambientes locais para fins de planejamento de migração para a nuvem.
 
 ### 9.6 AWS Database Migration Service (DMS)
 
@@ -581,13 +582,13 @@ Logs de fluxo de VPC: logs de tráfego de rede
 
 ### 10.11 AWS WAF
 
-- Firewall de aplicação web que protege suas aplicações web contra explorações comuns
+- Firewall  ,é um firewall de aplicações Web que ajuda a proteger suas aplicações Web ou APIs *contra bots e exploits comuns* na Web que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos em excesso.
 
 ### 10.12 AWS Shield
 
-- Serviço de proteção contra **DDoS** (Distributed Denial of Service) que protege seus aplicativos na Nuvem AWS 
+- Serviço de proteção contra **DDoS** protege seus aplicativos na Nuvem AWS 
 
-- **AWS Shield Advanced** é um **serviço PAGO** que fornece diagnósticos detalhados de ataques e a capacidade de detectar e mitigar ataques.
+- **AWS Shield Advanced** é um **serviço PAGO** que fornece diagnósticos detalhados de ataques e a capacidade de detectar e mitigar ataques. Oferece algumas opções a mais como dashboard near-real-time e time de resposta a incidentes 24/7.
 
 - O **AWS Shield Standard** protege automaticamente todos os clientes AWS **SEM NEHUM CUSTOS**.
 
@@ -663,36 +664,41 @@ Logs de fluxo de VPC: logs de tráfego de rede
 ### 12.0 MFA 
 - MFA (( SEGUNDA PERNA ))   (OTP)328
 -  é uma camada de segurança extra no seu(MFA),no seu ambiente. Ao acessar um site da AWS, um usuário com a MFA habilitada deve informar o nome de usuário e a senha (o primeiro fator, que o usuário conhece) e uma resposta de autenticação do seu dispositivo de MFA (o segundo fator, que o usuário tem).
-  
-### 12.1 AWS Artifact
+
+### 12.1 AWS Certificate Manager (ACM)
+
+- Serviço que facilita a obtenção, implantação e gerenciamento de certificados SSL/TLS para seus sites e aplicações na Nuvem AWS
+
+### 12.2 AWS Artifact
 - fornece um recurso central para AWS **relatórios de segurança e conformidade**. Os artefatos disponíveis em Organizacional de Serviços (SOC), relatórios do Setor de Cartões de Pagamento (PCI)
 
-### 12.1 Amazon Inspector
+### 12.3 Amazon Inspector
 
 - (avaliação de vulnerabilidades).
   Serviço de análise de segurança automatizada que avalia a exposição, as **vulnerabilidades** e as não conformidades das workloads da AWS
 
-### 12.2 AWS Certificate Manager (ACM)
-
-- Serviço que facilita a obtenção, implantação e gerenciamento de certificados SSL/TLS para seus sites e aplicações na Nuvem AWS
-
-### 12.3 AWS KMS
+### 12.4 AWS KMS
 
 - Serviço de gerenciamento de chaves que facilita a criação e o controle das chaves de criptografia usadas para proteger seus dados
 
-### 12.4 AWS Secrets Manager
+### 12.5 AWS Secrets Manager
 
 - Serviço de gerenciamento de segredos que permite proteger e gerenciar segredos para acessar seus recursos, aplicativos e serviços
 
-### 12.5 Amazon GuardDuty
+### 12.6 Amazon GuardDuty
 
 - Serviço de detecção de ameaças que monitora atividades maliciosas e comportamentos anômalos
 
-### 12.6 AWS Macie
+### 12.7 Amazon Detective
+- Analise e visualize dados de segurança para investigar possíveis problemas de segurança  
+
+   - coleta automaticamente dados de log de seus recursos da AWS e usa machine learning (ML), análise estatística e teoria de grafos para criar um conjunto de dados que você pode usar para conduzir investigações de segurança mais eficientes.
+
+### 12.8 AWS Macie
 
 - Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais  P.I.I
 
-### 12.7 AWS Secrets Manager
+### 12.9 AWS Secrets Manager
 
 - você a gerenciar, recuperar e alternar credenciais de banco de dados, chaves de API e outros segredos ao longo de seus ciclos de vida.
 - ajuda você a gerenciar o acesso a aplicações, serviços e recursos de TI.
