@@ -495,46 +495,78 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 ### 9.7 AWS DataSync
 - Serviço de transferência de dados para automatizar a movimentação de dados entre locais locais e a Nuvem AWS
 - 
-## **10.0.1 VPC**
 
-### 10.0.1.1 VPC:
-- nuvem privada virtual
+## 10.0.1 VPC (Virtual Private Cloud)
 
-### 10.0.1.1 VPC Endpoints: 
-- forneça acesso privado aos serviços da AWS dentro do VPC
-Logs de fluxo de VPC: logs de tráfego de rede
+### **10.0.1.1 VPC:**
+- _VPC - Virtual Private Cloud_ ( nuvem privada virtual)
+- _Default VPC_
+- _Privado vs Público IP Addresses (IPv4)_
+- _CIDR - Roteamento entre domínios sem classe_
 
-### 10.0.1.2 Sub-redes: 
-- Vinculadas a uma AZ, partição de rede da VPC 
-- Uma sub-rede é um intervalo de enderenços IP em sua VPC.
-- Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
+### **10.0.1.2 VPC Endpoints:**
+   - forneça acesso privado aos serviços da AWS dentro do VPC
+     - _Interface Endpoints_
+     - _Gateway Endpoints_
 
-### 10.0.1.3 Grupos de segurança:
-- stateful, operam no nível da instância EC2 ou ENI.
+### **10.0.1.3 Sub-redes:**
+   - _VPC Subnets
+      - Vinculadas a uma AZ, partição de rede da VPC 
+      - Uma sub-rede é um intervalo de enderenços IP em sua VPC.
+      - Cada sub-rede deve residir dentro de uma ZD e nao pode estender em varias AZ(s)
 
-### 10.0.1.4 Gateway de Internet: 
-- No nível da VPC, fornece acesso à Internet.
+
+### **10.0.1.4 Grupos de segurança:**
+  -  stateful, operam no nível da instância EC2 ou ENI.
+      - _Network Access Control Lists (NACL)_
+      - _Security Groups (SG)_
+
+### **10.0.1.5 Gateway de Internet (IGW):**
+-  No nível da VPC, fornece acesso à Internet.
+     - _IGW - Internet Gateways_  
 - Fornecer um dostino nas tabelas de rotas da sua VPC.
-- Realizar a tradução de endereços da rede(NAT)para instancias que receberam endereço IPv4 públicos. 
+- Realizar a tradução de endereços da rede(NAT) para instancias que receberam endereço IPv4 públicos. 
 
-### 10.0.1.5 Gateway / Instâncias NAT: 
+    - _Egress Only Internet Gateway_
+
+### **10.0.1.6 Gateway / Instâncias NAT:**
 - fornece acesso à Internet para sub-redes privadas.
+   - _NAT Gateway_
+   - _NAT Instances (Network Address Translation) (outdated)_
+   - _Comparison between NAT Instance and NAT Gateway_
 
-### 10.0.1.6 NACL: 
-- regras de sub-rede sem estado para entrada e saída.
+### 10.0.1.7 Transit Gateway
+ - Conecte milhares de redes VPC e locais Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
 
-### 10.0.1.7 Transit Gateway: 
-- conecte milhares de redes VPC e locais /Conecte suas VPCs, redes locais e serviços da AWS usando uma única gateway.
+   - _Exposing Services in a VPC to Other VPC_
 
-### 10.0.1.8 Peering de VPC: 
-- conecte duas VPC com intervalos de IP não sobrepostos, não transitivos
+### 10.0.1.8 Peering de VPC
+ - conecte duas VPC com intervalos de IP não sobrepostos, não transitivos
+   - _VPC Peering_
 
-### 10.0.1.9 Site to Site VPN: 
-- VPN pela Internet pública entre DC local e AWS
+### 10.0.1.9 Site to Site VPN
+- VPN pela Internet pública entre DC local e AWS 
+   - _AWS VPN CloudHub_
+   - _Site to Site VPN_
+   - _Direct Connect Encryption_
 
-### 10.0.1.10 Direct Connect
+### 10.0.1.10 Direct Connect (DX)
 - ((Rede dedicada)) Criar uma conexão de rede dedicada para a AWS
+  - _Direct Connect_
+  - _Direct Connect Encryption_ 
 - (é o caminho mais curto para seus recursos na AWS. Seu tráfego de rede permanece todo o tempo na rede global da AWS e nunca entra na Internet pública.)
+  
+
+### 10.0.1.11 Bastion Hosts
+  - Proxies para acesso seguro_
+
+### 10.0.1.12 Logs e Monitoramento
+  - _Flow Log Syntax_
+  - _VPC Flow Logs_
+
+### 10.0.1.13 Resolução DNS
+  - _DNS Resolution in VPC_
+
   
 ## **10.0 IDENTIDADE E ACESSO + REDE/NETWORKING**
 
