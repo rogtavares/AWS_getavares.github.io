@@ -529,7 +529,7 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
     - _Egress Only Internet Gateway_
 
-### **10.0.1.6 Gateway / Instâncias NAT **
+### **10.0.1.6 Gateway / Instâncias NAT**
 - fornece acesso à Internet para sub-redes privadas.
    - _NAT Gateway_
    - _NAT Instances (Network Address Translation) (outdated)_
