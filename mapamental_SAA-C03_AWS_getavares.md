@@ -737,13 +737,14 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ## **13.0 DEVOPS**
 
-### 13.0 Gerenciamento 
+### 13.0 Gerenciamento
 
 - Para entender a ordem certa de uso e integração dessas ferramentas AWS,DEVOPS,é importante considerar o ciclo de vida do desenvolvimento e implantação de aplicações. Aqui está uma sugestão de fluxo e a ordem recomendada de uso, com base nas ferramentas mencionadas:
 
 ### 13.1 AWS Cloud9
 - Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador.
-
+- O AWS Cloud9 não está mais disponível para novos clientes. Os clientes existentes do AWS Cloud9 podem continuar a usar o serviço normalmente, mas tem migrar do AWS Cloud9 para o AWS IDE Toolkits ou AWS CloudShell
+  
 ### 13.2 AWS CodeCommit
 
 - É um serviço de repositório de código fonte (Git). O primeiro passo é armazenar seu código em um repositório no AWS CodeCommit.
