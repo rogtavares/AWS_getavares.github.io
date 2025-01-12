@@ -970,7 +970,7 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 ### **1.1. Principais Salesforce via Nuvem**  
 1. ![](https://via.placeholder.com/15/3498db/000000?text=+) **Salesforce Service Cloud**: Gerenciamento de suporte ao cliente.  
 2. ![](https://via.placeholder.com/15/e74c3c/000000?text=+) **Salesforce Sales Cloud**: Ferramentas de vendas e automação de processos comerciais.  
-3. ![1](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
+3. ![](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
 4. ![](https://via.placeholder.com/15/f1c40f/000000?text=+) **Salesforce Experience Cloud**: Plataformas para portais e comunidades.  
 5. ![](https://via.placeholder.com/15/8e44ad/000000?text=+) **Salesforce Commerce Cloud**: Soluções para e-commerce.  
 
