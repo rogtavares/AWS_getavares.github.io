@@ -746,39 +746,43 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 13.2 AWS CodeCommit
 
-- Serviço de controle de versões totalmente gerenciado que hospeda repositórios Git privados
+- É um serviço de repositório de código fonte (Git). O primeiro passo é armazenar seu código em um repositório no AWS CodeCommit.
+  
+### 13.2 AWS CodeStar
 
-### 13.3 AWS CodeBuild .2
+- Embora o CodeStar seja uma plataforma de desenvolvimento que pode ajudar a configurar e gerenciar todo o ciclo de vida de entrega contínua, você pode usar o AWS CodeStar após configurar o repositório no CodeCommit. O CodeStar facilita a integração de várias ferramentas, como CodeCommit, CodeBuild, CodeDeploy, etc.
 
-- Serviço de build totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação
+### 13.3 AWS CodeBuild 
 
-### 13.4 AWS CodeDeploy .3
+- Após armazenar o código no CodeCommit, você pode configurar o CodeBuild para automatizar o processo de build e compilação do código. Totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação
 
-- Serviço de implantação totalmente gerenciado que automatiza implantações de código para qualquer instância
+### 13.4 AWS CodePipeline
 
-### 13.5 AWS CodePipeline .1
+- Uma vez que o CodeBuild está configurado, você pode configurar o CodePipeline para orquestrar o fluxo de CI/CD, ligando CodeCommit, CodeBuild e CodeDeploy para automação de deploy.
 
-- Serviço de entrega contínua que ajuda a automatizar seus pipelines de lançamento para implantação rápida e segura
+### 13.5 AWS CodeDeploy 
 
-### 13.6 AWS CodeStar
+- Depois de configurar o pipeline no CodePipeline, o CodeDeploy entra em cena para gerenciar o processo de implantação do código em instâncias de EC2, Lambda ou outros destinos de implantação.
 
-- Serviço que fornece um conjunto de ferramentas integrado para desenvolvimento, build e implantação de aplicativos na AWS
+### 13.6 AWS Elastic Beanstalk 
 
-### 13.7 AWS X-Ray
+- **Alternativamente**, se você estiver usando Elastic Beanstalk para gerenciar a infraestrutura de implantação e escalabilidade da aplicação, você pode integrar com o CodePipeline para automatizar implantações diretamente no Elastic Beanstalk.
 
-- Serviço que permite depurar e analisar o comportamento de suas aplicações de produção distribuídas
-
-### 13.8 AWS OpsWorks
-
-- Serviço de automação de configuração que fornece configurações gerenciadas usando Chef ou Puppet
-
-### 13.9 AWS Elastic Beanstalk
-
-- Serviço de gerenciamento de aplicativos que facilita o provisionamento e a execução de aplicativos web
-
-### 13.10 AWS AppRunner
+### 13.7 AWS AppRunner
 
 - Serviço que facilita a criação e execução de aplicações web e APIs escaláveis e seguras, sem se preocupar com a infraestrutura
+    - Se estiver utilizando AppRunner, que é uma plataforma gerenciada para implantar e escalar aplicativos web e APIs, você pode configurá-lo em seu pipeline como parte do processo de implantação. 
+
+### 13.8 AWS X-Ray
+
+- Serviço que permite depurar e analisar o comportamento de suas aplicações de produção distribuídas
+- Após o código ser implantado, o 
+  AWS X-Ray pode ser usado para monitorar e analisar o desempenho da aplicação e diagnosticar problemas em tempo real.
+
+### 13.9 AWS OpsWorks
+
+- AWS OpsWorks: Se você precisar de mais controle sobre a configuração e gerenciamento da infraestrutura (como usando Chef ou Puppet), o AWS OpsWorks pode ser integrado ao seu fluxo de trabalho, embora seja uma opção mais avançada e menos comum para aplicações modernas.es gerenciadas usando Chef ou Puppet
+
 
 ## **14.OBSERVABILIDADE- AWS**
 
