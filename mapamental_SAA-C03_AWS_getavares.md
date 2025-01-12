@@ -968,28 +968,28 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 ## **Serviços para CRM, automação e integrações empresariais**
 
 ### **1.1. Principais Salesforce via Nuvem**  
-1. ![#3498db](https://via.placeholder.com/15/3498db/000000?text=+) **Salesforce Service Cloud**: Gerenciamento de suporte ao cliente.  
-2. ![#e74c3c](https://via.placeholder.com/15/e74c3c/000000?text=+) **Salesforce Sales Cloud**: Ferramentas de vendas e automação de processos comerciais.  
-3. ![#2ecc71](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
-4. ![#f1c40f](https://via.placeholder.com/15/f1c40f/000000?text=+) **Salesforce Experience Cloud**: Plataformas para portais e comunidades.  
-5. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Salesforce Commerce Cloud**: Soluções para e-commerce.  
+1. ![](https://via.placeholder.com/15/3498db/000000?text=+) **Salesforce Service Cloud**: Gerenciamento de suporte ao cliente.  
+2. ![](https://via.placeholder.com/15/e74c3c/000000?text=+) **Salesforce Sales Cloud**: Ferramentas de vendas e automação de processos comerciais.  
+3. ![1](https://via.placeholder.com/15/2ecc71/000000?text=+) **Salesforce Marketing Cloud**: Automação de marketing e campanhas personalizadas.  
+4. ![](https://via.placeholder.com/15/f1c40f/000000?text=+) **Salesforce Experience Cloud**: Plataformas para portais e comunidades.  
+5. ![](https://via.placeholder.com/15/8e44ad/000000?text=+) **Salesforce Commerce Cloud**: Soluções para e-commerce.  
 
 ### **1.2. Inteligência e Analytics**  
-6. ![#34495e](https://via.placeholder.com/15/34495e/000000?text=+) **Einstein Analytics**: Relatórios e análises com IA.  
-7. ![#9b59b6](https://via.placeholder.com/15/9b59b6/000000?text=+) **Tableau**: Visualização e análise avançada de dados.  
+6. ![](https://via.placeholder.com/15/34495e/000000?text=+) **Einstein Analytics**: Relatórios e análises com IA.  
+7. ![](https://via.placeholder.com/15/9b59b6/000000?text=+) **Tableau**: Visualização e análise avançada de dados.  
 
 ### **1.3. Desenvolvimento e Integração**  
-8. ![#1abc9c](https://via.placeholder.com/15/1abc9c/000000?text=+) **MuleSoft**: Integração de APIs e gerenciamento de integrações com Salesforce e AWS.  
-9. ![#e67e22](https://via.placeholder.com/15/e67e22/000000?text=+) **Heroku**: Desenvolvimento e hospedagem de aplicações escaláveis.  
+8. ![](https://via.placeholder.com/15/1abc9c/000000?text=+) **MuleSoft**: Integração de APIs e gerenciamento de integrações com Salesforce e AWS.  
+9. ![](https://via.placeholder.com/15/e67e22/000000?text=+) **Heroku**: Desenvolvimento e hospedagem de aplicações escaláveis.  
 
 ### **1.4. Segurança e Compliance**  
-10. ![#c0392b](https://via.placeholder.com/15/c0392b/000000?text=+) **Salesforce Shield**: Segurança e monitoramento de compliance.  
-11. ![#2c3e50](https://via.placeholder.com/15/2c3e50/000000?text=+) **Monitorar eventos de uso total da API**: Controle de limites de uso e otimização.  
+10. ![](https://via.placeholder.com/15/c0392b/000000?text=+) **Salesforce Shield**: Segurança e monitoramento de compliance.  
+11. ![](https://via.placeholder.com/15/2c3e50/000000?text=+) **Monitorar eventos de uso total da API**: Controle de limites de uso e otimização.  
 
 ### **1.5. Integração com AWS**  
-12. ![#2980b9](https://via.placeholder.com/15/2980b9/000000?text=+) **Integração com S3**: Armazenamento de dados em nuvem.  
-13. ![#27ae60](https://via.placeholder.com/15/27ae60/000000?text=+) **Conexão com Lambda**: Automações serverless.  
-14. ![#8e44ad](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
+12. ![](https://via.placeholder.com/15/2980b9/000000?text=+) **Integração com S3**: Armazenamento de dados em nuvem.  
+13. ![](https://via.placeholder.com/15/27ae60/000000?text=+) **Conexão com Lambda**: Automações serverless.  
+14. ![](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
 
   
-GE TAVARES V20
+GE TAVARES v21
