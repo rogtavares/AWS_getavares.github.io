@@ -739,7 +739,7 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 
 ### 13.0 Gerenciamento 
 
-- AWS CodePipeline , CodeBuild , CodeDeploy
+- Para entender a ordem certa de uso e integração dessas ferramentas AWS,DEVOPS,é importante considerar o ciclo de vida do desenvolvimento e implantação de aplicações. Aqui está uma sugestão de fluxo e a ordem recomendada de uso, com base nas ferramentas mencionadas:
 
 ### 13.1 AWS Cloud9
 - Um IDE de nuvem para escrever, executar e depurar códigos diretamente do navegador.
