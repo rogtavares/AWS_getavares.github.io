@@ -1,14 +1,13 @@
 ---
 markmap:
   maxWidth: 300
-  initialExpandLevel: 2
+  initialExpandLevel: 10
   htmlParser:
     selector: h1,h2,h3,ul,ol,li,table,pre
 ---
 
 # **GE TAVARES AWS**
 
-GE TAVARES v13 
 
 ## **1.0 Computação**
 
@@ -120,6 +119,8 @@ GE TAVARES v13
 - Foi projetado para usuários ECS novos e existentes que desejam ir além do gerenciamento manual de infraestrutura e começar a pensar em seu aplicativo e ciclo de vida. 
 - O AWS Copilot cria distribuições modernas de aplicativos com base em configurações prontas para produção que incluem melhores práticas recomendadas por engenheiros do ECS.
 
+### 1.1.8 Serviço Red Hat OpenShift na AWS (ROSA)
+- O ROSA oferece uma experiência integrada com o OpenShift. Você pode usar a grande variedade de serviços móveis, de computação, banco de dados, análise, machine learning (ML), rede, entre outros serviços da AWS para criar aplicações seguras e escaláveis com mais rapidez.
 ## **2.0 Análise de Dados**
 
 ### 21.1 Amazon Athena
@@ -992,4 +993,4 @@ Serviço para explorar, avaliar e realizar testes com a computação quântica.
 14. ![](https://via.placeholder.com/15/8e44ad/000000?text=+) **Integração com Datadog**: Monitoramento detalhado.  
 
   
-GE TAVARES v21
+GE TAVARES v22
