@@ -1,7 +1,7 @@
 ---
 markmap:
-  maxWidth: 300
-  initialExpandLevel: 3
+  maxWidth: 4
+  initialExpandLevel: 2
   htmlParser:
     selector: h1,h2,h3,ul,ol,li,table,pre
 ---
@@ -817,9 +817,11 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
   - Registro de chamadas de API.
   - Suporte à segurança e conformidade.
 
-### 14.6 Amazon Managed Grafana
-- Visualização e análise de métricas.
-  - Integração com CloudWatch, Prometheus e outras fontes de dados.
+### 14.6 Amazon OpenSearch 
+  - é um serviço totalmente gerenciado que facilita a implantação, a operação e a escalabilidade de **clusters do OpenSearch na nuvem AWS**. 
+  - é compatível com **tipos de dados vetoriais**, o que permite armazenar e consultar incorporações de maneira eficiente. 
+
+  - Pesquisa vetorial escalável e econômica para IA generativa 
 
 ### 14.7 AWS Distro for OpenTelemetry
 - Coleta de métricas, logs e rastreamentos.
@@ -850,7 +852,11 @@ Usado para processamento de vídeo em tempo real em dispositivos conectados à r
 ### 14.13 VPC Flow Logs
 - Monitoramento de tráfego de rede.
   - Armazenamento em S3 ou CloudWatch Logs.
-
+  - 
+### 14.14 Amazon Managed Grafana
+- Visualização e análise de métricas.
+  - Integração com CloudWatch, Prometheus e outras fontes de dados.
+  - 
 ### 14.15 Datadog (terceiro)
 - Plataforma de observabilidade de aplicações em tempo real.
   - **Monitoramento de Infraestrutura**: Coleta de métricas de servidores, bancos de dados, e mais.
