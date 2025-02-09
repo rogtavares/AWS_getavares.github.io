@@ -1,6 +1,6 @@
 ---
 markmap:
-  maxWidth: 4
+  maxWidth: 3
   initialExpandLevel: 2
   htmlParser:
     selector: h1,h2,h3,ul,ol,li,table,pre
