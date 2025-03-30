@@ -2,6 +2,6 @@ Mapas Mentais de Gé Tavares sobre SOLUCTION ARCHITECT ASSOCIATE & DEVELOP,têm 
 
 Dica: Comece pelo nó principal e use os botões para expandir ou reduzir as informações.
 
-https://rogtavares.github.io/mapamentalSAA-C03_getavares.github.io/
 
-versao 15 
+
+versao 16  
