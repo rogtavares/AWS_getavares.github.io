@@ -314,4 +314,4 @@ markmap:
 ### [Amazon GameLift Servers](https://us-east-1.console.aws.amazon.com/gamelift/home?region=us-east-1)  
 ### [Amazon GameLift Streams](https://console.aws.amazon.com/gameliftstreams/home?region=us-east-1)  
 
-GE TAVARES v26
+GE TAVARES v27
