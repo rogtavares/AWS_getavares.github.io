@@ -10,7 +10,7 @@ markmap:
 **📚 Todos os serviços**  
 **🧩 Serviços por categoria**
 
-## ::arrow **1.⚙️ Computação**
+## **1.⚙️ Computação**
 ### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/)
 ### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/)
 ### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/)
@@ -24,13 +24,13 @@ markmap:
 ### [🟦 AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/)
 ### [🟦 EC2 Global View](https://aws.amazon.com/pt/ec2/global-view/)
 
-## ::arrow **2.📦 Contêineres**
+## **2.📦 Contêineres**
 ### [🟨 Amazon ECS](https://aws.amazon.com/pt/ecs/)
 ### [🟨 Amazon EKS](https://aws.amazon.com/pt/eks/)
 ### [🟨 ROSA (OpenShift)](https://aws.amazon.com/pt/rosa/)
 ### [🟨 Amazon ECR](https://aws.amazon.com/pt/ecr/)
 
-## ::arrow **3.💾 Armazenamento**
+## **3.💾 Armazenamento**
 ### [🟩 Amazon S3](https://aws.amazon.com/pt/s3/)
 ### [🟩 Amazon EFS](https://aws.amazon.com/pt/efs/)
 ### [🟩 Amazon FSx](https://aws.amazon.com/pt/fsx/)
@@ -39,7 +39,7 @@ markmap:
 ### [🟩 AWS Backup](https://aws.amazon.com/pt/backup/)
 ### [🟩 AWS Elastic Disaster Recovery](https://aws.amazon.com/pt/disaster-recovery/)
 
-## ::arrow **4.🗃️ Banco de Dados**
+## **4.🗃️ Banco de Dados**
 ### [🟫 Amazon Aurora & RDS](https://aws.amazon.com/rds/)
 ### [🟫 Amazon ElastiCache](https://aws.amazon.com/elasticache/)
 ### [🟫 Amazon Neptune](https://aws.amazon.com/neptune/)
@@ -51,7 +51,7 @@ markmap:
 ### [🟫 Amazon MemoryDB](https://aws.amazon.com/memorydb/)
 ### [🟫 Oracle Database@AWS](https://aws.amazon.com/rds/oracle/)
 
-## ::arrow **5.🚚 Migração e Transferência**
+## **5.🚚 Migração e Transferência**
 ### [🔶 AWS Migration Hub](https://aws.amazon.com/migration-hub/)
 ### [🔶 Application Migration Service](https://aws.amazon.com/application-migration-service/)
 ### [🔶 Application Discovery Service](https://aws.amazon.com/application-discovery/)
@@ -62,7 +62,7 @@ markmap:
 ### [🔶 AWS Mainframe Modernization](https://aws.amazon.com/mainframe-modernization/)
 ### [🔶 Amazon Elastic VMware Service](https://aws.amazon.com/vmware/)
 
-## ::arrow **6.🌐 Redes e Entrega de Conteúdo**
+## **6.🌐 Redes e Entrega de Conteúdo**
 ### [🔷 Amazon VPC](https://aws.amazon.com/vpc/)
 ### [🔷 Amazon CloudFront](https://aws.amazon.com/cloudfront/)
 ### [🔷 Amazon API Gateway](https://aws.amazon.com/api-gateway/)
@@ -75,7 +75,7 @@ markmap:
 ### [🔷 AWS Cloud Map](https://aws.amazon.com/cloud-map/)
 ### [🔷 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/)
 
-## ::arrow **7.💻 Ferramentas do Desenvolvedor**
+## **7.💻 Ferramentas do Desenvolvedor**
 ### [🟪 AWS CodeCommit](https://aws.amazon.com/codecommit/)
 ### [🟪 AWS CodeBuild](https://aws.amazon.com/codebuild/)
 ### [🟪 AWS CodeDeploy](https://aws.amazon.com/codedeploy/)
@@ -91,26 +91,26 @@ markmap:
 ### [🟪 Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/)
 ### [🟪 Amazon Q Developer](https://aws.amazon.com/codewhisperer/)
 
-## ::arrow **8.🙋 Capacitação do Cliente**
+## **8.🙋 Capacitação do Cliente**
 ### [🟧 AWS IQ](https://aws.amazon.com/iq/)
 ### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/)
 ### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/)
 ### [🟧 AWS re:Post Privado](https://aws.amazon.com/repost/)
 ### [🟧 AWS Support](https://aws.amazon.com/support/)
 
-## ::arrow **9.🤖 Robótica**
+## **9.🤖 Robótica**
 ### [AWS RoboMaker](https://aws.amazon.com/robomaker/)
 
-## ::arrow **10.⛓️ Blockchain**
+## **10.⛓️ Blockchain**
 ### [Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain/)
 
-## ::arrow **11.🛰️ Satélite**
+## **11.🛰️ Satélite**
 ### [AWS Ground Station](https://aws.amazon.com/ground-station/)
 
-## ::arrow **12.🧬 Tecnologias Quânticas**
+## **12.🧬 Tecnologias Quânticas**
 ### [Amazon Braket](https://aws.amazon.com/braket/)
 
-## ::arrow **13.🛠️ Gerenciamento e Governança**
+## **13.🛠️ Gerenciamento e Governança**
 ### [🟦 AWS Organizations](https://aws.amazon.com/organizations/)
 ### [🟦 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
 ### [🟦 AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
@@ -139,7 +139,7 @@ markmap:
 ### [🟦 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/)
 ### [🟦 AWS Service Quotas](https://aws.amazon.com/servicequotas/)
 
-## ::arrow **14.🎥 Serviços de Mídia**
+## **14.🎥 Serviços de Mídia**
 ### [🟨 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/)
 ### [🟨 AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/)
 ### [🟨 AWS Elemental MediaLive](https://aws.amazon.com/medialive/)
@@ -152,7 +152,7 @@ markmap:
 ### [🟨 AWS Deadline Cloud](https://aws.amazon.com/deadline/)
 ### [🟨 AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/)
 
-## ::arrow **15.🤖 Machine Learning**
+## **15.🤖 Machine Learning**
 ### [🟩 Amazon SageMaker AI](https://aws.amazon.com/sagemaker/)
 ### [🟩 Amazon Augmented AI](https://aws.amazon.com/augmented-ai/)
 ### [🟩 Amazon CodeGuru](https://aws.amazon.com/codeguru/)
@@ -183,7 +183,7 @@ markmap:
 ### [🟩 Amazon Lex](https://aws.amazon.com/lex/)
 ### [🟩 AWS HealthImaging](https://aws.amazon.com/healthimaging/)
 
-## ::arrow **16.📊 Análise de Dados**
+## **16.📊 Análise de Dados**
 ### [🟦 Amazon Athena](https://aws.amazon.com/athena/)
 ### [🟦 Amazon Redshift](https://aws.amazon.com/redshift/)
 ### [🟦 Amazon CloudSearch](https://aws.amazon.com/cloudsearch/)
@@ -204,7 +204,7 @@ markmap:
 ### [🟦 Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
 ### [🟦 Amazon DataZone](https://aws.amazon.com/datazone/)
 
-## ::arrow **17.🔒 Segurança, Identidade e Conformidade**
+## **17.🔒 Segurança, Identidade e Conformidade**
 ### [🟧 Resource Access Manager](https://aws.amazon.com/ram/)
 ### [🟧 Amazon Cognito](https://aws.amazon.com/cognito/)
 ### [🟧 AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
@@ -230,18 +230,18 @@ markmap:
 ### [🟧 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/)
 ### [🟧 AWS Security Incident Response](https://aws.amazon.com/security-incident-response/)
 
-## ::arrow **18.💰 Gerenciamento de Cobrança e Custos**
+## **18.💰 Gerenciamento de Cobrança e Custos**
 ### [🟩 AWS Marketplace](https://aws.amazon.com/marketplace/)
 ### [🟩 AWS Billing Conductor](https://aws.amazon.com/billing-conductor/)
 ### [🟩 AWS Cloud Financial Management](https://aws.amazon.com/cloud-financial-management/)
 
-## ::arrow **19.📱 Dispositivos Móveis**
+## **19.📱 Dispositivos Móveis**
 ### [🟦 AWS Amplify](https://aws.amazon.com/amplify/)
 ### [🟦 AWS AppSync](https://aws.amazon.com/appsync/)
 ### [🟦 AWS Device Farm](https://aws.amazon.com/device-farm/)
 ### [🟦 Amazon Location Service](https://aws.amazon.com/location/)
 
-## ::arrow **20.🔗 Integração de Aplicativos**
+## **20.🔗 Integração de Aplicativos**
 ### [🟪 AWS Step Functions](https://aws.amazon.com/step-functions/)
 ### [🟪 Amazon AppFlow](https://aws.amazon.com/appflow/)
 ### [🟪 Amazon MQ](https://aws.amazon.com/amazon-mq/)
@@ -252,7 +252,7 @@ markmap:
 ### [🟪 AWS B2B Data Interchange](https://aws.amazon.com/b2bi/)
 ### [🟪 Amazon EventBridge](https://aws.amazon.com/eventbridge/)
 
-## ::arrow **21.🏢 Aplicativos Empresariais**
+## **21.🏢 Aplicativos Empresariais**
 ### [🟧 Amazon Connect](https://aws.amazon.com/connect/)
 ### [🟧 Amazon Chime](https://aws.amazon.com/chime/)
 ### [🟧 Amazon Simple Email Service (SES)](https://aws.amazon.com/ses/)
@@ -266,13 +266,13 @@ markmap:
 ### [🟧 AWS End User Messaging](https://aws.amazon.com/end-user-messaging/)
 ### [🟧 Amazon Chime SDK](https://aws.amazon.com/chime-sdk/)
 
-## ::arrow **22.🖥️ Computação de Usuário Final**
+## **22.🖥️ Computação de Usuário Final**
 ### [🟦 Amazon WorkSpaces](https://aws.amazon.com/workspaces/)
 ### [🟦 Amazon AppStream 2.0](https://aws.amazon.com/appstream2/)
 ### [🟦 Amazon WorkSpaces Thin Client](https://aws.amazon.com/workspaces/thin-client/)
 ### [🟦 Amazon WorkSpaces Secure Browser](https://aws.amazon.com/workspaces/web/)
 
-## ::arrow **23.🌐 Internet das Coisas (IoT)**
+## **23.🌐 Internet das Coisas (IoT)**
 ### [🟩 AWS IoT Analytics](https://aws.amazon.com/iot-analytics/)
 ### [🟩 AWS IoT Device Defender](https://aws.amazon.com/iot-device-defender/)
 ### [🟩 AWS IoT Device Management](https://aws.amazon.com/iot-device-management/)
@@ -283,11 +283,11 @@ markmap:
 ### [🟩 AWS IoT Events](https://aws.amazon.com/iot-events/)
 ### [🟩 AWS IoT FleetWise](https://aws.amazon.com/iot-fleetwise/)
 
-## ::arrow **24.🎮 Desenvolvimento de Jogos**
+## **24.🎮 Desenvolvimento de Jogos**
 ### [🟪 Amazon GameLift Servers](https://aws.amazon.com/gamelift/)
 ### [🟪 Amazon GameLift Streams](https://aws.amazon.com/gamelift/streams/)
 
-## ::arrow **25.🕶️ Realidade Aumentada e Virtual**
+## **25.🕶️ Realidade Aumentada e Virtual**
 ### [🟪 Amazon Sumerian](https://aws.amazon.com/sumerian/)
 ### [🟪 AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/)
 
