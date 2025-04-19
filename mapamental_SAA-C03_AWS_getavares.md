@@ -18,7 +18,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ---
 
 # **GE Tavares AWS**
-##  **Clicando com o botão do meio no (NOME DO SERVIÇO), você acessa diretamente a documentação oficial da AWS..**
+##  **Para acessar a documentação oficial da AWS de um serviço, basta clicar com o botão do meio do mouse sobre o **NOME DESSE SERVIÇO**..**
 **Ge Tavares**
 
 <!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
