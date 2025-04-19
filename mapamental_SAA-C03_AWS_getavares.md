@@ -18,8 +18,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ---
 
 # **GE Tavares AWS**
-##   **Mapas Mentais AWS**
-##  **🧩Clicando no meio do mouse no nome do serviço você será redirecionado para a documentação oficial da AWS.**
+##  **Clicando com o botão do meio no (NOME DO SERVIÇO), você acessa diretamente a documentação oficial da AWS..**
 **Ge Tavares**
 
 <!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
@@ -364,4 +363,4 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
 ### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
 
-<!-- GE TAVARES v38 -->
+<!-- GE TAVARES v3 -->
