@@ -25,38 +25,32 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 <!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
 
 ## **1. ⚙️ Computação**
-<!-- Serviços relacionados à computação na AWS -->
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Corrigido -->
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Corrigido -->
-### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/)
-### [🟦 Amazon EC2 Spot](https://aws.amazon.com/pt/ec2/spot/)
-### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/ec2/spot/)
-### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/)
-### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/)
-### [🟦 Amazon EC2 Auto Scaling Groups](https://aws.amazon.com/pt/autoscaling/ec2/)
-### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html)
-### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html)
-### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
-### [🟦 Amazon EC2 Auto Scaling Health Checks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata-options.html)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service v2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service-v2.html)
-### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/)
-### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/)
-### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/)
-### [🟦 AWS Batch](https://aws.amazon.com/pt/batch/)
-### [🟦 AWS Elastic Beanstalk](https://aws.amazon.com/pt/elasticbeanstalk/)
-### [🟦 AWS Serverless Application Repository](https://aws.amazon.com/pt/serverless/serverlessrepo/)
-### [🟦 AWS Outposts](https://aws.amazon.com/pt/outposts/)
-### [🟦 EC2 Image Builder](https://aws.amazon.com/pt/image-builder/)
-### [🟦 AWS App Runner](https://aws.amazon.com/pt/apprunner/)
-### [🟦 AWS SimSpace Weaver](https://aws.amazon.com/pt/simspaceweaver/)
-### [🟦 AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/)
-### [🟦 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
+### [🟦 Amazon EC2 Spot](https://aws.amazon.com/pt/ec2/spot/) <!-- Link válido -->
+### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/ec2/spot/) <!-- Link válido -->
+### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Groups](https://aws.amazon.com/pt/autoscaling/ec2/) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Health Checks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html) <!-- Link válido -->
+### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html) <!-- Link válido -->
+### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
+### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/) <!-- Link válido -->
+### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/) <!-- Link válido -->
+### [🟦 AWS Batch](https://aws.amazon.com/pt/batch/) <!-- Link válido -->
+### [🟦 AWS Elastic Beanstalk](https://aws.amazon.com/pt/elasticbeanstalk/) <!-- Link válido -->
+### [🟦 AWS Serverless Application Repository](https://aws.amazon.com/pt/serverless/serverlessrepo/) <!-- Link válido -->
+### [🟦 AWS Outposts](https://aws.amazon.com/pt/outposts/) <!-- Link válido -->
+### [🟦 EC2 Image Builder](https://aws.amazon.com/pt/image-builder/) <!-- Link válido -->
+### [🟦 AWS App Runner](https://aws.amazon.com/pt/apprunner/) <!-- Link válido -->
+### [🟦 AWS SimSpace Weaver](https://aws.amazon.com/pt/simspaceweaver/) <!-- Link válido -->
+### [🟦 AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/) <!-- Link válido -->
+### [🟦 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) <!-- Link válido -->
 
 ## **2. 📦 Contêineres**
 ### [🟨 Amazon ECS](https://aws.amazon.com/pt/ecs/)
@@ -183,7 +177,6 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🔷 AWS App Mesh](https://aws.amazon.com/app-mesh/)
 ### [🔷 AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
 ### [🔷 Amazon Route 53](https://aws.amazon.com/route53/)
-### [🔷 Data Transfer Terminal](https://aws.amazon.com/directconnect/) <!-- Substituído por AWS Direct Connect -->
 ### [🔷 AWS Private 5G](https://aws.amazon.com/private5g/)
 ### [🔷 AWS Cloud Map](https://aws.amazon.com/cloud-map/)
 ### [🔷 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/)
@@ -366,10 +359,9 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/)
 
 ## **26. 🧪 Tecnologias de Saúde**
-### [AWS HealthLake](https://aws.amazon.com/healthlake/)
-### [AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/)
-### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/)
-### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/)
+### [AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
+### [AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/) <!-- Link válido -->
+### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
+### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
 
-### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/)
-### [AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/)
+<!-- GE TAVARES v38 -->
