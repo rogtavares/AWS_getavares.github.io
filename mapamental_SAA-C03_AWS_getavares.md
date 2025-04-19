@@ -390,7 +390,6 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
 - **LinkedIn** 🌟: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
 - **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
-- **re:Post** 💬: [https://repost.aws/users/rogtavares](https://repost.aws/users/rogtavares)
 - **Salesforce**☁️ ️️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
 <!-- GE TAVARES v13 -->
