@@ -198,14 +198,27 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟪 Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/)
 ### [🟪 Amazon Q Developer](https://aws.amazon.com/codewhisperer/)
 
-## **10. 🙋 Capacitação do Cliente**
+## **10. 🏗️ Infraestrutura como Código**
+### [AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
+### [AWS CDK](https://aws.amazon.com/cdk/) <!-- Link válido -->
+### [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) <!-- Link válido -->
+### [AWS CloudFormation StackSets](https://aws.amazon.com/cloudformation/stacksets/) <!-- Link válido -->
+### [AWS CloudFormation Guard](https://aws.amazon.com/cloudformation/guard/) <!-- Link válido -->
+### [AWS CloudFormation Designer](https://aws.amazon.com/cloudformation/designer/) <!-- Link válido -->
+### [AWS CloudFormation CLI](https://aws.amazon.com/cloudformation/cli/) <!-- Link válido -->
+### [AWS CloudFormation Registry](https://aws.amazon.com/cloudformation/registry/) <!-- Link válido -->
+### [AWS CloudFormation Macros](https://aws.amazon.com/cloudformation/macros/) <!-- Link válido -->
+### [AWS CloudFormation Change Sets](https://aws.amazon.com/cloudformation/change-sets/) <!-- Link válido -->
+### [AWS CloudFormation Drift Detection](https://aws.amazon.com/cloudformation/drift-detection/) <!-- Link válido -->
+
+## **11. 🙋 Capacitação do Cliente**
 ### [🟧 AWS IQ](https://aws.amazon.com/iq/)
 ### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/)
 ### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/)
 ### [🟧 AWS re:Post](https://repost.aws/)
 ### [🟧 AWS Support](https://aws.amazon.com/support/)
 
-## **11. 🛠️ Gerenciamento e Governança**
+## **12. 🛠️ Gerenciamento e Governança**
 ### [🟦 AWS Organizations](https://aws.amazon.com/organizations/)
 ### [🟦 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
 ### [🟦 AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
@@ -234,7 +247,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟦 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/)
 ### [🟦 AWS Service Quotas](https://aws.amazon.com/servicequotas/)
 
-## **12. 🎥 Serviços de Mídia**
+## **13. 🎥 Serviços de Mídia**
 ### [🟨 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/)
 ### [🟨 AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/)
 ### [🟨 AWS Elemental MediaLive](https://aws.amazon.com/medialive/)
@@ -252,7 +265,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟨 AWS Elemental Conductor](https://aws.amazon.com/elemental-conductor/)
 ### [🟨 AWS Elemental Delta](https://aws.amazon.com/elemental-delta/)
 
-## **13. 🔒 Segurança, Identidade e Conformidade**
+## **14. 🔒 Segurança, Identidade e Conformidade**
 ### [🟧 Resource Access Manager](https://aws.amazon.com/ram/)
 ### [🟧 Amazon Cognito](https://aws.amazon.com/cognito/)
 ### [🟧 AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
@@ -278,18 +291,18 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟧 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/)
 ### [🟧 AWS Security Incident Response](https://aws.amazon.com/security-incident-response/)
 
-## **14. 💰 Gerenciamento de Cobrança e Custos**
+## **15. 💰 Gerenciamento de Cobrança e Custos**
 ### [🟩 AWS Marketplace](https://aws.amazon.com/marketplace/)
 ### [🟩 AWS Billing Conductor](https://aws.amazon.com/billing-conductor/)
 ### [🟩 AWS Cloud Financial Management](https://aws.amazon.com/cloud-financial-management/)
 
-## **15. 📱 Dispositivos Móveis**
+## **16. 📱 Dispositivos Móveis**
 ### [🟦 AWS Amplify](https://aws.amazon.com/amplify/)
 ### [🟦 AWS AppSync](https://aws.amazon.com/appsync/)
 ### [🟦 AWS Device Farm](https://aws.amazon.com/device-farm/)
 ### [🟦 Amazon Location Service](https://aws.amazon.com/location/)
 
-## **16. 🔗 Integração de Aplicativos**
+## **17. 🔗 Integração de Aplicativos**
 ### [🟪 AWS Step Functions](https://aws.amazon.com/step-functions/)
 ### [🟪 Amazon AppFlow](https://aws.amazon.com/appflow/)
 ### [🟪 Amazon MQ](https://aws.amazon.com/amazon-mq/)
@@ -300,7 +313,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟪 AWS B2B Data Interchange](https://aws.amazon.com/b2bi/)
 ### [🟪 Amazon EventBridge](https://aws.amazon.com/eventbridge/)
 
-## **17. 🏢 Aplicativos Empresariais**
+## **18. 🏢 Aplicativos Empresariais**
 ### [🟧 Amazon Connect](https://aws.amazon.com/connect/)
 ### [🟧 Amazon Chime](https://aws.amazon.com/chime/)
 ### [🟧 Amazon Simple Email Service (SES)](https://aws.amazon.com/ses/)
@@ -314,24 +327,24 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟧 AWS End User Messaging](https://aws.amazon.com/end-user-messaging/)
 ### [🟧 Amazon Chime SDK](https://aws.amazon.com/chime-sdk/)
 
-## **18. 🖥️ Computação de Usuário Final**
+## **19. 🖥️ Computação de Usuário Final**
 ### [🟦 Amazon WorkSpaces](https://aws.amazon.com/workspaces/)
 ### [🟦 Amazon AppStream 2.0](https://aws.amazon.com/appstream2/)
 ### [🟦 Amazon WorkSpaces Thin Client](https://aws.amazon.com/workspaces/thin-client/)
 ### [🟦 Amazon WorkSpaces Secure Browser](https://aws.amazon.com/workspaces/web/)
 
-## **19. 🌐 Internet das Coisas (IoT)**
+## **20. 🌐 Internet das Coisas (IoT)**
 ### [🟩 AWS IoT Analytics](https://aws.amazon.com/iot-analytics/)
 ### [🟩 AWS IoT Device Defender](https://aws.amazon.com/iot-device-defender/)
 ### [🟪 AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/)
 ### [🟪 AWS IoT Greengrass](https://aws.amazon.com/greengrass/)
 ### [🟪 AWS IoT Core](https://aws.amazon.com/iot-core/)
 
-## **20. 🎮 Desenvolvimento de Jogos**
+## **21. 🎮 Desenvolvimento de Jogos**
 ### [🟪 Amazon GameLift Servers](https://aws.amazon.com/gamelift/)
 ### [🟪 Amazon GameLift Streams](https://aws.amazon.com/gamelift/streams/)
 
-## **21. 🕶️ Realidade Aumentada e Virtual**
+## **22. 🕶️ Realidade Aumentada e Virtual**
 ### [🟪 Amazon Sumerian](https://aws.amazon.com/sumerian/)
 ### [🟪 AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/)
 ### [🟪 AWS IoT SiteWise](https://aws.amazon.com/iot-sitewise/)
@@ -341,26 +354,41 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟪 AWS IoT Core para Sigfox](https://aws.amazon.com/iot-core/) <!-- Corrigido para página principal do IoT Core -->
 ### [🟪 AWS IoT Core para 5G](https://aws.amazon.com/iot-core/) <!-- Corrigido para página principal do IoT Core -->
 
-## **22. 🤖 Robótica**
+## **23. 🤖 Robótica**
 ### [AWS RoboMaker](https://aws.amazon.com/robomaker/)
 
-## **23. ⛓️ Blockchain**
+## **24. ⛓️ Blockchain**
 ### [Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain/)
 
-## **24. 🛰️ Satélite**
+## **25. 🛰️ Satélite**
 ### [AWS Ground Station](https://aws.amazon.com/ground-station/)
 ### [AWS Data Exchange for Ground Station](https://aws.amazon.com/data-exchange/)
 ### [AWS Ground Station with Amazon S3](https://aws.amazon.com/ground-station/)
 
-## **25. 🧬 Tecnologias Quânticas**
+## **26. 🧬 Tecnologias Quânticas**
 ### [Amazon Braket](https://aws.amazon.com/braket/)
 ### [AWS Center for Quantum Computing](https://aws.amazon.com/quantum-computing/)
 ### [AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/)
 
-## **26. 🧪 Tecnologias de Saúde**
+## **27. 🧪 Tecnologias de Saúde**
 ### [AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
 ### [AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/) <!-- Link válido -->
 ### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
 ### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
+
+### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
+## **28. 📜 Certificações AWS**
+Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification clicando no link abaixo:
+
+### [🔗 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -->
+
+## **28. Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification .
+
+## **29. 💻 Sobre o Gé Tavares**
+Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
+
+- **GitHub**: [https://github.com/rogtavares](https://github.com/rogtavares)
+- **LinkedIn**: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
+- **Portfólio**: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
 
 <!-- GE TAVARES v3 -->
