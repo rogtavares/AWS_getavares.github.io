@@ -1,31 +1,31 @@
 ---
 title: GE Tavares AWS -Mapas Mentais AWS 
 markmap:
-  colorFreezeLevel: 3
-  initialExpandLevel: 2
+  colorFreezeLevel: 3 # Define o nível de profundidade em que as cores dos nós são congeladas
+  initialExpandLevel: 2 # Determina o nível inicial de expansão do mapa mental
   htmlParser:
-    selector: h1,h2,h3,ul,ol,li,table,pre
-  color: '#FFA500'
-  fontSize: 20
-  fontFamily: 'Arial, sans-serif'
-  lineWidth: 2
-  theme: 'classic'
-  autoFit: true
-  autoScroll: true
-  autoScrollDuration: 0.5
+    selector: h1,h2,h3,ul,ol,li,table,pre # Elementos HTML que serão analisados para gerar o mapa mental
+  color: '#FFA500' # Cor principal do mapa mental
+  fontSize: 20 # Tamanho da fonte dos textos no mapa mental
+  fontFamily: 'Arial, sans-serif' # Família de fontes usada no mapa mental
+  lineWidth: 2 # Largura das linhas que conectam os nós
+  theme: 'classic' # Tema visual do mapa mental
+  autoFit: true # Ajusta automaticamente o mapa mental para caber na tela
+  autoScroll: true # Habilita o deslocamento automático do mapa mental
+  autoScrollDuration: 0.5 # Duração do deslocamento automático (em segundos)
   zoomable: true # Permite o zoom no mapa mental
+search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ---
 
 # **GE Tavares AWS**
-## **🧩 Mapas Mentais AWS - SAA-C03**
+##   **Mapas Mentais AWS**
 ##  **🧩Clicando no meio do mouse no nome do serviço você será redirecionado para a documentação oficial da AWS.**
 **Ge Tavares**
 
-
+<!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
 
 ## **1. ⚙️ Computação**
-<!-- Teste os links abaixo para garantir que estão funcionando corretamente -->
-<!-- Use uma ferramenta como Markdown Link Check para validar os links automaticamente -->
+<!-- Serviços relacionados à computação na AWS -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Corrigido -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Corrigido -->
 ### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/)
