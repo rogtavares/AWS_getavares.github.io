@@ -1,7 +1,20 @@
-Mapas Mentais de Gé Tavares sobre SOLUCTION ARCHITECT ASSOCIATE & DEVELOP,têm sido uma ferramenta de estudo excepcional. Eles me auxiliam significativamente na memorização dos diversos serviços da AWS, simplificando tópicos que seriam mais complexos se apresentados apenas em texto.
+# Mapas Mentais AWS - Gé Tavares
 
-Dica: Comece pelo nó principal e use os botões para expandir ou reduzir as informações.
+Os **Mapas Mentais de Gé Tavares** foram desenvolvidos para facilitar o aprendizado e a memorização dos diversos serviços da AWS, especialmente para quem está se preparando para as certificações **Solution Architect Associate** e **Developer Associate**. 
 
+Esses mapas simplificam tópicos complexos, organizando as informações de forma visual e intuitiva, tornando o estudo mais eficiente e agradável.
 
+## **Como usar os Mapas Mentais**
+- **Navegue pelo nó principal**: Comece pelo nó principal e explore as categorias de serviços.
+- **Expanda ou reduza informações**: Use os botões de expansão para visualizar mais detalhes ou simplificar a visualização.
+- **Acesse a documentação oficial**: Clique nos links para ser redirecionado diretamente para a documentação oficial da AWS.
 
-versao 17
+## **Benefícios**
+- Organização clara e objetiva dos serviços AWS.
+- Auxílio na memorização e compreensão de tópicos complexos.
+- Ferramenta prática para revisões rápidas e estudos aprofundados.
+
+---
+
+**Versão:** 18  
+**Autor:** Gé Tavares

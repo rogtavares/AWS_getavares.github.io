@@ -24,32 +24,32 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 <!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
 
 ## **1. ⚙️ Computação**
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
-### [🟦 Amazon EC2 Spot](https://aws.amazon.com/pt/ec2/spot/) <!-- Link válido -->
-### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/ec2/spot/) <!-- Link válido -->
-### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Groups](https://aws.amazon.com/pt/autoscaling/ec2/) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Health Checks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html) <!-- Link válido -->
-### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html) <!-- Link válido -->
-### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
-### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/) <!-- Link válido -->
-### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/) <!-- Link válido -->
-### [🟦 AWS Batch](https://aws.amazon.com/pt/batch/) <!-- Link válido -->
-### [🟦 AWS Elastic Beanstalk](https://aws.amazon.com/pt/elasticbeanstalk/) <!-- Link válido -->
-### [🟦 AWS Serverless Application Repository](https://aws.amazon.com/pt/serverless/serverlessrepo/) <!-- Link válido -->
-### [🟦 AWS Outposts](https://aws.amazon.com/pt/outposts/) <!-- Link válido -->
-### [🟦 EC2 Image Builder](https://aws.amazon.com/pt/image-builder/) <!-- Link válido -->
-### [🟦 AWS App Runner](https://aws.amazon.com/pt/apprunner/) <!-- Link válido -->
-### [🟦 AWS SimSpace Weaver](https://aws.amazon.com/pt/simspaceweaver/) <!-- Link válido -->
-### [🟦 AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/) <!-- Link válido -->
-### [🟦 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html" style="color: red;">🟦 Amazon EC2 Auto Scaling Instance Metadata</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html" style="color: blue;">🟦 Amazon EC2 Auto Scaling Instance Metadata Service</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/autoscaling/" style="color: green;">🟦 Amazon EC2 Auto Scaling</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/ec2/spot/" style="color: orange;">🟦 Amazon EC2 Spot</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/ec2/spot/" style="color: purple;">🟦 Amazon EC2 Spot Fleet</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/ec2/spot/instance-advisor/" style="color: teal;">🟦 Amazon EC2 Spot Instance Advisor</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/autoscaling/ec2/" style="color: crimson;">🟦 Amazon EC2 Auto Scaling Groups</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html" style="color: darkorange;">🟦 Amazon EC2 Auto Scaling Lifecycle Hooks</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html" style="color: darkgreen;">🟦 Amazon EC2 Auto Scaling Instance Refresh</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html" style="color: navy;">🟦 Amazon EC2 Auto Scaling Predictive Scaling</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html" style="color: magenta;">🟦 Amazon EC2 Auto Scaling Scheduled Scaling</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html" style="color: darkred;">🟦 Amazon EC2 Auto Scaling Instance Protection</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html" style="color: darkblue;">🟦 Amazon EC2 Auto Scaling Health Checks</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html" style="color: darkcyan;">🟦 Amazon EC2 Auto Scaling Instance Warm-Up</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/ec2/" style="color: olive;">🟦 Amazon EC2</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/lightsail/" style="color: chocolate;">🟦 Amazon Lightsail</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/lambda/" style="color: indigo;">🟦 AWS Lambda</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/batch/" style="color: coral;">🟦 AWS Batch</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/elasticbeanstalk/" style="color: lime;">🟦 AWS Elastic Beanstalk</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/serverless/serverlessrepo/" style="color: gold;">🟦 AWS Serverless Application Repository</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/outposts/" style="color: sienna;">🟦 AWS Outposts</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/image-builder/" style="color: steelblue;">🟦 EC2 Image Builder</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/apprunner/" style="color: violet;">🟦 AWS App Runner</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/simspaceweaver/" style="color: tomato;">🟦 AWS SimSpace Weaver</a> <!-- Link válido -->
+<a href="https://aws.amazon.com/pt/hpc/" style="color: turquoise;">🟦 AWS Parallel Computing Service</a> <!-- Link válido -->
+<a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" style="color: salmon;">🟦 EC2 Global View</a> <!-- Link válido -->
 
 ## **2. 📦 Contêineres**
 ### [🟨 Amazon ECS](https://aws.amazon.com/pt/ecs/)
