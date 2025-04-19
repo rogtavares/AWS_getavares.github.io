@@ -1,21 +1,28 @@
-# Mapas Mentais AWS - Gé Tavares
+# 🌐 Mapas Mentais AWS - Gé Tavares
 
-Os **Mapas Mentais de Gé Tavares** foram desenvolvidos para facilitar o aprendizado e a memorização dos diversos serviços da AWS, especialmente para quem está se preparando para as certificações **Solution Architect Associate (SAA-03)**, **Developer Associate (DVA-C02)**.**AWS Specialty (MLS-C01) Machine Learning** e **AWS Certified Cloud Practitioner**.
-Esses mapas são uma representação visual dos serviços, organizados por categorias, permitindo uma compreensão mais clara e rápida das funcionalidades e interações entre os serviços da AWS.
+Os Mapas Mentais de AWS, desenvolvidos por Gé Tavares, foram criados para facilitar o aprendizado, a memorização e a navegação entre os diversos serviços da Amazon Web Services. Estes mapas são especialmente úteis para quem está se preparando para certificações como:
 
-Esses mapas simplificam tópicos complexos, organizando as informações de forma visual e intuitiva, tornando o estudo mais eficiente e agradável.
+AWS Certified Solutions Architect – Associate (SAA-C03)
+
+AWS Certified Developer – Associate (DVA-C02)
+
+AWS Certified Machine Learning – Specialty (MLS-C01)
+
+AWS Certified Cloud Practitioner (CLF-C02)
+
+Organizados por categorias, os mapas oferecem uma visualização clara dos serviços e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
 ## **Como usar os Mapas Mentais**
 - **Navegue pelo nó principal**: Comece pelo nó principal e explore as categorias de serviços.
-- **Expanda ou reduza informações**: Use os botões de expansão para visualizar mais detalhes ou simplificar a visualização.
-- **Acesse a documentação oficial**: Clique nos links para ser redirecionado diretamente para a documentação oficial da AWS.
+- **Expanda ou reduza informações**: Use os controles do mapa para abrir ou fechar ramos de informações conforme sua necessidade.
+- **Acesse a documentação oficial**: Muitos nós possuem links diretos para a documentação oficial da AWS, facilitando o aprofundamento em tópicos específicos.
 
 ## **Benefícios**
 - Organização clara e objetiva dos serviços AWS.
-- Auxílio na memorização e compreensão de tópicos complexos.
-- Ferramenta prática para revisões rápidas e estudos aprofundados.
+- Acelera o aprendizado e fixa melhor os conteúdos
+- Formato: Markmap 
 
 ---
 
-**Versão:** 19 
+**Versão:** 20 
 **Autor:** Gé Tavares

@@ -212,11 +212,11 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [AWS CloudFormation Drift Detection](https://aws.amazon.com/cloudformation/drift-detection/) <!-- Link válido -->
 
 ## **11. 🙋 Capacitação do Cliente**
-### [🟧 AWS IQ](https://aws.amazon.com/iq/)
-### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/)
-### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/)
-### [🟧 AWS re:Post](https://repost.aws/)
-### [🟧 AWS Support](https://aws.amazon.com/support/)
+### [🟧 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
+### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
+### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/) <!-- Link válido -->
+### [🟧 AWS re:Post](https://repost.aws/) <!-- Link válido -->
+### [🟧 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
 
 ## **12. 🛠️ Gerenciamento e Governança**
 ### [🟦 AWS Organizations](https://aws.amazon.com/organizations/)
@@ -382,13 +382,15 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [🔗 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -->
 
-## **28. Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification .
 
-## **29. 💻 Sobre o Gé Tavares**
+
+## **29. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
 
-- **GitHub**: [https://github.com/rogtavares](https://github.com/rogtavares)
-- **LinkedIn**: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
-- **Portfólio**: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
+- **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
+- **LinkedIn** 🌟: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
+- **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
+- **re:Post** 💬: [https://repost.aws/users/rogtavares](https://repost.aws/users/rogtavares)
+- **Salesforce**☁️ ️️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
-<!-- GE TAVARES v3 -->
+<!-- GE TAVARES v13 -->
