@@ -292,9 +292,9 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟧 AWS Security Incident Response](https://aws.amazon.com/security-incident-response/)
 
 ## **15. 💰 Gerenciamento de Cobrança e Custos**
-### [🟩 AWS Marketplace](https://aws.amazon.com/marketplace/)
-### [🟩 AWS Billing Conductor](https://aws.amazon.com/billing-conductor/)
-### [🟩 AWS Cloud Financial Management](https://aws.amazon.com/cloud-financial-management/)
+### [🟩 AWS Marketplace](https://aws.amazon.com/marketplace/) <!-- Link válido -->
+### [🟩 AWS Billing Conductor](https://aws.amazon.com/aws-cost-management/aws-billing-conductor/) <!-- Link atualizado -->
+### [🟩 AWS Cloud Financial Management](https://aws.amazon.com/aws-cost-management/) <!-- Link atualizado -->
 
 ## **16. 📱 Dispositivos Móveis**
 ### [🟦 AWS Amplify](https://aws.amazon.com/amplify/)
