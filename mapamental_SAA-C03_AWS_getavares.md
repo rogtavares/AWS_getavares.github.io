@@ -1,27 +1,31 @@
 ---
-title: markmap
+title: GE Tavares AWS -Mapas Mentais AWS 
 markmap:
-  colorFreezeLevel:2
-
-  color:  '#FFA500'
-  fontSize: 18
+  colorFreezeLevel: 4
+  initialExpandLevel: 2
+  htmlParser:
+    selector: h1,h2,h3,ul,ol,li,table,pre
+  color: '#FFA500'
+  fontSize: 20
   fontFamily: 'Arial, sans-serif'
   lineWidth: 2
-  theme: 'dark'
+  theme: 'classic'
   autoFit: true
   autoScroll: true
   autoScrollDuration: 0.5
+  zoomable: true # Permite o zoom no mapa mental
 ---
 
-# **GE TAVARES AWS**
+# **GE Tavares AWS**
 ## **🧩 Mapas Mentais AWS - SAA-C03**
 ##  **🧩Clicando no meio do mouse no nome do serviço você será redirecionado para a documentação oficial da AWS.**
 **Ge Tavares**
 
 
-  
+
 ## **1. ⚙️ Computação**
 <!-- Teste os links abaixo para garantir que estão funcionando corretamente -->
+<!-- Use uma ferramenta como Markdown Link Check para validar os links automaticamente -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Corrigido -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Corrigido -->
 ### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/ec2/)
