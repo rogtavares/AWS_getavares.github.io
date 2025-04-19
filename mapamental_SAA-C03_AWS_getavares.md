@@ -1,16 +1,46 @@
 ---
 title: markmap
 markmap:
-  colorFreezeLevel: 4
+  colorFreezeLevel:2
+
+  color:  '#FFA500'
+  fontSize: 18
+  fontFamily: 'Arial, sans-serif'
+  lineWidth: 2
+  theme: 'dark'
+  autoFit: true
+  autoScroll: true
+  autoScrollDuration: 0.5
 ---
 
 # **GE TAVARES AWS**
+## **🧩 Mapas Mentais AWS - SAA-C03**
 ##  **🧩Clicando no meio do mouse no nome do serviço você será redirecionado para a documentação oficial da AWS.**
 **Ge Tavares**
 
 
   
 ## **1. ⚙️ Computação**
+<!-- Teste os links abaixo para garantir que estão funcionando corretamente -->
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Corrigido -->
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Corrigido -->
+### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/ec2/)
+### [🟦 Amazon EC2 Spot](https://aws.amazon.com/pt/ec2/spot/)
+### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/pt/ec2/spot/fleet/)
+### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/pt/ec2/spot/advisor/)
+### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/)
+### [🟦 Amazon EC2 Auto Scaling Groups](https://aws.amazon.com/pt/autoscaling/ec2/)
+### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://aws.amazon.com/pt/autoscaling/ec2/lifecycle-hooks/)
+### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://aws.amazon.com/pt/autoscaling/ec2/instance-refresh/)
+### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://aws.amazon.com/pt/autoscaling/ec2/predictive-scaling/)
+### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://aws.amazon.com/pt/autoscaling/ec2/scheduled-scaling/)
+### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://aws.amazon.com/pt/autoscaling/ec2/instance-protection/)
+### [🟦 Amazon EC2 Auto Scaling Health Checks](https://aws.amazon.com/pt/autoscaling/ec2/health-checks/)
+### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://aws.amazon.com/pt/autoscaling/ec2/instance-warm-up/)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata/)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-service/)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Options](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-options/)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service v2](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-service-v2/)
 ### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/)
 ### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/)
 ### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/)
@@ -149,7 +179,7 @@ markmap:
 ### [🔷 AWS App Mesh](https://aws.amazon.com/app-mesh/)
 ### [🔷 AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
 ### [🔷 Amazon Route 53](https://aws.amazon.com/route53/)
-### [🔷 Data Transfer Terminal](https://aws.amazon.com/data-transfer-terminal/)
+### [🔷 Data Transfer Terminal](https://aws.amazon.com/directconnect/) <!-- Substituído por AWS Direct Connect -->
 ### [🔷 AWS Private 5G](https://aws.amazon.com/private5g/)
 ### [🔷 AWS Cloud Map](https://aws.amazon.com/cloud-map/)
 ### [🔷 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/)
@@ -312,8 +342,8 @@ markmap:
 ### [🟪 AWS IoT Greengrass](https://aws.amazon.com/greengrass/)
 ### [🟪 AWS IoT Core](https://aws.amazon.com/iot-core/)
 ### [🟪 AWS IoT Core para LoRaWAN](https://aws.amazon.com/iot-core/lorawan/)
-### [🟪 AWS IoT Core para Sigfox](https://aws.amazon.com/iot-core/sigfox/)
-### [🟪 AWS IoT Core para 5G](https://aws.amazon.com/iot-core/5g/)
+### [🟪 AWS IoT Core para Sigfox](https://aws.amazon.com/iot-core/) <!-- Corrigido para página principal do IoT Core -->
+### [🟪 AWS IoT Core para 5G](https://aws.amazon.com/iot-core/) <!-- Corrigido para página principal do IoT Core -->
 
 ## **22. 🤖 Robótica**
 ### [AWS RoboMaker](https://aws.amazon.com/robomaker/)
@@ -337,4 +367,3 @@ markmap:
 ### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/)
 ### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/)
 
- 
