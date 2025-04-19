@@ -1,7 +1,7 @@
 ---
 title: GE Tavares AWS -Mapas Mentais AWS 
 markmap:
-  colorFreezeLevel: 4
+  colorFreezeLevel: 3
   initialExpandLevel: 2
   htmlParser:
     selector: h1,h2,h3,ul,ol,li,table,pre
@@ -28,23 +28,23 @@ markmap:
 <!-- Use uma ferramenta como Markdown Link Check para validar os links automaticamente -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) <!-- Corrigido -->
 ### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html) <!-- Corrigido -->
-### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/ec2/)
+### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/autoscaling/)
 ### [🟦 Amazon EC2 Spot](https://aws.amazon.com/pt/ec2/spot/)
-### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/pt/ec2/spot/fleet/)
-### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/pt/ec2/spot/advisor/)
+### [🟦 Amazon EC2 Spot Fleet](https://aws.amazon.com/ec2/spot/)
+### [🟦 Amazon EC2 Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/)
 ### [🟦 Amazon EC2 Auto Scaling](https://aws.amazon.com/pt/autoscaling/)
 ### [🟦 Amazon EC2 Auto Scaling Groups](https://aws.amazon.com/pt/autoscaling/ec2/)
-### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://aws.amazon.com/pt/autoscaling/ec2/lifecycle-hooks/)
-### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://aws.amazon.com/pt/autoscaling/ec2/instance-refresh/)
-### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://aws.amazon.com/pt/autoscaling/ec2/predictive-scaling/)
-### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://aws.amazon.com/pt/autoscaling/ec2/scheduled-scaling/)
-### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://aws.amazon.com/pt/autoscaling/ec2/instance-protection/)
-### [🟦 Amazon EC2 Auto Scaling Health Checks](https://aws.amazon.com/pt/autoscaling/ec2/health-checks/)
-### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://aws.amazon.com/pt/autoscaling/ec2/instance-warm-up/)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata/)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-service/)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Options](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-options/)
-### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service v2](https://aws.amazon.com/pt/autoscaling/ec2/instance-metadata-service-v2/)
+### [🟦 Amazon EC2 Auto Scaling Lifecycle Hooks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Refresh](https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html)
+### [🟦 Amazon EC2 Auto Scaling Predictive Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html)
+### [🟦 Amazon EC2 Auto Scaling Scheduled Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Protection](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
+### [🟦 Amazon EC2 Auto Scaling Health Checks](https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Warm-Up](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Options](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata-options.html)
+### [🟦 Amazon EC2 Auto Scaling Instance Metadata Service v2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service-v2.html)
 ### [🟦 Amazon EC2](https://aws.amazon.com/pt/ec2/)
 ### [🟦 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/)
 ### [🟦 AWS Lambda](https://aws.amazon.com/pt/lambda/)
@@ -56,7 +56,7 @@ markmap:
 ### [🟦 AWS App Runner](https://aws.amazon.com/pt/apprunner/)
 ### [🟦 AWS SimSpace Weaver](https://aws.amazon.com/pt/simspaceweaver/)
 ### [🟦 AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/)
-### [🟦 EC2 Global View](https://aws.amazon.com/pt/ec2/global-view/)
+### [🟦 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
 
 ## **2. 📦 Contêineres**
 ### [🟨 Amazon ECS](https://aws.amazon.com/pt/ecs/)
@@ -64,9 +64,9 @@ markmap:
 ### [🟨 ROSA (OpenShift)](https://aws.amazon.com/pt/rosa/)
 ### [🟨 Amazon ECR](https://aws.amazon.com/pt/ecr/)
 ### [🟨 Amazon EKS Anywhere](https://aws.amazon.com/pt/eks/anywhere/)
-### [🟨 Amazon EKS Distro](https://aws.amazon.com/pt/eks/distro/)
-### [🟨 Amazon EKS Blueprints](https://aws.amazon.com/pt/eks/blueprints/)
-### [🟨 Amazon EKS Connector](https://aws.amazon.com/pt/eks/connector/)
+### [🟨 Amazon EKS Distro](https://eksctl.io/)
+### [🟨 Amazon EKS Blueprints](https://aws.amazon.com/eks/blueprints/)
+### [🟨 Amazon EKS Connector](https://aws.amazon.com/eks/connector/)
 ### [🟨 Amazon AppMesh](https://aws.amazon.com/pt/app-mesh/)
 
 ## **3. 💾 Armazenamento**
@@ -77,8 +77,8 @@ markmap:
 ### [🟩 AWS Storage Gateway](https://aws.amazon.com/pt/storagegateway/)
 ### [🟩 AWS Backup](https://aws.amazon.com/pt/backup/)
 ### [🟩 AWS Elastic Disaster Recovery](https://aws.amazon.com/pt/disaster-recovery/)
-### [🟩 Amazon S3 Object Lambda](https://aws.amazon.com/pt/s3/object-lambda/)
-### [🟩 Amazon S3 Intelligent-Tiering](https://aws.amazon.com/pt/s3/intelligent-tiering/)
+### [🟩 Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/)
+### [🟩 Amazon S3 Intelligent-Tiering](https://aws.amazon.com/s3/storage-classes/intelligent-tiering/)
 ### [🟩 Amazon S3 Storage Lens](https://aws.amazon.com/pt/s3/storage-lens/)
 
 ## **4. 🗃️ Banco de Dados**
@@ -103,7 +103,7 @@ markmap:
 ### [🟦 AWS Data Exchange](https://aws.amazon.com/data-exchange/)
 ### [🟦 AWS Lake Formation](https://aws.amazon.com/lake-formation/)
 ### [🟦 Amazon MSK](https://aws.amazon.com/msk/)
-### [🟦 AWS Glue DataBrew](https://aws.amazon.com/databrew/)
+### [🟦 AWS Glue DataBrew](https://aws.amazon.com/glue/databrew/)
 ### [🟦 Amazon FinSpace](https://aws.amazon.com/finspace/)
 ### [🟦 Managed Apache Flink](https://aws.amazon.com/kinesis/data-analytics/)
 ### [🟦 Amazon EMR](https://aws.amazon.com/emr/)
@@ -113,25 +113,25 @@ markmap:
 ### [🟦 AWS Glue](https://aws.amazon.com/glue/)
 ### [🟦 Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
 ### [🟦 Amazon DataZone](https://aws.amazon.com/datazone/)
-### [🟦 Amazon Managed Grafana](https://aws.amazon.com/managed-grafana/)
-### [🟦 Amazon Managed Service for Apache Flink](https://aws.amazon.com/msk/flink/)
+### [🟦 Amazon Managed Grafana](https://aws.amazon.com/grafana/)
+### [🟦 Amazon Managed Service for Apache Flink](https://aws.amazon.com/kinesis/data-analytics/)
 ### [🟦 Amazon Managed Service for Apache Kafka](https://aws.amazon.com/msk/)
-### [🟦 Amazon Managed Service for Prometheus](https://aws.amazon.com/managed-prometheus/)
+### [🟦 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/)
 ### [🟦 Amazon Managed Service for Apache Airflow](https://aws.amazon.com/mwaa/)
 ### [🟦 Amazon Managed Service for Apache Spark](https://aws.amazon.com/emr/spark/)
-### [🟦 Amazon Managed Service for Apache Hive](https://aws.amazon.com/emr/hive/)
+### [🟦 Amazon Managed Service for Apache Hive](https://aws.amazon.com/emr/)
 ### [🟦 Amazon Managed Service for Apache HBase](https://aws.amazon.com/emr/hbase/)
 ### [🟦 Amazon Managed Service for Apache Cassandra](https://aws.amazon.com/keyspaces/)
-### [🟦 Amazon Managed Service for Apache Flume](https://aws.amazon.com/emr/flume/)
-### [🟦 Amazon Managed Service for Apache Storm](https://aws.amazon.com/emr/storm/)
-### [🟦 Amazon Managed Service for Apache NiFi](https://aws.amazon.com/emr/nifi/)
-### [🟦 Amazon Managed Service for Apache Kafka Connect](https://aws.amazon.com/msk/connect/)
-### [🟦 Amazon Managed Service for Apache Kafka Streams](https://aws.amazon.com/msk/streams/)
-### [🟦 Amazon Managed Service for Apache Pulsar](https://aws.amazon.com/msk/pulsar/)
-### [🟦 Amazon Managed Service for Apache Druid](https://aws.amazon.com/emr/druid/)
-### [🟦 Amazon Managed Service for Apache Drill](https://aws.amazon.com/emr/drill/)
-### [🟦 Amazon Managed Service for Apache Solr](https://aws.amazon.com/emr/solr/)
-### [🟦 Amazon Managed Service for Apache CouchDB](https://aws.amazon.com/emr/couchdb/)
+### [🟦 Amazon Managed Service for Apache Flume](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache Storm](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache NiFi](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache Kafka Connect](https://aws.amazon.com/msk/)
+### [🟦 Amazon Managed Service for Apache Kafka Streams](https://aws.amazon.com/msk/)
+### [🟦 Amazon Managed Service for Apache Pulsar](https://aws.amazon.com/msk/)
+### [🟦 Amazon Managed Service for Apache Druid](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache Drill](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache Solr](https://aws.amazon.com/emr/)
+### [🟦 Amazon Managed Service for Apache CouchDB](https://aws.amazon.com/emr/)
 
 ## **6. 🤖 Machine Learning**
 ### [🟩 Amazon SageMaker AI](https://aws.amazon.com/sagemaker/)
@@ -156,7 +156,7 @@ markmap:
 ### [🟩 Amazon Lookout for Vision](https://aws.amazon.com/lookout-for-vision/)
 ### [🟩 Amazon Lookout for Equipment](https://aws.amazon.com/lookout-for-equipment/)
 ### [🟩 Amazon Lookout for Metrics](https://aws.amazon.com/lookout-for-metrics/)
-### [🟩 Amazon Q Business](https://aws.amazon.com/q-business/)
+### [🟩 Amazon Q Business](https://aws.amazon.com/)
 ### [🟩 AWS HealthOmics](https://aws.amazon.com/healthomics/)
 ### [🟩 Amazon Bedrock](https://aws.amazon.com/bedrock/)
 ### [🟩 Amazon Q](https://aws.amazon.com/q/)
@@ -188,7 +188,7 @@ markmap:
 ### [🔷 AWS Cloud Map](https://aws.amazon.com/cloud-map/)
 ### [🔷 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/)
 ### [🔷 AWS Network Firewall](https://aws.amazon.com/network-firewall/)
-### [🔷 AWS Network Manager](https://aws.amazon.com/network-manager/)
+### [🔷 AWS Network Manager](https://aws.amazon.com/vpc/network-manager/)
 
 ## **9. 💻 Ferramentas do Desenvolvedor**
 ### [🟪 AWS CodeCommit](https://aws.amazon.com/codecommit/)
@@ -210,7 +210,7 @@ markmap:
 ### [🟧 AWS IQ](https://aws.amazon.com/iq/)
 ### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/)
 ### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/)
-### [🟧 AWS re:Post Privado](https://aws.amazon.com/repost/)
+### [🟧 AWS re:Post](https://repost.aws/)
 ### [🟧 AWS Support](https://aws.amazon.com/support/)
 
 ## **11. 🛠️ Gerenciamento e Governança**
@@ -232,7 +232,7 @@ markmap:
 ### [🟦 Amazon Grafana](https://aws.amazon.com/grafana/)
 ### [🟦 Amazon Prometheus](https://aws.amazon.com/prometheus/)
 ### [🟦 AWS Resilience Hub](https://aws.amazon.com/resilience-hub/)
-### [🟦 AWS Incident Manager](https://aws.amazon.com/incident-manager/)
+### [🟦 AWS Incident Manager](https://aws.amazon.com/systems-manager/incident-manager/)
 ### [🟦 AWS Telco Network Builder](https://aws.amazon.com/tnb/)
 ### [🟦 AWS Health Dashboard](https://aws.amazon.com/health/)
 ### [🟦 AWS Proton](https://aws.amazon.com/proton/)
@@ -357,13 +357,13 @@ markmap:
 
 ## **24. 🛰️ Satélite**
 ### [AWS Ground Station](https://aws.amazon.com/ground-station/)
-### [AWS Data Exchange for Ground Station](https://aws.amazon.com/data-exchange/ground-station/)
-### [AWS Ground Station with Amazon S3](https://aws.amazon.com/ground-station/s3/)
+### [AWS Data Exchange for Ground Station](https://aws.amazon.com/data-exchange/)
+### [AWS Ground Station with Amazon S3](https://aws.amazon.com/ground-station/)
 
 ## **25. 🧬 Tecnologias Quânticas**
 ### [Amazon Braket](https://aws.amazon.com/braket/)
 ### [AWS Center for Quantum Computing](https://aws.amazon.com/quantum-computing/)
-### [AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/solutions-lab/)
+### [AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/)
 
 ## **26. 🧪 Tecnologias de Saúde**
 ### [AWS HealthLake](https://aws.amazon.com/healthlake/)
@@ -371,3 +371,5 @@ markmap:
 ### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/)
 ### [AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/)
 
+### [AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/)
+### [AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/)
