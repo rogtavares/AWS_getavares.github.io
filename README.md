@@ -1,6 +1,7 @@
 # Mapas Mentais AWS - Gé Tavares
 
-Os **Mapas Mentais de Gé Tavares** foram desenvolvidos para facilitar o aprendizado e a memorização dos diversos serviços da AWS, especialmente para quem está se preparando para as certificações **Solution Architect Associate** e **Developer Associate**. 
+Os **Mapas Mentais de Gé Tavares** foram desenvolvidos para facilitar o aprendizado e a memorização dos diversos serviços da AWS, especialmente para quem está se preparando para as certificações **Solution Architect Associate (SAA-03)**, **Developer Associate (DVA-C02)**.**AWS Specialty (MLS-C01) Machine Learning** e **AWS Certified Cloud Practitioner**.
+Esses mapas são uma representação visual dos serviços, organizados por categorias, permitindo uma compreensão mais clara e rápida das funcionalidades e interações entre os serviços da AWS.
 
 Esses mapas simplificam tópicos complexos, organizando as informações de forma visual e intuitiva, tornando o estudo mais eficiente e agradável.
 
@@ -16,5 +17,5 @@ Esses mapas simplificam tópicos complexos, organizando as informações de form
 
 ---
 
-**Versão:** 18  
+**Versão:** 19 
 **Autor:** Gé Tavares
