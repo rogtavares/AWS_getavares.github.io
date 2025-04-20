@@ -86,44 +86,39 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🟫 Oracle Database@AWS](https://aws.amazon.com/rds/oracle/)
 
 ## **5. 📊 Análise de Dados**
-### [🟦 Amazon Redshift](https://aws.amazon.com/redshift/)
-### [🟦 Amazon Athena](https://aws.amazon.com/athena/)
-### [🟦 Amazon QuickSight](https://aws.amazon.com/quicksight/)
-### [🟦 AWS Glue](https://aws.amazon.com/glue/)
-### [🟦 Amazon CloudSearch](https://aws.amazon.com/cloudsearch/)
-### [🟦 Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/)
-### [🟦 Amazon Kinesis](https://aws.amazon.com/kinesis/)
-### [🟦 AWS Data Exchange](https://aws.amazon.com/data-exchange/)
-### [🟦 AWS Lake Formation](https://aws.amazon.com/lake-formation/)
-### [🟦 Amazon MSK](https://aws.amazon.com/msk/)
-### [🟦 AWS Glue DataBrew](https://aws.amazon.com/glue/databrew/)
-### [🟦 Amazon FinSpace](https://aws.amazon.com/finspace/)
-### [🟦 Managed Apache Flink](https://aws.amazon.com/kinesis/data-analytics/)
-### [🟦 Amazon EMR](https://aws.amazon.com/emr/)
-### [🟦 AWS Clean Rooms](https://aws.amazon.com/clean-rooms/)
-### [🟦 Amazon SageMaker](https://aws.amazon.com/sagemaker/)
-### [🟦 AWS Entity Resolution](https://aws.amazon.com/entity-resolution/)
-### [🟦 Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
-### [🟦 Amazon DataZone](https://aws.amazon.com/datazone/)
-### [🟦 Amazon Managed Grafana](https://aws.amazon.com/grafana/)
-### [🟦 Amazon Managed Service for Apache Flink](https://aws.amazon.com/kinesis/data-analytics/)
-### [🟦 Amazon Managed Service for Apache Kafka](https://aws.amazon.com/msk/)
-### [🟦 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/)
-### [🟦 Amazon Managed Service for Apache Airflow](https://aws.amazon.com/mwaa/)
-### [🟦 Amazon Managed Service for Apache Spark](https://aws.amazon.com/emr/spark/)
-### [🟦 Amazon Managed Service for Apache Hive](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache HBase](https://aws.amazon.com/emr/hbase/)
-### [🟦 Amazon Managed Service for Apache Cassandra](https://aws.amazon.com/keyspaces/)
-### [🟦 Amazon Managed Service for Apache Flume](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache Storm](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache NiFi](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache Kafka Connect](https://aws.amazon.com/msk/)
-### [🟦 Amazon Managed Service for Apache Kafka Streams](https://aws.amazon.com/msk/)
-### [🟦 Amazon Managed Service for Apache Pulsar](https://aws.amazon.com/msk/)
-### [🟦 Amazon Managed Service for Apache Druid](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache Drill](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache Solr](https://aws.amazon.com/emr/)
-### [🟦 Amazon Managed Service for Apache CouchDB](https://aws.amazon.com/emr/)
+### [🟦 Amazon Redshift](https://aws.amazon.com/redshift/) <!-- Link válido -->
+### [🟦 Amazon Athena](https://aws.amazon.com/athena/) <!-- Link válido -->
+### [🟦 Amazon QuickSight](https://aws.amazon.com/quicksight/) <!-- Link válido -->
+### [🟦 AWS Glue](https://aws.amazon.com/glue/) <!-- Link válido -->
+### [🟦 Amazon EMR](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/) <!-- Link válido -->
+### [🟦 Amazon Kinesis](https://aws.amazon.com/kinesis/) <!-- Link válido -->
+### [🟦 AWS Lake Formation](https://aws.amazon.com/lake-formation/) <!-- Link válido -->
+### [🟦 Amazon MSK](https://aws.amazon.com/msk/) <!-- Link válido -->
+### [🟦 AWS Glue DataBrew](https://aws.amazon.com/glue/databrew/) <!-- Link válido -->
+### [🟦 Amazon FinSpace](https://aws.amazon.com/finspace/) <!-- Link válido -->
+### [🟦 Managed Apache Flink](https://aws.amazon.com/kinesis/data-analytics/) <!-- Link válido -->
+### [🟦 AWS Clean Rooms](https://aws.amazon.com/clean-rooms/) <!-- Link válido -->
+### [🟦 Amazon SageMaker](https://aws.amazon.com/sagemaker/) <!-- Link válido -->
+### [🟦 AWS Entity Resolution](https://aws.amazon.com/entity-resolution/) <!-- Link válido -->
+### [🟦 Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/) <!-- Link válido -->
+### [🟦 Amazon DataZone](https://aws.amazon.com/datazone/) <!-- Link válido -->
+### [🟦 Amazon Managed Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Kafka](https://aws.amazon.com/msk/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Airflow](https://aws.amazon.com/mwaa/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Spark](https://aws.amazon.com/emr/spark/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Hive](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache HBase](https://aws.amazon.com/emr/hbase/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Cassandra](https://aws.amazon.com/keyspaces/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache NiFi](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Kafka Connect](https://aws.amazon.com/msk/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Kafka Streams](https://aws.amazon.com/msk/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Pulsar](https://aws.amazon.com/msk/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Druid](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Drill](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache Solr](https://aws.amazon.com/emr/) <!-- Link válido -->
+### [🟦 Amazon Managed Service for Apache CouchDB](https://aws.amazon.com/emr/) <!-- Link válido -->
 
 ## **6. 📈 Monitoramento e Observabilidade**
 ### [🟦 Datadog](https://www.datadoghq.com/) <!-- Link válido -->
@@ -188,20 +183,20 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🔷 AWS Network Manager](https://aws.amazon.com/vpc/network-manager/)
 
 ## **10. 💻 Ferramentas do Desenvolvedor**
-### [🟪 AWS CodeCommit](https://aws.amazon.com/codecommit/)
-### [🟪 AWS CodeBuild](https://aws.amazon.com/codebuild/)
-### [🟪 AWS CodeDeploy](https://aws.amazon.com/codedeploy/)
-### [🟪 AWS CodePipeline](https://aws.amazon.com/codepipeline/)
-### [🟪 AWS Cloud9](https://aws.amazon.com/cloud9/)
-### [🟪 AWS CloudShell](https://aws.amazon.com/cloudshell/)
-### [🟪 AWS X-Ray](https://aws.amazon.com/xray/)
-### [🟪 AWS FIS](https://aws.amazon.com/fis/)
-### [🟪 Infrastructure Composer](https://aws.amazon.com/infrastructure-composer/)
-### [🟪 AWS App Studio](https://aws.amazon.com/appstudio/)
-### [🟪 AWS AppConfig](https://aws.amazon.com/appconfig/)
-### [🟪 AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
-### [🟪 Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/)
-### [🟪 Amazon Q Developer](https://aws.amazon.com/codewhisperer/)
+### [🟪 AWS CodePipeline](https://aws.amazon.com/codepipeline/) <!-- Link válido -->
+### [🟪 AWS CodeCommit](https://aws.amazon.com/codecommit/) <!-- Link válido -->
+### [🟪 AWS CodeBuild](https://aws.amazon.com/codebuild/) <!-- Link válido -->
+### [🟪 AWS CodeDeploy](https://aws.amazon.com/codedeploy/) <!-- Link válido -->
+### [🟪 AWS Cloud9](https://aws.amazon.com/cloud9/) <!-- Link válido -->
+### [🟪 AWS CloudShell](https://aws.amazon.com/cloudshell/) <!-- Link válido -->
+### [🟪 AWS X-Ray](https://aws.amazon.com/xray/) <!-- Link válido -->
+### [🟪 AWS CodeArtifact](https://aws.amazon.com/codeartifact/) <!-- Link válido -->
+### [🟪 Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/) <!-- Link válido -->
+### [🟪 AWS AppConfig](https://aws.amazon.com/appconfig/) <!-- Link válido -->
+### [🟪 AWS FIS (Fault Injection Simulator)](https://aws.amazon.com/fis/) <!-- Link válido -->
+### [🟪 Infrastructure Composer](https://aws.amazon.com/infrastructure-composer/) <!-- Link válido -->
+### [🟪 AWS App Studio](https://aws.amazon.com/appstudio/) <!-- Link válido -->
+### [🟪 Amazon Q Developer (CodeWhisperer)](https://aws.amazon.com/codewhisperer/) <!-- Link válido -->
 
 ## **11. 🏗️ Infraestrutura como Código**
 ### [AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
@@ -395,4 +390,4 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
 - **Salesforce**☁️ ️️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
-<!-- GE TAVARES v16 -->
+<!-- GE TAVARES v17 -->
