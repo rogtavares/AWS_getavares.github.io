@@ -212,89 +212,76 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🏗️ AWS CloudFormation Drift Detection](https://aws.amazon.com/cloudformation/drift-detection/) <!-- Link válido -->
 
 ## **12. 🙋 Capacitação do Cliente**
-### [🟧 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
-### [🟧 AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
-### [🟧 AWS Activate para Startups](https://aws.amazon.com/activate/) <!-- Link válido -->
-### [🟧 AWS re:Post](https://repost.aws/) <!-- Link válido -->
-### [🟧 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
+### [🧑‍💼 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
+### [🛠️ AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
+### [🚀 AWS Activate para Startups](https://aws.amazon.com/activate/) <!-- Link válido -->
+### [💬 AWS re:Post](https://repost.aws/) <!-- Link válido -->
+### [📞 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
 
 ## **13. 🛠️ Gerenciamento e Governança**
-### [🟦 AWS Organizations](https://aws.amazon.com/organizations/) <!-- Link válido -->
-### [🟦 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
-### [🟦 AWS Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
-### [🟦 AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
-### [🟦 AWS Config](https://aws.amazon.com/config/) <!-- Link válido -->
-### [🟦 AWS OpsWorks](https://aws.amazon.com/opsworks/) <!-- Link válido -->
-### [🟦 AWS Service Catalog](https://aws.amazon.com/servicecatalog/) <!-- Link válido -->
-### [🟦 AWS Systems Manager](https://aws.amazon.com/systems-manager/) <!-- Link válido -->
-### [🟦 AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/) <!-- Link válido -->
-### [🟦 AWS Control Tower](https://aws.amazon.com/controltower/) <!-- Link válido -->
-### [🟦 AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) <!-- Link válido -->
-### [🟦 Amazon Q Developer em aplicações de chat (anteriormente AWS Chatbot)](https://aws.amazon.com/chatbot/) <!-- Link válido -->
-### [🟦 AWS Launch Wizard](https://aws.amazon.com/launchwizard/) <!-- Link válido -->
-### [🟦 AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/) <!-- Link válido -->
-### [🟦 AWS Resource Groups & Tag Editor](https://aws.amazon.com/resource-groups/) <!-- Link válido -->
-### [🟦 Amazon Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
-### [🟦 Amazon Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
-### [🟦 AWS Resilience Hub](https://aws.amazon.com/resilience-hub/) <!-- Link válido -->
-### [🟦 AWS Incident Manager](https://aws.amazon.com/systems-manager/incident-manager/) <!-- Link válido -->
-### [🟦 AWS Telco Network Builder](https://aws.amazon.com/tnb/) <!-- Link válido -->
-### [🟦 AWS Health Dashboard](https://aws.amazon.com/health/) <!-- Link válido -->
-### [🟦 AWS Proton](https://aws.amazon.com/proton/) <!-- Link válido -->
-### [🟦 AWS User Notifications](https://aws.amazon.com/notifications/) <!-- Link válido -->
-### [🟦 AWS CloudTrail](https://aws.amazon.com/cloudtrail/) <!-- Link válido -->
-### [🟦 AWS License Manager](https://aws.amazon.com/license-manager/) <!-- Link válido -->
-### [🟦 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/) <!-- Link válido -->
-### [🟦 AWS Service Quotas](https://aws.amazon.com/servicequotas/) <!-- Link válido -->
+### [🏢 AWS Organizations](https://aws.amazon.com/organizations/) <!-- Link válido -->
+### [📊 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
+### [📈 AWS Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
+### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
+### [⚙️ AWS Config](https://aws.amazon.com/config/) <!-- Link válido -->
+### [📦 AWS OpsWorks](https://aws.amazon.com/opsworks/) <!-- Link válido -->
+### [📋 AWS Service Catalog](https://aws.amazon.com/servicecatalog/) <!-- Link válido -->
+### [🛠️ AWS Systems Manager](https://aws.amazon.com/systems-manager/) <!-- Link válido -->
+### [✅ AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/) <!-- Link válido -->
+### [🏢 AWS Control Tower](https://aws.amazon.com/controltower/) <!-- Link válido -->
+### [🔍 AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) <!-- Link válido -->
+### [🚀 AWS Launch Wizard](https://aws.amazon.com/launchwizard/) <!-- Link válido -->
+### [📉 AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/) <!-- Link válido -->
+### [🏷️ AWS Resource Groups & Tag Editor](https://aws.amazon.com/resource-groups/) <!-- Link válido -->
+### [📊 Amazon Managed Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
+### [📈 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
+### [🛡️ AWS Resilience Hub](https://aws.amazon.com/resilience-hub/) <!-- Link válido -->
+### [🚨 AWS Incident Manager](https://aws.amazon.com/systems-manager/incident-manager/) <!-- Link válido -->
+### [📡 AWS Telco Network Builder](https://aws.amazon.com/tnb/) <!-- Link válido -->
+### [📋 AWS Health Dashboard](https://health.aws.amazon.com/) <!-- Link válido -->
+### [⚙️ AWS Proton](https://aws.amazon.com/proton/) <!-- Link válido -->
+### [🔔 AWS User Notifications](https://aws.amazon.com/notifications/) <!-- Link válido -->
+### [🛡️ AWS CloudTrail](https://aws.amazon.com/cloudtrail/) <!-- Link válido -->
+### [📜 AWS License Manager](https://aws.amazon.com/license-manager/) <!-- Link válido -->
+### [🔍 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/) <!-- Link válido -->
+### [📊 AWS Service Quotas](https://aws.amazon.com/servicequotas/) <!-- Link válido -->
 
 ## **14. 🎥 Serviços de Mídia**
-### [🟨 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaLive](https://aws.amazon.com/medialive/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaPackage](https://aws.amazon.com/mediapackage/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaStore](https://aws.amazon.com/mediastore/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaTailor](https://aws.amazon.com/mediatailor/) <!-- Link válido -->
-### [🟨 AWS Elemental Appliances & Software](https://aws.amazon.com/elemental-appliances-software/) <!-- Link válido -->
-### [🟨 AWS Elastic Transcoder](https://aws.amazon.com/elastictranscoder/) <!-- Link válido -->
-### [🟨 Amazon Interactive Video Service](https://aws.amazon.com/ivs/) <!-- Link válido -->
-### [🟨 AWS Deadline Cloud](https://aws.amazon.com/deadline/) <!-- Link válido -->
-### [🟨 AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/) <!-- Link válido -->
-### [🟨 AWS Elemental Link](https://aws.amazon.com/elemental-link/) <!-- Link válido -->
-### [🟨 AWS Elemental Live](https://aws.amazon.com/elemental-live/) <!-- Link válido -->
-### [🟨 AWS Elemental Prism](https://aws.amazon.com/elemental-prism/) <!-- Link válido -->
-### [🟨 AWS Elemental Conductor](https://aws.amazon.com/elemental-conductor/) <!-- Link válido -->
-### [🟨 AWS Elemental Delta](https://aws.amazon.com/elemental-delta/) <!-- Link válido -->
+### [📹 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) <!-- Link válido -->
+### [🎞️ AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/) <!-- Link válido -->
+### [📺 AWS Elemental MediaLive](https://aws.amazon.com/medialive/) <!-- Link válido -->
+### [📦 AWS Elemental MediaPackage](https://aws.amazon.com/mediapackage/) <!-- Link válido -->
+### [📂 AWS Elemental MediaStore](https://aws.amazon.com/mediastore/) <!-- Link válido -->
+### [🎯 AWS Elemental MediaTailor](https://aws.amazon.com/mediatailor/) <!-- Link válido -->
+### [🎥 AWS Elastic Transcoder](https://aws.amazon.com/elastictranscoder/) <!-- Link válido -->
+### [📡 Amazon Interactive Video Service (IVS)](https://aws.amazon.com/ivs/) <!-- Link válido -->
+### [🔗 AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/) <!-- Link válido -->
 
 ## **15. 🔒 Segurança, Identidade e Conformidade**
-### [🟧 Resource Access Manager](https://aws.amazon.com/ram/) <!-- Link válido -->
-### [🟧 Amazon Cognito](https://aws.amazon.com/cognito/) <!-- Link válido -->
-### [🟧 AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) <!-- Link válido -->
-### [🟧 Amazon GuardDuty](https://aws.amazon.com/guardduty/) <!-- Link válido -->
-### [🟧 Amazon Inspector](https://aws.amazon.com/inspector/) <!-- Link válido -->
-### [🟧 Amazon Macie](https://aws.amazon.com/macie/) <!-- Link válido -->
-### [🟧 IAM Identity Center](https://aws.amazon.com/singlesignon/) <!-- Link válido -->
-### [🟧 AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) <!-- Link válido -->
-### [🟧 AWS Key Management Service (KMS)](https://aws.amazon.com/kms/) <!-- Link válido -->
-### [🟧 AWS CloudHSM](https://aws.amazon.com/cloudhsm/) <!-- Link válido -->
-### [🟧 AWS Directory Service](https://aws.amazon.com/directoryservice/) <!-- Link válido -->
-### [🟧 AWS Firewall Manager](https://aws.amazon.com/firewall-manager/) <!-- Link válido -->
-### [🟧 AWS Artifact](https://aws.amazon.com/artifact/) <!-- Link válido -->
-### [🟧 Amazon Detective](https://aws.amazon.com/detective/) <!-- Link válido -->
-### [🟧 AWS Signer](https://aws.amazon.com/signer/) <!-- Link válido -->
-### [🟧 Amazon Security Lake](https://aws.amazon.com/security-lake/) <!-- Link válido -->
-### [🟧 AWS WAF & Shield](https://aws.amazon.com/waf/) <!-- Link válido -->
-### [🟧 Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) <!-- Link válido -->
-### [🟧 AWS Audit Manager](https://aws.amazon.com/audit-manager/) <!-- Link válido -->
-### [🟧 AWS Security Hub](https://aws.amazon.com/security-hub/) <!-- Link válido -->
-### [🟧 AWS IAM (Identity and Access Management)](https://aws.amazon.com/iam/) <!-- Link válido -->
-### [🟧 AWS Private Certificate Authority](https://aws.amazon.com/certificate-manager/private-certificate-authority/) <!-- Link válido -->
-### [🟧 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/) <!-- Link válido -->
-### [🟧 AWS Security Incident Response](https://aws.amazon.com/security-incident-response/) <!-- Link válido -->
+### [🔑 AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) <!-- Link válido -->
+### [🔐 Amazon Cognito](https://aws.amazon.com/cognito/) <!-- Link válido -->
+### [🔒 AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) <!-- Link válido -->
+### [🛡️ Amazon GuardDuty](https://aws.amazon.com/guardduty/) <!-- Link válido -->
+### [🔍 Amazon Inspector](https://aws.amazon.com/inspector/) <!-- Link válido -->
+### [🔎 Amazon Macie](https://aws.amazon.com/macie/) <!-- Link válido -->
+### [📜 AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) <!-- Link válido -->
+### [🔑 AWS Key Management Service (KMS)](https://aws.amazon.com/kms/) <!-- Link válido -->
+### [🔒 AWS CloudHSM](https://aws.amazon.com/cloudhsm/) <!-- Link válido -->
+### [📂 AWS Directory Service](https://aws.amazon.com/directoryservice/) <!-- Link válido -->
+### [🛡️ AWS Firewall Manager](https://aws.amazon.com/firewall-manager/) <!-- Link válido -->
+### [📜 AWS Artifact](https://aws.amazon.com/artifact/) <!-- Link válido -->
+### [🔍 Amazon Detective](https://aws.amazon.com/detective/) <!-- Link válido -->
+### [🛡️ AWS WAF & Shield](https://aws.amazon.com/waf/) <!-- Link válido -->
+### [🔎 AWS Security Hub](https://aws.amazon.com/security-hub/) <!-- Link válido -->
+### [📋 AWS Audit Manager](https://aws.amazon.com/audit-manager/) <!-- Link válido -->
+### [🔒 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/) <!-- Link válido -->
 
 ## **16. 💰 Gerenciamento de Cobrança e Custos**
-### [🟩 AWS Marketplace](https://aws.amazon.com/marketplace/) <!-- Link válido -->
-### [🟩 AWS Billing Conductor](https://aws.amazon.com/aws-cost-management/aws-billing-conductor/) <!-- Link válido -->
-### [🟩 AWS Cloud Financial Management](https://aws.amazon.com/aws-cost-management/) <!-- Link válido -->
+### [📊 AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/cost-explorer/) <!-- Link válido -->
+### [📈 AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) <!-- Link válido -->
+### [📜 AWS Billing Conductor](https://aws.amazon.com/aws-cost-management/aws-billing-conductor/) <!-- Link válido -->
+### [🛒 AWS Marketplace](https://aws.amazon.com/marketplace/) <!-- Link válido -->
+### [💸 AWS Savings Plans](https://aws.amazon.com/savingsplans/) <!-- Link válido -->
 
 ## **17. 📱 Dispositivos Móveis**
 ### [📱 AWS Amplify](https://aws.amazon.com/amplify/) <!-- Link válido -->
