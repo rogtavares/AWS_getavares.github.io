@@ -1,4 +1,5 @@
----
+## Todos os Produtos (332)
+
 title: GE Tavares AWS -Mapas Mentais AWS 
 markmap:
   colorFreezeLevel: 3 # Define o nível de profundidade em que as cores dos nós são congeladas
@@ -21,9 +22,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ##  **Para acessar a documentação oficial da AWS de um serviço, basta clicar com o botão do meio do mouse sobre o **NOME DESSE SERVIÇO**..**
 **Ge Tavares**
 
-<!-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
-
-## **1. ⚙️ Computação**
+<!## **1. ⚙️ Computação**
 ### [🖥️ Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
 ### [⚡ AWS Lambda](https://aws.amazon.com/pt/lambda/) <!-- Link válido -->
 ### [🌐 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/) <!-- Link válido -->
@@ -376,3 +375,5 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
 <!-- GE TAVARES v17 -->
+-- Abaixo estão as seções organizadas por categorias de serviços AWS -->
+
