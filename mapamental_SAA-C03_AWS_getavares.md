@@ -202,14 +202,7 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
 ### [🏗️ AWS CDK](https://aws.amazon.com/cdk/) <!-- Link válido -->
 ### [🏗️ AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation StackSets](https://aws.amazon.com/cloudformation/stacksets/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Guard](https://aws.amazon.com/cloudformation/guard/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Designer](https://aws.amazon.com/cloudformation/designer/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation CLI](https://aws.amazon.com/cloudformation/cli/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Registry](https://aws.amazon.com/cloudformation/registry/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Macros](https://aws.amazon.com/cloudformation/macros/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Change Sets](https://aws.amazon.com/cloudformation/change-sets/) <!-- Link válido -->
-### [🏗️ AWS CloudFormation Drift Detection](https://aws.amazon.com/cloudformation/drift-detection/) <!-- Link válido -->
+
 
 ## **12. 🙋 Capacitação do Cliente**
 ### [🧑‍💼 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->

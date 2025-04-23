@@ -24,5 +24,5 @@ Organizados por categorias, os mapas oferecem uma visualização clara dos servi
 
 ---
 
-**Versão:** 20 
+**Versão:** 21 
 **Autor:** Gé Tavares
