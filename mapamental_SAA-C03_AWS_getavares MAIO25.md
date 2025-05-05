@@ -9,7 +9,7 @@ markmap:
   color: '#FFA500' # Cor principal do mapa mental
   fontSize: 20 # Tamanho da fonte dos textos no mapa mental
   fontFamily: 'Arial, sans-serif' # Família de fontes usada no mapa mental
-  lineWidth: 2 # Largura das linhas que conectam os nós
+  lineWidth: 3 # Largura das linhas que conectam os nós
   theme: 'classic' # Tema visual do mapa mental
   autoFit: true # Ajusta automaticamente o mapa mental para caber na tela
   autoScroll: true # Habilita o deslocamento automático do mapa mental
@@ -374,6 +374,6 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
 - **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
-<!-- GE TAVARES v17 -->
+<!-- GE TAVARES v18 -->
 -- Abaixo estão as seções organizadas por categorias de serviços AWS -->
 
