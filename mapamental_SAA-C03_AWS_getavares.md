@@ -70,8 +70,6 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🛠️ ROSA (OpenShift)](https://aws.amazon.com/pt/rosa/) <!-- Link válido -->
 ### [🌍 Amazon EKS Anywhere](https://aws.amazon.com/pt/eks/anywhere/) <!-- Link válido -->
 ### [📦 Amazon EKS Distro](https://eksctl.io/) <!-- Link válido -->
-### [🛠️ Amazon EKS Blueprints](https://aws.amazon.com/eks/blueprints/) <!-- Link válido -->
-### [🔗 Amazon EKS Connector](https://aws.amazon.com/eks/connector/) <!-- Link válido -->
 
 ## **4. 🗃️ Banco de Dados**
 ### [📚 Amazon Aurora & RDS](https://aws.amazon.com/rds/) <!-- Link válido -->
@@ -202,7 +200,13 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
 ### [🏗️ AWS CDK](https://aws.amazon.com/cdk/) <!-- Link válido -->
 ### [🏗️ AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) <!-- Link válido -->
-
+### [🏗️ AWS CloudFormation Guard](https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation Designer](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation CLI](https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation Registry](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation Macros](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation Change Sets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html) <!-- Link corrigido -->
+### [🏗️ AWS CloudFormation Drift Detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html) <!-- Link corrigido -->
 
 ## **12. 🙋 Capacitação do Cliente**
 ### [🧑‍💼 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
@@ -359,7 +363,9 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ## **29. 📜 Certificações AWS**
 Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification clicando no link abaixo:
 
-### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -->
+### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -
+
+### [📜 ESCOLHE SEU CAMINHO NA AWS Certification ](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf) <!-
 
 ## **30. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
