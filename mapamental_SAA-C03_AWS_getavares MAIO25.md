@@ -1,28 +1,20 @@
-## Todos os Produtos (332)
-
-title: GE Tavares AWS -Mapas Mentais AWS 
+---
+title: markmap
 markmap:
-  colorFreezeLevel: 3 # Define o nível de profundidade em que as cores dos nós são congeladas
-  initialExpandLevel: 2 # Determina o nível inicial de expansão do mapa mental
-  htmlParser:
-    selector: h1,h2,h3,ul,ol,li,table,pre # Elementos HTML que serão analisados para gerar o mapa mental
-  color: '#FFA500' # Cor principal do mapa mental
-  fontSize: 20 # Tamanho da fonte dos textos no mapa mental
-  fontFamily: 'Arial, sans-serif' # Família de fontes usada no mapa mental
-  lineWidth: 3 # Largura das linhas que conectam os nós
-  theme: 'classic' # Tema visual do mapa mental
-  autoFit: true # Ajusta automaticamente o mapa mental para caber na tela
-  autoScroll: true # Habilita o deslocamento automático do mapa mental
-  autoScrollDuration: 0.5 # Duração do deslocamento automático (em segundos)
-  zoomable: true # Permite o zoom no mapa mental
-search.searchOnType: true # Ativa a busca enquanto o usuário digita
+  colorFreezeLevel: 2
+  maxWidth: 300
+  initialExpandLevel: 1
+  activeNode:
+    placement: center
+
 ---
 
 # **GE Tavares AWS**
-##  **Para acessar a documentação oficial da AWS de um serviço, basta clicar com o botão do meio do mouse sobre o **NOME DESSE SERVIÇO**..**
-**Ge Tavares**
+##  **Documentação oficial da AWS** 
+- Para abrir em outra guia ou janela, clique com o botão do meio do mouse 
+- (ou clique com o botão direito e escolha **"Abrir link em nova guia" ou "Abrir link em nova janela")**.
 
-<!## **1. ⚙️ Computação**
+## **1. ⚙️ Computação**
 ### [🖥️ Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
 ### [⚡ AWS Lambda](https://aws.amazon.com/pt/lambda/) <!-- Link válido -->
 ### [🌐 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/) <!-- Link válido -->
@@ -374,6 +366,6 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
 - **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
-<!-- GE TAVARES v18 -->
--- Abaixo estão as seções organizadas por categorias de serviços AWS -->
+
+<!-- GE TAVARES v19 -->
 
