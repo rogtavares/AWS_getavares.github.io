@@ -10,7 +10,7 @@ markmap:
 ---
 
 # **GE Tavares AWS**
-##  **Documentação oficial da AWS** 
+## **Documentação oficial da AWS       Produtos (332)** 
 - Para abrir em outra guia ou janela, clique com o botão do meio do mouse 
 - (ou clique com o botão direito e escolha **"Abrir link em nova guia" ou "Abrir link em nova janela")**.
 
@@ -39,6 +39,7 @@ markmap:
 ### [🚀 AWS App Runner](https://aws.amazon.com/pt/apprunner/) <!-- Link válido -->
 ### [🌌 AWS SimSpace Weaver](https://aws.amazon.com/pt/simspaceweaver/) <!-- Link válido -->
 ### [⚙️ AWS Parallel Computing Service](https://aws.amazon.com/pt/hpc/) <!-- Link válido -->
+### [🔬 Research and Engineering Studio on AWS](https://docs.aws.amazon.com/res/?icmpid=docs_homepage_compute-hpc) <!-- Link válido -->
 ### [🌍 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) <!-- Link válido -->
 
 ## **2. 💾 Armazenamento**
@@ -358,7 +359,46 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [📜 ESCOLHE SEU CAMINHO NA AWS Certification ](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf) <!-
 
-## **30. 👨‍💻 Sobre o Gé Tavares**
+
+
+
+##  30. **Produtos Oficiais da AWS (332)**
+
+### **Categorias e Contagem**
+- **Analytics**: 20
+- **Application Integration**: 9
+- **AWS Management Console**: 4
+- **Blockchain**: 2
+- **Business Applications**: 15
+- **Cloud Financial Management**: 4
+- **Compute**: 18
+- **Compute HPC**: 1
+- **Containers**: 6
+- **Cryptography & PKI**: 7
+- **Customer Enablement Services**: 6
+- **Database**: 13
+- **Decision Guides**: 26
+- **Developer Tools**: 34
+- **End User Computing**: 6
+- **Front-End Web & Mobile**: 9
+- **Game Development**: 3
+- **General Reference**: 7
+- **Internet of Things (IoT)**: 13
+- **Machine Learning**: 34
+- **Management & Governance**: 37
+- **Marketplace**: 1
+- **Media Services**: 11
+- **Migration & Transfer**: 10
+- **Networking & Content Delivery**: 15
+- **Partner Central**: 1
+- **Quantum Computing**: 1
+- **Robotics**: 1
+- **Satellite**: 1
+- **Security, Identity, & Compliance**: 25
+- **Serverless**: 12
+- **Storage**: 10
+
+## **31. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
 
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
@@ -367,5 +407,6 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
 
-<!-- GE TAVARES v19 -->
+
+<!-- GE TAVARES v20 -->
 
