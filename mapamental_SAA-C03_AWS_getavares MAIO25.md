@@ -15,6 +15,7 @@ markmap:
 - (ou clique com o botão direito e escolha **"Abrir link em nova guia" ou "Abrir link em nova janela")**.
 
 ## **1. ⚙️ Computação**
+Potência e flexibilidade para turbinar sua nuvem! ☁️🚀
 ### [🖥️ Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
 ### [⚡ AWS Lambda](https://aws.amazon.com/pt/lambda/) <!-- Link válido -->
 ### [🌐 Amazon Lightsail](https://aws.amazon.com/pt/lightsail/) <!-- Link válido -->
@@ -43,6 +44,7 @@ markmap:
 ### [🌍 EC2 Global View](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) <!-- Link válido -->
 
 ## **2. 💾 Armazenamento**
+Guarde tudo com segurança e acesso rápido! 💾🔒
 ### [📂 Amazon S3](https://aws.amazon.com/pt/s3/) <!-- Link válido -->
 ### [📁 Amazon EFS](https://aws.amazon.com/pt/efs/) <!-- Link válido -->
 ### [📦 Amazon FSx](https://aws.amazon.com/pt/fsx/) <!-- Link válido -->
@@ -55,6 +57,7 @@ markmap:
 ### [📊 Amazon S3 Storage Lens](https://aws.amazon.com/pt/s3/storage-lens/) <!-- Link válido -->
 
 ## **3. 📦 Contêineres**
+Implemente, escale e gerencie apps sem complicação! 📦⚡
 ### [🚢 Amazon ECS](https://aws.amazon.com/pt/ecs/) <!-- Link válido -->
 ### [📦 Amazon EKS](https://aws.amazon.com/pt/eks/) <!-- Link válido -->
 ### [📤 Amazon ECR](https://aws.amazon.com/pt/ecr/) <!-- Link válido -->
@@ -64,6 +67,7 @@ markmap:
 ### [📦 Amazon EKS Distro](https://eksctl.io/) <!-- Link válido -->
 
 ## **4. 🗃️ Banco de Dados**
+Dados sempre disponíveis e prontos para crescer! 🗃️📈
 ### [📚 Amazon Aurora & RDS](https://aws.amazon.com/rds/) <!-- Link válido -->
 ### [📂 Amazon DynamoDB](https://aws.amazon.com/dynamodb/) <!-- Link válido -->
 ### [⚡ Amazon ElastiCache](https://aws.amazon.com/elasticache/) <!-- Link válido -->
@@ -76,6 +80,7 @@ markmap:
 ### [📚 Oracle Database@AWS](https://aws.amazon.com/rds/oracle/) <!-- Link válido -->
 
 ## **5. 📊 Análise de Dados**
+Transforme dados em decisões inteligentes! 📊🤓
 ### [📊 Amazon Redshift](https://aws.amazon.com/redshift/) <!-- Link válido -->
 ### [🔍 Amazon Athena](https://aws.amazon.com/athena/) <!-- Link válido -->
 ### [📈 Amazon QuickSight](https://aws.amazon.com/quicksight/) <!-- Link válido -->
@@ -111,12 +116,14 @@ markmap:
 ### [📂 Amazon Managed Service for Apache CouchDB](https://aws.amazon.com/emr/) <!-- Link válido -->
 
 ## **6. 📈 Monitoramento e Observabilidade**
+Fique de olho em tudo, sem perder nenhum detalhe! 👀📈
 ### [📊 Datadog](https://www.datadoghq.com/) <!-- Link válido -->
 ### [📊 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
 ### [📊 New Relic](https://newrelic.com/) <!-- Link válido -->
 ### [📊 Grafana](https://grafana.com/) <!-- Link válido -->
 
 ## **7. 🤖 Machine Learning**
+Inteligência artificial para inovar de verdade! 🤖✨
 ### [🧠 Amazon SageMaker AI](https://aws.amazon.com/sagemaker/) <!-- Link válido -->
 ### [🧠 Amazon Augmented AI](https://aws.amazon.com/augmented-ai/) <!-- Link válido -->
 ### [🧠 Amazon CodeGuru](https://aws.amazon.com/codeguru/) <!-- Link válido -->
@@ -148,6 +155,7 @@ markmap:
 ### [🧠 AWS HealthImaging](https://aws.amazon.com/healthimaging/) <!-- Link válido -->
 
 ## **8. 🚚 Migração e Transferência**
+Migre para a nuvem sem dor de cabeça! 🚚☁️
 ### [🚛 AWS Migration Hub](https://aws.amazon.com/migration-hub/) <!-- Link válido -->
 ### [🚛 Application Migration Service](https://aws.amazon.com/application-migration-service/) <!-- Link válido -->
 ### [🚛 Application Discovery Service](https://aws.amazon.com/application-discovery/) <!-- Link válido -->
@@ -159,6 +167,7 @@ markmap:
 ### [🚛 Amazon Elastic VMware Service](https://aws.amazon.com/vmware/) <!-- Link válido -->
 
 ## **9. 🌐 Redes e Entrega de Conteúdo**
+Conecte e entregue com velocidade global! 🌐⚡
 ### [🌍 Amazon VPC](https://aws.amazon.com/vpc/) <!-- Link válido -->
 ### [🌍 Amazon CloudFront](https://aws.amazon.com/cloudfront/) <!-- Link válido -->
 ### [🌍 Amazon API Gateway](https://aws.amazon.com/api-gateway/) <!-- Link válido -->
@@ -173,6 +182,7 @@ markmap:
 ### [🌍 AWS Network Manager](https://aws.amazon.com/vpc/network-manager/) <!-- Link válido -->
 
 ## **10. 💻 Ferramentas do Desenvolvedor**
+Desenvolva, teste e entregue mais rápido! 💻🚀
 ### [🛠️ AWS CodePipeline](https://aws.amazon.com/codepipeline/) <!-- Link válido -->
 ### [🛠️ AWS CodeCommit](https://aws.amazon.com/codecommit/) <!-- Link válido -->
 ### [🛠️ AWS CodeBuild](https://aws.amazon.com/codebuild/) <!-- Link válido -->
@@ -189,6 +199,7 @@ markmap:
 ### [🛠️ Amazon Q Developer (CodeWhisperer)](https://aws.amazon.com/codewhisperer/) <!-- Link válido -->
 
 ## **11. 🏗️ Infraestrutura como Código**
+Automatize tudo e ganhe agilidade! 🏗️🤖
 ### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
 ### [🏗️ AWS CDK](https://aws.amazon.com/cdk/) <!-- Link válido -->
 ### [🏗️ AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/) <!-- Link válido -->
@@ -201,6 +212,7 @@ markmap:
 ### [🏗️ AWS CloudFormation Drift Detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html) <!-- Link corrigido -->
 
 ## **12. 🙋 Capacitação do Cliente**
+Conte com suporte e soluções sob medida! 🙋‍♂️💡
 ### [🧑‍💼 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
 ### [🛠️ AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
 ### [🚀 AWS Activate para Startups](https://aws.amazon.com/activate/) <!-- Link válido -->
@@ -208,6 +220,7 @@ markmap:
 ### [📞 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
 
 ## **13. 🛠️ Gerenciamento e Governança**
+Controle total da sua nuvem, sem estresse! 🛠️🔍
 ### [🏢 AWS Organizations](https://aws.amazon.com/organizations/) <!-- Link válido -->
 ### [📊 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
 ### [📈 AWS Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
@@ -236,6 +249,7 @@ markmap:
 ### [📊 AWS Service Quotas](https://aws.amazon.com/servicequotas/) <!-- Link válido -->
 
 ## **14. 🎥 Serviços de Mídia**
+Streaming e mídia sem limites! 🎥🌎
 ### [📹 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) <!-- Link válido -->
 ### [🎞️ AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/) <!-- Link válido -->
 ### [📺 AWS Elemental MediaLive](https://aws.amazon.com/medialive/) <!-- Link válido -->
@@ -247,6 +261,7 @@ markmap:
 ### [🔗 AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/) <!-- Link válido -->
 
 ## **15. 🔒 Segurança, Identidade e Conformidade**
+Proteja seus dados com tecnologia de ponta! 🔒🛡️
 ### [🔑 AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) <!-- Link válido -->
 ### [🔐 Amazon Cognito](https://aws.amazon.com/cognito/) <!-- Link válido -->
 ### [🔒 AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) <!-- Link válido -->
@@ -266,6 +281,7 @@ markmap:
 ### [🔒 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/) <!-- Link válido -->
 
 ## **16. 💰 Gerenciamento de Cobrança e Custos**
+Economize e acompanhe seus gastos fácil! 💰📊
 ### [📊 AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/cost-explorer/) <!-- Link válido -->
 ### [📈 AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) <!-- Link válido -->
 ### [📜 AWS Billing Conductor](https://aws.amazon.com/aws-cost-management/aws-billing-conductor/) <!-- Link válido -->
@@ -273,12 +289,14 @@ markmap:
 ### [💸 AWS Savings Plans](https://aws.amazon.com/savingsplans/) <!-- Link válido -->
 
 ## **17. 📱 Dispositivos Móveis**
+Apps móveis integrados e prontos para escalar! 📱🚀
 ### [📱 AWS Amplify](https://aws.amazon.com/amplify/) <!-- Link válido -->
 ### [📱 AWS AppSync](https://aws.amazon.com/appsync/) <!-- Link válido -->
 ### [📱 AWS Device Farm](https://aws.amazon.com/device-farm/) <!-- Link válido -->
 ### [📱 Amazon Location Service](https://aws.amazon.com/location/) <!-- Link válido -->
 
 ## **18. 🔗 Integração de Aplicativos**
+Conecte tudo e automatize processos! 🔗🤝
 ### [🔗 AWS Step Functions](https://aws.amazon.com/step-functions/) <!-- Link válido -->
 ### [🔗 Amazon AppFlow](https://aws.amazon.com/appflow/) <!-- Link válido -->
 ### [🔗 Amazon MQ](https://aws.amazon.com/amazon-mq/) <!-- Link válido -->
@@ -290,6 +308,7 @@ markmap:
 ### [🔗 Amazon EventBridge](https://aws.amazon.com/eventbridge/) <!-- Link válido -->
 
 ## **19. 🏢 Aplicativos Empresariais**
+Ferramentas para produtividade máxima! 🏢💼
 ### [🏢 Amazon Connect](https://aws.amazon.com/connect/) <!-- Link válido -->
 ### [🏢 Amazon Chime](https://aws.amazon.com/chime/) <!-- Link válido -->
 ### [🏢 Amazon Simple Email Service (SES)](https://aws.amazon.com/ses/) <!-- Link válido -->
@@ -304,12 +323,14 @@ markmap:
 ### [🏢 Amazon Chime SDK](https://aws.amazon.com/chime-sdk/) <!-- Link válido -->
 
 ## **20. 🖥️ Computação de Usuário Final**
+Experiência de desktop na nuvem, onde quiser! 🖥️🌐
 ### [🖥️ Amazon WorkSpaces](https://aws.amazon.com/workspaces/) <!-- Link válido -->
 ### [🖥️ Amazon AppStream 2.0](https://aws.amazon.com/appstream2/) <!-- Link válido -->
 ### [🖥️ Amazon WorkSpaces Thin Client](https://aws.amazon.com/workspaces/thin-client/) <!-- Link válido -->
 ### [🖥️ Amazon WorkSpaces Secure Browser](https://aws.amazon.com/workspaces/web/) <!-- Link válido -->
 
 ## **21. 🌐 Internet das Coisas (IoT)**
+Conecte dispositivos e inove com IoT! 🌐🤖
 ### [🌐 AWS IoT Analytics](https://aws.amazon.com/iot-analytics/) <!-- Link válido -->
 ### [🌐 AWS IoT Device Defender](https://aws.amazon.com/iot-device-defender/) <!-- Link válido -->
 ### [🌐 AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) <!-- Link válido -->
@@ -317,10 +338,12 @@ markmap:
 ### [🌐 AWS IoT Core](https://aws.amazon.com/iot-core/) <!-- Link válido -->
 
 ## **22. 🎮 Desenvolvimento de Jogos**
+Infraestrutura gamer para jogos de alto nível! 🎮🔥
 ### [🎮 Amazon GameLift Servers](https://aws.amazon.com/gamelift/) <!-- Link válido -->
 ### [🎮 Amazon GameLift Streams](https://aws.amazon.com/gamelift/streams/) <!-- Link válido -->
 
 ## **23. 🕶️ Realidade Aumentada e Virtual**
+Mergulhe em experiências imersivas! 🕶️🌟
 ### [🕶️ Amazon Sumerian](https://aws.amazon.com/sumerian/) <!-- Link válido -->
 ### [🕶️ AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) <!-- Link válido -->
 ### [🕶️ AWS IoT SiteWise](https://aws.amazon.com/iot-sitewise/) <!-- Link válido -->
@@ -331,28 +354,34 @@ markmap:
 ### [🕶️ AWS IoT Core para 5G](https://aws.amazon.com/iot-core/) <!-- Link válido -->
 
 ## **24. 🤖 Robótica**
+Automatize com robôs inteligentes! 🤖🔧
 ### [🤖 AWS RoboMaker](https://aws.amazon.com/robomaker/) <!-- Link válido -->
 
 ## **25. ⛓️ Blockchain**
+Segurança e transparência com blockchain! ⛓️🔒
 ### [⛓️ Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain/) <!-- Link válido -->
 
 ## **26. 🛰️ Satélite**
+Conecte-se ao espaço com soluções de satélite! 🛰️🌍
 ### [🛰️ AWS Ground Station](https://aws.amazon.com/ground-station/) <!-- Link válido -->
 ### [🛰️ AWS Data Exchange for Ground Station](https://aws.amazon.com/data-exchange/) <!-- Link válido -->
 ### [🛰️ AWS Ground Station with Amazon S3](https://aws.amazon.com/ground-station/) <!-- Link válido -->
 
 ## **27. 🧬 Tecnologias Quânticas**
+Explore o futuro com computação quântica! 🧬⚛️
 ### [🧬 Amazon Braket](https://aws.amazon.com/braket/) <!-- Link válido -->
 ### [🧬 AWS Center for Quantum Computing](https://aws.amazon.com/quantum-computing/) <!-- Link válido -->
 ### [🧬 AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/) <!-- Link válido -->
 
 ## **28. 🧪 Tecnologias de Saúde**
+Inove na saúde com tecnologia de ponta! 🧪❤️
 ### [🧪 AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
 ### [🧪 AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/) <!-- Link válido -->
 ### [🧪 AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
 ### [🧪 AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
 
 ## **29. 📜 Certificações AWS**
+Descubra seu caminho na AWS! 🚀 Certifique-se e destaque-se no mundo cloud!
 Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification clicando no link abaixo:
 
 ### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -
