@@ -14,6 +14,11 @@ markmap:
 - Para abrir em outra guia ou janela, clique com o botão do meio do mouse 
 - (ou clique com o botão direito e escolha **"Abrir link em nova guia" ou "Abrir link em nova janela")**.
 
+## **0. 👋 Boas-vindas à documentação do AWS**
+Acesse a documentação oficial da AWS para explorar todos os serviços, guias e recursos:
+
+### [👋 Documentação AWS - Página Oficial](https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do) <!-- Link válido -->
+
 ## **1. ⚙️ Computação**
 Potência e flexibilidade para turbinar sua nuvem! ☁️🚀
 ### [🖥️ Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
@@ -386,10 +391,9 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -
 
-### [📜 ESCOLHE SEU CAMINHO NA AWS Certification ](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf) <!-
+### [📜 ESCOLHE SEU CAMINHO NA AWS Certification ](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf) <!-- Link válido -->
 
-
-
+Desenvolva habilidades de nuvem sob demanda – https://skillbuilder.aws/
 
 ##  30. **Produtos Oficiais da AWS (332)**
 

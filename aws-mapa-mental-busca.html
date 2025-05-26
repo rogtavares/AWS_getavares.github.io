@@ -2,34 +2,48 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Ge Tavares AWS</title>
+    <title> Gé Tavares AWS</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
-        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 32px 24px; border-radius: 12px; box-shadow: 0 2px 8px #0001; }
-        h1 { text-align: center; }
-        input[type="text"] { width: 100%; padding: 12px; font-size: 1.1em; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 24px; }
-        .categoria { margin-top: 32px; }
-        .categoria h2 { margin-bottom: 8px; color: #1a73e8; }
+        .container { max-width: 900px; margin: 40px auto; background: #fcfcfc; padding: 40px 28px 24px 28px; border-radius: 16px; box-shadow: 0 4px 16px #0002; }
+        h1 { text-align: center; font-size: 2.2em; margin-bottom: 18px; letter-spacing: 1px; }
+        input[type="text"] { width: 100%; padding: 16px; font-size: 1.2em; border: 1.5px solid #bdbdbd; border-radius: 8px; margin: 0 auto 32px auto; display: block; box-sizing: border-box; background: #f5f7fa; transition: border 0.2s; }
+        input[type="text"]:focus { border: 1.5px solid #1a73e8; outline: none; background: #fff; }
+        .categoria { margin-top: 40px; }
+        .categoria h2 { margin-bottom: 12px; color: #1a73e8; font-size: 1.3em; border-left: 4px solid #1a73e8; padding-left: 10px; }
         ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 8px; }
-        a { text-decoration: none; color: #333; }
+        li { margin-bottom: 10px; transition: background 0.2s; border-radius: 6px; padding: 4px 8px; }
+        li:hover { background: #e3f0ff; }
+        a { text-decoration: none; color: #222; font-weight: 500; }
         a:hover { text-decoration: underline; color: #1a73e8; }
         .desc { color: #888; font-size: 0.95em; margin-left: 8px; }
-        .logo-gtavares { display:block; margin:0 auto 16px auto; max-width:120px; }
+        .logo-gtavares { display:block; margin:0 auto 18px auto; max-width:400px; }
+        footer { text-align: center; color: #aaa; font-size: 0.98em; margin-top: 40px; padding-bottom: 10px; }
+        footer a[target="_blank"] {
+  rel: noopener;
+}
     </style>
 </head>
 <body>
 <div class="container">
     <img src="logo.png" alt="Logo Ge Tavares AWS" class="logo-gtavares">
-    <h1>Ge Tavares AWS</h1>
-    <input type="text" id="busca" placeholder="Digite para filtrar serviços..." autofocus>
+    <input type="text" id="busca" placeholder="Busque por serviços AWS..." autofocus>
     <div id="servicos-lista">
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->
     </div>
 </div>
+<footer>
+  Feito por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares</a> • 2024
+</footer>
 <script>
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
+  {
+    categoria: 'Boas-vindas à documentação do AWS',
+    servicos: [
+      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
+    ]
+  },
   {
     categoria: 'Computação',
     servicos: [
@@ -453,6 +467,14 @@ const dados = [
     ]
   },
   {
+    categoria: 'Certificações AWS',
+    servicos: [
+      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'},
+      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
+      {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'}
+    ]
+  },
+  {
     categoria: 'Sobre o Gé Tavares',
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
@@ -478,7 +500,12 @@ function renderizarServicos(filtro) {
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
-                li.innerHTML = `<a href="${s.url}" target="_blank">${s.nome}</a>`;
+                const a = document.createElement('a');
+                a.href = s.url;
+                a.target = '_blank';
+                a.rel = 'noopener';
+                a.textContent = s.nome;
+                li.appendChild(a);
                 ul.appendChild(li);
             });
             divCat.appendChild(ul);
