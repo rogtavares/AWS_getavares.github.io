@@ -476,7 +476,8 @@ const dados = [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
       {nome: 'ARTE Ge TAVARES', url: 'https://rogeriotavares.myportfolio.com/'},
-      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
+      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'},
+      {nome: 'AWS AULINHAS GE TAVARES', url: 'https://youtube.com/playlist?list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=G7tQBarO-gOYUzdX'}
     ]
   }
 ];
@@ -500,15 +501,19 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                // Destaca "ARTE Ge TAVARES" em negrito
+                // Destaca "ARTE Ge TAVARES" em negrito e laranja
                 if (cat.categoria === 'Sobre o Gé Tavares' && s.nome === 'ARTE Ge TAVARES') {
-        a.innerHTML = `<strong>${s.nome}</strong>`;
-        a.style.color = '#d17b00'; // cor opcional para destaque
-    } else {
-        a.textContent = s.nome;
-    }
-    li.appendChild(a);
-    ul.appendChild(li);
+                    a.innerHTML = `<strong>${s.nome}</strong>`;
+                    a.style.color = '#d17b00';
+                // Destaca "AWS AULINHAS GE TAVARES" em negrito e azul marinho
+                } else if (cat.categoria === 'Sobre o Gé Tavares' && s.nome === 'AWS AULINHAS GE TAVARES') {
+                    a.innerHTML = `<strong>${s.nome}</strong>`;
+                    a.style.color = '#002147';
+                } else {
+                    a.textContent = s.nome;
+                }
+                li.appendChild(a);
+                ul.appendChild(li);
             });
             divCat.appendChild(ul);
             lista.appendChild(divCat);
