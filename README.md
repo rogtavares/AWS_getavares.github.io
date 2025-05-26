@@ -14,15 +14,14 @@ Organizados por categorias, os mapas oferecem uma visualização clara dos servi
 
 ## **Como usar os Mapas Mentais**
 - **Navegue pelo nó principal**: Comece pelo nó principal e explore as categorias de serviços.
-- **Expanda ou reduza informações**: Use os controles do mapa para abrir ou fechar ramos de informações conforme sua necessidade.
-- **Acesse a documentação oficial**: Muitos nós possuem links diretos para a documentação oficial da AWS, facilitando o aprofundamento em tópicos específicos.
+- **Utilize o filtro**: Use o filtro disponível para localizar rapidamente serviços ou tópicos específicos nos mapas mentais.
+- **Acesse a documentação oficial**: Navegue por serviços e acesse links diretos para a documentação oficial da AWS, facilitando o aprofundamento em tópicos específicos.
 
 ## **Benefícios**
 - Organização clara e objetiva dos serviços AWS.
-- Acelera o aprendizado e fixa melhor os conteúdos
-- Formato: Markmap 
+- Acelera o aprendizado e fixa melhor os conteúdos 
 
 ---
 
-**Versão:** 21 
+**Versão:** 26 
 **Autor:** Gé Tavares
