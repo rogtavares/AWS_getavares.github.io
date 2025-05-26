@@ -375,14 +375,10 @@ Conecte-se ao espaço com soluções de satélite! 🛰️🌍
 ## **27. 🧬 Tecnologias Quânticas**
 Explore o futuro com computação quântica! 🧬⚛️
 ### [🧬 Amazon Braket](https://aws.amazon.com/braket/) <!-- Link válido -->
-### [🧬 AWS Center for Quantum Computing](https://aws.amazon.com/quantum-computing/) <!-- Link válido -->
-### [🧬 AWS Quantum Solutions Lab](https://aws.amazon.com/quantum-computing/) <!-- Link válido -->
 
 ## **28. 🧪 Tecnologias de Saúde**
 Inove na saúde com tecnologia de ponta! 🧪❤️
 ### [🧪 AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
-### [🧪 AWS HealthLake Imaging](https://aws.amazon.com/healthlake/imaging/) <!-- Link válido -->
-### [🧪 AWS HealthLake Genomics](https://aws.amazon.com/healthlake/genomics/) <!-- Link válido -->
 ### [🧪 AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
 
 ## **29. 📜 Certificações AWS**
@@ -436,10 +432,10 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
 - **LinkedIn** 🌟: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
-- **Portfólio** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
+- **ARTE Ge TAVARES** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
 - **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
 
 
 
-<!-- GE TAVARES v20 -->
+<!-- GE TAVARES v21 -->
 

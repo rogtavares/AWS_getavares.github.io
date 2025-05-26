@@ -27,7 +27,7 @@
 <body>
 <div class="container">
     <img src="logo.png" alt="Logo Ge Tavares AWS" class="logo-gtavares">
-    <input type="text" id="busca" placeholder="Busque por serviços AWS..." autofocus>
+    <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus>
     <div id="servicos-lista">
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->
     </div>
@@ -452,17 +452,13 @@ const dados = [
   {
     categoria: 'Tecnologias Quânticas',
     servicos: [
-      {nome: 'Amazon Braket', url: 'https://aws.amazon.com/braket/'},
-      {nome: 'AWS Center for Quantum Computing', url: 'https://aws.amazon.com/quantum-computing/'},
-      {nome: 'AWS Quantum Solutions Lab', url: 'https://aws.amazon.com/quantum-computing/'}
+      {nome: 'Amazon Braket', url: 'https://aws.amazon.com/braket/'}
     ]
   },
   {
     categoria: 'Tecnologias de Saúde',
     servicos: [
       {nome: 'AWS HealthLake', url: 'https://aws.amazon.com/healthlake/'},
-      {nome: 'AWS HealthLake Imaging', url: 'https://aws.amazon.com/healthlake/imaging/'},
-      {nome: 'AWS HealthLake Genomics', url: 'https://aws.amazon.com/healthlake/genomics/'},
       {nome: 'AWS HealthLake Medical Imaging', url: 'https://aws.amazon.com/healthlake/medical-imaging/'}
     ]
   },
@@ -479,7 +475,7 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio', url: 'https://rogeriotavares.myportfolio.com/'},
+      {nome: 'ARTE Ge TAVARES', url: 'https://rogeriotavares.myportfolio.com/'},
       {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
     ]
   }
@@ -496,7 +492,7 @@ function renderizarServicos(filtro) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
-            divCat.innerHTML = `<h2>${cat.categoria}</h2>`;
+            divCat.innerHTML = `<h2><strong>${cat.categoria}</strong></h2>`;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
@@ -504,9 +500,15 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                a.textContent = s.nome;
-                li.appendChild(a);
-                ul.appendChild(li);
+                // Destaca "ARTE Ge TAVARES" em negrito
+                if (cat.categoria === 'Sobre o Gé Tavares' && s.nome === 'ARTE Ge TAVARES') {
+        a.innerHTML = `<strong>${s.nome}</strong>`;
+        a.style.color = '#d17b00'; // cor opcional para destaque
+    } else {
+        a.textContent = s.nome;
+    }
+    li.appendChild(a);
+    ul.appendChild(li);
             });
             divCat.appendChild(ul);
             lista.appendChild(divCat);
