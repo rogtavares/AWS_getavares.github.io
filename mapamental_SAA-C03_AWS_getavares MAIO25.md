@@ -379,7 +379,7 @@ Explore o futuro com computação quântica! 🧬⚛️
 ## **28. 🧪 Tecnologias de Saúde**
 Inove na saúde com tecnologia de ponta! 🧪❤️
 ### [🧪 AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
-### [🧪 AWS HealthLake Medical Imaging](https://aws.amazon.com/healthlake/medical-imaging/) <!-- Link válido -->
+### [🧪 AWS HealthImaging](https://aws.amazon.com/healthimaging/) <!-- Link válido e recomendado para imagens médicas -->
 
 ## **29. 📜 Certificações AWS**
 Descubra seu caminho na AWS! 🚀 Certifique-se e destaque-se no mundo cloud!
