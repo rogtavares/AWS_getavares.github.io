@@ -17,7 +17,18 @@
         a { text-decoration: none; color: #222; font-weight: 500; }
         a:hover { text-decoration: underline; color: #1a73e8; }
         .desc { color: #888; font-size: 0.95em; margin-left: 8px; }
-        .logo-gtavares { display:block; margin:0 auto 18px auto; max-width:400px; }
+        .logo-gtavares {
+    display: block;
+    margin: 0 auto 18px auto;
+    max-width: 480px;   /* aumente aqui conforme desejar */
+    width: 100%;
+}
+.logo-aws {
+    display: block;
+    margin: 0 auto 18px auto;
+    max-width: 150px;   /* diminua aqui conforme desejar */
+    width: 100%;
+}
         footer { text-align: center; color: #aaa; font-size: 0.98em; margin-top: 40px; padding-bottom: 10px; }
         footer a[target="_blank"] {
   rel: noopener;
@@ -27,6 +38,7 @@
 <body>
 <div class="container">
     <img src="logo.png" alt="Logo Ge Tavares AWS" class="logo-gtavares">
+    <img src="aws-logo.png" alt="Logo AWS" class="logo-aws">
     <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus>
     <div id="servicos-lista">
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->
@@ -38,12 +50,6 @@
 <script>
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
-  {
-    categoria: 'Boas-vindas à documentação do AWS',
-    servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
-    ]
-  },
   {
     categoria: 'Computação',
     servicos: [
@@ -114,7 +120,7 @@ const dados = [
       {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
       {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
       {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
-      {nome: 'Oracle Database@AWS', url: 'https://aws.amazon.com/rds/oracle/'}
+      {nome: 'Oracle Database @ AWS', url: 'https://aws.amazon.com/rds/oracle/'}
     ]
   },
   {
@@ -466,8 +472,14 @@ const dados = [
     categoria: 'Certificações AWS',
     servicos: [
       {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'},
-      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
+      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certificacao/'},
       {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'}
+    ]
+  },
+  {
+    categoria: 'Boas-vindas à documentação do AWS',
+    servicos: [
+      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
     ]
   },
   {
@@ -475,9 +487,8 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'ARTE Ge TAVARES', url: 'https://rogeriotavares.myportfolio.com/'},
-      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'},
-      {nome: 'AWS AULINHAS GE TAVARES', url: 'https://youtube.com/playlist?list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=G7tQBarO-gOYUzdX'}
+      {nome: 'Portfólio', url: 'https://rogeriotavares.myportfolio.com/'},
+      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
     ]
   }
 ];
@@ -487,13 +498,12 @@ function renderizarServicos(filtro) {
     lista.innerHTML = '';
     let encontrou = false;
     dados.forEach(cat => {
-        // Filtra serviços por nome
         const filtrados = cat.servicos.filter(s => s.nome.toLowerCase().includes(filtro.toLowerCase()));
         if (filtrados.length > 0) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
-            divCat.innerHTML = `<h2><strong>${cat.categoria}</strong></h2>`;
+            divCat.innerHTML = `<h2>${cat.categoria}</h2>`;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
@@ -501,17 +511,7 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                // Destaca "ARTE Ge TAVARES" em negrito e laranja
-                if (cat.categoria === 'Sobre o Gé Tavares' && s.nome === 'ARTE Ge TAVARES') {
-                    a.innerHTML = `<strong>${s.nome}</strong>`;
-                    a.style.color = '#d17b00';
-                // Destaca "AWS AULINHAS GE TAVARES" em negrito e azul marinho
-                } else if (cat.categoria === 'Sobre o Gé Tavares' && s.nome === 'AWS AULINHAS GE TAVARES') {
-                    a.innerHTML = `<strong>${s.nome}</strong>`;
-                    a.style.color = '#002147';
-                } else {
-                    a.textContent = s.nome;
-                }
+                a.textContent = s.nome;
                 li.appendChild(a);
                 ul.appendChild(li);
             });
@@ -528,7 +528,6 @@ document.getElementById('busca').addEventListener('input', function() {
     renderizarServicos(this.value);
 });
 
-// Renderiza todos ao carregar
 renderizarServicos('');
 </script>
 </body>

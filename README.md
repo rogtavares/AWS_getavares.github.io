@@ -1,5 +1,7 @@
 # 🌐 Mapas Mentais AWS - Gé Tavares
 
+![AWS Mind Maps](
+
 Os Mapas Mentais de AWS, desenvolvidos por Gé Tavares, foram criados para facilitar o aprendizado, a memorização e a navegação entre os diversos serviços da Amazon Web Services. Estes mapas são especialmente úteis para quem está se preparando para certificações como:
 
 AWS Certified Solutions Architect – Associate (SAA-C03)
