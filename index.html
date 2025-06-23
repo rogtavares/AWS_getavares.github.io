@@ -452,21 +452,23 @@ function renderizarServicos(filtro) {
     const lista = document.getElementById('servicos-lista');
     lista.innerHTML = '';
     let encontrou = false;
+    const filtroLower = filtro.trim().toLowerCase();
     dados.forEach(cat => {
-        // Se filtro está vazio, mostra todas as categorias
-        // Se filtro não está vazio, mostra apenas as que têm serviços compatíveis
-        const filtrados = filtro.trim() === ''
+        const categoriaCombina = cat.categoria && cat.categoria.toLowerCase().includes(filtroLower);
+        const filtrados = filtroLower === ''
             ? cat.servicos
-            : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtro.toLowerCase()));
+            : categoriaCombina
+                ? cat.servicos // mostra todos os serviços se a categoria bate
+                : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtroLower));
         if (filtrados.length > 0) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
             divCat.innerHTML = cat.categoria === 'Sobre o Gé Tavares'
-    ? `<h2 class="destaque-gtavares">
-          <img src="logo.png" alt="Logo Gé Tavares" style="height:32px; vertical-align:middle;">
-       </h2>`
-    : `<h2>${cat.categoria}</h2>`;
+                ? `<h2 class="destaque-gtavares">
+                      <img src="logo.png" alt="Logo Gé Tavares" style="height:32px; vertical-align:middle;">
+                   </h2>`
+                : `<h2>${cat.categoria}</h2>`;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
@@ -474,7 +476,6 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                // Deixa em negrito forte se for da categoria Sobre o Gé Tavares
                 if (cat.categoria === 'Sobre o Gé Tavares') {
                     a.innerHTML = `<strong>${s.nome}</strong>`;
                 } else {
