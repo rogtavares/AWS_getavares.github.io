@@ -33,6 +33,15 @@
         footer a[target="_blank"] {
   rel: noopener;
 }
+.destaque-gtavares {
+  color: #d35400;      /* laranja escuro */
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background: #fff3e0;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: inline-block;
+}
     </style>
 </head>
 <body>
@@ -44,6 +53,7 @@
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->
     </div>
 </div>
+
 <footer>
   Feito por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares</a> • 2025
 </footer>
@@ -120,7 +130,7 @@ const dados = [
       {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
       {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
       {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
-      {nome: 'Oracle Database @ AWS', url: 'https://aws.amazon.com/rds/oracle/'}
+      {nome: 'Oracle Database AWS', url: 'https://aws.amazon.com/rds/oracle/'}
     ]
   },
   {
@@ -471,13 +481,14 @@ const dados = [
   {
     categoria: 'Certificações AWS',
     servicos: [
-      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'},
       {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certificacao/'},
-      {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'}
+      {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
+      {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
+      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
     ]
   },
   {
-    categoria: 'Boas-vindas à documentação do AWS',
+    categoria: 'Documentação do AWS',
     servicos: [
       {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
     ]
@@ -498,12 +509,20 @@ function renderizarServicos(filtro) {
     lista.innerHTML = '';
     let encontrou = false;
     dados.forEach(cat => {
-        const filtrados = cat.servicos.filter(s => s.nome.toLowerCase().includes(filtro.toLowerCase()));
+        // Se filtro está vazio, mostra todas as categorias
+        // Se filtro não está vazio, mostra apenas as que têm serviços compatíveis
+        const filtrados = filtro.trim() === ''
+            ? cat.servicos
+            : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtro.toLowerCase()));
         if (filtrados.length > 0) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
-            divCat.innerHTML = `<h2>${cat.categoria}</h2>`;
+            divCat.innerHTML = cat.categoria === 'Sobre o Gé Tavares'
+    ? `<h2 class="destaque-gtavares">
+          <img src="logo.png" alt="Logo Gé Tavares" style="height:32px; vertical-align:middle;">
+       </h2>`
+    : `<h2>${cat.categoria}</h2>`;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
@@ -511,7 +530,12 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                a.textContent = s.nome;
+                // Deixa em negrito forte se for da categoria Sobre o Gé Tavares
+                if (cat.categoria === 'Sobre o Gé Tavares') {
+                    a.innerHTML = `<strong>${s.nome}</strong>`;
+                } else {
+                    a.textContent = s.nome;
+                }
                 li.appendChild(a);
                 ul.appendChild(li);
             });

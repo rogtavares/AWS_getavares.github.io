@@ -1,0 +1,112 @@
+[33me83f8e9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m commint 92 fix : aws
+[33mdf392d1[m commint 91  fix: laranja
+[33md157774[m commint 90  upgrade readme
+[33me79cc52[m commint 89 bug ge tavares.
+[33mfc5cc81[m commint 88  bug categoria 28 'Tecnologias de Saúde'
+[33m35a7b99[m commint 87 bug final .
+[33m86288bb[m commint 86 fix: corrigir bug de autenticação filtro.
+[33me26bef7[m commint 85 style , novo index
+[33meb2bce5[m commint 84 grande upgrade 2.
+[33m1a3aea7[m commint 83 GRANDE UPGRADE.
+[33m83115c8[m commint 82 news feature  tom jovial./
+[33m49461da[m commint 81 style: corrigir formatação dos arquivos
+[33m7ac9c5a[m commint 80 nova melhorias tecnicas
+[33m1f56188[m COMMINT 75 refactor: extrair  NOVA VERSAO
+[33m846f793[m commint 74 hotfix
+[33m22a5912[m comint 77 style
+[33mc5333b6[m commint 76 fix12
+[33med62d57[m commint 75  fix 11.
+[33m69c2110[m commint 74 hotfix
+[33m1c438b3[m commint 73 hotfix
+[33me5de664[m commint 72 fix
+[33md3cfb9d[m commint 71 news feature
+[33m8bffe3a[m commint 70  bug 1.Computação
+[33m10b3b65[m commint 69 fix4
+[33m7e33dba[m commint 68 fix3
+[33m474fdcb[m commint 67 fix2
+[33m9a1d9db[m commint 66 fix9
+[33mae9293b[m commint 65 fix8
+[33m0f007a6[m commint 64 fix 7
+[33m32f8e7d[m commint 63 upgrade e readme
+[33m1a99935[m commint 62 upgrade v8
+[33mcfc66a4[m commint 61
+[33m5d06dfc[m commint 60 upgrade 5
+[33m63adf0e[m commint 59 versao 3
+[33m8acaef2[m commint 58 uggrade 3
+[33mece3a12[m commint 57  upgrade
+[33mc6b669e[m commint 56 fix 6
+[33m2fef404[m commint 55 fix5 v2
+[33m1a7cfb8[m Commint 54 fix4 v4
+[33mc7457d2[m Commint 53 fix v3
+[33mc9c57c8[m commint 52 upgrade v3
+[33mfffa48c[m commint 51 fix
+[33mbbb1a4a[m Commint 50 v28
+[33md906907[m commint 49.2 upgrade v3
+[33m65f986f[m commint 49.1  upgrade e fix
+[33m5bf712f[m commint 49 upgrade  Getavares v25
+[33m4911856[m commint 48 bug
+[33m286e183[m Commint 47 fix 14.6
+[33mfbcf1e6[m commint 46 fix ExpandLevel: 3
+[33m36c2069[m Comint 45 fig 1.1.8 Red
+[33me1a364f[m commint 44 bug salesforce 2
+[33macdbeb2[m Commint 43 bug salesforce
+[33md418489[m Commint 42 bug salesforce.
+[33mecbba98[m Commint 41 Hotflix  13.1 AWS Cloud9
+[33mc292671[m Comunint 40 Hotfix 2 :13.0 DEVOPS
+[33m6b299c8[m Commint 39 Hotfix:13.0 DEVOPS
+[33ma995057[m commint 38  bug forte
+[33m2c1e6cb[m commint 37 fig  10.0.1
+[33mb6353d6[m Commint 36 upgrade 10.0.1 VPC
+[33m0185fe3[m commint 35 fig varios serviços
+[33mf2c3fcf[m commint 34  fig 1.05
+[33mb150a43[m commint 33 . eventos de uso total da API foi incluído como item 11 na seção de Segurança e Compliance salesforce
+[33m9cccf8f[m commint 32 bug  P1
+[33m3cae83d[m commint 31 Update AWS services and integration  Datadog e Salesforce
+[33m94308fd[m commint 31 upgrade 18.0
+[33md5960a9[m COMMINT 30 Update AWS services 14.0
+[33m0a3b099[m commint 20 , erro bug
+[33m8592289[m commint 26 GE TAVARES v12
+[33m2e69268[m commint 29  upgrade 1 News Invite
+[33m095e0c7[m commint 29 News Invent24
+[33m8ed292b[m commint 28 New 5.0 Novos serviços
+[33me48fe3e[m commint 27  new 3.6
+[33mbf0bb21[m commint 26
+[33mba11bc5[m commint 25 novo 7.18
+[33m7c68da9[m Commint v24 feat html.
+[33m6eaa1e0[m Commint v23 feat Geral
+[33m1310db3[m commint v22 feat A_Macie 12.6 v2
+[33m6922878[m commint v22 feat A_Macie 12.6
+[33m894df36[m commin v21 feat: 7.0 v
+[33m74657e1[m commint v20 feat: 7.0 machiles learning
+[33m3369624[m commint v19 feat:10.0.1.10
+[33m2275443[m commint v18 feat: 7.0 IA E ML
+[33mc4f6f1f[m commint v17 feat: EC2  4.1  v3
+[33m91d5b49[m Merge branch 'main' of https://github.com/rogtavares/mapamentalSAA-C03_getavares.github.io
+[33m82aa833[m commint v18 feat: EC2  4.1 v2
+[33mc743662[m commint v17 feat: EC2  4.1
+[33m9073916[m feat: Adicionar informações sobre sub-redes na VPC
+[33m405d8b5[m commint v16 feat: VPC 10.1.0 PARTE 2
+[33mbdcb983[m commint v15 feat: VPC 10.1.0
+[33ma6d3220[m feat: Update Amazon Q 7.0
+[33m466c49b[m feat: Add 7.15  AWS Panorama service for video analysis
+[33m052cbf6[m commint v14 Hotfix: 7.0 IA  Inteligência Artificial (IA) da AWS
+[33mea5ff74[m COMMINT 13 feat Add AWS Copilot section to
+[33m80a4789[m commint v13  Hotfix:13.0
+[33m679f20e[m Aumentando a versão para 4.2 lambda
+[33m6a8ffe0[m Commint v12 chore ( tarefa): rearrange sections in mapamental_SAA-C03_AWS_getavares.md
+[33mc0aa800[m Update README.md with version 8
+[33mfb508f8[m commint 11 BUG txt.
+[33ma694319[m COMMINT  10 versao nova.
+[33me8ea8d0[m COMMINT 9  Hotfix
+[33m12000fc[m Commint v9 Hotfix
+[33me336dbf[m commint v8
+[33m291aea7[m commint v7 Hotfix
+[33m9e57041[m commint v6 ugdrage_11
+[33md1847ca[m Merge branch 'main' of https://github.com/rogtavares/mapamentalSAA-C03_getavares.github.io
+[33mdd7f875[m commint v5
+[33m9d3055e[m Update README.md
+[33m630ffdb[m cominit v4
+[33m4f18294[m cominit v3
+[33m7227d7d[m segundoREADME.md
+[33m09da502[m commint  v2
+[33m3246321[m cominit v1

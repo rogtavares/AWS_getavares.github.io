@@ -470,9 +470,10 @@ const dados = [
   {
     categoria: 'Certificações AWS',
     servicos: [
-      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'},
       {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
-      {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'}
+      {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
+      {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
+      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
     ]
   },
   {
@@ -505,7 +506,13 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                a.textContent = s.nome;
+                // Destaque para Sobre o Gé Tavares
+                if (cat.categoria === 'Sobre o Gé Tavares') {
+                    a.innerHTML = `<strong>${s.nome}</strong>`;
+                    a.style.color = "#ff9800"; // laranja escuro
+                } else {
+                    a.textContent = s.nome;
+                }
                 li.appendChild(a);
                 ul.appendChild(li);
             });

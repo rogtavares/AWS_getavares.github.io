@@ -385,11 +385,13 @@ Inove na saúde com tecnologia de ponta! 🧪❤️
 Descubra seu caminho na AWS! 🚀 Certifique-se e destaque-se no mundo cloud!
 Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification clicando no link abaixo:
 
-### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -
+### [📜 AWS Certification - Página Oficial](https://aws.amazon.com/pt/certification/) <!-- Link válido -->
 
-### [📜 ESCOLHE SEU CAMINHO NA AWS Certification ](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf) <!-- Link válido -->
+### [📜 ESCOLHE SEU CAMINHO NA AWS Certification](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf)
 
-Desenvolva habilidades de nuvem sob demanda – https://skillbuilder.aws/
+### [🎓 Explore mais de 600 cursos AWS gratuitos](https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em)
+
+### [🚀 Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS](https://skillbuilder.aws/)
 
 ##  30. **Produtos Oficiais da AWS (332)**
 
