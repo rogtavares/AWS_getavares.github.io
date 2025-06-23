@@ -61,79 +61,6 @@
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
   {
-    categoria: 'Computação',
-    servicos: [
-      {nome: 'Amazon EC2', url: 'https://aws.amazon.com/pt/ec2/'},
-      {nome: 'AWS Lambda', url: 'https://aws.amazon.com/pt/lambda/'},
-      {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
-      {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
-      {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
-      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Metadata', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Metadata Service', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html'},
-      {nome: 'Amazon EC2 Spot', url: 'https://aws.amazon.com/pt/ec2/spot/'},
-      {nome: 'Amazon EC2 Spot Fleet', url: 'https://aws.amazon.com/ec2/spot/'},
-      {nome: 'Amazon EC2 Spot Instance Advisor', url: 'https://aws.amazon.com/ec2/spot/instance-advisor/'},
-      {nome: 'Amazon EC2 Auto Scaling Groups', url: 'https://aws.amazon.com/pt/autoscaling/ec2/'},
-      {nome: 'Amazon EC2 Auto Scaling Lifecycle Hooks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Refresh', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html'},
-      {nome: 'Amazon EC2 Auto Scaling Predictive Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html'},
-      {nome: 'Amazon EC2 Auto Scaling Scheduled Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Protection', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html'},
-      {nome: 'Amazon EC2 Auto Scaling Health Checks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Warm-Up', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html'},
-      {nome: 'AWS Serverless Application Repository', url: 'https://aws.amazon.com/pt/serverless/serverlessrepo/'},
-      {nome: 'EC2 Image Builder', url: 'https://aws.amazon.com/pt/image-builder/'},
-      {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
-      {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/pt/simspaceweaver/'},
-      {nome: 'AWS Parallel Computing Service', url: 'https://aws.amazon.com/pt/hpc/'},
-      {nome: 'Research and Engineering Studio on AWS', url: 'https://docs.aws.amazon.com/res/?icmpid=docs_homepage_compute-hpc'},
-      {nome: 'EC2 Global View', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html'}
-    ]
-  },
-  {
-    categoria: 'Armazenamento',
-    servicos: [
-      {nome: 'Amazon S3', url: 'https://aws.amazon.com/pt/s3/'},
-      {nome: 'Amazon EFS', url: 'https://aws.amazon.com/pt/efs/'},
-      {nome: 'Amazon FSx', url: 'https://aws.amazon.com/pt/fsx/'},
-      {nome: 'Amazon S3 Glacier', url: 'https://aws.amazon.com/pt/s3/glacier/'},
-      {nome: 'AWS Backup', url: 'https://aws.amazon.com/pt/backup/'},
-      {nome: 'AWS Storage Gateway', url: 'https://aws.amazon.com/pt/storagegateway/'},
-      {nome: 'AWS Elastic Disaster Recovery', url: 'https://aws.amazon.com/pt/disaster-recovery/'},
-      {nome: 'Amazon S3 Object Lambda', url: 'https://aws.amazon.com/s3/features/object-lambda/'},
-      {nome: 'Amazon S3 Intelligent-Tiering', url: 'https://aws.amazon.com/s3/storage-classes/intelligent-tiering/'},
-      {nome: 'Amazon S3 Storage Lens', url: 'https://aws.amazon.com/pt/s3/storage-lens/'}
-    ]
-  },
-  {
-    categoria: 'Contêineres',
-    servicos: [
-      {nome: 'Amazon ECS', url: 'https://aws.amazon.com/pt/ecs/'},
-      {nome: 'Amazon EKS', url: 'https://aws.amazon.com/pt/eks/'},
-      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/pt/ecr/'},
-      {nome: 'Amazon AppMesh', url: 'https://aws.amazon.com/pt/app-mesh/'},
-      {nome: 'ROSA (OpenShift)', url: 'https://aws.amazon.com/pt/rosa/'},
-      {nome: 'Amazon EKS Anywhere', url: 'https://aws.amazon.com/pt/eks/anywhere/'},
-      {nome: 'Amazon EKS Distro', url: 'https://eksctl.io/'}
-    ]
-  },
-  {
-    categoria: 'Banco de Dados',
-    servicos: [
-      {nome: 'Amazon Aurora & RDS', url: 'https://aws.amazon.com/rds/'},
-      {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
-      {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
-      {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
-      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'},
-      {nome: 'Amazon DocumentDB', url: 'https://aws.amazon.com/documentdb/'},
-      {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
-      {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
-      {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
-      {nome: 'Oracle Database AWS', url: 'https://aws.amazon.com/rds/oracle/'}
-    ]
-  },
-  {
     categoria: 'Análise de Dados',
     servicos: [
       {nome: 'Amazon Redshift', url: 'https://aws.amazon.com/redshift/'},
@@ -172,12 +99,205 @@ const dados = [
     ]
   },
   {
-    categoria: 'Monitoramento e Observabilidade',
+    categoria: 'Aplicativos Empresariais',
     servicos: [
-      {nome: 'Datadog', url: 'https://www.datadoghq.com/'},
+      {nome: 'Amazon Connect', url: 'https://aws.amazon.com/connect/'},
+      {nome: 'Amazon Chime', url: 'https://aws.amazon.com/chime/'},
+      {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
+      {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
+      {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
+      {nome: 'AWS Supply Chain', url: 'https://aws.amazon.com/supply-chain/'},
+      {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
+      {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
+      {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
+      {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
+      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'},
+      {nome: 'Amazon Chime SDK', url: 'https://aws.amazon.com/chime-sdk/'}
+    ]
+  },
+  {
+    categoria: 'Armazenamento',
+    servicos: [
+      {nome: 'Amazon S3', url: 'https://aws.amazon.com/pt/s3/'},
+      {nome: 'Amazon EFS', url: 'https://aws.amazon.com/pt/efs/'},
+      {nome: 'Amazon FSx', url: 'https://aws.amazon.com/pt/fsx/'},
+      {nome: 'Amazon S3 Glacier', url: 'https://aws.amazon.com/pt/s3/glacier/'},
+      {nome: 'AWS Backup', url: 'https://aws.amazon.com/pt/backup/'},
+      {nome: 'AWS Storage Gateway', url: 'https://aws.amazon.com/pt/storagegateway/'},
+      {nome: 'AWS Elastic Disaster Recovery', url: 'https://aws.amazon.com/pt/disaster-recovery/'},
+      {nome: 'Amazon S3 Object Lambda', url: 'https://aws.amazon.com/s3/features/object-lambda/'},
+      {nome: 'Amazon S3 Intelligent-Tiering', url: 'https://aws.amazon.com/s3/storage-classes/intelligent-tiering/'},
+      {nome: 'Amazon S3 Storage Lens', url: 'https://aws.amazon.com/pt/s3/storage-lens/'}
+    ]
+  },
+  {
+    categoria: 'Banco de Dados',
+    servicos: [
+      {nome: 'Amazon Aurora & RDS', url: 'https://aws.amazon.com/rds/'},
+      {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
+      {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
+      {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
+      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'},
+      {nome: 'Amazon DocumentDB', url: 'https://aws.amazon.com/documentdb/'},
+      {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
+      {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
+      {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
+      {nome: 'Oracle Database AWS', url: 'https://aws.amazon.com/rds/oracle/'}
+    ]
+  },
+  {
+    categoria: 'Capacitação do Cliente',
+    servicos: [
+      {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
+      {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
+      {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
+      {nome: 'AWS re:Post', url: 'https://repost.aws/'},
+      {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
+    ]
+  },
+  {
+    categoria: 'Certificações AWS',
+    servicos: [
+      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certificacao/'},
+      {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
+      {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
+      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
+    ]
+  },
+  {
+    categoria: 'Computação',
+    servicos: [
+      {nome: 'Amazon EC2', url: 'https://aws.amazon.com/pt/ec2/'},
+      {nome: 'AWS Lambda', url: 'https://aws.amazon.com/pt/lambda/'},
+      {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
+      {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
+      {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
+      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
+      {nome: 'Amazon EC2 Auto Scaling Instance Metadata', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html'},
+      {nome: 'Amazon EC2 Auto Scaling Instance Metadata Service', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html'},
+      {nome: 'Amazon EC2 Spot', url: 'https://aws.amazon.com/pt/ec2/spot/'},
+      {nome: 'Amazon EC2 Spot Fleet', url: 'https://aws.amazon.com/ec2/spot/'},
+      {nome: 'Amazon EC2 Spot Instance Advisor', url: 'https://aws.amazon.com/ec2/spot/instance-advisor/'},
+      {nome: 'Amazon EC2 Auto Scaling Groups', url: 'https://aws.amazon.com/pt/autoscaling/ec2/'},
+      {nome: 'Amazon EC2 Auto Scaling Lifecycle Hooks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html'},
+      {nome: 'Amazon EC2 Auto Scaling Instance Refresh', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html'},
+      {nome: 'Amazon EC2 Auto Scaling Predictive Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html'},
+      {nome: 'Amazon EC2 Auto Scaling Scheduled Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html'},
+      {nome: 'Amazon EC2 Auto Scaling Instance Protection', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html'},
+      {nome: 'Amazon EC2 Auto Scaling Health Checks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html'},
+      {nome: 'Amazon EC2 Auto Scaling Instance Warm-Up', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html'},
+      {nome: 'AWS Serverless Application Repository', url: 'https://aws.amazon.com/pt/serverless/serverlessrepo/'},
+      {nome: 'EC2 Image Builder', url: 'https://aws.amazon.com/pt/image-builder/'},
+      {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
+      {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/pt/simspaceweaver/'},
+      {nome: 'AWS Parallel Computing Service', url: 'https://aws.amazon.com/pt/hpc/'},
+      {nome: 'Research and Engineering Studio on AWS', url: 'https://docs.aws.amazon.com/res/?icmpid=docs_homepage_compute-hpc'},
+      {nome: 'EC2 Global View', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html'}
+    ]
+  },
+  {
+    categoria: 'Computação de Usuário Final',
+    servicos: [
+      {nome: 'Amazon AppStream 2.0', url: 'https://aws.amazon.com/appstream2/'},
+      {nome: 'Amazon DCV', url: 'https://docs.aws.amazon.com/pt_br/dcv/?icmpid=docs_homepage_euc'},
+      {nome: 'Amazon WorkSpaces', url: 'https://aws.amazon.com/workspaces/'},
+      {nome: 'Amazon WorkSpaces Secure Browser', url: 'https://aws.amazon.com/workspaces/web/'},
+      {nome: 'Amazon WorkSpaces Thin Client', url: 'https://aws.amazon.com/workspaces/thin-client/'}
+    ]
+  },
+  {
+    categoria: 'Desenvolvimento de Jogos',
+    servicos: [
+      {nome: 'Amazon GameLift Servers', url: 'https://aws.amazon.com/gamelift/'},
+      {nome: 'Amazon GameLift Streams', url: 'https://aws.amazon.com/gamelift/streams/'}
+    ]
+  },
+  {
+    categoria: 'Documentação do AWS',
+    servicos: [
+      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
+    ]
+  },
+  {
+    categoria: 'Ferramentas do Desenvolvedor',
+    servicos: [
+      {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
+      {nome: 'AWS CodeCommit', url: 'https://aws.amazon.com/codecommit/'},
+      {nome: 'AWS CodeBuild', url: 'https://aws.amazon.com/codebuild/'},
+      {nome: 'AWS CodeDeploy', url: 'https://aws.amazon.com/codedeploy/'},
+      {nome: 'AWS Cloud9', url: 'https://aws.amazon.com/cloud9/'},
+      {nome: 'AWS CloudShell', url: 'https://aws.amazon.com/cloudshell/'},
+      {nome: 'AWS X-Ray', url: 'https://aws.amazon.com/xray/'},
+      {nome: 'AWS CodeArtifact', url: 'https://aws.amazon.com/codeartifact/'},
+      {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
+      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
+      {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'},
+      {nome: 'Infrastructure Composer', url: 'https://aws.amazon.com/infrastructure-composer/'},
+      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/appstudio/'},
+      {nome: 'Amazon Q Developer (CodeWhisperer)', url: 'https://aws.amazon.com/codewhisperer/'}
+    ]
+  },
+  {
+    categoria: 'Gerenciamento e Governança',
+    servicos: [
       {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
-      {nome: 'New Relic', url: 'https://newrelic.com/'},
-      {nome: 'Grafana', url: 'https://grafana.com/'}
+      {nome: 'Amazon Data Lifecycle Manager', url: 'https://docs.aws.amazon.com/pt_br/dlm/?icmpid=docs_homepage_mgmtgov'},
+      {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
+      {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
+      {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
+      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
+      {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
+      {nome: 'AWS Compute Optimizer', url: 'https://aws.amazon.com/compute-optimizer/'},
+      {nome: 'AWS Config', url: 'https://aws.amazon.com/config/'},
+      {nome: 'AWS Control Tower', url: 'https://aws.amazon.com/controltower/'},
+      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/incident-manager/'},
+      {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
+      {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
+      {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
+      {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
+      {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
+      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resource-explorer/'},
+      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://aws.amazon.com/resource-groups/'},
+      {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
+      {nome: 'AWS Service Catalog', url: 'https://aws.amazon.com/servicecatalog/'},
+      {nome: 'AWS Service Quotas', url: 'https://aws.amazon.com/servicequotas/'},
+      {nome: 'AWS Systems Manager', url: 'https://aws.amazon.com/systems-manager/'},
+      {nome: 'AWS Telco Network Builder', url: 'https://aws.amazon.com/tnb/'},
+      {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
+      {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
+      {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
+      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'}
+    ]
+  },
+  {
+    categoria: 'Infraestrutura como Código',
+    servicos: [
+      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
+      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'},
+      {nome: 'AWS Cloud Development Kit (CDK)', url: 'https://aws.amazon.com/cdk/'},
+      {nome: 'AWS CloudFormation Guard', url: 'https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html'},
+      {nome: 'AWS CloudFormation Designer', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html'},
+      {nome: 'AWS CloudFormation CLI', url: 'https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html'},
+      {nome: 'AWS CloudFormation Registry', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html'},
+      {nome: 'AWS CloudFormation Macros', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html'},
+      {nome: 'AWS CloudFormation Change Sets', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html'},
+      {nome: 'AWS CloudFormation Drift Detection', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html'}
+    ]
+  },
+  {
+    categoria: 'Internet das Coisas (IoT)',
+    servicos: [
+      {nome: 'AWS IoT Analytics', url: 'https://aws.amazon.com/iot-analytics/'},
+      {nome: 'AWS IoT Device Defender', url: 'https://aws.amazon.com/iot-device-defender/'},
+      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
+      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
+      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'}
+    ]
+  },
+  {
+    categoria: 'Java & SDKs',
+    servicos: [
+      {nome: 'Amazon Corretto', url: 'https://docs.aws.amazon.com/pt_br/corretto/?icmpid=docs_homepage_devtools'}
     ]
   },
   {
@@ -229,6 +349,15 @@ const dados = [
     ]
   },
   {
+    categoria: 'Monitoramento e Observabilidade',
+    servicos: [
+      {nome: 'Datadog', url: 'https://www.datadoghq.com/'},
+      {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
+      {nome: 'New Relic', url: 'https://newrelic.com/'},
+      {nome: 'Grafana', url: 'https://grafana.com/'}
+    ]
+  },
+  {
     categoria: 'Redes e Entrega de Conteúdo',
     servicos: [
       {nome: 'Amazon VPC', url: 'https://aws.amazon.com/vpc/'},
@@ -246,92 +375,17 @@ const dados = [
     ]
   },
   {
-    categoria: 'Ferramentas do Desenvolvedor',
+    categoria: 'Robótica',
     servicos: [
-      {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
-      {nome: 'AWS CodeCommit', url: 'https://aws.amazon.com/codecommit/'},
-      {nome: 'AWS CodeBuild', url: 'https://aws.amazon.com/codebuild/'},
-      {nome: 'AWS CodeDeploy', url: 'https://aws.amazon.com/codedeploy/'},
-      {nome: 'AWS Cloud9', url: 'https://aws.amazon.com/cloud9/'},
-      {nome: 'AWS CloudShell', url: 'https://aws.amazon.com/cloudshell/'},
-      {nome: 'AWS X-Ray', url: 'https://aws.amazon.com/xray/'},
-      {nome: 'AWS CodeArtifact', url: 'https://aws.amazon.com/codeartifact/'},
-      {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
-      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
-      {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'},
-      {nome: 'Infrastructure Composer', url: 'https://aws.amazon.com/infrastructure-composer/'},
-      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/appstudio/'},
-      {nome: 'Amazon Q Developer (CodeWhisperer)', url: 'https://aws.amazon.com/codewhisperer/'}
+      {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
     ]
   },
   {
-    categoria: 'Infraestrutura como Código',
+    categoria: 'Satélite',
     servicos: [
-      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
-      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS Cloud Development Kit (CDK)', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS CloudFormation Guard', url: 'https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html'},
-      {nome: 'AWS CloudFormation Designer', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html'},
-      {nome: 'AWS CloudFormation CLI', url: 'https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html'},
-      {nome: 'AWS CloudFormation Registry', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html'},
-      {nome: 'AWS CloudFormation Macros', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html'},
-      {nome: 'AWS CloudFormation Change Sets', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html'},
-      {nome: 'AWS CloudFormation Drift Detection', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html'}
-    ]
-  },
-  {
-    categoria: 'Capacitação do Cliente',
-    servicos: [
-      {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
-      {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
-      {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
-      {nome: 'AWS re:Post', url: 'https://repost.aws/'},
-      {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
-    ]
-  },
-  {
-    categoria: 'Gerenciamento e Governança',
-    servicos: [
-      {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
-      {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
-      {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
-      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
-      {nome: 'AWS Config', url: 'https://aws.amazon.com/config/'},
-      {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
-      {nome: 'AWS Service Catalog', url: 'https://aws.amazon.com/servicecatalog/'},
-      {nome: 'AWS Systems Manager', url: 'https://aws.amazon.com/systems-manager/'},
-      {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
-      {nome: 'AWS Control Tower', url: 'https://aws.amazon.com/controltower/'},
-      {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
-      {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
-      {nome: 'AWS Compute Optimizer', url: 'https://aws.amazon.com/compute-optimizer/'},
-      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://aws.amazon.com/resource-groups/'},
-      {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
-      {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
-      {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
-      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/incident-manager/'},
-      {nome: 'AWS Telco Network Builder', url: 'https://aws.amazon.com/tnb/'},
-      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'},
-      {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
-      {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
-      {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
-      {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
-      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resource-explorer/'},
-      {nome: 'AWS Service Quotas', url: 'https://aws.amazon.com/servicequotas/'}
-    ]
-  },
-  {
-    categoria: 'Serviços de Mídia',
-    servicos: [
-      {nome: 'Kinesis Video Streams', url: 'https://aws.amazon.com/kinesis/video-streams/'},
-      {nome: 'AWS Elemental MediaConvert', url: 'https://aws.amazon.com/mediaconvert/'},
-      {nome: 'AWS Elemental MediaLive', url: 'https://aws.amazon.com/medialive/'},
-      {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
-      {nome: 'AWS Elemental MediaStore', url: 'https://aws.amazon.com/mediastore/'},
-      {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
-      {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
-      {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
-      {nome: 'AWS Elemental MediaConnect', url: 'https://aws.amazon.com/mediaconnect/'}
+      {nome: 'AWS Ground Station', url: 'https://aws.amazon.com/ground-station/'},
+      {nome: 'AWS Data Exchange for Ground Station', url: 'https://aws.amazon.com/data-exchange/'},
+      {nome: 'AWS Ground Station with Amazon S3', url: 'https://aws.amazon.com/ground-station/'}
     ]
   },
   {
@@ -357,112 +411,17 @@ const dados = [
     ]
   },
   {
-    categoria: 'Gerenciamento de Cobrança e Custos',
+    categoria: 'Serviços de Mídia',
     servicos: [
-      {nome: 'AWS Cost Explorer', url: 'https://aws.amazon.com/aws-cost-management/cost-explorer/'},
-      {nome: 'AWS Budgets', url: 'https://aws.amazon.com/aws-cost-management/aws-budgets/'},
-      {nome: 'AWS Billing Conductor', url: 'https://aws.amazon.com/aws-cost-management/aws-billing-conductor/'},
-      {nome: 'AWS Marketplace', url: 'https://aws.amazon.com/marketplace/'},
-      {nome: 'AWS Savings Plans', url: 'https://aws.amazon.com/savingsplans/'}
-    ]
-  },
-  {
-    categoria: 'Dispositivos Móveis',
-    servicos: [
-      {nome: 'AWS Amplify', url: 'https://aws.amazon.com/amplify/'},
-      {nome: 'AWS AppSync', url: 'https://aws.amazon.com/appsync/'},
-      {nome: 'AWS Device Farm', url: 'https://aws.amazon.com/device-farm/'},
-      {nome: 'Amazon Location Service', url: 'https://aws.amazon.com/location/'}
-    ]
-  },
-  {
-    categoria: 'Integração de Aplicativos',
-    servicos: [
-      {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
-      {nome: 'Amazon AppFlow', url: 'https://aws.amazon.com/appflow/'},
-      {nome: 'Amazon MQ', url: 'https://aws.amazon.com/amazon-mq/'},
-      {nome: 'Amazon Simple Notification Service (SNS)', url: 'https://aws.amazon.com/sns/'},
-      {nome: 'Amazon Simple Queue Service (SQS)', url: 'https://aws.amazon.com/sqs/'},
-      {nome: 'Amazon SWF', url: 'https://aws.amazon.com/swf/'},
-      {nome: 'Apache Airflow Gerenciado (MWAA)', url: 'https://aws.amazon.com/mwaa/'},
-      {nome: 'AWS B2B Data Interchange', url: 'https://aws.amazon.com/b2bi/'},
-      {nome: 'Amazon EventBridge', url: 'https://aws.amazon.com/eventbridge/'}
-    ]
-  },
-  {
-    categoria: 'Aplicativos Empresariais',
-    servicos: [
-      {nome: 'Amazon Connect', url: 'https://aws.amazon.com/connect/'},
-      {nome: 'Amazon Chime', url: 'https://aws.amazon.com/chime/'},
-      {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
-      {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
-      {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
-      {nome: 'AWS Supply Chain', url: 'https://aws.amazon.com/supply-chain/'},
-      {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
-      {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
-      {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
-      {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
-      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'},
-      {nome: 'Amazon Chime SDK', url: 'https://aws.amazon.com/chime-sdk/'}
-    ]
-  },
-  {
-    categoria: 'Computação de Usuário Final',
-    servicos: [
-      {nome: 'Amazon WorkSpaces', url: 'https://aws.amazon.com/workspaces/'},
-      {nome: 'Amazon AppStream 2.0', url: 'https://aws.amazon.com/appstream2/'},
-      {nome: 'Amazon WorkSpaces Thin Client', url: 'https://aws.amazon.com/workspaces/thin-client/'},
-      {nome: 'Amazon WorkSpaces Secure Browser', url: 'https://aws.amazon.com/workspaces/web/'}
-    ]
-  },
-  {
-    categoria: 'Internet das Coisas (IoT)',
-    servicos: [
-      {nome: 'AWS IoT Analytics', url: 'https://aws.amazon.com/iot-analytics/'},
-      {nome: 'AWS IoT Device Defender', url: 'https://aws.amazon.com/iot-device-defender/'},
-      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
-      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
-      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'}
-    ]
-  },
-  {
-    categoria: 'Desenvolvimento de Jogos',
-    servicos: [
-      {nome: 'Amazon GameLift Servers', url: 'https://aws.amazon.com/gamelift/'},
-      {nome: 'Amazon GameLift Streams', url: 'https://aws.amazon.com/gamelift/streams/'}
-    ]
-  },
-  {
-    categoria: 'Realidade Aumentada e Virtual',
-    servicos: [
-      {nome: 'Amazon Sumerian', url: 'https://aws.amazon.com/sumerian/'},
-      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
-      {nome: 'AWS IoT SiteWise', url: 'https://aws.amazon.com/iot-sitewise/'},
-      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
-      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'},
-      {nome: 'AWS IoT Core para LoRaWAN', url: 'https://aws.amazon.com/iot-core/lorawan/'},
-      {nome: 'AWS IoT Core para Sigfox', url: 'https://aws.amazon.com/iot-core/'},
-      {nome: 'AWS IoT Core para 5G', url: 'https://aws.amazon.com/iot-core/'}
-    ]
-  },
-  {
-    categoria: 'Robótica',
-    servicos: [
-      {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
-    ]
-  },
-  {
-    categoria: 'Blockchain',
-    servicos: [
-      {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'}
-    ]
-  },
-  {
-    categoria: 'Satélite',
-    servicos: [
-      {nome: 'AWS Ground Station', url: 'https://aws.amazon.com/ground-station/'},
-      {nome: 'AWS Data Exchange for Ground Station', url: 'https://aws.amazon.com/data-exchange/'},
-      {nome: 'AWS Ground Station with Amazon S3', url: 'https://aws.amazon.com/ground-station/'}
+      {nome: 'Kinesis Video Streams', url: 'https://aws.amazon.com/kinesis/video-streams/'},
+      {nome: 'AWS Elemental MediaConvert', url: 'https://aws.amazon.com/mediaconvert/'},
+      {nome: 'AWS Elemental MediaLive', url: 'https://aws.amazon.com/medialive/'},
+      {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
+      {nome: 'AWS Elemental MediaStore', url: 'https://aws.amazon.com/mediastore/'},
+      {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
+      {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
+      {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
+      {nome: 'AWS Elemental MediaConnect', url: 'https://aws.amazon.com/mediaconnect/'}
     ]
   },
   {
@@ -476,21 +435,6 @@ const dados = [
     servicos: [
       {nome: 'AWS HealthLake', url: 'https://aws.amazon.com/healthlake/'},
       {nome: 'AWS HealthImaging', url: 'https://aws.amazon.com/healthimaging/'}
-    ]
-  },
-  {
-    categoria: 'Certificações AWS',
-    servicos: [
-      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certificacao/'},
-      {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
-      {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
-      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
-    ]
-  },
-  {
-    categoria: 'Documentação do AWS',
-    servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
     ]
   },
   {
