@@ -474,8 +474,10 @@ const ordemImportancia = [
   // ...adicione as demais na ordem desejada...
 ];
 
-// Ordena conforme a ordem de importância:
+// Ordena conforme a ordem de importância, mas garante "Sobre o Gé Tavares" por último
 dados.sort((a, b) => {
+  if (a.categoria === 'Sobre o Gé Tavares') return 1;
+  if (b.categoria === 'Sobre o Gé Tavares') return -1;
   const ia = ordemImportancia.indexOf(a.categoria);
   const ib = ordemImportancia.indexOf(b.categoria);
   if (ia === -1 && ib === -1) return a.categoria.localeCompare(b.categoria, 'pt-BR');
