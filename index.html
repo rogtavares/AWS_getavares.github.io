@@ -18,6 +18,7 @@
         a { text-decoration: none; color: #222; font-weight: 500; }
         a:hover { text-decoration: underline; color: #1a73e8; }
         .desc { color: #888; font-size: 0.95em; margin-left: 8px; }
+        .categoria-desc { color: #666; font-size: 0.9em; margin-bottom: 16px; padding: 12px; background: #f0f8ff; border-radius: 6px; border-left: 3px solid #1a73e8; }
         .logo-gtavares {
     display: block;
     margin: 0 auto 18px auto;
@@ -61,6 +62,18 @@
 <script>
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
+  {
+    categoria: 'Rede Global de Regiões da AWS',
+    servicos: [
+      {nome: 'Infraestrutura Global da AWS', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/'},
+      {nome: 'Regiões e Zonas de Disponibilidade', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/regions_az/'},
+      {nome: 'Mapa Interativo da Infraestrutura Global', url: 'https://infrastructure.aws/'},
+      {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
+      {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
+      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/outposts/'}
+    ],
+    descricao: 'A Nuvem AWS abrange 114 zonas de disponibilidade em 36 regiões geográficas, com planos anunciados para mais 16 zonas de disponibilidade e mais cinco regiões da AWS na Nova Zelândia, Reino da Arábia Saudita, Taiwan, Chile e na nuvem soberana europeia da AWS.'
+  },
   {
     categoria: 'Análise de Dados',
     servicos: [
@@ -107,7 +120,7 @@ const dados = [
       {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
       {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
       {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
-      {nome: 'AWS Supply Chain', url: 'https://aws.amazon.com/supply-chain/'},
+
       {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
       {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
       {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
@@ -146,30 +159,29 @@ const dados = [
       {nome: 'Oracle Database AWS', url: 'https://aws.amazon.com/rds/oracle/'},
       {nome: 'Amazon RDS Proxy', url: 'https://aws.amazon.com/rds/proxy/'},
       {nome: 'Amazon RDS Custom', url: 'https://aws.amazon.com/rds/custom/'},
-      {nome: 'Amazon RDS Blue/Green Deployments', url: 'https://aws.amazon.com/rds/features/blue-green-deployments/'},
       {nome: 'Amazon RDS Performance Insights', url: 'https://aws.amazon.com/rds/performance-insights/'},
       {nome: 'Amazon RDS Multi-AZ', url: 'https://aws.amazon.com/rds/features/multi-az/'},
       {nome: 'Amazon RDS Read Replicas', url: 'https://aws.amazon.com/rds/features/read-replicas/'},
       {nome: 'Amazon RDS Data API', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html'},
       {nome: 'Amazon RDS IAM Database Authentication', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html'},
-      {nome: 'Amazon RDS Enhanced Monitoring', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html'},
-      {nome: 'Amazon RDS Global Databases', url: 'https://aws.amazon.com/rds/features/global-database/'}
+      {nome: 'Amazon RDS Enhanced Monitoring', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html'}
     ]
   },
   {
     categoria: 'Capacitação do Cliente',
     servicos: [
+    {nome: 'AWS Marketplace', url: 'https://aws.amazon.com/marketplace/'},  
+    {nome: 'AWS re:Post', url: 'https://repost.aws/'},
       {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
       {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
       {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
-      {nome: 'AWS re:Post', url: 'https://repost.aws/'},
       {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
     ]
   },
   {
     categoria: 'Certificações AWS',
     servicos: [
-      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certificacao/'},
+      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
       {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
       {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
       {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
@@ -502,11 +514,17 @@ function renderizarServicos(filtro) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
-            divCat.innerHTML = cat.categoria === 'Sobre o Gé Tavares'
+            let headerHTML = cat.categoria === 'Sobre o Gé Tavares'
                 ? `<h2 class="destaque-gtavares">
                       <img src="logo.png" alt="Logo Gé Tavares" style="height:32px; vertical-align:middle;">
                    </h2>`
                 : `<h2>${cat.categoria}</h2>`;
+            
+            if (cat.descricao) {
+                headerHTML += `<div class="categoria-desc">${cat.descricao}</div>`;
+            }
+            
+            divCat.innerHTML = headerHTML;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
