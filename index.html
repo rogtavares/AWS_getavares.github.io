@@ -538,6 +538,12 @@ function renderizarServicos(filtro) {
                     a.textContent = s.nome;
                 }
                 li.appendChild(a);
+                if (s.desc) {
+                    const spanDesc = document.createElement('span');
+                    spanDesc.className = 'desc';
+                    spanDesc.textContent = `– ${s.desc}`;
+                    li.appendChild(spanDesc);
+                }
                 ul.appendChild(li);
             });
             divCat.appendChild(ul);
