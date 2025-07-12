@@ -14,10 +14,10 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
 ## **Como usar o Site**
-- **Navegação interativa**: Clique nos nós dos mapas mentais para expandir e explorar as categorias de serviços AWS
-- **Busca inteligente**: Utilize a função de busca para localizar rapidamente serviços ou tópicos específicos
-- **Links diretos**: Acesse links diretos para a documentação oficial da AWS diretamente dos mapas
-- **Interface responsiva**: Navegue facilmente tanto no desktop quanto em dispositivos móveis
+- **Explore os mapas**: Clique nos ícones e categorias para ver mais detalhes sobre os serviços da AWS
+- **Procure o que quiser**: Use a busca para achar rapidinho o que você está procurando
+- **Acesse direto**: Quer saber mais? É só clicar nos links que te levam direto pra página oficial da AWS
+- **Funciona em todo lugar**: Dá pra usar tranquilo no computador, tablet ou celular
 
 ## **Benefícios da Plataforma**
 - **Visualização interativa** dos serviços AWS organizados por categorias
