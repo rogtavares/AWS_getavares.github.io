@@ -1,29 +1,39 @@
 # 🌐 Mapas Mentais AWS - Gé Tavares
 
-![AWS Mind Maps](
+## **Sobre o Site**
 
-Os Mapas Mentais de AWS, desenvolvidos por Gé Tavares, foram criados para facilitar o aprendizado, a memorização e a navegação entre os diversos serviços da Amazon Web Services. Estes mapas são especialmente úteis para quem está se preparando para certificações como:
+Este site apresenta uma coleção interativa de Mapas Mentais de AWS, desenvolvidos por Gé Tavares, criados para facilitar o aprendizado, a memorização e a navegação entre os diversos serviços da Amazon Web Services.
 
-AWS Certified Solutions Architect – Associate (SAA-C03)
+A plataforma oferece mapas mentais interativos e navegáveis, especialmente úteis para quem está se preparando para certificações AWS como:
 
-AWS Certified Developer – Associate (DVA-C02)
+- **AWS Certified Solutions Architect – Associate (SAA-C03)**
+- **AWS Certified Developer – Associate (DVA-C02)**
+- **AWS Certified Machine Learning – Specialty (MLS-C01)**
+- **AWS Certified Cloud Practitioner (CLF-C02)**
 
-AWS Certified Machine Learning – Specialty (MLS-C01)
+Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
-AWS Certified Cloud Practitioner (CLF-C02)
+## **Como usar o Site**
+- **Navegação interativa**: Clique nos nós dos mapas mentais para expandir e explorar as categorias de serviços AWS
+- **Busca inteligente**: Utilize a função de busca para localizar rapidamente serviços ou tópicos específicos
+- **Links diretos**: Acesse links diretos para a documentação oficial da AWS diretamente dos mapas
+- **Interface responsiva**: Navegue facilmente tanto no desktop quanto em dispositivos móveis
 
-Organizados por categorias, os mapas oferecem uma visualização clara dos serviços e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
+## **Benefícios da Plataforma**
+- **Visualização interativa** dos serviços AWS organizados por categorias
+- **Acelera o aprendizado** com mapas mentais navegáveis
+- **Facilita a memorização** através de estruturas visuais
+- **Acesso rápido** à documentação oficial da AWS
+- **Interface intuitiva** para estudantes e profissionais
+- **Atualização constante** com novos serviços e recursos AWS 
 
-## **Como usar os Mapas Mentais**
-- **Navegue pelo nó principal**: Comece pelo nó principal e explore as categorias de serviços.
-- **Utilize o filtro**: Use o filtro disponível para localizar rapidamente serviços ou tópicos específicos nos mapas mentais.
-- **Acesse a documentação oficial**: Navegue por serviços e acesse links diretos para a documentação oficial da AWS, facilitando o aprofundamento em tópicos específicos.
+## **Acesso**
 
-## **Benefícios**
-- Organização clara e objetiva dos serviços AWS.
-- Acelera o aprendizado e fixa melhor os conteúdos 
+Visite o site: [https://getavares.github.io/mapamental_2025_getavares.github.io/](https://getavares.github.io/mapamental_2025_getavares.github.io/)
 
 ---
 
-**Versão:** 26 
-**Autor:** Gé Tavares
+**Versão:** 26  
+**Autor:** Gé Tavares  
+**Tecnologia:** HTML5, CSS3, JavaScript  
+**Hospedagem:** GitHub Pages
