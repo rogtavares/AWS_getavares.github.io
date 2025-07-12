@@ -14,10 +14,10 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
 ## **Como usar o Site**
-- **Explore os mapas**: Clique nos ícones e categorias para ver mais detalhes sobre os serviços da AWS
-- **Procure o que quiser**: Use a busca para achar rapidinho o que você está procurando
-- **Acesse direto**: Quer saber mais? É só clicar nos links que te levam direto pra página oficial da AWS
-- **Funciona em todo lugar**: Dá pra usar tranquilo no computador, tablet ou celular
+- **Navegação interativa**: Clique nos nós dos mapas mentais para expandir e explorar as categorias de serviços AWS
+- **Busca inteligente**: Utilize a função de busca para localizar rapidamente serviços ou tópicos específicos
+- **Links diretos**: Acesse links diretos para a documentação oficial da AWS diretamente dos mapas
+- **Interface responsiva**: Navegue facilmente tanto no desktop quanto em dispositivos móveis
 
 ## **Benefícios da Plataforma**
 - **Visualização interativa** dos serviços AWS organizados por categorias
@@ -29,11 +29,11 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 
 ## **Acesso**
 
-Visite o site: [https://getavares.github.io/mapamental_2025_getavares.github.io/](https://getavares.github.io/mapamental_2025_getavares.github.io/)
+https://rogtavares.github.io/AWS_getavares.github.io/
 
 ---
 
-**Versão:** 26  
-**Autor:** Gé Tavares  
+**Versão:** 29   
+**Autor:** Gé Tavares,engenheiro de software ITAU .
 **Tecnologia:** HTML5, CSS3, JavaScript  
 **Hospedagem:** GitHub Pages
