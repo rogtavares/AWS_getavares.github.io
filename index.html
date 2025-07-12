@@ -85,7 +85,7 @@ const dados = [
       {nome: 'Amazon OpenSearch Service', url: 'https://aws.amazon.com/opensearch-service/'},
       {nome: 'Amazon Kinesis', url: 'https://aws.amazon.com/kinesis/'},
       {nome: 'AWS Lake Formation', url: 'https://aws.amazon.com/lake-formation/'},
-      {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'},
+      {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'}, // Mantido apenas Amazon MSK
       {nome: 'AWS Glue DataBrew', url: 'https://aws.amazon.com/glue/features/databrew/'},
       {nome: 'Amazon FinSpace', url: 'https://aws.amazon.com/finspace/'},
       {nome: 'Managed Apache Flink', url: 'https://aws.amazon.com/kinesis/data-analytics/'},
@@ -95,21 +95,9 @@ const dados = [
       {nome: 'Amazon Kinesis Data Firehose', url: 'https://aws.amazon.com/kinesis/data-firehose/'},
       {nome: 'Amazon DataZone', url: 'https://aws.amazon.com/datazone/'},
       {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
-      {nome: 'Amazon Managed Service for Apache Kafka', url: 'https://aws.amazon.com/msk/'},
       {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
-      {nome: 'Amazon Managed Service for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'},
-      {nome: 'Amazon Managed Service for Apache Spark', url: 'https://aws.amazon.com/emr/spark/'},
-      {nome: 'Amazon Managed Service for Apache Hive', url: 'https://aws.amazon.com/emr/features/hive/'},
-      {nome: 'Amazon Managed Service for Apache HBase', url: 'https://aws.amazon.com/emr/hbase/'},
-      {nome: 'Amazon Managed Service for Apache Cassandra', url: 'https://aws.amazon.com/keyspaces/'},
-      {nome: 'Amazon Managed Service for Apache NiFi', url: 'https://aws.amazon.com/managed-service-apache-nifi/'},
-      {nome: 'Amazon Managed Service for Apache Kafka Connect', url: 'https://aws.amazon.com/msk/features/msk-connect/'},
-      {nome: 'Amazon Managed Service for Apache Kafka Streams', url: 'https://aws.amazon.com/msk/features/'},
-      {nome: 'Amazon Managed Service for Apache Pulsar', url: 'https://aws.amazon.com/msk/features/'},
-      {nome: 'Amazon Managed Service for Apache Druid', url: 'https://aws.amazon.com/big-data/what-is-apache-druid/'},
-      {nome: 'Amazon Managed Service for Apache Drill', url: 'https://aws.amazon.com/big-data/what-is-apache-drill/'},
-      {nome: 'Amazon Managed Service for Apache Solr', url: 'https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-solr/'},
-      {nome: 'Amazon Managed Service for Apache CouchDB', url: 'https://aws.amazon.com/documentdb/'}
+      {nome: 'Amazon Managed Workflows for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'}, // nome oficial
+      // Removidos: duplicidades de MSK, Grafana, Prometheus e serviços que não existem oficialmente como produto AWS
     ]
   },
   {
@@ -297,15 +285,7 @@ const dados = [
     categoria: 'Infraestrutura como Código',
     servicos: [
       {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
-      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS Cloud Development Kit (CDK)', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS CloudFormation Guard', url: 'https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html'},
-      {nome: 'AWS CloudFormation Designer', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html'},
-      {nome: 'AWS CloudFormation CLI', url: 'https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html'},
-      {nome: 'AWS CloudFormation Registry', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html'},
-      {nome: 'AWS CloudFormation Macros', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html'},
-      {nome: 'AWS CloudFormation Change Sets', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html'},
-      {nome: 'AWS CloudFormation Drift Detection', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html'}
+      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'}
     ]
   },
   {
