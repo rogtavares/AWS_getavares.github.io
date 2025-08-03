@@ -10,6 +10,8 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 - **AWS Certified Developer – Associate (DVA-C02)**
 - **AWS Certified Machine Learning – Specialty (MLS-C01)**
 - **AWS Certified Cloud Practitioner (CLF-C02)**
+- **AWS Certified AI Practitioner (AIF-C01)**
+
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
@@ -33,7 +35,7 @@ https://rogtavares.github.io/AWS_getavares.github.io/
 
 ---
 
-**Versão:** 29   
+**Versão:** 30    
 **Autor:** Gé Tavares,engenheiro de software ITAU .
 **Tecnologia:** HTML5, CSS3, JavaScript  
 **Hospedagem:** GitHub Pages
