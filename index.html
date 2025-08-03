@@ -382,6 +382,30 @@ const dados = [
     ]
   },
   {
+    categoria: 'Desenvolvimento Web & Mobile',
+    servicos: [
+      {nome: 'AWS Amplify', url: 'https://aws.amazon.com/amplify/'},
+      {nome: 'Amazon API Gateway', url: 'https://aws.amazon.com/api-gateway/'},
+      {nome: 'AWS AppSync', url: 'https://aws.amazon.com/appsync/'},
+      {nome: 'AWS Device Farm', url: 'https://aws.amazon.com/device-farm/'}
+    ]
+  },
+  {
+    categoria: 'Contêineres',
+    servicos: [
+      {nome: 'Amazon ECS', url: 'https://aws.amazon.com/ecs/'},
+      {nome: 'Amazon EKS', url: 'https://aws.amazon.com/eks/'},
+      {nome: 'AWS Fargate', url: 'https://aws.amazon.com/fargate/'},
+      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'}
+    ]
+  },
+  {
+    categoria: 'Mapas e Localização',
+    servicos: [
+      {nome: 'Amazon Location Service', url: 'https://aws.amazon.com/location/'}
+    ]
+  },
+  {
     categoria: 'Robótica',
     servicos: [
       {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
@@ -469,48 +493,46 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio', url: 'https://rogeriotavares.myportfolio.com/'},
+      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'},
       {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
     ]
   }
 ];
 
-// Exemplo de ordem personalizada:
 const ordemImportancia = [
+  'Rede Global de Regiões da AWS',
   'Computação',
+  'Contêineres',
   'Armazenamento',
   'Banco de Dados',
   'Redes e Entrega de Conteúdo',
-  'Mapas e Localização',
+  'Desenvolvimento Web & Mobile',
+  'Ferramentas do Desenvolvedor',
   'Segurança, Identidade e Conformidade',
   'Gerenciamento e Governança',
   'Monitoramento e Observabilidade',
   'Análise de Dados',
   'Machine Learning',
+  'Aplicativos Empresariais',
+  'Computação de Usuário Final',
   'Serviços de Mídia',
-  'Recuperação de Desastres',
-  'Desenvolvimento Web & Mobile',
-  'Ferramentas Visuais',
-  'Integração de Dados',
-  'AWS Professional Services',
-  'Desenvolvimento de Jogos',
+  'Migração e Transferência',
   'Internet das Coisas (IoT)',
+  'Desenvolvimento de Jogos',
+  'Mapas e Localização',
+  'Robótica',
+  'Satélite',
+  'Tecnologias Quânticas',
+  'Tecnologias de Saúde',
+  'Infraestrutura como Código',
+  'Java & SDKs',
   'Documentação do AWS',
   'Capacitação do Cliente',
   'Certificações AWS',
-  'Migração e Transferência',
-  'Infraestrutura como Código',
-  'Java & SDKs',
-  'Robótica',
-  'Tecnologias Quânticas',
-  'Tecnologias de Saúde', 
-  'Satélite',
   '🔧 Ferramentas Externas/Terceirizadas',
-  '🎓 AULINHAS GÉ TAVARES AWS', 
-  // ...adicione as demais na ordem desejada...
+  '🎓 AULINHAS GÉ TAVARES AWS'
 ];
 
-// Ordena conforme a ordem de importância, mas garante "Sobre o Gé Tavares" por último
 dados.sort((a, b) => {
   if (a.categoria === 'Sobre o Gé Tavares') return 1;
   if (b.categoria === 'Sobre o Gé Tavares') return -1;
@@ -532,7 +554,7 @@ function renderizarServicos(filtro) {
         const filtrados = filtroLower === ''
             ? cat.servicos
             : categoriaCombina
-                ? cat.servicos // mostra todos os serviços se a categoria bate
+                ? cat.servicos
                 : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtroLower));
         if (filtrados.length > 0) {
             encontrou = true;
