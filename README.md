@@ -37,5 +37,4 @@ https://rogtavares.github.io/AWS_getavares.github.io/
 
 **Versão:** 30    
 **Autor:** Gé Tavares,engenheiro de software ITAU .
-**Tecnologia:** HTML5, CSS3, JavaScript  
 **Hospedagem:** GitHub Pages
