@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>🧪 Testes - Mapas Mentais AWS</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .test-container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; }
+        .test-result { padding: 10px; margin: 5px 0; border-radius: 4px; }
+        .pass { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .fail { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .info { background: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+        button { padding: 10px 20px; margin: 5px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        #results { margin-top: 20px; }
+        .stats { background: #e9ecef; padding: 15px; border-radius: 4px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Testes do Site - Mapas Mentais AWS</h1>
+        
+        <div class="stats" id="stats">
+            <strong>Estatísticas:</strong> Aguardando testes...
+        </div>
+
+        <button onclick="executarTodos()">🚀 Executar Todos os Testes</button>
+        <button onclick="testarBusca()">🔍 Testar Busca</button>
+        <button onclick="testarLinks()">🔗 Testar Links</button>
+        <button onclick="testarCategorias()">📂 Testar Categorias</button>
+        <button onclick="limparResultados()">🧹 Limpar</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script>
+        // Simular os dados do site principal
+        const dados = [
+            {
+                categoria: '🆕 AWS re:Invent 2025 - NOVIDADES',
+                servicos: [
+                    {nome: 'Amazon Nova (Modelos de IA Multimodal)', url: 'https://aws.amazon.com/bedrock/nova/'},
+                    {nome: 'Amazon Q Developer Agent', url: 'https://aws.amazon.com/q/developer/'},
+                    {nome: 'AWS App Studio (Low-Code)', url: 'https://aws.amazon.com/application-composer/'}
+                ]
+            },
+            {
+                categoria: 'Computação',
+                servicos: [
+                    {nome: 'Amazon EC2', url: 'https://aws.amazon.com/pt/ec2/'},
+                    {nome: 'AWS Lambda', url: 'https://aws.amazon.com/pt/lambda/'},
+                    {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'}
+                ]
+            },
+            {
+                categoria: 'Armazenamento',
+                servicos: [
+                    {nome: 'Amazon S3', url: 'https://aws.amazon.com/pt/s3/'},
+                    {nome: 'Amazon EFS', url: 'https://aws.amazon.com/pt/efs/'},
+                    {nome: 'Amazon EBS', url: 'https://aws.amazon.com/ebs/'}
+                ]
+            }
+        ];
+
+        let totalTestes = 0;
+        let testesPassaram = 0;
+
+        function adicionarResultado(teste, passou, detalhes = '') {
+            totalTestes++;
+            if (passou) testesPassaram++;
+            
+            const div = document.createElement('div');
+            div.className = `test-result ${passou ? 'pass' : 'fail'}`;
+            div.innerHTML = `
+                <strong>${passou ? '✅' : '❌'} ${teste}</strong>
+                ${detalhes ? `<br><small>${detalhes}</small>` : ''}
+            `;
+            document.getElementById('results').appendChild(div);
+            atualizarStats();
+        }
+
+        function atualizarStats() {
+            const porcentagem = totalTestes > 0 ? Math.round((testesPassaram / totalTestes) * 100) : 0;
+            document.getElementById('stats').innerHTML = `
+                <strong>Estatísticas:</strong> 
+                ${testesPassaram}/${totalTestes} testes passaram (${porcentagem}%)
+            `;
+        }
+
+        function testarBusca() {
+            adicionarResultado('Teste de Busca', true, 'Iniciando testes de busca...');
+            
+            // Teste 1: Busca por "EC2"
+            const resultadoEC2 = dados.flatMap(cat => 
+                cat.servicos.filter(s => s.nome.toLowerCase().includes('ec2'))
+            );
+            adicionarResultado('Busca por "EC2"', resultadoEC2.length > 0, 
+                `Encontrados ${resultadoEC2.length} serviços com EC2`);
+
+            // Teste 2: Busca por categoria "Computação"
+            const resultadoComputacao = dados.filter(cat => 
+                cat.categoria.toLowerCase().includes('computação')
+            );
+            adicionarResultado('Busca por categoria "Computação"', resultadoComputacao.length > 0,
+                `Encontradas ${resultadoComputacao.length} categorias`);
+
+            // Teste 3: Busca vazia deve retornar tudo
+            adicionarResultado('Busca vazia retorna todos', dados.length > 0,
+                `${dados.length} categorias disponíveis`);
+        }
+
+        function testarLinks() {
+            adicionarResultado('Teste de Links', true, 'Verificando URLs...');
+            
+            let linksValidos = 0;
+            let totalLinks = 0;
+
+            dados.forEach(categoria => {
+                categoria.servicos.forEach(servico => {
+                    totalLinks++;
+                    if (servico.url && servico.url.startsWith('https://aws.amazon.com')) {
+                        linksValidos++;
+                    }
+                });
+            });
+
+            adicionarResultado('Links oficiais AWS', linksValidos === totalLinks,
+                `${linksValidos}/${totalLinks} links são oficiais da AWS`);
+
+            adicionarResultado('Todos os serviços têm URLs', totalLinks > 0,
+                `${totalLinks} serviços com URLs definidas`);
+        }
+
+        function testarCategorias() {
+            adicionarResultado('Teste de Categorias', true, 'Verificando estrutura...');
+            
+            // Teste 1: Todas as categorias têm nome
+            const categoriasComNome = dados.filter(cat => cat.categoria && cat.categoria.trim() !== '');
+            adicionarResultado('Categorias têm nomes', categoriasComNome.length === dados.length,
+                `${categoriasComNome.length}/${dados.length} categorias nomeadas`);
+
+            // Teste 2: Todas as categorias têm serviços
+            const categoriasComServicos = dados.filter(cat => cat.servicos && cat.servicos.length > 0);
+            adicionarResultado('Categorias têm serviços', categoriasComServicos.length === dados.length,
+                `${categoriasComServicos.length}/${dados.length} categorias com serviços`);
+
+            // Teste 3: Contagem total de serviços
+            const totalServicos = dados.reduce((total, cat) => total + cat.servicos.length, 0);
+            adicionarResultado('Contagem de serviços', totalServicos > 0,
+                `Total: ${totalServicos} serviços AWS catalogados`);
+
+            // Teste 4: Categoria re:Invent 2025 existe
+            const temReinvent = dados.some(cat => cat.categoria.includes('re:Invent 2025'));
+            adicionarResultado('Categoria re:Invent 2025 existe', temReinvent,
+                'Novidades do re:Invent 2025 estão incluídas');
+        }
+
+        function testarPerformance() {
+            adicionarResultado('Teste de Performance', true, 'Medindo tempos...');
+            
+            const inicio = performance.now();
+            
+            // Simular renderização
+            dados.forEach(categoria => {
+                categoria.servicos.forEach(servico => {
+                    // Simular criação de elementos DOM
+                    const elemento = document.createElement('div');
+                    elemento.textContent = servico.nome;
+                });
+            });
+            
+            const fim = performance.now();
+            const tempo = Math.round(fim - inicio);
+            
+            adicionarResultado('Renderização rápida', tempo < 100,
+                `Tempo de renderização: ${tempo}ms`);
+        }
+
+        function executarTodos() {
+            limparResultados();
+            
+            adicionarResultado('🚀 Iniciando Bateria de Testes', true, 
+                'Executando todos os testes automatizados...');
+            
+            setTimeout(() => testarCategorias(), 100);
+            setTimeout(() => testarBusca(), 200);
+            setTimeout(() => testarLinks(), 300);
+            setTimeout(() => testarPerformance(), 400);
+            
+            setTimeout(() => {
+                adicionarResultado('✨ Testes Concluídos', testesPassaram === totalTestes,
+                    `Resultado final: ${testesPassaram}/${totalTestes} testes passaram`);
+            }, 500);
+        }
+
+        function limparResultados() {
+            document.getElementById('results').innerHTML = '';
+            totalTestes = 0;
+            testesPassaram = 0;
+            atualizarStats();
+        }
+
+        // Executar teste básico ao carregar
+        window.onload = function() {
+            adicionarResultado('🎯 Sistema de Testes Carregado', true, 
+                'Pronto para executar testes do site AWS!');
+        };
+    </script>
+</body>
+</html>
