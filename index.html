@@ -196,8 +196,17 @@ const dados = [
       {nome: 'AWS ParallelCluster', url: 'https://aws.amazon.com/hpc/parallelcluster/'},
       {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/simspace-weaver/'},
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
-      {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'}
-    ]
+      {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
+      {nome: 'AWS Nitro System', url: 'https://aws.amazon.com/ec2/nitro/'},
+      {nome: 'AWS Graviton', url: 'https://aws.amazon.com/ec2/graviton/'},
+      {nome: 'AWS Thinkbox Deadline', url: 'https://aws.amazon.com/thinkbox-deadline/'},
+      {nome: 'AWS Thinkbox Frost', url: 'https://aws.amazon.com/thinkbox-frost/'},
+      {nome: 'AWS Thinkbox Krakatoa', url: 'https://aws.amazon.com/thinkbox-krakatoa/'},
+      {nome: 'AWS Thinkbox Sequoia', url: 'https://aws.amazon.com/thinkbox-sequoia/'},
+      {nome: 'AWS Thinkbox Stoke', url: 'https://aws.amazon.com/thinkbox-stoke/'},
+      {nome: 'AWS Thinkbox XMesh', url: 'https://aws.amazon.com/thinkbox-xmesh/'}
+    ],
+    descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
   {
     categoria: 'Computação de Usuário Final',
@@ -337,7 +346,15 @@ const dados = [
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
-      {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'}
+      {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'},
+      {nome: 'Amazon CodeWhisperer', url: 'https://aws.amazon.com/codewhisperer/'},
+      {nome: 'AWS Inferentia', url: 'https://aws.amazon.com/machine-learning/inferentia/'},
+      {nome: 'AWS Trainium', url: 'https://aws.amazon.com/machine-learning/trainium/'},
+      {nome: 'Amazon Omics', url: 'https://aws.amazon.com/omics/'},
+      {nome: 'AWS Neuron', url: 'https://aws.amazon.com/machine-learning/neuron/'},
+      {nome: 'Amazon Machine Learning', url: 'https://aws.amazon.com/machine-learning/'},
+      {nome: 'AWS Deep Learning AMIs', url: 'https://aws.amazon.com/machine-learning/amis/'},
+      {nome: 'AWS Deep Learning Containers', url: 'https://aws.amazon.com/machine-learning/containers/'}
     ]
   },
   {
@@ -469,8 +486,24 @@ const dados = [
     categoria: 'Tecnologias de Saúde',
     servicos: [
       {nome: 'AWS HealthLake', url: 'https://aws.amazon.com/healthlake/'},
-      {nome: 'AWS HealthImaging', url: 'https://aws.amazon.com/healthimaging/'}
+      {nome: 'AWS HealthImaging', url: 'https://aws.amazon.com/healthimaging/'},
+      {nome: 'AWS HealthScribe', url: 'https://aws.amazon.com/healthscribe/'}
     ]
+  },
+  {
+    categoria: 'Blockchain',
+    servicos: [
+      {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'},
+      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'}
+    ],
+    descricao: 'Serviços para criar e gerenciar redes blockchain escaláveis e livros-razão totalmente gerenciados.'
+  },
+  {
+    categoria: 'Realidade Virtual e Aumentada',
+    servicos: [
+      {nome: 'Amazon Sumerian', url: 'https://aws.amazon.com/sumerian/'}
+    ],
+    descricao: 'Ferramentas para criar e executar aplicações de realidade virtual (VR), realidade aumentada (AR) e 3D.'
   },
   {
     categoria: '🔧 Ferramentas Externas/Terceirizadas',
@@ -521,6 +554,8 @@ const ordemImportancia = [
   'Serviços de Mídia',
   'Migração e Transferência',
   'Internet das Coisas (IoT)',
+  'Blockchain',
+  'Realidade Virtual e Aumentada',
   'Desenvolvimento de Jogos',
   'Mapas e Localização',
   'Robótica',
