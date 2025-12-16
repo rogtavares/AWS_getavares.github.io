@@ -63,6 +63,27 @@
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
   {
+    categoria: '🆕 AWS re:Invent 2025 - NOVIDADES',
+    servicos: [
+      {nome: 'Amazon Nova (Modelos de IA Multimodal)', url: 'https://aws.amazon.com/bedrock/nova/'},
+      {nome: 'Amazon Q Developer Agent', url: 'https://aws.amazon.com/q/developer/'},
+      {nome: 'AWS App Studio (Low-Code)', url: 'https://aws.amazon.com/application-composer/'},
+      {nome: 'Amazon Aurora DSQL', url: 'https://aws.amazon.com/rds/aurora/'},
+      {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'},
+      {nome: 'Amazon S3 Tables', url: 'https://aws.amazon.com/s3/'},
+      {nome: 'AWS Control Tower Controls Library', url: 'https://aws.amazon.com/controltower/'},
+      {nome: 'Amazon EKS Hybrid Nodes', url: 'https://aws.amazon.com/eks/'},
+      {nome: 'AWS Parallel Computing Service', url: 'https://aws.amazon.com/hpc/'},
+      {nome: 'Amazon CloudWatch Application Signals', url: 'https://aws.amazon.com/cloudwatch/'},
+      {nome: 'AWS Batch Multi-Node Parallel Jobs', url: 'https://aws.amazon.com/batch/'},
+      {nome: 'Amazon Bedrock Prompt Management', url: 'https://aws.amazon.com/bedrock/'},
+      {nome: 'AWS Lambda SnapStart for Python', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'Amazon EC2 R8g Instances (Graviton4)', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
+      {nome: 'AWS Trainium2', url: 'https://aws.amazon.com/machine-learning/trainium/'}
+    ],
+    descricao: '🔥 Principais lançamentos do AWS re:Invent 2025! Novos serviços de IA, computação, banco de dados e muito mais.'
+  },
+  {
     categoria: 'Rede Global de Regiões da AWS',
     servicos: [
       {nome: 'Infraestrutura Global da AWS', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/'},
@@ -204,7 +225,12 @@ const dados = [
       {nome: 'AWS Thinkbox Krakatoa', url: 'https://aws.amazon.com/thinkbox-krakatoa/'},
       {nome: 'AWS Thinkbox Sequoia', url: 'https://aws.amazon.com/thinkbox-sequoia/'},
       {nome: 'AWS Thinkbox Stoke', url: 'https://aws.amazon.com/thinkbox-stoke/'},
-      {nome: 'AWS Thinkbox XMesh', url: 'https://aws.amazon.com/thinkbox-xmesh/'}
+      {nome: 'AWS Thinkbox XMesh', url: 'https://aws.amazon.com/thinkbox-xmesh/'},
+      {nome: 'Amazon EC2 C8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/c8g/'},
+      {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
+      {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
+      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'AWS Lambda SnapStart', url: 'https://aws.amazon.com/lambda/snapstart/'
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
@@ -257,6 +283,15 @@ const dados = [
       {nome: 'AWS AppSync', url: 'https://aws.amazon.com/appsync/'},
       {nome: 'AWS Device Farm', url: 'https://aws.amazon.com/device-farm/'}
     ]
+  },
+  {
+    categoria: 'Low-Code/No-Code',
+    servicos: [
+      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/application-composer/'},
+      {nome: 'Amazon Honeycode', url: 'https://aws.amazon.com/honeycode/'},
+      {nome: 'AWS Application Composer', url: 'https://aws.amazon.com/application-composer/'}
+    ],
+    descricao: 'Ferramentas para criar aplicações rapidamente com pouco ou nenhum código, democratizando o desenvolvimento.'
   },
   {
     categoria: 'Gerenciamento e Governança',
@@ -343,7 +378,11 @@ const dados = [
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
       {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
+      {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
+      {nome: 'Amazon Bedrock Knowledge Bases', url: 'https://aws.amazon.com/bedrock/knowledge-bases/'},
+      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
+      {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/apps/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
       {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'},
@@ -536,6 +575,7 @@ const dados = [
 ];
 
 const ordemImportancia = [
+  '🆕 AWS re:Invent 2025 - NOVIDADES',
   'Rede Global de Regiões da AWS',
   'Computação',
   'Contêineres',
