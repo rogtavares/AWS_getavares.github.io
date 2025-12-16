@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapas Mentais AWS - Gé Tavares</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f0f8ff; 
+            margin: 20px; 
+            padding: 20px; 
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        }
+        h1 { 
+            text-align: center; 
+            color: #1a73e8; 
+            font-size: 2em; 
+            margin-bottom: 20px; 
+        }
+        .busca { 
+            width: 100%; 
+            padding: 15px; 
+            font-size: 16px; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; 
+            margin-bottom: 30px; 
+            box-sizing: border-box; 
+        }
+        .categoria { 
+            margin: 30px 0; 
+            border-left: 4px solid #1a73e8; 
+            padding-left: 15px; 
+        }
+        .categoria h2 { 
+            color: #1a73e8; 
+            font-size: 1.3em; 
+            margin-bottom: 15px; 
+        }
+        .servico { 
+            background: #f8f9fa; 
+            padding: 10px 15px; 
+            margin: 8px 0; 
+            border-radius: 5px; 
+            border-left: 3px solid #28a745; 
+        }
+        .servico:hover { 
+            background: #e3f0ff; 
+            cursor: pointer; 
+        }
+        a { 
+            text-decoration: none; 
+            color: #333; 
+            font-weight: 500; 
+        }
+        a:hover { 
+            color: #1a73e8; 
+        }
+        .destaque { 
+            background: linear-gradient(45deg, #ff6b35, #f7931e); 
+            color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            text-align: center; 
+            margin: 20px 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 Mapas Mentais AWS - Gé Tavares</h1>
+        
+        <div class="destaque">
+            <h2>🎓 Engenheiro de Software no Itaú</h2>
+            <p>Mapas interativos para certificações AWS</p>
+        </div>
+
+        <input type="text" class="busca" placeholder="🔍 Busque por serviços AWS..." id="busca">
+
+        <div class="categoria">
+            <h2>☁️ Computação</h2>
+            <div class="servico">
+                <a href="https://aws.amazon.com/pt/ec2/" target="_blank">Amazon EC2 - Servidores virtuais na nuvem</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/pt/lambda/" target="_blank">AWS Lambda - Computação serverless</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/pt/lightsail/" target="_blank">Amazon Lightsail - VPS simplificado</a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2>💾 Armazenamento</h2>
+            <div class="servico">
+                <a href="https://aws.amazon.com/pt/s3/" target="_blank">Amazon S3 - Armazenamento de objetos</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/pt/efs/" target="_blank">Amazon EFS - Sistema de arquivos elástico</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/ebs/" target="_blank">Amazon EBS - Volumes de bloco</a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2>🗄️ Banco de Dados</h2>
+            <div class="servico">
+                <a href="https://aws.amazon.com/rds/" target="_blank">Amazon RDS - Banco relacional gerenciado</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/dynamodb/" target="_blank">Amazon DynamoDB - NoSQL serverless</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/elasticache/" target="_blank">Amazon ElastiCache - Cache em memória</a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2>🔒 Segurança</h2>
+            <div class="servico">
+                <a href="https://aws.amazon.com/iam/" target="_blank">AWS IAM - Gerenciamento de identidade</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/cognito/" target="_blank">Amazon Cognito - Autenticação de usuários</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/kms/" target="_blank">AWS KMS - Gerenciamento de chaves</a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2>🤖 Machine Learning</h2>
+            <div class="servico">
+                <a href="https://aws.amazon.com/sagemaker/" target="_blank">Amazon SageMaker - Plataforma ML completa</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/bedrock/" target="_blank">Amazon Bedrock - IA Generativa</a>
+            </div>
+            <div class="servico">
+                <a href="https://aws.amazon.com/rekognition/" target="_blank">Amazon Rekognition - Análise de imagens</a>
+            </div>
+        </div>
+
+        <div class="destaque">
+            <h3>📺 Aulinhas Gé Tavares</h3>
+            <a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z" 
+               target="_blank" style="color: white; text-decoration: underline;">
+               🎬 Playlist Completa no YouTube
+            </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p>Criado por <strong>Rogério Tavares</strong> - Engenheiro de Software no Itaú</p>
+            <p>🌐 <a href="https://rogtavares.github.io/AWS_getavares.github.io/">Site Oficial</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('busca').addEventListener('input', function() {
+            const filtro = this.value.toLowerCase();
+            const servicos = document.querySelectorAll('.servico');
+            
+            servicos.forEach(servico => {
+                const texto = servico.textContent.toLowerCase();
+                if (texto.includes(filtro)) {
+                    servico.style.display = 'block';
+                } else {
+                    servico.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
