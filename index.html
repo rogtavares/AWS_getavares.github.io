@@ -4,21 +4,80 @@
     <meta charset="UTF-8">
     <title> Gé Tavares AWS</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
+            background: #f8f8f8; 
+            margin: 0; 
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+            line-height: 1.5;
+        }
         .container { max-width: 900px; margin: 40px auto; background: #fcfcfc; padding: 40px 28px 24px 28px; border-radius: 16px; box-shadow: 0 4px 16px #0002; }
         h1 { text-align: center; font-size: 2.2em; margin-bottom: 18px; letter-spacing: 1px; }
-        input[type="text"] { width: 100%; padding: 16px; font-size: 1.2em; border: 1.5px solid #bdbdbd; border-radius: 8px; margin: 0 auto 32px auto; display: block; box-sizing: border-box; background: #f5f7fa; transition: border 0.2s; }
+        input[type="text"] { 
+            width: 100%; 
+            padding: 18px 20px; 
+            font-size: 16px; 
+            font-weight: 400;
+            border: 2px solid #e1e5e9; 
+            border-radius: 12px; 
+            margin: 0 auto 32px auto; 
+            display: block; 
+            box-sizing: border-box; 
+            background: #ffffff; 
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
         input[type="text"]:focus { border: 1.5px solid #1a73e8; outline: none; background: #fff; }
         .categoria { margin-top: 40px; }
-        .categoria h2 { margin-bottom: 12px; color: #1a73e8; font-size: 1.3em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+        .categoria h2 { 
+            margin-bottom: 12px; 
+            color: #1a73e8; 
+            font-size: 1.4em; 
+            font-weight: 600;
+            border-left: 4px solid #1a73e8; 
+            padding-left: 10px;
+            letter-spacing: -0.02em;
+        }
         ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 10px; transition: background 0.2s; border-radius: 6px; padding: 4px 8px; }
-        li:hover { background: #e3f0ff; }
-        a { text-decoration: none; color: #222; font-weight: 500; }
+        li { 
+            margin-bottom: 12px; 
+            transition: all 0.2s ease; 
+            border-radius: 8px; 
+            padding: 8px 12px;
+            border: 1px solid transparent;
+        }
+        li:hover { 
+            background: #e3f0ff; 
+            border-color: #d1e7ff;
+            transform: translateX(2px);
+        }
+        a { 
+            text-decoration: none; 
+            color: #2c3e50; 
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.4;
+        }
         a:hover { text-decoration: underline; color: #1a73e8; }
         .desc { color: #888; font-size: 0.95em; margin-left: 8px; }
-        .categoria-desc { color: #666; font-size: 0.9em; margin-bottom: 16px; padding: 12px; background: #f0f8ff; border-radius: 6px; border-left: 3px solid #1a73e8; }
+        .categoria-desc { 
+            color: #5a6c7d; 
+            font-size: 14px; 
+            line-height: 1.6;
+            margin-bottom: 20px; 
+            padding: 16px 20px; 
+            background: #f8fafc; 
+            border-radius: 10px; 
+            border-left: 4px solid #1a73e8;
+            font-weight: 400;
+        }
         .logo-gtavares {
     display: block;
     margin: 0 auto 18px auto;
@@ -230,7 +289,7 @@ const dados = [
       {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
       {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
       {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
-      {nome: 'AWS Lambda SnapStart', url: 'https://aws.amazon.com/lambda/snapstart/'
+      {nome: 'AWS Lambda SnapStart', url: 'https://aws.amazon.com/lambda/snapstart/'}
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
