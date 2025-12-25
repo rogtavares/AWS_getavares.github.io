@@ -19,6 +19,24 @@ Acesse a documentação oficial da AWS para explorar todos os serviços, guias e
 
 ### [👋 Documentação AWS - Página Oficial](https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do) <!-- Link válido -->
 
+## **🆕 AWS re:Invent 2025 - NOVIDADES**
+🔥 Principais lançamentos do AWS re:Invent 2025! Novos serviços de IA, computação, banco de dados e muito mais.
+### [🧠 Amazon Nova (Modelos de IA Multimodal)](https://aws.amazon.com/bedrock/nova/) <!-- Link válido -->
+### [🤖 Amazon Q Developer Agent](https://aws.amazon.com/q/developer/) <!-- Link válido -->
+### [🛠️ AWS App Studio (Low-Code)](https://aws.amazon.com/application-composer/) <!-- Link válido -->
+### [🗄️ Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/) <!-- Link válido -->
+### [☁️ AWS Deadline Cloud](https://aws.amazon.com/deadline-cloud/) <!-- Link válido -->
+### [📊 Amazon S3 Tables](https://aws.amazon.com/s3/) <!-- Link válido -->
+### [🛡️ AWS Control Tower Controls Library](https://aws.amazon.com/controltower/) <!-- Link válido -->
+### [📦 Amazon EKS Hybrid Nodes](https://aws.amazon.com/eks/) <!-- Link válido -->
+### [⚙️ AWS Parallel Computing Service](https://aws.amazon.com/hpc/) <!-- Link válido -->
+### [📈 Amazon CloudWatch Application Signals](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
+### [🔄 AWS Batch Multi-Node Parallel Jobs](https://aws.amazon.com/batch/) <!-- Link válido -->
+### [📝 Amazon Bedrock Prompt Management](https://aws.amazon.com/bedrock/) <!-- Link válido -->
+### [🐍 AWS Lambda SnapStart for Python](https://aws.amazon.com/lambda/) <!-- Link válido -->
+### [💻 Amazon EC2 R8g Instances (Graviton4)](https://aws.amazon.com/ec2/instance-types/r8g/) <!-- Link válido -->
+### [🚂 AWS Trainium2](https://aws.amazon.com/machine-learning/trainium/) <!-- Link válido -->
+
 ## **1. ⚙️ Computação**
 Potência e flexibilidade para turbinar sua nuvem! ☁️🚀
 ### [🖥️ Amazon EC2](https://aws.amazon.com/pt/ec2/) <!-- Link válido -->
@@ -103,9 +121,7 @@ Transforme dados em decisões inteligentes! 📊🤓
 ### [🔗 AWS Entity Resolution](https://aws.amazon.com/entity-resolution/) <!-- Link válido -->
 ### [📡 Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/) <!-- Link válido -->
 ### [📂 Amazon DataZone](https://aws.amazon.com/datazone/) <!-- Link válido -->
-### [📊 Amazon Managed Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
 ### [🔗 Amazon Managed Service for Apache Kafka](https://aws.amazon.com/msk/) <!-- Link válido -->
-### [📈 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
 ### [⚙️ Amazon Managed Service for Apache Airflow](https://aws.amazon.com/mwaa/) <!-- Link válido -->
 ### [⚡ Amazon Managed Service for Apache Spark](https://aws.amazon.com/emr/spark/) <!-- Link válido -->
 ### [📂 Amazon Managed Service for Apache Hive](https://aws.amazon.com/emr/) <!-- Link válido -->
@@ -122,10 +138,9 @@ Transforme dados em decisões inteligentes! 📊🤓
 
 ## **6. 📈 Monitoramento e Observabilidade**
 Fique de olho em tudo, sem perder nenhum detalhe! 👀📈
-### [📊 Datadog](https://www.datadoghq.com/) <!-- Link válido -->
 ### [📊 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
-### [📊 New Relic](https://newrelic.com/) <!-- Link válido -->
-### [📊 Grafana](https://grafana.com/) <!-- Link válido -->
+### [📊 Amazon Managed Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
+### [📈 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
 
 ## **7. 🤖 Machine Learning**
 Inteligência artificial para inovar de verdade! 🤖✨
@@ -147,17 +162,15 @@ Inteligência artificial para inovar de verdade! 🤖✨
 ### [🧠 AWS DeepRacer](https://aws.amazon.com/deepracer/) <!-- Link válido -->
 ### [🧠 AWS Panorama](https://aws.amazon.com/panorama/) <!-- Link válido -->
 ### [🧠 Amazon Monitron](https://aws.amazon.com/monitron/) <!-- Link válido -->
-### [🧠 AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
 ### [🧠 Amazon Lookout for Vision](https://aws.amazon.com/lookout-for-vision/) <!-- Link válido -->
 ### [🧠 Amazon Lookout for Equipment](https://aws.amazon.com/lookout-for-equipment/) <!-- Link válido -->
 ### [🧠 Amazon Lookout for Metrics](https://aws.amazon.com/lookout-for-metrics/) <!-- Link válido -->
-### [🧠 Amazon Q Business](https://aws.amazon.com/) <!-- Link válido -->
+### [🧠 Amazon Q Business](https://aws.amazon.com/q/business/) <!-- Link válido -->
 ### [🧠 AWS HealthOmics](https://aws.amazon.com/healthomics/) <!-- Link válido -->
 ### [🧠 Amazon Bedrock](https://aws.amazon.com/bedrock/) <!-- Link válido -->
 ### [🧠 Amazon Q](https://aws.amazon.com/q/) <!-- Link válido -->
 ### [🧠 Amazon Comprehend Medical](https://aws.amazon.com/comprehend/medical/) <!-- Link válido -->
 ### [🧠 Amazon Lex](https://aws.amazon.com/lex/) <!-- Link válido -->
-### [🧠 AWS HealthImaging](https://aws.amazon.com/healthimaging/) <!-- Link válido -->
 
 ## **8. 🚚 Migração e Transferência**
 Migre para a nuvem sem dor de cabeça! 🚚☁️
@@ -199,11 +212,15 @@ Desenvolva, teste e entregue mais rápido! 💻🚀
 ### [🛠️ Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/) <!-- Link válido -->
 ### [🛠️ AWS AppConfig](https://aws.amazon.com/appconfig/) <!-- Link válido -->
 ### [🛠️ AWS FIS (Fault Injection Simulator)](https://aws.amazon.com/fis/) <!-- Link válido -->
-### [🛠️ Infrastructure Composer](https://aws.amazon.com/infrastructure-composer/) <!-- Link válido -->
-### [🛠️ AWS App Studio](https://aws.amazon.com/appstudio/) <!-- Link válido -->
 ### [🛠️ Amazon Q Developer (CodeWhisperer)](https://aws.amazon.com/codewhisperer/) <!-- Link válido -->
 
-## **11. 🏗️ Infraestrutura como Código**
+## **11. 🧩 Low-Code/No-Code**
+Crie aplicações rapidamente com pouco ou nenhum código! 🧩⚡
+### [🛠️ AWS App Studio](https://aws.amazon.com/appstudio/) <!-- Link válido -->
+### [🛠️ AWS Application Composer](https://aws.amazon.com/application-composer/) <!-- Link válido -->
+### [🛠️ AWS Amplify Studio](https://aws.amazon.com/amplify/studio/) <!-- Link válido -->
+
+## **12. 🏗️ Infraestrutura como Código**
 Automatize tudo e ganhe agilidade! 🏗️🤖
 ### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
 ### [🏗️ AWS CDK](https://aws.amazon.com/cdk/) <!-- Link válido -->
@@ -216,7 +233,7 @@ Automatize tudo e ganhe agilidade! 🏗️🤖
 ### [🏗️ AWS CloudFormation Change Sets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html) <!-- Link corrigido -->
 ### [🏗️ AWS CloudFormation Drift Detection](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html) <!-- Link corrigido -->
 
-## **12. 🙋 Capacitação do Cliente**
+## **13. 🙋 Capacitação do Cliente**
 Conte com suporte e soluções sob medida! 🙋‍♂️💡
 ### [🧑‍💼 AWS IQ](https://aws.amazon.com/iq/) <!-- Link válido -->
 ### [🛠️ AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
@@ -224,10 +241,9 @@ Conte com suporte e soluções sob medida! 🙋‍♂️💡
 ### [💬 AWS re:Post](https://repost.aws/) <!-- Link válido -->
 ### [📞 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
 
-## **13. 🛠️ Gerenciamento e Governança**
+## **14. 🛠️ Gerenciamento e Governança**
 Controle total da sua nuvem, sem estresse! 🛠️🔍
 ### [🏢 AWS Organizations](https://aws.amazon.com/organizations/) <!-- Link válido -->
-### [📊 Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
 ### [📈 AWS Auto Scaling](https://aws.amazon.com/autoscaling/) <!-- Link válido -->
 ### [🏗️ AWS CloudFormation](https://aws.amazon.com/cloudformation/) <!-- Link válido -->
 ### [⚙️ AWS Config](https://aws.amazon.com/config/) <!-- Link válido -->
@@ -240,8 +256,6 @@ Controle total da sua nuvem, sem estresse! 🛠️🔍
 ### [🚀 AWS Launch Wizard](https://aws.amazon.com/launchwizard/) <!-- Link válido -->
 ### [📉 AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/) <!-- Link válido -->
 ### [🏷️ AWS Resource Groups & Tag Editor](https://aws.amazon.com/resource-groups/) <!-- Link válido -->
-### [📊 Amazon Managed Grafana](https://aws.amazon.com/grafana/) <!-- Link válido -->
-### [📈 Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus/) <!-- Link válido -->
 ### [🛡️ AWS Resilience Hub](https://aws.amazon.com/resilience-hub/) <!-- Link válido -->
 ### [🚨 AWS Incident Manager](https://aws.amazon.com/systems-manager/incident-manager/) <!-- Link válido -->
 ### [📡 AWS Telco Network Builder](https://aws.amazon.com/tnb/) <!-- Link válido -->
@@ -253,7 +267,7 @@ Controle total da sua nuvem, sem estresse! 🛠️🔍
 ### [🔍 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/) <!-- Link válido -->
 ### [📊 AWS Service Quotas](https://aws.amazon.com/servicequotas/) <!-- Link válido -->
 
-## **14. 🎥 Serviços de Mídia**
+## **15. 🎥 Serviços de Mídia**
 Streaming e mídia sem limites! 🎥🌎
 ### [📹 Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/) <!-- Link válido -->
 ### [🎞️ AWS Elemental MediaConvert](https://aws.amazon.com/mediaconvert/) <!-- Link válido -->
@@ -265,7 +279,7 @@ Streaming e mídia sem limites! 🎥🌎
 ### [📡 Amazon Interactive Video Service (IVS)](https://aws.amazon.com/ivs/) <!-- Link válido -->
 ### [🔗 AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/) <!-- Link válido -->
 
-## **15. 🔒 Segurança, Identidade e Conformidade**
+## **16. 🔒 Segurança, Identidade e Conformidade**
 Proteja seus dados com tecnologia de ponta! 🔒🛡️
 ### [🔑 AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) <!-- Link válido -->
 ### [🔐 Amazon Cognito](https://aws.amazon.com/cognito/) <!-- Link válido -->
@@ -285,7 +299,7 @@ Proteja seus dados com tecnologia de ponta! 🔒🛡️
 ### [📋 AWS Audit Manager](https://aws.amazon.com/audit-manager/) <!-- Link válido -->
 ### [🔒 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/) <!-- Link válido -->
 
-## **16. 💰 Gerenciamento de Cobrança e Custos**
+## **17. 💰 Gerenciamento de Cobrança e Custos**
 Economize e acompanhe seus gastos fácil! 💰📊
 ### [📊 AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/cost-explorer/) <!-- Link válido -->
 ### [📈 AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) <!-- Link válido -->
@@ -293,14 +307,14 @@ Economize e acompanhe seus gastos fácil! 💰📊
 ### [🛒 AWS Marketplace](https://aws.amazon.com/marketplace/) <!-- Link válido -->
 ### [💸 AWS Savings Plans](https://aws.amazon.com/savingsplans/) <!-- Link válido -->
 
-## **17. 📱 Dispositivos Móveis**
+## **18. 📱 Dispositivos Móveis**
 Apps móveis integrados e prontos para escalar! 📱🚀
 ### [📱 AWS Amplify](https://aws.amazon.com/amplify/) <!-- Link válido -->
 ### [📱 AWS AppSync](https://aws.amazon.com/appsync/) <!-- Link válido -->
 ### [📱 AWS Device Farm](https://aws.amazon.com/device-farm/) <!-- Link válido -->
 ### [📱 Amazon Location Service](https://aws.amazon.com/location/) <!-- Link válido -->
 
-## **18. 🔗 Integração de Aplicativos**
+## **19. 🔗 Integração de Aplicativos**
 Conecte tudo e automatize processos! 🔗🤝
 ### [🔗 AWS Step Functions](https://aws.amazon.com/step-functions/) <!-- Link válido -->
 ### [🔗 Amazon AppFlow](https://aws.amazon.com/appflow/) <!-- Link válido -->
@@ -312,7 +326,7 @@ Conecte tudo e automatize processos! 🔗🤝
 ### [🔗 AWS B2B Data Interchange](https://aws.amazon.com/b2bi/) <!-- Link válido -->
 ### [🔗 Amazon EventBridge](https://aws.amazon.com/eventbridge/) <!-- Link válido -->
 
-## **19. 🏢 Aplicativos Empresariais**
+## **20. 🏢 Aplicativos Empresariais**
 Ferramentas para produtividade máxima! 🏢💼
 ### [🏢 Amazon Connect](https://aws.amazon.com/connect/) <!-- Link válido -->
 ### [🏢 Amazon Chime](https://aws.amazon.com/chime/) <!-- Link válido -->
@@ -327,61 +341,68 @@ Ferramentas para produtividade máxima! 🏢💼
 ### [🏢 AWS End User Messaging](https://aws.amazon.com/end-user-messaging/) <!-- Link válido -->
 ### [🏢 Amazon Chime SDK](https://aws.amazon.com/chime-sdk/) <!-- Link válido -->
 
-## **20. 🖥️ Computação de Usuário Final**
+## **21. 🖥️ Computação de Usuário Final**
 Experiência de desktop na nuvem, onde quiser! 🖥️🌐
 ### [🖥️ Amazon WorkSpaces](https://aws.amazon.com/workspaces/) <!-- Link válido -->
 ### [🖥️ Amazon AppStream 2.0](https://aws.amazon.com/appstream2/) <!-- Link válido -->
 ### [🖥️ Amazon WorkSpaces Thin Client](https://aws.amazon.com/workspaces/thin-client/) <!-- Link válido -->
 ### [🖥️ Amazon WorkSpaces Secure Browser](https://aws.amazon.com/workspaces/web/) <!-- Link válido -->
 
-## **21. 🌐 Internet das Coisas (IoT)**
+## **22. 🌐 Internet das Coisas (IoT)**
 Conecte dispositivos e inove com IoT! 🌐🤖
 ### [🌐 AWS IoT Analytics](https://aws.amazon.com/iot-analytics/) <!-- Link válido -->
 ### [🌐 AWS IoT Device Defender](https://aws.amazon.com/iot-device-defender/) <!-- Link válido -->
 ### [🌐 AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) <!-- Link válido -->
 ### [🌐 AWS IoT Greengrass](https://aws.amazon.com/greengrass/) <!-- Link válido -->
 ### [🌐 AWS IoT Core](https://aws.amazon.com/iot-core/) <!-- Link válido -->
+### [🕶️ AWS IoT SiteWise](https://aws.amazon.com/iot-sitewise/) <!-- Link válido -->
+### [🕶️ AWS IoT Core para LoRaWAN](https://aws.amazon.com/iot-core/lorawan/) <!-- Link válido -->
 
-## **22. 🎮 Desenvolvimento de Jogos**
+## **23. 🎮 Desenvolvimento de Jogos**
 Infraestrutura gamer para jogos de alto nível! 🎮🔥
 ### [🎮 Amazon GameLift Servers](https://aws.amazon.com/gamelift/) <!-- Link válido -->
 ### [🎮 Amazon GameLift Streams](https://aws.amazon.com/gamelift/streams/) <!-- Link válido -->
 
-## **23. 🕶️ Realidade Aumentada e Virtual**
+## **24. 🕶️ Realidade Aumentada e Virtual**
 Mergulhe em experiências imersivas! 🕶️🌟
 ### [🕶️ Amazon Sumerian](https://aws.amazon.com/sumerian/) <!-- Link válido -->
-### [🕶️ AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/) <!-- Link válido -->
-### [🕶️ AWS IoT SiteWise](https://aws.amazon.com/iot-sitewise/) <!-- Link válido -->
-### [🕶️ AWS IoT Greengrass](https://aws.amazon.com/greengrass/) <!-- Link válido -->
-### [🕶️ AWS IoT Core](https://aws.amazon.com/iot-core/) <!-- Link válido -->
-### [🕶️ AWS IoT Core para LoRaWAN](https://aws.amazon.com/iot-core/lorawan/) <!-- Link válido -->
-### [🕶️ AWS IoT Core para Sigfox](https://aws.amazon.com/iot-core/) <!-- Link válido -->
-### [🕶️ AWS IoT Core para 5G](https://aws.amazon.com/iot-core/) <!-- Link válido -->
 
-## **24. 🤖 Robótica**
+## **25. 🤖 Robótica**
 Automatize com robôs inteligentes! 🤖🔧
 ### [🤖 AWS RoboMaker](https://aws.amazon.com/robomaker/) <!-- Link válido -->
 
-## **25. ⛓️ Blockchain**
+## **26. ⛓️ Blockchain**
 Segurança e transparência com blockchain! ⛓️🔒
 ### [⛓️ Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain/) <!-- Link válido -->
 
-## **26. 🛰️ Satélite**
+## **27. 🛰️ Satélite**
 Conecte-se ao espaço com soluções de satélite! 🛰️🌍
 ### [🛰️ AWS Ground Station](https://aws.amazon.com/ground-station/) <!-- Link válido -->
 ### [🛰️ AWS Data Exchange for Ground Station](https://aws.amazon.com/data-exchange/) <!-- Link válido -->
 ### [🛰️ AWS Ground Station with Amazon S3](https://aws.amazon.com/ground-station/) <!-- Link válido -->
 
-## **27. 🧬 Tecnologias Quânticas**
+## **28. 🧬 Tecnologias Quânticas**
 Explore o futuro com computação quântica! 🧬⚛️
 ### [🧬 Amazon Braket](https://aws.amazon.com/braket/) <!-- Link válido -->
 
-## **28. 🧪 Tecnologias de Saúde**
+## **29. 🧪 Tecnologias de Saúde**
 Inove na saúde com tecnologia de ponta! 🧪❤️
 ### [🧪 AWS HealthLake](https://aws.amazon.com/healthlake/) <!-- Link válido -->
 ### [🧪 AWS HealthImaging](https://aws.amazon.com/healthimaging/) <!-- Link válido e recomendado para imagens médicas -->
 
-## **29. 📜 Certificações AWS**
+## **30. 🛠️ Ferramentas Externas e Integrações**
+Ferramentas de terceiros que expandem o ecossistema AWS! 🛠️🔗
+### [📊 Datadog](https://www.datadoghq.com/) <!-- Link válido -->
+### [📊 New Relic](https://newrelic.com/) <!-- Link válido -->
+### [📊 Grafana](https://grafana.com/) <!-- Link válido -->
+### [🏗️ Terraform (HashiCorp)](https://www.hashicorp.com/products/terraform) <!-- Link válido -->
+### [🏗️ Pulumi](https://www.pulumi.com/) <!-- Link válido -->
+### [💰 Kiro (Gestão de Custos)](https://kiro.io/) <!-- Link válido -->
+### [🔒 Prowler (Segurança)](https://github.com/prowler-cloud/prowler) <!-- Link válido -->
+### [🐳 Docker](https://www.docker.com/) <!-- Link válido -->
+### [☸️ Kubernetes](https://kubernetes.io/) <!-- Link válido -->
+
+## **31. 📜 Certificações AWS**
 Descubra seu caminho na AWS! 🚀 Certifique-se e destaque-se no mundo cloud!
 Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo programático, consulte o site oficial da AWS Certification clicando no link abaixo:
 
@@ -393,43 +414,11 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [🚀 Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS](https://skillbuilder.aws/)
 
-##  30. **Produtos Oficiais da AWS (332)**
+## **32. 🎓 AULINHAS GÉ TAVARES AWS**
+Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
+### [📺 Playlist Completa no YouTube](https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z) <!-- Link válido -->
 
-### **Categorias e Contagem**
-- **Analytics**: 20
-- **Application Integration**: 9
-- **AWS Management Console**: 4
-- **Blockchain**: 2
-- **Business Applications**: 15
-- **Cloud Financial Management**: 4
-- **Compute**: 18
-- **Compute HPC**: 1
-- **Containers**: 6
-- **Cryptography & PKI**: 7
-- **Customer Enablement Services**: 6
-- **Database**: 13
-- **Decision Guides**: 26
-- **Developer Tools**: 34
-- **End User Computing**: 6
-- **Front-End Web & Mobile**: 9
-- **Game Development**: 3
-- **General Reference**: 7
-- **Internet of Things (IoT)**: 13
-- **Machine Learning**: 34
-- **Management & Governance**: 37
-- **Marketplace**: 1
-- **Media Services**: 11
-- **Migration & Transfer**: 10
-- **Networking & Content Delivery**: 15
-- **Partner Central**: 1
-- **Quantum Computing**: 1
-- **Robotics**: 1
-- **Satellite**: 1
-- **Security, Identity, & Compliance**: 25
-- **Serverless**: 12
-- **Storage**: 10
-
-## **31. 👨‍💻 Sobre o Gé Tavares**
+## **33. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
 
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
@@ -439,5 +428,4 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 
 
-<!-- GE TAVARES v21 -->
-
+<!-- GE TAVARES v23 -->
