@@ -14,12 +14,6 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
-## **Novidades (2026)**
-- **🆕 Lançamentos AWS re:Invent 2024:** Principais inovações e novos serviços anunciados no evento.
-- **🛠️ Ferramentas Externas:** Inclusão de ferramentas essenciais do ecossistema (Terraform, Datadog, Kubernetes, etc.).
-- **🧩 Low-Code/No-Code:** Nova categoria para ferramentas de desenvolvimento rápido.
-- **📚 900+ Cursos AWS Gratuitos:** Atualização da quantidade de cursos disponíveis no AWS SkillBuilder.
-
 ## **Como usar o Site**
 - **Navegação interativa**: Clique nos nós dos mapas mentais para expandir e explorar as categorias de serviços AWS.
 - **Busca inteligente**: Utilize a função de busca para localizar rapidamente serviços ou tópicos específicos.
