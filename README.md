@@ -37,6 +37,9 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 ---
 
 **Versão:** 33
+
 **Autor:** Gé Tavares, engenheiro de software Itaú.
+
 **Hospedagem:** GitHub Pages
+
 **Última atualização:** Janeiro 2026
