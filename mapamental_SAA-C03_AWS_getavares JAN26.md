@@ -10,7 +10,7 @@ markmap:
 ---
 
 # **GE Tavares AWS**
-## **Documentação oficial da AWS       Produtos (332)** 
+## **Documentação oficial da AWS       Produtos (340+)** 
 - Para abrir em outra guia ou janela, clique com o botão do meio do mouse 
 - (ou clique com o botão direito e escolha **"Abrir link em nova guia" ou "Abrir link em nova janela")**.
 
@@ -19,23 +19,28 @@ Acesse a documentação oficial da AWS para explorar todos os serviços, guias e
 
 ### [👋 Documentação AWS - Página Oficial](https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do) <!-- Link válido -->
 
-## **🆕 AWS re:Invent 2025 - NOVIDADES**
-🔥 Principais lançamentos do AWS re:Invent 2025! Novos serviços de IA, computação, banco de dados e muito mais.
+## **🆕 AWS re:Invent 2024 - NOVIDADES**
+🔥 Principais lançamentos do AWS re:Invent 2024! Novos serviços de IA, computação, banco de dados e muito mais.
 ### [🧠 Amazon Nova (Modelos de IA Multimodal)](https://aws.amazon.com/bedrock/nova/) <!-- Link válido -->
 ### [🤖 Amazon Q Developer Agent](https://aws.amazon.com/q/developer/) <!-- Link válido -->
 ### [🛠️ AWS App Studio (Low-Code)](https://aws.amazon.com/application-composer/) <!-- Link válido -->
-### [🗄️ Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/) <!-- Link válido -->
+### [🗄️ Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) <!-- Link válido -->
 ### [☁️ AWS Deadline Cloud](https://aws.amazon.com/deadline-cloud/) <!-- Link válido -->
-### [📊 Amazon S3 Tables](https://aws.amazon.com/s3/) <!-- Link válido -->
+### [📊 Amazon S3 Tables](https://aws.amazon.com/s3/features/tables/) <!-- Link válido -->
 ### [🛡️ AWS Control Tower Controls Library](https://aws.amazon.com/controltower/) <!-- Link válido -->
-### [📦 Amazon EKS Hybrid Nodes](https://aws.amazon.com/eks/) <!-- Link válido -->
-### [⚙️ AWS Parallel Computing Service](https://aws.amazon.com/hpc/) <!-- Link válido -->
-### [📈 Amazon CloudWatch Application Signals](https://aws.amazon.com/cloudwatch/) <!-- Link válido -->
-### [🔄 AWS Batch Multi-Node Parallel Jobs](https://aws.amazon.com/batch/) <!-- Link válido -->
-### [📝 Amazon Bedrock Prompt Management](https://aws.amazon.com/bedrock/) <!-- Link válido -->
-### [🐍 AWS Lambda SnapStart for Python](https://aws.amazon.com/lambda/) <!-- Link válido -->
+### [📦 Amazon EKS Hybrid Nodes](https://aws.amazon.com/eks/hybrid-nodes/) <!-- Link válido -->
+### [⚙️ AWS Parallel Computing Service (PCS)](https://aws.amazon.com/pcs/) <!-- Link válido -->
+### [📈 Amazon CloudWatch Application Signals](https://aws.amazon.com/cloudwatch/application-signals/) <!-- Link válido -->
+### [🔄 AWS Batch Multi-Container Jobs](https://aws.amazon.com/batch/) <!-- Link válido -->
+### [📝 Amazon Bedrock Prompt Management](https://aws.amazon.com/bedrock/prompt-management/) <!-- Link válido -->
+### [🐍 AWS Lambda SnapStart for Python](https://aws.amazon.com/lambda/snapstart/) <!-- Link válido -->
 ### [💻 Amazon EC2 R8g Instances (Graviton4)](https://aws.amazon.com/ec2/instance-types/r8g/) <!-- Link válido -->
 ### [🚂 AWS Trainium2](https://aws.amazon.com/machine-learning/trainium/) <!-- Link válido -->
+### [🔐 Amazon VPC Lattice](https://aws.amazon.com/vpc/lattice/) <!-- Link válido -->
+### [🎯 Amazon S3 Express One Zone](https://aws.amazon.com/s3/storage-classes/express-one-zone/) <!-- Link válido -->
+### [🧠 Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) <!-- Link válido -->
+### [📊 Amazon Q in QuickSight](https://aws.amazon.com/quicksight/q/) <!-- Link válido -->
+### [🔒 AWS Private CA Connector for SCEP](https://aws.amazon.com/private-ca/) <!-- Link válido -->
 
 ## **1. ⚙️ Computação**
 Potência e flexibilidade para turbinar sua nuvem! ☁️🚀
@@ -69,6 +74,7 @@ Potência e flexibilidade para turbinar sua nuvem! ☁️🚀
 ## **2. 💾 Armazenamento**
 Guarde tudo com segurança e acesso rápido! 💾🔒
 ### [📂 Amazon S3](https://aws.amazon.com/pt/s3/) <!-- Link válido -->
+### [⚡ Amazon S3 Express One Zone](https://aws.amazon.com/s3/storage-classes/express-one-zone/) <!-- Link válido -->
 ### [📁 Amazon EFS](https://aws.amazon.com/pt/efs/) <!-- Link válido -->
 ### [📦 Amazon FSx](https://aws.amazon.com/pt/fsx/) <!-- Link válido -->
 ### [❄️ Amazon S3 Glacier](https://aws.amazon.com/pt/s3/glacier/) <!-- Link válido -->
@@ -171,6 +177,9 @@ Inteligência artificial para inovar de verdade! 🤖✨
 ### [🧠 Amazon Q](https://aws.amazon.com/q/) <!-- Link válido -->
 ### [🧠 Amazon Comprehend Medical](https://aws.amazon.com/comprehend/medical/) <!-- Link válido -->
 ### [🧠 Amazon Lex](https://aws.amazon.com/lex/) <!-- Link válido -->
+### [🧠 AWS HealthScribe](https://aws.amazon.com/healthscribe/) <!-- Link válido -->
+### [🧠 Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) <!-- Link válido -->
+### [🧠 Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/) <!-- Link válido -->
 
 ## **8. 🚚 Migração e Transferência**
 Migre para a nuvem sem dor de cabeça! 🚚☁️
@@ -198,6 +207,8 @@ Conecte e entregue com velocidade global! 🌐⚡
 ### [🌍 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/) <!-- Link válido -->
 ### [🌍 AWS Network Firewall](https://aws.amazon.com/network-firewall/) <!-- Link válido -->
 ### [🌍 AWS Network Manager](https://aws.amazon.com/vpc/network-manager/) <!-- Link válido -->
+### [🌍 AWS VPC Lattice](https://aws.amazon.com/vpc/lattice/) <!-- Link válido -->
+### [🌍 AWS Verified Access](https://aws.amazon.com/verified-access/) <!-- Link válido -->
 
 ## **10. 💻 Ferramentas do Desenvolvedor**
 Desenvolva, teste e entregue mais rápido! 💻🚀
@@ -298,6 +309,9 @@ Proteja seus dados com tecnologia de ponta! 🔒🛡️
 ### [🔎 AWS Security Hub](https://aws.amazon.com/security-hub/) <!-- Link válido -->
 ### [📋 AWS Audit Manager](https://aws.amazon.com/audit-manager/) <!-- Link válido -->
 ### [🔒 AWS Payment Cryptography](https://aws.amazon.com/payment-cryptography/) <!-- Link válido -->
+### [🔐 AWS Private CA](https://aws.amazon.com/private-ca/) <!-- Link válido -->
+### [🛡️ Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) <!-- Link válido -->
+### [🔑 AWS IAM Identity Center](https://aws.amazon.com/iam/identity-center/) <!-- Link válido -->
 
 ## **17. 💰 Gerenciamento de Cobrança e Custos**
 Economize e acompanhe seus gastos fácil! 💰📊
@@ -410,7 +424,7 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [📜 ESCOLHE SEU CAMINHO NA AWS Certification](https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf)
 
-### [🎓 Explore mais de 600 cursos AWS gratuitos](https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em)
+### [🎓 Explore mais de 900 cursos AWS gratuitos](https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em)
 
 ### [🚀 Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS](https://skillbuilder.aws/)
 
@@ -428,4 +442,4 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 
 
-<!-- GE TAVARES v23 -->
+<!-- GE TAVARES v24 - JAN 2026 -->

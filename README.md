@@ -14,10 +14,11 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
-## **Novidades (2025)**
-- **🆕 AWS re:Invent 2025:** Seção dedicada aos principais lançamentos e inovações anunciados no evento.
+## **Novidades (2026)**
+- **🆕 Lançamentos AWS re:Invent 2024:** Principais inovações e novos serviços anunciados no evento.
 - **🛠️ Ferramentas Externas:** Inclusão de ferramentas essenciais do ecossistema (Terraform, Datadog, Kubernetes, etc.).
 - **🧩 Low-Code/No-Code:** Nova categoria para ferramentas de desenvolvimento rápido.
+- **📚 900+ Cursos AWS Gratuitos:** Atualização da quantidade de cursos disponíveis no AWS SkillBuilder.
 
 ## **Como usar o Site**
 - **Navegação interativa**: Clique nos nós dos mapas mentais para expandir e explorar as categorias de serviços AWS.
@@ -37,8 +38,15 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 
 [Acesse o Mapa Mental AWS Interativo](https://rogtavares.github.io/mapamental_2025_getavares.github.io/)
 
+## **🎓 AULINHAS GÉ TAVARES AWS**
+
+Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
+
+[📺 Playlist Completa no YouTube](https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z)
+
 ---
 
-**Versão:** 32
-**Autor:** Gé Tavares,engenheiro de software ITAU .
+**Versão:** 33
+**Autor:** Gé Tavares, engenheiro de software Itaú.
 **Hospedagem:** GitHub Pages
+**Última atualização:** Janeiro 2026
