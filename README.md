@@ -19,6 +19,8 @@ A plataforma oferece mapas mentais interativos e navegáveis, especialmente úte
 - **AWS Certified Advanced Networking – Specialty (ANS-C01)**
 - **AWS Certified AI Practitioner (AIF-C01)**
 
+*E outras certificações AWS disponíveis.*
+
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
 ## **Benefícios da Plataforma**
