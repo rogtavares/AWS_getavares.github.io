@@ -28,10 +28,6 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Interface intuitiva** para estudantes e profissionais.
 - **Atualização constante** com novos serviços e recursos AWS.
 
-## **Acesso**
-
-[Acesse o Mapa Mental AWS Interativo](https://rogtavares.github.io/mapamental_2025_getavares.github.io/)
-
 ## **🎓 AULINHAS GÉ TAVARES AWS**
 
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
