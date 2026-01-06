@@ -6,10 +6,17 @@ Este site apresenta uma coleção interativa de Mapas Mentais de AWS, desenvolvi
 
 A plataforma oferece mapas mentais interativos e navegáveis, especialmente úteis para quem está se preparando para certificações AWS como:
 
+- **AWS Certified Cloud Practitioner (CLF-C02)**
 - **AWS Certified Solutions Architect – Associate (SAA-C03)**
 - **AWS Certified Developer – Associate (DVA-C02)**
+- **AWS Certified SysOps Administrator – Associate (SOA-C02)**
+- **AWS Certified Solutions Architect – Professional (SAP-C02)**
+- **AWS Certified DevOps Engineer – Professional (DOP-C02)**
 - **AWS Certified Machine Learning – Specialty (MLS-C01)**
-- **AWS Certified Cloud Practitioner (CLF-C02)**
+- **AWS Certified Security – Specialty (SCS-C02)**
+- **AWS Certified Database – Specialty (DBS-C01)**
+- **AWS Certified Data Analytics – Specialty (DAS-C01)**
+- **AWS Certified Advanced Networking – Specialty (ANS-C01)**
 - **AWS Certified AI Practitioner (AIF-C01)**
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
