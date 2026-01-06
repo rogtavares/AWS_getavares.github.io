@@ -2,78 +2,176 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="favicon.png">
     <title> Gé Tavares AWS</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
+            background: #f8f8f8; 
+            margin: 0; 
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+            line-height: 1.5;
+        }
         .container { max-width: 900px; margin: 40px auto; background: #fcfcfc; padding: 40px 28px 24px 28px; border-radius: 16px; box-shadow: 0 4px 16px #0002; }
         h1 { text-align: center; font-size: 2.2em; margin-bottom: 18px; letter-spacing: 1px; }
-        input[type="text"] { width: 100%; padding: 16px; font-size: 1.2em; border: 1.5px solid #bdbdbd; border-radius: 8px; margin: 0 auto 32px auto; display: block; box-sizing: border-box; background: #f5f7fa; transition: border 0.2s; }
-        input[type="text"]:focus { border: 1.5px solid #ff9800; outline: none; background: #fff; }
+        input[type="text"] { 
+            width: 100%; 
+            padding: 18px 20px; 
+            font-size: 16px; 
+            font-weight: 400;
+            border: 2px solid #e1e5e9; 
+            border-radius: 12px; 
+            margin: 0 auto 32px auto; 
+            display: block; 
+            box-sizing: border-box; 
+            background: #ffffff; 
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+        input[type="text"]:focus { border: 1.5px solid #1a73e8; outline: none; background: #fff; }
         .categoria { margin-top: 40px; }
-        .categoria h2 { margin-bottom: 12px; color: #1a73e8; font-size: 1.3em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+        .categoria h2 { 
+            margin-bottom: 12px; 
+            color: #1a73e8; 
+            font-size: 1.4em; 
+            font-weight: 600;
+            border-left: 4px solid #1a73e8; 
+            padding-left: 10px;
+            letter-spacing: -0.02em;
+        }
         ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 10px; transition: background 0.2s; border-radius: 6px; padding: 4px 8px; }
-        li:hover { background: #e3f0ff; }
-        a { text-decoration: none; color: #222; font-weight: 500; }
+        li { 
+            margin-bottom: 12px; 
+            transition: all 0.2s ease; 
+            border-radius: 8px; 
+            padding: 8px 12px;
+            border: 1px solid transparent;
+        }
+        li:hover { 
+            background: #e3f0ff; 
+            border-color: #d1e7ff;
+            transform: translateX(2px);
+        }
+        a { 
+            text-decoration: none; 
+            color: #2c3e50; 
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.4;
+        }
         a:hover { text-decoration: underline; color: #1a73e8; }
         .desc { color: #888; font-size: 0.95em; margin-left: 8px; }
-        .logo-gtavares { display:block; margin:0 auto 18px auto; max-width:400px; }
+        .categoria-desc { 
+            color: #5a6c7d; 
+            font-size: 14px; 
+            line-height: 1.6;
+            margin-bottom: 20px; 
+            padding: 16px 20px; 
+            background: #f8fafc; 
+            border-radius: 10px; 
+            border-left: 4px solid #1a73e8;
+            font-weight: 400;
+        }
+        .logo-gtavares {
+    display: block;
+    margin: 0 auto 18px auto;
+    max-width: 480px;   /* aumente aqui conforme desejar */
+    width: 100%;
+}
+.logo-aws {
+    display: block;
+    margin: 0 auto 18px auto;
+    max-width: 150px;   /* diminua aqui conforme desejar */
+    width: 100%;
+}
         footer { text-align: center; color: #aaa; font-size: 0.98em; margin-top: 40px; padding-bottom: 10px; }
         footer a[target="_blank"] {
   rel: noopener;
+}
+.destaque-gtavares {
+  color: #d35400;      /* laranja escuro */
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background: #fff3e0;
+  padding: 6px 14px;
+  border-radius: 8px;
+  display: inline-block;
 }
     </style>
 </head>
 <body>
 <div class="container">
     <img src="logo.png" alt="Logo Ge Tavares AWS" class="logo-gtavares">
-    <input type="text" id="busca" placeholder="Busque por serviços AWS..." autofocus>
+    <img src="aws-logo.png" alt="Logo AWS" class="logo-aws">
+    <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus>
     <div id="servicos-lista">
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->
     </div>
 </div>
+
 <footer>
-  Feito por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares</a> • 2024
+  Criado por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares, engenheiro de software no Itaú</a> • 2026
 </footer>
 <script>
 // Dados extraídos do seu Markdown (categorias e serviços)
 const dados = [
   {
-    categoria: 'Boas-vindas à documentação do AWS',
+    categoria: 'Rede Global de Regiões da AWS',
     servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
+      {nome: 'Infraestrutura Global da AWS', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/'},
+      {nome: 'Regiões e Zonas de Disponibilidade', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/regions_az/'},
+      {nome: 'Mapa Interativo da Infraestrutura Global', url: 'https://infrastructure.aws/'},
+      {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
+      {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
+      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/outposts/'}
+    ],
+    descricao: 'A Nuvem AWS abrange 120 Zonas de Disponibilidade em 38 Regiões geográficas globalmente, com planos anunciados para mais 10 Zonas de Disponibilidade e mais 3 Regiões da AWS no Reino da Arábia Saudita, no Chile e na Nuvem Soberana Europeia da AWS. Atualizado em novembro de 2025.'
+  },
+  {
+    categoria: 'Análise de Dados',
+    servicos: [
+      {nome: 'Amazon Redshift', url: 'https://aws.amazon.com/redshift/'},
+      {nome: 'Amazon Athena', url: 'https://aws.amazon.com/athena/'},
+      {nome: 'Amazon QuickSight', url: 'https://aws.amazon.com/quicksight/'},
+      {nome: 'AWS Glue', url: 'https://aws.amazon.com/glue/'},
+      {nome: 'Amazon EMR', url: 'https://aws.amazon.com/emr/'},
+      {nome: 'Amazon OpenSearch Service', url: 'https://aws.amazon.com/opensearch-service/'},
+      {nome: 'Amazon Kinesis', url: 'https://aws.amazon.com/kinesis/'},
+      {nome: 'Managed Apache Flink', url: 'https://aws.amazon.com/managed-flink/'},
+      {nome: 'AWS Lake Formation', url: 'https://aws.amazon.com/lake-formation/'},
+      {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'}, // Mantido apenas Amazon MSK
+      {nome: 'AWS Glue DataBrew', url: 'https://aws.amazon.com/glue/features/databrew/'},
+      {nome: 'Amazon FinSpace', url: 'https://aws.amazon.com/finspace/'},
+
+      {nome: 'AWS Clean Rooms', url: 'https://aws.amazon.com/clean-rooms/'},
+      {nome: 'Amazon SageMaker', url: 'https://aws.amazon.com/sagemaker/'},
+      {nome: 'AWS Entity Resolution', url: 'https://aws.amazon.com/entity-resolution/'},
+      {nome: 'Amazon Kinesis Data Firehose', url: 'https://aws.amazon.com/kinesis/data-firehose/'},
+      {nome: 'Amazon DataZone', url: 'https://aws.amazon.com/datazone/'},
+      {nome: 'Amazon Managed Workflows for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'} // nome oficial
+      // Removidos: duplicidades de MSK, Grafana, Prometheus e serviços que não existem oficialmente como produto AWS
     ]
   },
   {
-    categoria: 'Computação',
+    categoria: 'Aplicativos Empresariais',
     servicos: [
-      {nome: 'Amazon EC2', url: 'https://aws.amazon.com/pt/ec2/'},
-      {nome: 'AWS Lambda', url: 'https://aws.amazon.com/pt/lambda/'},
-      {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
-      {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
-      {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
-      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Metadata', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Metadata Service', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-metadata-service.html'},
-      {nome: 'Amazon EC2 Spot', url: 'https://aws.amazon.com/pt/ec2/spot/'},
-      {nome: 'Amazon EC2 Spot Fleet', url: 'https://aws.amazon.com/ec2/spot/'},
-      {nome: 'Amazon EC2 Spot Instance Advisor', url: 'https://aws.amazon.com/ec2/spot/instance-advisor/'},
-      {nome: 'Amazon EC2 Auto Scaling Groups', url: 'https://aws.amazon.com/pt/autoscaling/ec2/'},
-      {nome: 'Amazon EC2 Auto Scaling Lifecycle Hooks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Refresh', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html'},
-      {nome: 'Amazon EC2 Auto Scaling Predictive Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/predictive-scaling.html'},
-      {nome: 'Amazon EC2 Auto Scaling Scheduled Scaling', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/schedule_time_based_scaling.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Protection', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html'},
-      {nome: 'Amazon EC2 Auto Scaling Health Checks', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/healthcheck.html'},
-      {nome: 'Amazon EC2 Auto Scaling Instance Warm-Up', url: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-warmup.html'},
-      {nome: 'AWS Serverless Application Repository', url: 'https://aws.amazon.com/pt/serverless/serverlessrepo/'},
-      {nome: 'EC2 Image Builder', url: 'https://aws.amazon.com/pt/image-builder/'},
-      {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
-      {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/pt/simspaceweaver/'},
-      {nome: 'AWS Parallel Computing Service', url: 'https://aws.amazon.com/pt/hpc/'},
-      {nome: 'Research and Engineering Studio on AWS', url: 'https://docs.aws.amazon.com/res/?icmpid=docs_homepage_compute-hpc'},
-      {nome: 'EC2 Global View', url: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html'}
+      {nome: 'Amazon Connect', url: 'https://aws.amazon.com/connect/'},
+      {nome: 'Amazon Chime', url: 'https://aws.amazon.com/chime/'},
+      {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
+      {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
+      {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
+
+      {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
+      {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
+      {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
+      {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
+      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'}
     ]
   },
   {
@@ -88,19 +186,12 @@ const dados = [
       {nome: 'AWS Elastic Disaster Recovery', url: 'https://aws.amazon.com/pt/disaster-recovery/'},
       {nome: 'Amazon S3 Object Lambda', url: 'https://aws.amazon.com/s3/features/object-lambda/'},
       {nome: 'Amazon S3 Intelligent-Tiering', url: 'https://aws.amazon.com/s3/storage-classes/intelligent-tiering/'},
-      {nome: 'Amazon S3 Storage Lens', url: 'https://aws.amazon.com/pt/s3/storage-lens/'}
-    ]
-  },
-  {
-    categoria: 'Contêineres',
-    servicos: [
-      {nome: 'Amazon ECS', url: 'https://aws.amazon.com/pt/ecs/'},
-      {nome: 'Amazon EKS', url: 'https://aws.amazon.com/pt/eks/'},
-      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/pt/ecr/'},
-      {nome: 'Amazon AppMesh', url: 'https://aws.amazon.com/pt/app-mesh/'},
-      {nome: 'ROSA (OpenShift)', url: 'https://aws.amazon.com/pt/rosa/'},
-      {nome: 'Amazon EKS Anywhere', url: 'https://aws.amazon.com/pt/eks/anywhere/'},
-      {nome: 'Amazon EKS Distro', url: 'https://eksctl.io/'}
+      {nome: 'Amazon S3 Storage Lens', url: 'https://aws.amazon.com/pt/s3/storage-lens/'},
+      {nome: 'Amazon S3 Vector', url: 'https://aws.amazon.com/pt/s3/features/vectors/'},
+      {nome: 'Amazon EBS', url: 'https://aws.amazon.com/ebs/'},
+      {nome: 'AWS Snowball', url: 'https://aws.amazon.com/snowball/'},
+      {nome: 'AWS Snowcone', url: 'https://aws.amazon.com/snowcone/'},
+      {nome: 'AWS Snowmobile', url: 'https://aws.amazon.com/snowmobile/'}
     ]
   },
   {
@@ -115,60 +206,192 @@ const dados = [
       {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
       {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
       {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
-      {nome: 'Oracle Database@AWS', url: 'https://aws.amazon.com/rds/oracle/'}
+
+      {nome: 'Amazon RDS Proxy', url: 'https://aws.amazon.com/rds/proxy/'},
+      {nome: 'Amazon RDS Custom', url: 'https://aws.amazon.com/rds/custom/'},
+      {nome: 'Amazon RDS Performance Insights', url: 'https://aws.amazon.com/rds/performance-insights/'},
+      {nome: 'Amazon RDS Multi-AZ', url: 'https://aws.amazon.com/rds/features/multi-az/'},
+      {nome: 'Amazon RDS Read Replicas', url: 'https://aws.amazon.com/rds/features/read-replicas/'},
+      {nome: 'Amazon RDS Data API', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html'},
+      {nome: 'Amazon RDS IAM Database Authentication', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html'},
+      {nome: 'Amazon RDS Enhanced Monitoring', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html'}
     ]
   },
   {
-    categoria: 'Análise de Dados',
+    categoria: 'Capacitação do Cliente',
     servicos: [
-      {nome: 'Amazon Redshift', url: 'https://aws.amazon.com/redshift/'},
-      {nome: 'Amazon Athena', url: 'https://aws.amazon.com/athena/'},
-      {nome: 'Amazon QuickSight', url: 'https://aws.amazon.com/quicksight/'},
-      {nome: 'AWS Glue', url: 'https://aws.amazon.com/glue/'},
-      {nome: 'Amazon EMR', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon OpenSearch Service', url: 'https://aws.amazon.com/opensearch-service/'},
-      {nome: 'Amazon Kinesis', url: 'https://aws.amazon.com/kinesis/'},
-      {nome: 'AWS Lake Formation', url: 'https://aws.amazon.com/lake-formation/'},
-      {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'},
-      {nome: 'AWS Glue DataBrew', url: 'https://aws.amazon.com/glue/databrew/'},
-      {nome: 'Amazon FinSpace', url: 'https://aws.amazon.com/finspace/'},
-      {nome: 'Managed Apache Flink', url: 'https://aws.amazon.com/kinesis/data-analytics/'},
-      {nome: 'AWS Clean Rooms', url: 'https://aws.amazon.com/clean-rooms/'},
-      {nome: 'Amazon SageMaker', url: 'https://aws.amazon.com/sagemaker/'},
-      {nome: 'AWS Entity Resolution', url: 'https://aws.amazon.com/entity-resolution/'},
-      {nome: 'Amazon Kinesis Data Firehose', url: 'https://aws.amazon.com/kinesis/data-firehose/'},
-      {nome: 'Amazon DataZone', url: 'https://aws.amazon.com/datazone/'},
-      {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
-      {nome: 'Amazon Managed Service for Apache Kafka', url: 'https://aws.amazon.com/msk/'},
-      {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
-      {nome: 'Amazon Managed Service for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'},
-      {nome: 'Amazon Managed Service for Apache Spark', url: 'https://aws.amazon.com/emr/spark/'},
-      {nome: 'Amazon Managed Service for Apache Hive', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon Managed Service for Apache HBase', url: 'https://aws.amazon.com/emr/hbase/'},
-      {nome: 'Amazon Managed Service for Apache Cassandra', url: 'https://aws.amazon.com/keyspaces/'},
-      {nome: 'Amazon Managed Service for Apache NiFi', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon Managed Service for Apache Kafka Connect', url: 'https://aws.amazon.com/msk/'},
-      {nome: 'Amazon Managed Service for Apache Kafka Streams', url: 'https://aws.amazon.com/msk/'},
-      {nome: 'Amazon Managed Service for Apache Pulsar', url: 'https://aws.amazon.com/msk/'},
-      {nome: 'Amazon Managed Service for Apache Druid', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon Managed Service for Apache Drill', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon Managed Service for Apache Solr', url: 'https://aws.amazon.com/emr/'},
-      {nome: 'Amazon Managed Service for Apache CouchDB', url: 'https://aws.amazon.com/emr/'}
+    {nome: 'AWS Marketplace', url: 'https://aws.amazon.com/marketplace/'},  
+    {nome: 'AWS re:Post', url: 'https://repost.aws/'},
+      {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
+      {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
+      {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
+      {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
     ]
   },
   {
-    categoria: 'Monitoramento e Observabilidade',
+    categoria: 'Certificações AWS',
     servicos: [
-      {nome: 'Datadog', url: 'https://www.datadoghq.com/'},
+      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
+      {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
+      {nome: 'Explore mais de 900 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
+      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
+    ]
+  },
+  {
+    categoria: 'Computação',
+    servicos: [
+      {nome: 'Amazon EC2', url: 'https://aws.amazon.com/pt/ec2/'},
+      {nome: 'AWS Lambda', url: 'https://aws.amazon.com/pt/lambda/'},
+      {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
+      {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
+      {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
+      {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
+      {nome: 'Amazon EC2 Spot Instances', url: 'https://aws.amazon.com/pt/ec2/spot/'},
+      {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
+      {nome: 'AWS Serverless Application Repository', url: 'https://aws.amazon.com/pt/serverless/serverlessrepo/'},
+      {nome: 'EC2 Image Builder', url: 'https://aws.amazon.com/pt/image-builder/'},
+      {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
+      {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
+      {nome: 'AWS ParallelCluster', url: 'https://aws.amazon.com/hpc/parallelcluster/'},
+      {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/simspace-weaver/'},
+      {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
+      {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
+      {nome: 'AWS Nitro System', url: 'https://aws.amazon.com/ec2/nitro/'},
+      {nome: 'AWS Graviton', url: 'https://aws.amazon.com/ec2/graviton/'},
+      {nome: 'AWS Thinkbox Deadline', url: 'https://aws.amazon.com/thinkbox-deadline/'},
+      {nome: 'AWS Thinkbox Frost', url: 'https://aws.amazon.com/thinkbox-frost/'},
+      {nome: 'AWS Thinkbox Krakatoa', url: 'https://aws.amazon.com/thinkbox-krakatoa/'},
+      {nome: 'AWS Thinkbox Sequoia', url: 'https://aws.amazon.com/thinkbox-sequoia/'},
+      {nome: 'AWS Thinkbox Stoke', url: 'https://aws.amazon.com/thinkbox-stoke/'},
+      {nome: 'AWS Thinkbox XMesh', url: 'https://aws.amazon.com/thinkbox-xmesh/'},
+      {nome: 'Amazon EC2 C8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/c8g/'},
+      {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
+      {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
+      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'AWS Lambda SnapStart', url: 'https://aws.amazon.com/lambda/snapstart/'}
+    ],
+    descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
+  },
+  {
+    categoria: 'Computação de Usuário Final',
+    servicos: [
+      {nome: 'Amazon AppStream 2.0', url: 'https://aws.amazon.com/appstream2/'},
+      {nome: 'Amazon DCV', url: 'https://docs.aws.amazon.com/pt_br/dcv/?icmpid=docs_homepage_euc'},
+      {nome: 'Amazon WorkSpaces', url: 'https://aws.amazon.com/workspaces/'},
+      {nome: 'Amazon WorkSpaces Secure Browser', url: 'https://aws.amazon.com/workspaces/web/'},
+      {nome: 'Amazon WorkSpaces Thin Client', url: 'https://aws.amazon.com/workspaces/thin-client/'}
+    ]
+  },
+  {
+    categoria: 'Desenvolvimento de Jogos',
+    servicos: [
+      {nome: 'Amazon GameLift', url: 'https://aws.amazon.com/gamelift/'},
+      {nome: 'AWS GameKit', url: 'https://aws.amazon.com/gamekit/'},
+      {nome: 'Amazon Lumberyard', url: 'https://aws.amazon.com/lumberyard/'}
+    ]
+  },
+  {
+    categoria: 'Documentação do AWS',
+    servicos: [
+      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
+    ]
+  },
+  {
+    categoria: 'Ferramentas do Desenvolvedor',
+    servicos: [
+      {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
+      {nome: 'AWS CodeCommit', url: 'https://aws.amazon.com/codecommit/'},
+      {nome: 'AWS CodeBuild', url: 'https://aws.amazon.com/codebuild/'},
+      {nome: 'AWS CodeDeploy', url: 'https://aws.amazon.com/codedeploy/'},
+      {nome: 'AWS Cloud9', url: 'https://aws.amazon.com/cloud9/'},
+      {nome: 'AWS CloudShell', url: 'https://aws.amazon.com/cloudshell/'},
+      {nome: 'AWS CodeArtifact', url: 'https://aws.amazon.com/codeartifact/'},
+      {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
+      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
+      {nome: 'Amazon Q Developer', url: 'https://aws.amazon.com/q/developer/'},
+      {nome: 'AWS CodeStar', url: 'https://aws.amazon.com/codestar/'},
+      {nome: 'AWS Fault Injection Service', url: 'https://aws.amazon.com/fis/'}
+    ]
+  },
+  {
+    categoria: 'Desenvolvimento Web & Mobile',
+    servicos: [
+      {nome: 'AWS Amplify', url: 'https://aws.amazon.com/amplify/'},
+      {nome: 'Amazon API Gateway', url: 'https://aws.amazon.com/api-gateway/'},
+      {nome: 'AWS AppSync', url: 'https://aws.amazon.com/appsync/'},
+      {nome: 'AWS Device Farm', url: 'https://aws.amazon.com/device-farm/'}
+    ]
+  },
+  {
+    categoria: 'Low-Code/No-Code',
+    servicos: [
+      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/application-composer/'},
+      {nome: 'AWS Application Composer', url: 'https://aws.amazon.com/application-composer/'},
+      {nome: 'AWS Amplify Studio', url: 'https://aws.amazon.com/amplify/studio/'}
+    ],
+    descricao: 'Ferramentas para criar aplicações rapidamente com pouco ou nenhum código, democratizando o desenvolvimento.'
+  },
+  {
+    categoria: 'Gerenciamento e Governança',
+    servicos: [
       {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
-      {nome: 'New Relic', url: 'https://newrelic.com/'},
-      {nome: 'Grafana', url: 'https://grafana.com/'}
+      {nome: 'Amazon Data Lifecycle Manager', url: 'https://docs.aws.amazon.com/pt_br/dlm/?icmpid=docs_homepage_mgmtgov'},
+      {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
+      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
+      {nome: 'AWS Compute Optimizer', url: 'https://aws.amazon.com/compute-optimizer/'},
+      {nome: 'AWS Config', url: 'https://aws.amazon.com/config/'},
+      {nome: 'AWS Control Tower', url: 'https://aws.amazon.com/controltower/'},
+      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/incident-manager/'},
+      {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
+      {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
+      {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
+      {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
+      {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
+      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resource-explorer/'},
+      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://aws.amazon.com/resource-groups/'},
+      {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
+      {nome: 'AWS Service Catalog', url: 'https://aws.amazon.com/servicecatalog/'},
+      {nome: 'AWS Service Quotas', url: 'https://aws.amazon.com/servicequotas/'},
+      {nome: 'AWS Systems Manager', url: 'https://aws.amazon.com/systems-manager/'},
+      {nome: 'AWS Telco Network Builder', url: 'https://aws.amazon.com/tnb/'},
+      {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
+      {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
+      {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
+      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'}
+    ]
+  },
+  {
+    categoria: 'Infraestrutura como Código',
+    servicos: [
+      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
+      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'}
+    ]
+  },
+  {
+    categoria: 'Internet das Coisas (IoT)',
+    servicos: [
+      {nome: 'AWS IoT Analytics', url: 'https://aws.amazon.com/iot-analytics/'},
+      {nome: 'AWS IoT Device Defender', url: 'https://aws.amazon.com/iot-device-defender/'},
+      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
+      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
+      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'},
+      {nome: 'AWS IoT Device Management', url: 'https://aws.amazon.com/iot-device-management/'},
+      {nome: 'AWS IoT Events', url: 'https://aws.amazon.com/iot-events/'},
+      {nome: 'AWS IoT SiteWise', url: 'https://aws.amazon.com/iot-sitewise/'},
+      {nome: 'AWS IoT FleetWise', url: 'https://aws.amazon.com/iot-fleetwise/'}
+    ]
+  },
+  {
+    categoria: 'Java & SDKs',
+    servicos: [
+      {nome: 'Amazon Corretto', url: 'https://docs.aws.amazon.com/pt_br/corretto/?icmpid=docs_homepage_devtools'}
     ]
   },
   {
     categoria: 'Machine Learning',
     servicos: [
       {nome: 'Amazon SageMaker AI', url: 'https://aws.amazon.com/sagemaker/'},
+      {nome: 'Amazon SageMaker Studio', url: 'https://aws.amazon.com/sagemaker/studio-lab/'},
       {nome: 'Amazon Augmented AI', url: 'https://aws.amazon.com/augmented-ai/'},
       {nome: 'Amazon CodeGuru', url: 'https://aws.amazon.com/codeguru/'},
       {nome: 'Amazon DevOps Guru', url: 'https://aws.amazon.com/devops-guru/'},
@@ -186,17 +409,29 @@ const dados = [
       {nome: 'AWS DeepRacer', url: 'https://aws.amazon.com/deepracer/'},
       {nome: 'AWS Panorama', url: 'https://aws.amazon.com/panorama/'},
       {nome: 'Amazon Monitron', url: 'https://aws.amazon.com/monitron/'},
-      {nome: 'AWS HealthLake', url: 'https://aws.amazon.com/healthlake/'},
       {nome: 'Amazon Lookout for Vision', url: 'https://aws.amazon.com/lookout-for-vision/'},
       {nome: 'Amazon Lookout for Equipment', url: 'https://aws.amazon.com/lookout-for-equipment/'},
       {nome: 'Amazon Lookout for Metrics', url: 'https://aws.amazon.com/lookout-for-metrics/'},
-      {nome: 'Amazon Q Business', url: 'https://aws.amazon.com/'},
+      {nome: 'Amazon Q Business', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
+      {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
+      {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
+      {nome: 'Amazon Bedrock Knowledge Bases', url: 'https://aws.amazon.com/bedrock/knowledge-bases/'},
+      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
+      {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/apps/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
-      {nome: 'AWS HealthImaging', url: 'https://aws.amazon.com/healthimaging/'}
+      {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'},
+      {nome: 'Amazon CodeWhisperer', url: 'https://aws.amazon.com/codewhisperer/'},
+      {nome: 'AWS Inferentia', url: 'https://aws.amazon.com/machine-learning/inferentia/'},
+      {nome: 'AWS Trainium', url: 'https://aws.amazon.com/machine-learning/trainium/'},
+      {nome: 'Amazon Omics', url: 'https://aws.amazon.com/omics/'},
+      {nome: 'AWS Neuron', url: 'https://aws.amazon.com/machine-learning/neuron/'},
+      {nome: 'Amazon Machine Learning', url: 'https://aws.amazon.com/machine-learning/'},
+      {nome: 'AWS Deep Learning AMIs', url: 'https://aws.amazon.com/machine-learning/amis/'},
+      {nome: 'AWS Deep Learning Containers', url: 'https://aws.amazon.com/machine-learning/containers/'}
     ]
   },
   {
@@ -214,11 +449,26 @@ const dados = [
     ]
   },
   {
+    categoria: 'Monitoramento e Observabilidade',
+    servicos: [
+      {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
+      {nome: 'AWS X-Ray', url: 'https://aws.amazon.com/xray/'},
+      {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
+      {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
+      {nome: 'AWS Distro for OpenTelemetry', url: 'https://aws.amazon.com/otel/'},
+      {nome: 'Amazon CloudWatch Logs', url: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html'},
+      {nome: 'Amazon CloudWatch Synthetics', url: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html'},
+
+      {nome: 'Amazon CloudWatch RUM', url: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html'},
+      {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
+      {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'}
+    ]
+  },
+  {
     categoria: 'Redes e Entrega de Conteúdo',
     servicos: [
       {nome: 'Amazon VPC', url: 'https://aws.amazon.com/vpc/'},
       {nome: 'Amazon CloudFront', url: 'https://aws.amazon.com/cloudfront/'},
-      {nome: 'Amazon API Gateway', url: 'https://aws.amazon.com/api-gateway/'},
       {nome: 'AWS Direct Connect', url: 'https://aws.amazon.com/directconnect/'},
       {nome: 'AWS App Mesh', url: 'https://aws.amazon.com/app-mesh/'},
       {nome: 'AWS Global Accelerator', url: 'https://aws.amazon.com/global-accelerator/'},
@@ -227,96 +477,40 @@ const dados = [
       {nome: 'AWS Cloud Map', url: 'https://aws.amazon.com/cloud-map/'},
       {nome: 'Application Recovery Controller', url: 'https://aws.amazon.com/application-recovery-controller/'},
       {nome: 'AWS Network Firewall', url: 'https://aws.amazon.com/network-firewall/'},
-      {nome: 'AWS Network Manager', url: 'https://aws.amazon.com/vpc/network-manager/'}
+      {nome: 'AWS Network Manager', url: 'https://aws.amazon.com/vpc/network-manager/'},
+      {nome: 'Elastic Load Balancing (ELB)', url: 'https://aws.amazon.com/elasticloadbalancing/'},
+      {nome: 'AWS PrivateLink', url: 'https://aws.amazon.com/privatelink/'},
+      {nome: 'AWS Transit Gateway', url: 'https://aws.amazon.com/transit-gateway/'},
+      {nome: 'AWS VPN', url: 'https://aws.amazon.com/vpn/'}
     ]
   },
   {
-    categoria: 'Ferramentas do Desenvolvedor',
+    categoria: 'Contêineres',
     servicos: [
-      {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
-      {nome: 'AWS CodeCommit', url: 'https://aws.amazon.com/codecommit/'},
-      {nome: 'AWS CodeBuild', url: 'https://aws.amazon.com/codebuild/'},
-      {nome: 'AWS CodeDeploy', url: 'https://aws.amazon.com/codedeploy/'},
-      {nome: 'AWS Cloud9', url: 'https://aws.amazon.com/cloud9/'},
-      {nome: 'AWS CloudShell', url: 'https://aws.amazon.com/cloudshell/'},
-      {nome: 'AWS X-Ray', url: 'https://aws.amazon.com/xray/'},
-      {nome: 'AWS CodeArtifact', url: 'https://aws.amazon.com/codeartifact/'},
-      {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
-      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
-      {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'},
-      {nome: 'Infrastructure Composer', url: 'https://aws.amazon.com/infrastructure-composer/'},
-      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/appstudio/'},
-      {nome: 'Amazon Q Developer (CodeWhisperer)', url: 'https://aws.amazon.com/codewhisperer/'}
+      {nome: 'Amazon ECS', url: 'https://aws.amazon.com/ecs/'},
+      {nome: 'Amazon EKS', url: 'https://aws.amazon.com/eks/'},
+      {nome: 'AWS Fargate', url: 'https://aws.amazon.com/fargate/'},
+      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'}
     ]
   },
   {
-    categoria: 'Infraestrutura como Código',
+    categoria: 'Mapas e Localização',
     servicos: [
-      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
-      {nome: 'AWS CDK', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS Cloud Development Kit (CDK)', url: 'https://aws.amazon.com/cdk/'},
-      {nome: 'AWS CloudFormation Guard', url: 'https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html'},
-      {nome: 'AWS CloudFormation Designer', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html'},
-      {nome: 'AWS CloudFormation CLI', url: 'https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/what-is-cloudformation-cli.html'},
-      {nome: 'AWS CloudFormation Registry', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html'},
-      {nome: 'AWS CloudFormation Macros', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html'},
-      {nome: 'AWS CloudFormation Change Sets', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html'},
-      {nome: 'AWS CloudFormation Drift Detection', url: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html'}
+      {nome: 'Amazon Location Service', url: 'https://aws.amazon.com/location/'}
     ]
   },
   {
-    categoria: 'Capacitação do Cliente',
+    categoria: 'Robótica',
     servicos: [
-      {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
-      {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
-      {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
-      {nome: 'AWS re:Post', url: 'https://repost.aws/'},
-      {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
+      {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
     ]
   },
   {
-    categoria: 'Gerenciamento e Governança',
+    categoria: 'Satélite',
     servicos: [
-      {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
-      {nome: 'Amazon CloudWatch', url: 'https://aws.amazon.com/cloudwatch/'},
-      {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
-      {nome: 'AWS CloudFormation', url: 'https://aws.amazon.com/cloudformation/'},
-      {nome: 'AWS Config', url: 'https://aws.amazon.com/config/'},
-      {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
-      {nome: 'AWS Service Catalog', url: 'https://aws.amazon.com/servicecatalog/'},
-      {nome: 'AWS Systems Manager', url: 'https://aws.amazon.com/systems-manager/'},
-      {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
-      {nome: 'AWS Control Tower', url: 'https://aws.amazon.com/controltower/'},
-      {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
-      {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
-      {nome: 'AWS Compute Optimizer', url: 'https://aws.amazon.com/compute-optimizer/'},
-      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://aws.amazon.com/resource-groups/'},
-      {nome: 'Amazon Managed Grafana', url: 'https://aws.amazon.com/grafana/'},
-      {nome: 'Amazon Managed Service for Prometheus', url: 'https://aws.amazon.com/prometheus/'},
-      {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
-      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/incident-manager/'},
-      {nome: 'AWS Telco Network Builder', url: 'https://aws.amazon.com/tnb/'},
-      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'},
-      {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
-      {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
-      {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
-      {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
-      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resource-explorer/'},
-      {nome: 'AWS Service Quotas', url: 'https://aws.amazon.com/servicequotas/'}
-    ]
-  },
-  {
-    categoria: 'Serviços de Mídia',
-    servicos: [
-      {nome: 'Kinesis Video Streams', url: 'https://aws.amazon.com/kinesis/video-streams/'},
-      {nome: 'AWS Elemental MediaConvert', url: 'https://aws.amazon.com/mediaconvert/'},
-      {nome: 'AWS Elemental MediaLive', url: 'https://aws.amazon.com/medialive/'},
-      {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
-      {nome: 'AWS Elemental MediaStore', url: 'https://aws.amazon.com/mediastore/'},
-      {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
-      {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
-      {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
-      {nome: 'AWS Elemental MediaConnect', url: 'https://aws.amazon.com/mediaconnect/'}
+      {nome: 'AWS Ground Station', url: 'https://aws.amazon.com/ground-station/'},
+      {nome: 'AWS Data Exchange for Ground Station', url: 'https://aws.amazon.com/data-exchange/ground-station/'},
+      {nome: 'AWS Ground Station with Amazon S3', url: 'https://aws.amazon.com/ground-station/features/'}
     ]
   },
   {
@@ -338,167 +532,160 @@ const dados = [
       {nome: 'AWS WAF & Shield', url: 'https://aws.amazon.com/waf/'},
       {nome: 'AWS Security Hub', url: 'https://aws.amazon.com/security-hub/'},
       {nome: 'AWS Audit Manager', url: 'https://aws.amazon.com/audit-manager/'},
-      {nome: 'AWS Payment Cryptography', url: 'https://aws.amazon.com/payment-cryptography/'}
+      {nome: 'AWS Payment Cryptography', url: 'https://aws.amazon.com/payment-cryptography/'},
+      {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/pt/bedrock/guardrails/'},
+      {nome: 'AWS IAM Identity Center', url: 'https://aws.amazon.com/iam/identity-center/'},
+      {nome: 'Amazon Verified Permissions', url: 'https://aws.amazon.com/verified-permissions/'},
+      {nome: 'AWS Private CA', url: 'https://aws.amazon.com/private-ca/'}
     ]
   },
   {
-    categoria: 'Gerenciamento de Cobrança e Custos',
+    categoria: 'Serviços de Mídia',
     servicos: [
-      {nome: 'AWS Cost Explorer', url: 'https://aws.amazon.com/aws-cost-management/cost-explorer/'},
-      {nome: 'AWS Budgets', url: 'https://aws.amazon.com/aws-cost-management/aws-budgets/'},
-      {nome: 'AWS Billing Conductor', url: 'https://aws.amazon.com/aws-cost-management/aws-billing-conductor/'},
-      {nome: 'AWS Marketplace', url: 'https://aws.amazon.com/marketplace/'},
-      {nome: 'AWS Savings Plans', url: 'https://aws.amazon.com/savingsplans/'}
-    ]
-  },
-  {
-    categoria: 'Dispositivos Móveis',
-    servicos: [
-      {nome: 'AWS Amplify', url: 'https://aws.amazon.com/amplify/'},
-      {nome: 'AWS AppSync', url: 'https://aws.amazon.com/appsync/'},
-      {nome: 'AWS Device Farm', url: 'https://aws.amazon.com/device-farm/'},
-      {nome: 'Amazon Location Service', url: 'https://aws.amazon.com/location/'}
-    ]
-  },
-  {
-    categoria: 'Integração de Aplicativos',
-    servicos: [
-      {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
-      {nome: 'Amazon AppFlow', url: 'https://aws.amazon.com/appflow/'},
-      {nome: 'Amazon MQ', url: 'https://aws.amazon.com/amazon-mq/'},
-      {nome: 'Amazon Simple Notification Service (SNS)', url: 'https://aws.amazon.com/sns/'},
-      {nome: 'Amazon Simple Queue Service (SQS)', url: 'https://aws.amazon.com/sqs/'},
-      {nome: 'Amazon SWF', url: 'https://aws.amazon.com/swf/'},
-      {nome: 'Apache Airflow Gerenciado (MWAA)', url: 'https://aws.amazon.com/mwaa/'},
-      {nome: 'AWS B2B Data Interchange', url: 'https://aws.amazon.com/b2bi/'},
-      {nome: 'Amazon EventBridge', url: 'https://aws.amazon.com/eventbridge/'}
-    ]
-  },
-  {
-    categoria: 'Aplicativos Empresariais',
-    servicos: [
-      {nome: 'Amazon Connect', url: 'https://aws.amazon.com/connect/'},
-      {nome: 'Amazon Chime', url: 'https://aws.amazon.com/chime/'},
-      {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
-      {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
-      {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
-      {nome: 'AWS Supply Chain', url: 'https://aws.amazon.com/supply-chain/'},
-      {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
-      {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
-      {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
-      {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
-      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'},
-      {nome: 'Amazon Chime SDK', url: 'https://aws.amazon.com/chime-sdk/'}
-    ]
-  },
-  {
-    categoria: 'Computação de Usuário Final',
-    servicos: [
-      {nome: 'Amazon WorkSpaces', url: 'https://aws.amazon.com/workspaces/'},
-      {nome: 'Amazon AppStream 2.0', url: 'https://aws.amazon.com/appstream2/'},
-      {nome: 'Amazon WorkSpaces Thin Client', url: 'https://aws.amazon.com/workspaces/thin-client/'},
-      {nome: 'Amazon WorkSpaces Secure Browser', url: 'https://aws.amazon.com/workspaces/web/'}
-    ]
-  },
-  {
-    categoria: 'Internet das Coisas (IoT)',
-    servicos: [
-      {nome: 'AWS IoT Analytics', url: 'https://aws.amazon.com/iot-analytics/'},
-      {nome: 'AWS IoT Device Defender', url: 'https://aws.amazon.com/iot-device-defender/'},
-      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
-      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
-      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'}
-    ]
-  },
-  {
-    categoria: 'Desenvolvimento de Jogos',
-    servicos: [
-      {nome: 'Amazon GameLift Servers', url: 'https://aws.amazon.com/gamelift/'},
-      {nome: 'Amazon GameLift Streams', url: 'https://aws.amazon.com/gamelift/streams/'}
-    ]
-  },
-  {
-    categoria: 'Realidade Aumentada e Virtual',
-    servicos: [
-      {nome: 'Amazon Sumerian', url: 'https://aws.amazon.com/sumerian/'},
-      {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
-      {nome: 'AWS IoT SiteWise', url: 'https://aws.amazon.com/iot-sitewise/'},
-      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
-      {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'},
-      {nome: 'AWS IoT Core para LoRaWAN', url: 'https://aws.amazon.com/iot-core/lorawan/'},
-      {nome: 'AWS IoT Core para Sigfox', url: 'https://aws.amazon.com/iot-core/'},
-      {nome: 'AWS IoT Core para 5G', url: 'https://aws.amazon.com/iot-core/'}
-    ]
-  },
-  {
-    categoria: 'Robótica',
-    servicos: [
-      {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
-    ]
-  },
-  {
-    categoria: 'Blockchain',
-    servicos: [
-      {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'}
-    ]
-  },
-  {
-    categoria: 'Satélite',
-    servicos: [
-      {nome: 'AWS Ground Station', url: 'https://aws.amazon.com/ground-station/'},
-      {nome: 'AWS Data Exchange for Ground Station', url: 'https://aws.amazon.com/data-exchange/'},
-      {nome: 'AWS Ground Station with Amazon S3', url: 'https://aws.amazon.com/ground-station/'}
+      {nome: 'Kinesis Video Streams', url: 'https://aws.amazon.com/kinesis/video-streams/'},
+      {nome: 'AWS Elemental MediaConvert', url: 'https://aws.amazon.com/mediaconvert/'},
+      {nome: 'AWS Elemental MediaLive', url: 'https://aws.amazon.com/medialive/'},
+      {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
+      {nome: 'AWS Elemental MediaStore', url: 'https://aws.amazon.com/mediastore/'},
+      {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
+      {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
+      {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
+      {nome: 'AWS Elemental MediaConnect', url: 'https://aws.amazon.com/mediaconnect/'}
     ]
   },
   {
     categoria: 'Tecnologias Quânticas',
     servicos: [
-      {nome: 'Amazon Braket', url: 'https://aws.amazon.com/braket/'},
-      {nome: 'AWS Center for Quantum Computing', url: 'https://aws.amazon.com/quantum-computing/'},
-      {nome: 'AWS Quantum Solutions Lab', url: 'https://aws.amazon.com/quantum-computing/'}
+      {nome: 'Amazon Braket', url: 'https://aws.amazon.com/braket/'}
     ]
   },
   {
     categoria: 'Tecnologias de Saúde',
     servicos: [
       {nome: 'AWS HealthLake', url: 'https://aws.amazon.com/healthlake/'},
-      {nome: 'AWS HealthLake Imaging', url: 'https://aws.amazon.com/healthlake/imaging/'},
-      {nome: 'AWS HealthLake Genomics', url: 'https://aws.amazon.com/healthlake/genomics/'},
-      {nome: 'AWS HealthLake Medical Imaging', url: 'https://aws.amazon.com/healthlake/medical-imaging/'}
+      {nome: 'AWS HealthImaging', url: 'https://aws.amazon.com/healthimaging/'},
+      {nome: 'AWS HealthScribe', url: 'https://aws.amazon.com/healthscribe/'}
     ]
   },
   {
-    categoria: 'Certificações AWS',
+    categoria: 'Blockchain',
     servicos: [
-      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
-      {nome: 'ESCOLHE SEU CAMINHO NA AWS Certification', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
-      {nome: 'Explore mais de 600 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
-      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
-    ]
+      {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'},
+      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'}
+    ],
+    descricao: 'Serviços para criar e gerenciar redes blockchain escaláveis e livros-razão totalmente gerenciados.'
+  },
+  {
+    categoria: 'Realidade Virtual e Aumentada',
+    servicos: [
+      {nome: 'Amazon Sumerian', url: 'https://aws.amazon.com/sumerian/'}
+    ],
+    descricao: 'Ferramentas para criar e executar aplicações de realidade virtual (VR), realidade aumentada (AR) e 3D.'
+  },
+  {
+    categoria: '🔧 Ferramentas Externas/Terceirizadas',
+    servicos: [
+      {nome: 'Datadog - Monitoramento', url: 'https://www.datadoghq.com/'},
+      {nome: 'Kiro.dev - DevOps', url: 'https://kiro.dev/'},
+      {nome: 'Oracle Database na AWS', url: 'https://aws.amazon.com/rds/oracle/'},
+      {nome: 'Terraform na AWS', url: 'https://registry.terraform.io/browse/providers'},
+      {nome: 'New Relic na AWS', url: 'https://newrelic.com'},
+      {nome: 'GitHub Community', url: 'https://github.com/orgs/community/discussions'}
+    ],
+    descricao: 'Ferramentas e serviços de terceiros que se integram perfeitamente com a AWS para expandir suas capacidades.'
+  },
+  {
+    categoria: '🎓 AULINHAS GÉ TAVARES AWS',
+    servicos: [
+      {nome: '📺 Playlist Completa no YouTube', url: 'https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z'}
+    ],
+    descricao: 'Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.'
   },
   {
     categoria: 'Sobre o Gé Tavares',
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio', url: 'https://rogeriotavares.myportfolio.com/'},
+      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'},
       {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
     ]
   }
 ];
 
+const ordemImportancia = [
+  'Rede Global de Regiões da AWS',
+  'Computação',
+  'Contêineres',
+  'Armazenamento',
+  'Banco de Dados',
+  'Redes e Entrega de Conteúdo',
+  'Desenvolvimento Web & Mobile',
+  'Ferramentas do Desenvolvedor',
+  'Segurança, Identidade e Conformidade',
+  'Gerenciamento e Governança',
+  'Monitoramento e Observabilidade',
+  'Análise de Dados',
+  'Machine Learning',
+  'Aplicativos Empresariais',
+  'Computação de Usuário Final',
+  'Serviços de Mídia',
+  'Migração e Transferência',
+  'Internet das Coisas (IoT)',
+  'Blockchain',
+  'Realidade Virtual e Aumentada',
+  'Desenvolvimento de Jogos',
+  'Mapas e Localização',
+  'Robótica',
+  'Satélite',
+  'Tecnologias Quânticas',
+  'Tecnologias de Saúde',
+  'Infraestrutura como Código',
+  'Java & SDKs',
+  'Documentação do AWS',
+  'Capacitação do Cliente',
+  'Certificações AWS',
+  '🔧 Ferramentas Externas/Terceirizadas',
+  '🎓 AULINHAS GÉ TAVARES AWS'
+];
+
+dados.sort((a, b) => {
+  if (a.categoria === 'Sobre o Gé Tavares') return 1;
+  if (b.categoria === 'Sobre o Gé Tavares') return -1;
+  const ia = ordemImportancia.indexOf(a.categoria);
+  const ib = ordemImportancia.indexOf(b.categoria);
+  if (ia === -1 && ib === -1) return a.categoria.localeCompare(b.categoria, 'pt-BR');
+  if (ia === -1) return 1;
+  if (ib === -1) return -1;
+  return ia - ib;
+});
+
 function renderizarServicos(filtro) {
     const lista = document.getElementById('servicos-lista');
     lista.innerHTML = '';
     let encontrou = false;
+    const filtroLower = filtro.trim().toLowerCase();
     dados.forEach(cat => {
-        // Filtra serviços por nome
-        const filtrados = cat.servicos.filter(s => s.nome.toLowerCase().includes(filtro.toLowerCase()));
+        const categoriaCombina = cat.categoria && cat.categoria.toLowerCase().includes(filtroLower);
+        const filtrados = filtroLower === ''
+            ? cat.servicos
+            : categoriaCombina
+                ? cat.servicos
+                : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtroLower));
         if (filtrados.length > 0) {
             encontrou = true;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
-            divCat.innerHTML = `<h2>${cat.categoria}</h2>`;
+            let headerHTML = cat.categoria === 'Sobre o Gé Tavares'
+                ? `<h2 class="destaque-gtavares">
+                      <img src="logo.png" alt="Logo Gé Tavares" style="height:32px; vertical-align:middle;">
+                   </h2>`
+                : `<h2>${cat.categoria}</h2>`;
+            
+            if (cat.descricao) {
+                headerHTML += `<div class="categoria-desc">${cat.descricao}</div>`;
+            }
+            
+            divCat.innerHTML = headerHTML;
             const ul = document.createElement('ul');
             filtrados.forEach(s => {
                 const li = document.createElement('li');
@@ -506,14 +693,18 @@ function renderizarServicos(filtro) {
                 a.href = s.url;
                 a.target = '_blank';
                 a.rel = 'noopener';
-                // Destaque para Sobre o Gé Tavares
                 if (cat.categoria === 'Sobre o Gé Tavares') {
                     a.innerHTML = `<strong>${s.nome}</strong>`;
-                    a.style.color = "#ff9800"; // laranja escuro
                 } else {
                     a.textContent = s.nome;
                 }
                 li.appendChild(a);
+                if (s.desc) {
+                    const spanDesc = document.createElement('span');
+                    spanDesc.className = 'desc';
+                    spanDesc.textContent = `– ${s.desc}`;
+                    li.appendChild(spanDesc);
+                }
                 ul.appendChild(li);
             });
             divCat.appendChild(ul);
@@ -529,7 +720,6 @@ document.getElementById('busca').addEventListener('input', function() {
     renderizarServicos(this.value);
 });
 
-// Renderiza todos ao carregar
 renderizarServicos('');
 </script>
 </body>
