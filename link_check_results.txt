@@ -1,0 +1,1061 @@
+Verificando links do index.html...
+
+Total de URLs unicas encontradas: 291
+
+[1/291] Verificando: https://aws.amazon.com/pt/apprunner/...
+  OK
+
+[2/291] Verificando: https://aws.amazon.com/xray/...
+  Redirecionado para: https://aws.amazon.com/cloudwatch/features/application-observability-apm/
+
+[3/291] Verificando: https://aws.amazon.com/quicksight/...
+  Redirecionado para: https://aws.amazon.com/quicksuite/quicksight/
+
+[4/291] Verificando: https://aws.amazon.com/workspaces/web/...
+  Redirecionado para: https://aws.amazon.com/workspaces/secure-browser/
+
+[5/291] Verificando: https://aws.amazon.com/notifications/...
+  OK
+
+[6/291] Verificando: https://aws.amazon.com/rds/oracle/...
+  OK
+
+[7/291] Verificando: https://aws.amazon.com/glue/...
+  OK
+
+[8/291] Verificando: https://aws.amazon.com/one-enterprise/...
+  OK
+
+[9/291] Verificando: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Wha...
+  OK
+
+[10/291] Verificando: https://aws.amazon.com/vpn/...
+  OK
+
+[11/291] Verificando: https://aws.amazon.com/opsworks/...
+  Redirecionado para: https://aws.amazon.com/
+
+[12/291] Verificando: https://infrastructure.aws/...
+  Status 404
+
+[13/291] Verificando: https://aws.amazon.com/workmail/...
+  OK
+
+[14/291] Verificando: https://aws.amazon.com/lookout-for-vision/...
+  Redirecionado para: https://aws.amazon.com/
+
+[15/291] Verificando: https://aws.amazon.com/iot-device-management/...
+  OK
+
+[16/291] Verificando: https://aws.amazon.com/ecr/...
+  OK
+
+[17/291] Verificando: https://aws.amazon.com/codepipeline/...
+  OK
+
+[18/291] Verificando: https://aws.amazon.com/resource-explorer/...
+  Status 404
+
+[19/291] Verificando: https://aws.amazon.com/cognito/...
+  OK
+
+[20/291] Verificando: https://aws.amazon.com/outposts/...
+  OK
+
+[21/291] Verificando: https://aws.amazon.com/mediapackage/...
+  OK
+
+[22/291] Verificando: https://aws.amazon.com/medialive/...
+  OK
+
+[23/291] Verificando: https://aws.amazon.com/iot-device-defender/...
+  OK
+
+[24/291] Verificando: https://aws.amazon.com/mediaconnect/...
+  OK
+
+[25/291] Verificando: https://aws.amazon.com/robomaker/...
+  Redirecionado para: https://aws.amazon.com/products/
+
+[26/291] Verificando: https://aws.amazon.com/ec2/instance-types/m8g/...
+  OK
+
+[27/291] Verificando: https://aws.amazon.com/resilience-hub/...
+  OK
+
+[28/291] Verificando: https://aws.amazon.com/iam/identity-center/...
+  OK
+
+[29/291] Verificando: https://aws.amazon.com/connect/...
+  OK
+
+[30/291] Verificando: https://aws.amazon.com/mediastore/...
+  OK
+
+[31/291] Verificando: https://aws.amazon.com/dynamodb/...
+  OK
+
+[32/291] Verificando: https://aws.amazon.com/compute-optimizer/...
+  OK
+
+[33/291] Verificando: https://aws.amazon.com/pt/fsx/...
+  OK
+
+[34/291] Verificando: https://aws.amazon.com/athena/...
+  OK
+
+[35/291] Verificando: https://health.aws.amazon.com/...
+  Redirecionado para: https://health.aws.amazon.com/health/status
+
+[36/291] Verificando: https://aws.amazon.com/vpc/...
+  OK
+
+[37/291] Verificando: https://aws.amazon.com/emr/...
+  OK
+
+[38/291] Verificando: https://aws.amazon.com/mwaa/...
+  Redirecionado para: https://aws.amazon.com/managed-workflows-for-apache-airflow/
+
+[39/291] Verificando: https://aws.amazon.com/codeguru/...
+  Redirecionado para: https://aws.amazon.com/codeguru/profiler/
+
+[40/291] Verificando: https://aws.amazon.com/payment-cryptography/...
+  OK
+
+[41/291] Verificando: https://aws.amazon.com/bedrock/knowledge-bases/...
+  OK
+
+[42/291] Verificando: https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba9...
+  Status 500
+
+[43/291] Verificando: https://aws.amazon.com/pt/outposts/...
+  OK
+
+[44/291] Verificando: https://aws.amazon.com/neptune/...
+  OK
+
+[45/291] Verificando: https://explore.skillbuilder.aws/learn/public/catalog/view/4...
+  Redirecionado para: https://skillbuilder.aws/?trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em&ctldoc-catalog-0=l-_en&showRedirectNotFoundBanner=true
+
+[46/291] Verificando: https://aws.amazon.com/thinkbox-deadline/...
+  OK
+
+[47/291] Verificando: https://aws.amazon.com/application-composer/...
+  Redirecionado para: https://aws.amazon.com/infrastructure-composer/
+
+[48/291] Verificando: https://aws.amazon.com/fraud-detector/...
+  OK
+
+[49/291] Verificando: https://aws.amazon.com/machine-learning/neuron/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/neuron/
+
+[50/291] Verificando: https://aws.amazon.com/cloudfront/...
+  OK
+
+[51/291] Verificando: https://aws.amazon.com/ground-station/features/...
+  OK
+
+[52/291] Verificando: https://aws.amazon.com/healthlake/...
+  OK
+
+[53/291] Verificando: https://aws.amazon.com/firewall-manager/...
+  OK
+
+[54/291] Verificando: https://aws.amazon.com/pt/storagegateway/...
+  OK
+
+[55/291] Verificando: https://aws.amazon.com/timestream/...
+  OK
+
+[56/291] Verificando: https://aws.amazon.com/iam/...
+  OK
+
+[57/291] Verificando: https://aws.amazon.com/support/...
+  Status 405
+
+[58/291] Verificando: https://aws.amazon.com/codedeploy/...
+  OK
+
+[59/291] Verificando: https://aws.amazon.com/servicecatalog/...
+  OK
+
+[60/291] Verificando: https://aws.amazon.com/directconnect/...
+  OK
+
+[61/291] Verificando: https://aws.amazon.com/data-exchange/ground-station/...
+  Status 404
+
+[62/291] Verificando: https://aws.amazon.com/waf/...
+  OK
+
+[63/291] Verificando: https://aws.amazon.com/pt/image-builder/...
+  OK
+
+[64/291] Verificando: https://aws.amazon.com/application-recovery-controller/...
+  OK
+
+[65/291] Verificando: https://aws.amazon.com/pt/disaster-recovery/...
+  OK
+
+[66/291] Verificando: https://aws.amazon.com/artifact/...
+  OK
+
+[67/291] Verificando: https://aws.amazon.com/bedrock/...
+  OK
+
+[68/291] Verificando: https://aws.amazon.com/lumberyard/...
+  Redirecionado para: https://aws.amazon.com/
+
+[69/291] Verificando: https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aa...
+  OK
+
+[70/291] Verificando: https://d1.awsstatic.com/pt_BR/training-and-certification/do...
+  OK
+
+[71/291] Verificando: https://aws.amazon.com/dms/...
+  OK
+
+[72/291] Verificando: https://aws.amazon.com/lex/...
+  OK
+
+[73/291] Verificando: https://aws.amazon.com/cloudhsm/...
+  OK
+
+[74/291] Verificando: https://aws.amazon.com/ivs/...
+  OK
+
+[75/291] Verificando: https://aws.amazon.com/cloudformation/...
+  OK
+
+[76/291] Verificando: https://aws.amazon.com/bedrock/guardrails/...
+  OK
+
+[77/291] Verificando: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitori...
+  OK
+
+[78/291] Verificando: https://aws.amazon.com/healthscribe/...
+  OK
+
+[79/291] Verificando: https://aws.amazon.com/ground-station/...
+  OK
+
+[80/291] Verificando: https://aws.amazon.com/resource-groups/...
+  Status 404
+
+[81/291] Verificando: https://aws.amazon.com/pt/batch/...
+  OK
+
+[82/291] Verificando: https://aws.amazon.com/vpc/network-manager/...
+  Status 404
+
+[83/291] Verificando: https://aws.amazon.com/ecs/...
+  OK
+
+[84/291] Verificando: https://aws.amazon.com/guardduty/...
+  OK
+
+[85/291] Verificando: https://aws.amazon.com/thinkbox-krakatoa/...
+  OK
+
+[86/291] Verificando: https://aws.amazon.com/route53/...
+  OK
+
+[87/291] Verificando: https://aws.amazon.com/macie/...
+  OK
+
+[88/291] Verificando: https://aws.amazon.com/rds/performance-insights/...
+  OK
+
+[89/291] Verificando: https://aws.amazon.com/deepracer/...
+  OK
+
+[90/291] Verificando: https://aws.amazon.com/verified-permissions/...
+  OK
+
+[91/291] Verificando: https://aws.amazon.com/comprehend/...
+  OK
+
+[92/291] Verificando: https://aws.amazon.com/machine-learning/trainium/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/trainium/
+
+[93/291] Verificando: https://aws.amazon.com/omics/...
+  Redirecionado para: https://aws.amazon.com/healthomics/
+
+[94/291] Verificando: https://aws.amazon.com/s3/features/object-lambda/...
+  OK
+
+[95/291] Verificando: https://aws.amazon.com/comprehend/medical/...
+  OK
+
+[96/291] Verificando: https://aws.amazon.com/snowmobile/...
+  Redirecionado para: https://aws.amazon.com/snowball/
+
+[97/291] Verificando: https://aws.amazon.com/codebuild/...
+  OK
+
+[98/291] Verificando: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide...
+  OK
+
+[99/291] Verificando: https://aws.amazon.com/elasticloadbalancing/...
+  OK
+
+[100/291] Verificando: https://aws.amazon.com/application-migration-service/...
+  OK
+
+[101/291] Verificando: https://aws.amazon.com/thinkbox-sequoia/...
+  OK
+
+[102/291] Verificando: https://aws.amazon.com/application-discovery/...
+  OK
+
+[103/291] Verificando: https://aws.amazon.com/rds/features/multi-az/...
+  OK
+
+[104/291] Verificando: https://aws.amazon.com/polly/...
+  OK
+
+[105/291] Verificando: https://aws.amazon.com/lookout-for-metrics/...
+  Redirecionado para: https://aws.amazon.com/
+
+[106/291] Verificando: https://aws.amazon.com/wickr/...
+  OK
+
+[107/291] Verificando: https://aws.amazon.com/well-architected-tool/...
+  OK
+
+[108/291] Verificando: https://aws.amazon.com/iot-analytics/...
+  Redirecionado para: https://aws.amazon.com/iot/
+
+[109/291] Verificando: https://aws.amazon.com/pt/lightsail/...
+  OK
+
+[110/291] Verificando: https://aws.amazon.com/workspaces/thin-client/...
+  OK
+
+[111/291] Verificando: https://aws.amazon.com/gamekit/...
+  Redirecionado para: https://aws.amazon.com/gametech/
+
+[112/291] Verificando: https://aws.amazon.com/documentdb/...
+  OK
+
+[113/291] Verificando: https://aws.amazon.com/iot-sitewise/...
+  OK
+
+[114/291] Verificando: https://aws.amazon.com/machine-learning/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/
+
+[115/291] Verificando: https://aws.amazon.com/otel/...
+  OK
+
+[116/291] Verificando: https://aws.amazon.com/fargate/...
+  OK
+
+[117/291] Verificando: https://aws.amazon.com/prometheus/...
+  OK
+
+[118/291] Verificando: https://github.com/orgs/community/discussions...
+  OK
+
+[119/291] Verificando: https://aws.amazon.com/pt/elasticbeanstalk/...
+  OK
+
+[120/291] Verificando: https://aws.amazon.com/lookout-for-equipment/...
+  OK
+
+[121/291] Verificando: https://aws.amazon.com/premiumsupport/trustedadvisor/...
+  Redirecionado para: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+
+[122/291] Verificando: https://aws.amazon.com/sagemaker/...
+  OK
+
+[123/291] Verificando: https://aws.amazon.com/amplify/studio/...
+  Redirecionado para: https://aws.amazon.com/amplify/
+
+[124/291] Verificando: https://aws.amazon.com/forecast/...
+  OK
+
+[125/291] Verificando: https://aws.amazon.com/appstream2/...
+  Redirecionado para: https://aws.amazon.com/workspaces/applications/
+
+[126/291] Verificando: https://aws.amazon.com/finspace/...
+  OK
+
+[127/291] Verificando: https://aws.amazon.com/devops-guru/...
+  OK
+
+[128/291] Verificando: https://aws.amazon.com/systems-manager/...
+  OK
+
+[129/291] Verificando: https://aws.amazon.com/s3/storage-classes/intelligent-tierin...
+  OK
+
+[130/291] Verificando: https://aws.amazon.com/pt/s3/...
+  OK
+
+[131/291] Verificando: https://aws.amazon.com/proton/...
+  OK
+
+[132/291] Verificando: https://aws.amazon.com/pt/about-aws/global-infrastructure/...
+  OK
+
+[133/291] Verificando: https://aws.amazon.com/pt/s3/storage-lens/...
+  OK
+
+[134/291] Verificando: https://aws.amazon.com/rds/features/read-replicas/...
+  OK
+
+[135/291] Verificando: https://aws.amazon.com/managed-services/...
+  OK
+
+[136/291] Verificando: https://aws.amazon.com/iot-twinmaker/...
+  OK
+
+[137/291] Verificando: https://aws.amazon.com/iot-fleetwise/...
+  OK
+
+[138/291] Verificando: https://aws.amazon.com/cdk/...
+  OK
+
+[139/291] Verificando: https://aws.amazon.com/transcribe/...
+  OK
+
+[140/291] Verificando: https://aws.amazon.com/rds/proxy/...
+  OK
+
+[141/291] Verificando: https://aws.amazon.com/rds/custom/...
+  OK
+
+[142/291] Verificando: https://aws.amazon.com/marketplace/...
+  OK
+
+[143/291] Verificando: https://aws.amazon.com/thinkbox-stoke/...
+  OK
+
+[144/291] Verificando: https://aws.amazon.com/lake-formation/...
+  OK
+
+[145/291] Verificando: https://aws.amazon.com/kinesis/...
+  OK
+
+[146/291] Verificando: https://aws.amazon.com/appfabric/...
+  OK
+
+[147/291] Verificando: https://aws.amazon.com/controltower/...
+  OK
+
+[148/291] Verificando: https://aws.amazon.com/certificate-manager/...
+  OK
+
+[149/291] Verificando: https://aws.amazon.com/elastictranscoder/...
+  Redirecionado para: https://aws.amazon.com/media-services/
+
+[150/291] Verificando: https://aws.amazon.com/amplify/...
+  OK
+
+[151/291] Verificando: https://aws.amazon.com/elasticache/...
+  OK
+
+[152/291] Verificando: https://aws.amazon.com/launchwizard/...
+  OK
+
+[153/291] Verificando: https://aws.amazon.com/managed-flink/...
+  Status 404
+
+[154/291] Verificando: https://aws.amazon.com/greengrass/...
+  OK
+
+[155/291] Verificando: https://aws.amazon.com/machine-learning/inferentia/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/inferentia/
+
+[156/291] Verificando: https://aws.amazon.com/braket/...
+  OK
+
+[157/291] Verificando: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Using...
+  OK
+
+[158/291] Verificando: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_...
+  OK
+
+[159/291] Verificando: https://aws.amazon.com/codestar/...
+  Redirecionado para: https://aws.amazon.com/
+
+[160/291] Verificando: https://github.com/rogtavares...
+  OK
+
+[161/291] Verificando: https://aws.amazon.com/codecatalyst/...
+  OK
+
+[162/291] Verificando: https://aws.amazon.com/ses/...
+  OK
+
+[163/291] Verificando: https://aws.amazon.com/kinesis/data-firehose/...
+  Redirecionado para: https://aws.amazon.com/firehose/
+
+[164/291] Verificando: https://aws.amazon.com/grafana/...
+  OK
+
+[165/291] Verificando: https://rogeriotavares.myportfolio.com/...
+  Status 404
+
+[166/291] Verificando: https://aws.amazon.com/ec2/instance-types/c8g/...
+  OK
+
+[167/291] Verificando: https://aws.amazon.com/api-gateway/...
+  OK
+
+[168/291] Verificando: https://aws.amazon.com/simspace-weaver/...
+  Status 404
+
+[169/291] Verificando: https://docs.aws.amazon.com/pt_br/corretto/?icmpid=docs_home...
+  OK
+
+[170/291] Verificando: https://aws.amazon.com/redshift/...
+  OK
+
+[171/291] Verificando: https://aws.amazon.com/rds/...
+  OK
+
+[172/291] Verificando: https://aws.amazon.com/qldb/...
+  Redirecionado para: https://aws.amazon.com/rds/aurora/
+
+[173/291] Verificando: https://aws.amazon.com/q/...
+  OK
+
+[174/291] Verificando: https://aws.amazon.com/privatelink/...
+  OK
+
+[175/291] Verificando: https://aws.amazon.com/sagemaker/studio-lab/...
+  Status 403
+
+[176/291] Verificando: https://aws.amazon.com/mediaconvert/...
+  OK
+
+[177/291] Verificando: https://aws.amazon.com/datazone/...
+  OK
+
+[178/291] Verificando: https://repost.aws/...
+  Status 403
+
+[179/291] Verificando: https://aws.amazon.com/pt/about-aws/global-infrastructure/re...
+  OK
+
+[180/291] Verificando: https://aws.amazon.com/hpc/parallelcluster/...
+  OK
+
+[181/291] Verificando: https://aws.amazon.com/ec2/nitro/...
+  OK
+
+[182/291] Verificando: https://aws.amazon.com/machine-learning/containers/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/containers/
+
+[183/291] Verificando: https://aws.amazon.com/kinesis/video-streams/...
+  OK
+
+[184/291] Verificando: https://aws.amazon.com/glue/features/databrew/...
+  OK
+
+[185/291] Verificando: https://aws.amazon.com/migration-hub/...
+  OK
+
+[186/291] Verificando: https://aws.amazon.com/kendra/...
+  OK
+
+[187/291] Verificando: https://aws.amazon.com/iq/...
+  Redirecionado para: https://iq.aws.amazon.com/?utm=dp
+
+[188/291] Verificando: https://aws.amazon.com/about-aws/global-infrastructure/local...
+  OK
+
+[189/291] Verificando: https://aws.amazon.com/entity-resolution/...
+  OK
+
+[190/291] Verificando: https://aws.amazon.com/pt/ec2/...
+  OK
+
+[191/291] Verificando: https://aws.amazon.com/cloud9/...
+  OK
+
+[192/291] Verificando: https://aws.amazon.com/end-user-messaging/...
+  OK
+
+[193/291] Verificando: https://aws.amazon.com/organizations/...
+  OK
+
+[194/291] Verificando: https://aws.amazon.com/panorama/...
+  OK
+
+[195/291] Verificando: https://www.linkedin.com/in/rogtavares/...
+  Status 999
+
+[196/291] Verificando: https://aws.amazon.com/workdocs/...
+  Redirecionado para: https://aws.amazon.com/
+
+[197/291] Verificando: https://aws.amazon.com/codecommit/...
+  OK
+
+[198/291] Verificando: https://aws.amazon.com/machine-learning/amis/...
+  Redirecionado para: https://aws.amazon.com/ai/machine-learning/amis/
+
+[199/291] Verificando: https://aws.amazon.com/datasync/...
+  OK
+
+[200/291] Verificando: https://aws.amazon.com/rekognition/...
+  OK
+
+[201/291] Verificando: https://aws.amazon.com/opensearch-service/...
+  OK
+
+[202/291] Verificando: https://aws.amazon.com/eks/...
+  OK
+
+[203/291] Verificando: https://docs.aws.amazon.com/pt_br/dlm/?icmpid=docs_homepage_...
+  OK
+
+[204/291] Verificando: https://aws.amazon.com/activate/...
+  Redirecionado para: https://aws.amazon.com/startups
+
+[205/291] Verificando: https://skillbuilder.aws/...
+  OK
+
+[206/291] Verificando: https://aws.amazon.com/ec2/graviton/...
+  OK
+
+[207/291] Verificando: https://aws.amazon.com/cloudwatch/...
+  OK
+
+[208/291] Verificando: https://aws.amazon.com/global-accelerator/...
+  OK
+
+[209/291] Verificando: https://aws.amazon.com/cloud-map/...
+  OK
+
+[210/291] Verificando: https://aws.amazon.com/mainframe-modernization/...
+  OK
+
+[211/291] Verificando: https://aws.amazon.com/sumerian/...
+  Redirecionado para: https://aws.amazon.com/
+
+[212/291] Verificando: https://aws.amazon.com/ebs/...
+  OK
+
+[213/291] Verificando: https://aws.amazon.com/clean-rooms/...
+  OK
+
+[214/291] Verificando: https://aws.amazon.com/step-functions/...
+  OK
+
+[215/291] Verificando: https://aws.amazon.com/codeartifact/...
+  OK
+
+[216/291] Verificando: https://aws.amazon.com/deepcomposer/...
+  Redirecionado para: https://aws.amazon.com/
+
+[217/291] Verificando: https://aws.amazon.com/directoryservice/...
+  OK
+
+[218/291] Verificando: https://aws.amazon.com/pt/bedrock/guardrails/...
+  OK
+
+[219/291] Verificando: https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do...
+  OK
+
+[220/291] Verificando: https://registry.terraform.io/browse/providers...
+  OK
+
+[221/291] Verificando: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitori...
+  OK
+
+[222/291] Verificando: https://www.datadoghq.com/...
+  OK
+
+[223/291] Verificando: https://aws.amazon.com/pt/lambda/...
+  OK
+
+[224/291] Verificando: https://aws.amazon.com/app-mesh/...
+  OK
+
+[225/291] Verificando: https://aws.amazon.com/pt/efs/...
+  OK
+
+[226/291] Verificando: https://aws.amazon.com/iot-events/...
+  OK
+
+[227/291] Verificando: https://aws.amazon.com/detective/...
+  OK
+
+[228/291] Verificando: https://aws.amazon.com/secrets-manager/...
+  OK
+
+[229/291] Verificando: https://aws.amazon.com/snowcone/...
+  Redirecionado para: https://aws.amazon.com/snowball/
+
+[230/291] Verificando: https://docs.aws.amazon.com/pt_br/dcv/?icmpid=docs_homepage_...
+  OK
+
+[231/291] Verificando: https://aws.amazon.com/gamelift/...
+  OK
+
+[232/291] Verificando: https://aws.amazon.com/thinkbox-xmesh/...
+  OK
+
+[233/291] Verificando: https://aws.amazon.com/iot-core/...
+  OK
+
+[234/291] Verificando: https://aws.amazon.com/wavelength/...
+  OK
+
+[235/291] Verificando: https://aws.amazon.com/translate/...
+  OK
+
+[236/291] Verificando: https://aws.amazon.com/ec2/instance-types/r8g/...
+  OK
+
+[237/291] Verificando: https://aws.amazon.com/security-hub/...
+  OK
+
+[238/291] Verificando: https://aws.amazon.com/cloudtrail/...
+  OK
+
+[239/291] Verificando: https://aws.amazon.com/appconfig/...
+  Status 404
+
+[240/291] Verificando: https://aws.amazon.com/textract/...
+  OK
+
+[241/291] Verificando: https://aws.amazon.com/fis/...
+  OK
+
+[242/291] Verificando: https://aws.amazon.com/pt/ec2/spot/...
+  OK
+
+[243/291] Verificando: https://aws.amazon.com/network-firewall/...
+  OK
+
+[244/291] Verificando: https://aws.amazon.com/appsync/...
+  OK
+
+[245/291] Verificando: https://aws.amazon.com/memorydb/...
+  OK
+
+[246/291] Verificando: https://aws.amazon.com/augmented-ai/...
+  OK
+
+[247/291] Verificando: https://aws.amazon.com/cloudshell/...
+  OK
+
+[248/291] Verificando: https://aws.amazon.com/inspector/...
+  OK
+
+[249/291] Verificando: https://aws.amazon.com/audit-manager/...
+  OK
+
+[250/291] Verificando: https://newrelic.com...
+  Redirecionado para: https://newrelic.com/
+
+[251/291] Verificando: https://aws.amazon.com/msk/...
+  OK
+
+[252/291] Verificando: https://aws.amazon.com/pinpoint/...
+  OK
+
+[253/291] Verificando: https://aws.amazon.com/tnb/...
+  OK
+
+[254/291] Verificando: https://aws.amazon.com/config/...
+  OK
+
+[255/291] Verificando: https://aws.amazon.com/snow/...
+  Redirecionado para: https://aws.amazon.com/snowball/
+
+[256/291] Verificando: https://aws.amazon.com/workspaces/...
+  OK
+
+[257/291] Verificando: https://aws.amazon.com/healthimaging/...
+  OK
+
+[258/291] Verificando: https://kiro.dev/...
+  OK
+
+[259/291] Verificando: https://aws.amazon.com/chime/...
+  OK
+
+[260/291] Verificando: https://aws.amazon.com/personalize/...
+  OK
+
+[261/291] Verificando: https://aws.amazon.com/location/...
+  OK
+
+[262/291] Verificando: https://aws.amazon.com/healthomics/...
+  OK
+
+[263/291] Verificando: https://aws.amazon.com/kms/...
+  OK
+
+[264/291] Verificando: https://aws.amazon.com/mediatailor/...
+  OK
+
+[265/291] Verificando: https://aws.amazon.com/thinkbox-frost/...
+  OK
+
+[266/291] Verificando: https://aws.amazon.com/systems-manager/incident-manager/...
+  Status 404
+
+[267/291] Verificando: https://aws.amazon.com/monitron/...
+  OK
+
+[268/291] Verificando: https://aws.amazon.com/servicequotas/...
+  Status 404
+
+[269/291] Verificando: https://aws.amazon.com/aws-transfer-family/...
+  OK
+
+[270/291] Verificando: https://aws.amazon.com/q/developer/...
+  OK
+
+[271/291] Verificando: https://aws.amazon.com/codewhisperer/...
+  Redirecionado para: https://aws.amazon.com/q/developer/
+
+[272/291] Verificando: https://aws.amazon.com/lambda/...
+  OK
+
+[273/291] Verificando: https://aws.amazon.com/pt/backup/...
+  OK
+
+[274/291] Verificando: https://aws.amazon.com/transit-gateway/...
+  OK
+
+[275/291] Verificando: https://aws.amazon.com/private5g/...
+  Redirecionado para: https://aws.amazon.com/
+
+[276/291] Verificando: https://aws.amazon.com/pt/bedrock/agentcore/...
+  OK
+
+[277/291] Verificando: https://aws.amazon.com/device-farm/...
+  OK
+
+[278/291] Verificando: https://aws.amazon.com/vmware/...
+  OK
+
+[279/291] Verificando: https://aws.amazon.com/pt/serverless/serverlessrepo/...
+  OK
+
+[280/291] Verificando: https://aws.amazon.com/private-ca/...
+  OK
+
+[281/291] Verificando: https://aws.amazon.com/managed-blockchain/...
+  OK
+
+[282/291] Verificando: https://aws.amazon.com/q/apps/...
+  Status 404
+
+[283/291] Verificando: https://aws.amazon.com/pt/s3/glacier/...
+  Redirecionado para: https://aws.amazon.com/s3/storage-classes/glacier/
+
+[284/291] Verificando: https://aws.amazon.com/keyspaces/...
+  OK
+
+[285/291] Verificando: https://aws.amazon.com/pt/s3/features/vectors/...
+  OK
+
+[286/291] Verificando: https://aws.amazon.com/autoscaling/...
+  OK
+
+[287/291] Verificando: https://aws.amazon.com/license-manager/...
+  OK
+
+[288/291] Verificando: https://aws.amazon.com/snowball/...
+  OK
+
+[289/291] Verificando: https://aws.amazon.com/pt/certification/...
+  OK
+
+[290/291] Verificando: https://aws.amazon.com/pt/ai/aileague/...
+  OK
+
+[291/291] Verificando: https://aws.amazon.com/q/business/...
+  OK
+
+
+================================================================================
+RELATORIO FINAL
+================================================================================
+
+Links quebrados (17):
+  - https://infrastructure.aws/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/resource-explorer/
+    Erro: HTTP 404
+
+  - https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj
+    Erro: HTTP 500
+
+  - https://aws.amazon.com/support/
+    Erro: HTTP 405
+
+  - https://aws.amazon.com/data-exchange/ground-station/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/resource-groups/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/vpc/network-manager/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/managed-flink/
+    Erro: HTTP 404
+
+  - https://rogeriotavares.myportfolio.com/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/simspace-weaver/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/sagemaker/studio-lab/
+    Erro: HTTP 403
+
+  - https://repost.aws/
+    Erro: HTTP 403
+
+  - https://www.linkedin.com/in/rogtavares/
+    Erro: HTTP 999
+
+  - https://aws.amazon.com/appconfig/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/systems-manager/incident-manager/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/servicequotas/
+    Erro: HTTP 404
+
+  - https://aws.amazon.com/q/apps/
+    Erro: HTTP 404
+
+
+Links redirecionados (41):
+  - https://aws.amazon.com/xray/
+    -> https://aws.amazon.com/cloudwatch/features/application-observability-apm/
+
+  - https://aws.amazon.com/quicksight/
+    -> https://aws.amazon.com/quicksuite/quicksight/
+
+  - https://aws.amazon.com/workspaces/web/
+    -> https://aws.amazon.com/workspaces/secure-browser/
+
+  - https://aws.amazon.com/opsworks/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/lookout-for-vision/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/robomaker/
+    -> https://aws.amazon.com/products/
+
+  - https://health.aws.amazon.com/
+    -> https://health.aws.amazon.com/health/status
+
+  - https://aws.amazon.com/mwaa/
+    -> https://aws.amazon.com/managed-workflows-for-apache-airflow/
+
+  - https://aws.amazon.com/codeguru/
+    -> https://aws.amazon.com/codeguru/profiler/
+
+  - https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em
+    -> https://skillbuilder.aws/?trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em&ctldoc-catalog-0=l-_en&showRedirectNotFoundBanner=true
+
+  - https://aws.amazon.com/application-composer/
+    -> https://aws.amazon.com/infrastructure-composer/
+
+  - https://aws.amazon.com/machine-learning/neuron/
+    -> https://aws.amazon.com/ai/machine-learning/neuron/
+
+  - https://aws.amazon.com/lumberyard/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/machine-learning/trainium/
+    -> https://aws.amazon.com/ai/machine-learning/trainium/
+
+  - https://aws.amazon.com/omics/
+    -> https://aws.amazon.com/healthomics/
+
+  - https://aws.amazon.com/snowmobile/
+    -> https://aws.amazon.com/snowball/
+
+  - https://aws.amazon.com/lookout-for-metrics/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/iot-analytics/
+    -> https://aws.amazon.com/iot/
+
+  - https://aws.amazon.com/gamekit/
+    -> https://aws.amazon.com/gametech/
+
+  - https://aws.amazon.com/machine-learning/
+    -> https://aws.amazon.com/ai/machine-learning/
+
+  - https://aws.amazon.com/premiumsupport/trustedadvisor/
+    -> https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+
+  - https://aws.amazon.com/amplify/studio/
+    -> https://aws.amazon.com/amplify/
+
+  - https://aws.amazon.com/appstream2/
+    -> https://aws.amazon.com/workspaces/applications/
+
+  - https://aws.amazon.com/elastictranscoder/
+    -> https://aws.amazon.com/media-services/
+
+  - https://aws.amazon.com/machine-learning/inferentia/
+    -> https://aws.amazon.com/ai/machine-learning/inferentia/
+
+  - https://aws.amazon.com/codestar/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/kinesis/data-firehose/
+    -> https://aws.amazon.com/firehose/
+
+  - https://aws.amazon.com/qldb/
+    -> https://aws.amazon.com/rds/aurora/
+
+  - https://aws.amazon.com/machine-learning/containers/
+    -> https://aws.amazon.com/ai/machine-learning/containers/
+
+  - https://aws.amazon.com/iq/
+    -> https://iq.aws.amazon.com/?utm=dp
+
+  - https://aws.amazon.com/workdocs/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/machine-learning/amis/
+    -> https://aws.amazon.com/ai/machine-learning/amis/
+
+  - https://aws.amazon.com/activate/
+    -> https://aws.amazon.com/startups
+
+  - https://aws.amazon.com/sumerian/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/deepcomposer/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/snowcone/
+    -> https://aws.amazon.com/snowball/
+
+  - https://newrelic.com
+    -> https://newrelic.com/
+
+  - https://aws.amazon.com/snow/
+    -> https://aws.amazon.com/snowball/
+
+  - https://aws.amazon.com/codewhisperer/
+    -> https://aws.amazon.com/q/developer/
+
+  - https://aws.amazon.com/private5g/
+    -> https://aws.amazon.com/
+
+  - https://aws.amazon.com/pt/s3/glacier/
+    -> https://aws.amazon.com/s3/storage-classes/glacier/
+
+
+Links funcionando: 274/291
