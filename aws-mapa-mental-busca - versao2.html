@@ -131,7 +131,7 @@ const dados = [
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
       {nome: 'AWS Outposts', url: 'https://aws.amazon.com/outposts/'}
     ],
-    descricao: 'A Nuvem AWS abrange 120 Zonas de Disponibilidade em 38 Regiões geográficas globalmente, com planos anunciados para mais 10 Zonas de Disponibilidade e mais 3 Regiões da AWS no Reino da Arábia Saudita, no Chile e na Nuvem Soberana Europeia da AWS. Atualizado em janeiro de 2026.'
+    descricao: 'A Nuvem AWS abrange 120 Zonas de Disponibilidade em 38 Regiões geográficas, com planos anunciados para mais 10 Zonas de Disponibilidade e mais 3 Regiões da AWS no Reino da Arábia Saudita, no Chile e na Nuvem Soberana Europeia da AWS. Atualizado em fevereiro de 2026.'
   },
   {
     categoria: 'Análise de Dados',
@@ -152,9 +152,11 @@ const dados = [
       {nome: 'AWS Clean Rooms', url: 'https://aws.amazon.com/clean-rooms/'},
       {nome: 'Amazon SageMaker', url: 'https://aws.amazon.com/sagemaker/'},
       {nome: 'AWS Entity Resolution', url: 'https://aws.amazon.com/entity-resolution/'},
-      {nome: 'Amazon Kinesis Data Firehose', url: 'https://aws.amazon.com/kinesis/data-firehose/'},
+      {nome: 'Amazon Data Firehose', url: 'https://aws.amazon.com/data-firehose/'},
       {nome: 'Amazon DataZone', url: 'https://aws.amazon.com/datazone/'},
-      {nome: 'Amazon Managed Workflows for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'} // nome oficial
+      {nome: 'Amazon Managed Workflows for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'}, // nome oficial
+      {nome: 'AWS B2B Data Interchange', url: 'https://aws.amazon.com/b2b-data-interchange/'},
+      {nome: 'AWS Data Exchange', url: 'https://aws.amazon.com/data-exchange/'}
       // Removidos: duplicidades de MSK, Grafana, Prometheus e serviços que não existem oficialmente como produto AWS
     ]
   },
@@ -171,7 +173,8 @@ const dados = [
       {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
       {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
       {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
-      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'}
+      {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'},
+      {nome: 'AWS Supply Chain', url: 'https://aws.amazon.com/aws-supply-chain/'}
     ]
   },
   {
@@ -267,7 +270,8 @@ const dados = [
       {nome: 'Amazon EC2 C8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/c8g/'},
       {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
       {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
-      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'}
+      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'}
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
@@ -322,6 +326,18 @@ const dados = [
     ]
   },
   {
+    categoria: 'Integração de Aplicativos',
+    servicos: [
+      {nome: 'Amazon EventBridge', url: 'https://aws.amazon.com/eventbridge/'},
+      {nome: 'Amazon Simple Queue Service (SQS)', url: 'https://aws.amazon.com/sqs/'},
+      {nome: 'Amazon Simple Notification Service (SNS)', url: 'https://aws.amazon.com/sns/'},
+      {nome: 'Amazon MQ', url: 'https://aws.amazon.com/amazon-mq/'},
+      {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
+      {nome: 'Amazon AppFlow', url: 'https://aws.amazon.com/appflow/'}
+    ],
+    descricao: 'Serviços para conectar aplicativos desacoplados e microsserviços usando mensagens e eventos.'
+  },
+  {
     categoria: 'Low-Code/No-Code',
     servicos: [
       {nome: 'AWS App Studio', url: 'https://aws.amazon.com/application-composer/'},
@@ -356,7 +372,9 @@ const dados = [
       {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
       {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
       {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
-      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'}
+      {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'},
+      {nome: 'AWS Console Mobile Application', url: 'https://aws.amazon.com/console/mobile/'},
+      {nome: 'AWS Chatbot', url: 'https://aws.amazon.com/chatbot/'}
     ]
   },
   {
@@ -414,19 +432,19 @@ const dados = [
       {nome: 'Amazon Q Business', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
-      {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
+      {nome: 'Amazon Bedrock Agents', url: 'https://aws.amazon.com/bedrock/agents/'},
       {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
       {nome: 'Amazon Bedrock Knowledge Bases', url: 'https://aws.amazon.com/bedrock/knowledge-bases/'},
-      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/'},
+      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/model-evaluation/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
       {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/apps/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
       {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'},
-      {nome: 'Amazon CodeWhisperer', url: 'https://aws.amazon.com/codewhisperer/'},
+      {nome: 'Amazon Q Developer (antigo CodeWhisperer)', url: 'https://aws.amazon.com/q/developer/'},
       {nome: 'AWS Inferentia', url: 'https://aws.amazon.com/machine-learning/inferentia/'},
       {nome: 'AWS Trainium', url: 'https://aws.amazon.com/machine-learning/trainium/'},
-      {nome: 'Amazon Omics', url: 'https://aws.amazon.com/omics/'},
+      {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'AWS Neuron', url: 'https://aws.amazon.com/machine-learning/neuron/'},
       {nome: 'Amazon Machine Learning', url: 'https://aws.amazon.com/machine-learning/'},
       {nome: 'AWS Deep Learning AMIs', url: 'https://aws.amazon.com/machine-learning/amis/'},
@@ -444,7 +462,7 @@ const dados = [
       {nome: 'AWS Snow Family', url: 'https://aws.amazon.com/snow/'},
       {nome: 'DataSync', url: 'https://aws.amazon.com/datasync/'},
       {nome: 'AWS Mainframe Modernization', url: 'https://aws.amazon.com/mainframe-modernization/'},
-      {nome: 'Amazon Elastic VMware Service', url: 'https://aws.amazon.com/vmware/'}
+      {nome: 'VMware Cloud on AWS', url: 'https://aws.amazon.com/vmware/'}
     ]
   },
   {
@@ -480,7 +498,9 @@ const dados = [
       {nome: 'Elastic Load Balancing (ELB)', url: 'https://aws.amazon.com/elasticloadbalancing/'},
       {nome: 'AWS PrivateLink', url: 'https://aws.amazon.com/privatelink/'},
       {nome: 'AWS Transit Gateway', url: 'https://aws.amazon.com/transit-gateway/'},
-      {nome: 'AWS VPN', url: 'https://aws.amazon.com/vpn/'}
+      {nome: 'AWS VPN', url: 'https://aws.amazon.com/vpn/'},
+      {nome: 'Amazon VPC Lattice', url: 'https://aws.amazon.com/vpc/lattice/'},
+      {nome: 'AWS Cloud WAN', url: 'https://aws.amazon.com/cloud-wan/'}
     ]
   },
   {
@@ -489,7 +509,8 @@ const dados = [
       {nome: 'Amazon ECS', url: 'https://aws.amazon.com/ecs/'},
       {nome: 'Amazon EKS', url: 'https://aws.amazon.com/eks/'},
       {nome: 'AWS Fargate', url: 'https://aws.amazon.com/fargate/'},
-      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'}
+      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'},
+      {nome: 'Red Hat OpenShift Service on AWS (ROSA)', url: 'https://aws.amazon.com/rosa/'}
     ]
   },
   {
@@ -535,7 +556,10 @@ const dados = [
       {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/pt/bedrock/guardrails/'},
       {nome: 'AWS IAM Identity Center', url: 'https://aws.amazon.com/iam/identity-center/'},
       {nome: 'Amazon Verified Permissions', url: 'https://aws.amazon.com/verified-permissions/'},
-      {nome: 'AWS Private CA', url: 'https://aws.amazon.com/private-ca/'}
+      {nome: 'AWS Private CA', url: 'https://aws.amazon.com/private-ca/'},
+      {nome: 'Amazon Security Lake', url: 'https://aws.amazon.com/security-lake/'},
+      {nome: 'AWS Verified Access', url: 'https://aws.amazon.com/verified-access/'},
+      {nome: 'AWS Security Agent', url: 'https://aws.amazon.com/security-agent/'}
     ]
   },
   {
@@ -619,6 +643,8 @@ const ordemImportancia = [
   'Banco de Dados',
   'Redes e Entrega de Conteúdo',
   'Desenvolvimento Web & Mobile',
+  'Integração de Aplicativos',
+  'Low-Code/No-Code',
   'Ferramentas do Desenvolvedor',
   'Segurança, Identidade e Conformidade',
   'Gerenciamento e Governança',
