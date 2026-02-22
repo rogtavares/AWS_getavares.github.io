@@ -4,6 +4,14 @@
 
 Este site apresenta uma coleção interativa de Mapas Mentais de AWS, desenvolvidos por Gé Tavares, criados para facilitar o aprendizado, a memorização e a navegação entre os diversos serviços da Amazon Web Services.
 
+### 🚀 Como usar em 5 segundos
+> **É muito simples:**
+> 1. **Digite** o que procura na barra de busca (ex: "Banco", "Lambda", "Segurança").
+> 2. **O mapa filtra** automaticamente, mostrando apenas o que importa.
+> 3. **Clique no link** e vá direto para a documentação oficial ou serviço!
+
+---
+
 A plataforma oferece mapas mentais interativos e navegáveis, com **busca inteligente**, especialmente úteis para quem está se preparando para certificações AWS como:
 
 - **AWS Certified Cloud Practitioner (CLF-C02)**
@@ -45,7 +53,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 34 (Revisão Fev/26)
+**Versão:** 35 (Revisão Fev/26)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
