@@ -103,6 +103,12 @@
   border-radius: 8px;
   display: inline-block;
 }
+.versao {
+    font-size: 0.75em;
+    color: #ccc;
+    margin-top: 8px;
+    display: block;
+}
     </style>
 </head>
 <body>
@@ -117,6 +123,7 @@
 
 <footer>
   Criado por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares, engenheiro de software no Itaú</a> • 2026
+  <span class="versao">Versão: 35 (Revisão Fev/26)</span>
 </footer>
 <script>
 // Dados extraídos do seu Markdown (categorias e serviços)
@@ -291,12 +298,6 @@ const dados = [
       {nome: 'Amazon GameLift', url: 'https://aws.amazon.com/gamelift/'},
       {nome: 'AWS GameKit', url: 'https://aws.amazon.com/gamekit/'},
       {nome: 'Amazon Lumberyard', url: 'https://aws.amazon.com/lumberyard/'}
-    ]
-  },
-  {
-    categoria: 'Documentação do AWS',
-    servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
     ]
   },
   {
@@ -596,7 +597,7 @@ const dados = [
       {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'},
       {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'}
     ],
-    descricao: 'Serviços para criar e gerenciar redes blockchain escaláveis e livros-razão totalmente gerenciados.'
+    descricao: 'Crie e gerencie redes blockchain e Ledgers escaláveis.'
   },
   {
     categoria: 'Realidade Virtual e Aumentada',
@@ -629,8 +630,8 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'},
-      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
+      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'},
+      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'}
     ]
   }
 ];
@@ -643,9 +644,9 @@ const ordemImportancia = [
   'Banco de Dados',
   'Redes e Entrega de Conteúdo',
   'Desenvolvimento Web & Mobile',
-  'Integração de Aplicativos',
   'Low-Code/No-Code',
   'Ferramentas do Desenvolvedor',
+  'Integração de Aplicativos',
   'Segurança, Identidade e Conformidade',
   'Gerenciamento e Governança',
   'Monitoramento e Observabilidade',
@@ -666,7 +667,6 @@ const ordemImportancia = [
   'Tecnologias de Saúde',
   'Infraestrutura como Código',
   'Java & SDKs',
-  'Documentação do AWS',
   'Capacitação do Cliente',
   'Certificações AWS',
   '🔧 Ferramentas Externas/Terceirizadas',
