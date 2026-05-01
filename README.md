@@ -50,13 +50,10 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
 
 - [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/@rogtavares)
-- [📺 Playlist Completa no YouTube](https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43)
-- [📺 Playlist AWS Architect Associate no YouTube](https://youtube.com/playlist?list=PL9yDcJX2aaTVTj0b9T2D0P2E_aG92lS2n&si=nF6N4FfJ51hBwE4-)
 
 ---
 
-**Versão:** 35 (Revisão 01/05/2026)
+**Versão:** 37 (Revisão 01/05/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
-**Hospedagem:** GitHub Pages
