@@ -507,7 +507,7 @@ const dados = [
   {
     categoria: 'Aulinhas Gé Tavares AWS',
     servicos: [
-      {nome: 'Canal Completo no YouTube de Gé Tavares', url: 'https://www.youtube.com/@rogtavares'}
+      {nome: 'Canal Completo no YouTube de Gé Tavares', url: 'https://youtube.com/playlist?list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z'}
     ],
     descricao: 'Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.'
   },
