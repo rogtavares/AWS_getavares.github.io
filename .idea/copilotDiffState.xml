@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.env">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.env" />
+              <option name="updatedContent" value="# ⚠️ ARQUIVO DE CONFIGURAÇÂO - NÃO VERSIONE!&#10;# Este arquivo contém suas credenciais e deve estar em .gitignore&#10;&#10;# Sua nova chave Gemini&#10;GEMINI_API_KEY=.gen-lang-client-0095712620&#10;&#10;# Configurações de Rate Limiting&#10;GEMINI_MODEL=gemini-2.0-flash&#10;RATE_LIMIT_DELAY_MS=2000&#10;RATE_LIMIT_MAX_REQUESTS_PER_MINUTE=15&#10;&#10;# Configurações Opcionais&#10;GEMINI_TIMEOUT_MS=30000&#10;GEMINI_MAX_RETRIES=3&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
