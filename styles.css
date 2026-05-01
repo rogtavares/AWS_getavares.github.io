@@ -224,3 +224,110 @@ footer a[target="_blank"] { rel: noopener; }
     margin-top: 8px;
     display: block;
 }
+
+/* Seção Como Usar */
+.como-usar {
+    background: #f0f4ff;
+    color: #2c3e50;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid #e1e8f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .como-usar {
+    background: #1a2332;
+    color: #e0e0e0;
+    border-color: #2d3748;
+}
+
+.como-usar h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #4a90e2;
+}
+
+[data-theme="dark"] .como-usar h2 {
+    color: #66b2ff;
+}
+
+.passos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.passo {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e8f0fe;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .passo {
+    background: #2d3748;
+    border-color: #4a5568;
+}
+
+.numero {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.85em;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.passo p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #5a6c7d;
+}
+
+[data-theme="dark"] .passo p {
+    color: #b0b0b0;
+}
+
+.fechar-tutorial {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.fechar-tutorial:hover {
+    background: #357abd;
+}
+
+.como-usar.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .passos {
+        grid-template-columns: 1fr;
+    }
+    
+    .como-usar {
+        padding: 20px;
+    }
+    
+    .como-usar h2 {
+        font-size: 1.3em;
+    }
+}
