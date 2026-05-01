@@ -436,7 +436,7 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ## **32. 🎓 AULINHAS GÉ TAVARES AWS**
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
-### [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/@rogtavares) <!-- Link válido -->
+### [📺 Canal Completo no YouTube de Gé Tavares](https://youtube.com/playlist?list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=ewcQhi2KdyiC2KL6) <!-- Link válido -->
 
 ## **33. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
@@ -448,4 +448,4 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 
 
-<!-- GE TAVARES v24 - JAN 2026 -->
+<!-- GE TAVARES v25 - MAIO 2026 -->

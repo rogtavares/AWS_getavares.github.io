@@ -38,7 +38,7 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Busca Aprimorada:** Encontre serviços rapidamente pelo nome ou categoria.
 
 ## **Benefícios da Plataforma**
-- **Visualização interativa** dos serviços AWS organizados por categorias.
+- **Visualização interativa** dos serviços AWS organizedos por categorias.
 - **Acelera o aprendizado** com mapas mentais navegáveis.
 - **Facilita a memorização** através de estruturas visuais.
 - **Acesso rápido** à documentação oficial da AWS.
@@ -49,7 +49,7 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
 
-- [📺 Canal Completo no YouTube de Gé Tavares]((https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43) <!-- Link válido -->)
+- [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43)
 
 ---
 
@@ -57,3 +57,4 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
+**Hospedagem:** GitHub Pages
