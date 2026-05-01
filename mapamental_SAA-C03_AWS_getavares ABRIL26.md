@@ -434,10 +434,9 @@ Para obter detalhes sobre cada certificação, incluindo requisitos e conteúdo 
 
 ### [🚀 Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS](https://skillbuilder.aws/)
 
-## **32.. 🎓 AULINHAS GÉ TAVARES AWS**
+## **32. 🎓 AULINHAS GÉ TAVARES AWS**
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
-### [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43) <!-- Link válido -->
-
+### [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/@rogtavares) <!-- Link válido -->
 
 ## **33. 👨‍💻 Sobre o Gé Tavares**
 Conheça mais sobre o autor deste material, Rogério Tavares, através dos links abaixo:
@@ -449,4 +448,4 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 
 
-<!-- GE TAVARES v27 - MAIO 2026 -->
+<!-- GE TAVARES v24 - JAN 2026 -->

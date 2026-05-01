@@ -507,9 +507,7 @@ const dados = [
   {
     categoria: '🎓 AULINHAS GÉ TAVARES AWS',
     servicos: [
-      {nome: '📺 Canal Completo no YouTube de Gé Tavares', url: 'https://www.youtube.com/@rogtavares'},
-      {nome: '📺 Playlist Completa no YouTube', url: 'https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43'},
-      {nome: '📺 Playlist AWS Architect Associate no YouTube', url: 'https://youtube.com/playlist?list=PL9yDcJX2aaTVTj0b9T2D0P2E_aG92lS2n&si=nF6N4FfJ51hBwE4-'}
+      {nome: '📺 Canal Completo no YouTube de Gé Tavares', url: 'https://www.youtube.com/@rogtavares'}
     ],
     descricao: 'Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.'
   },
