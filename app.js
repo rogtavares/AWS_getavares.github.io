@@ -178,12 +178,6 @@ const dados = [
     ]
   },
   {
-    categoria: 'Documentação do AWS',
-    servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
-    ]
-  },
-  {
     categoria: 'Ferramentas do Desenvolvedor',
     servicos: [
       {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
@@ -658,14 +652,15 @@ document.getElementById('clearBtn').addEventListener('click', function() {
 const themeToggle = document.getElementById('themeToggle');
 const htmlElement = document.documentElement;
 
-// Check for saved theme preference or use system preference
+// Check for saved theme preference (default to light)
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
     htmlElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
-} else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    htmlElement.setAttribute('data-theme', 'dark');
-    updateThemeIcon('dark');
+} else {
+    // Default to light theme for new users
+    htmlElement.setAttribute('data-theme', 'light');
+    updateThemeIcon('light');
 }
 
 themeToggle.addEventListener('click', () => {
@@ -702,3 +697,21 @@ backToTopBtn.addEventListener('click', () => {
 
 // Initial render
 renderizarServicos('');
+
+// Tutorial functionality
+const comoUsar = document.getElementById('comoUsar');
+const fecharTutorial = document.getElementById('fecharTutorial');
+
+// Check if user has seen tutorial before
+const tutorialVisto = localStorage.getItem('tutorialVisto');
+if (tutorialVisto) {
+    comoUsar.classList.add('hidden');
+}
+
+// Hide tutorial when button is clicked
+fecharTutorial.addEventListener('click', () => {
+    comoUsar.classList.add('hidden');
+    localStorage.setItem('tutorialVisto', 'true');
+    // Focus on search after closing tutorial
+    buscaInput.focus();
+});
