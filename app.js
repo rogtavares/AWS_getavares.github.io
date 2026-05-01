@@ -178,12 +178,6 @@ const dados = [
     ]
   },
   {
-    categoria: 'Documentação do AWS',
-    servicos: [
-      {nome: 'Documentação AWS - Página Oficial', url: 'https://docs.aws.amazon.com/pt_br/?nc2=h_ql_doc_do'}
-    ]
-  },
-  {
     categoria: 'Ferramentas do Desenvolvedor',
     servicos: [
       {nome: 'AWS CodePipeline', url: 'https://aws.amazon.com/codepipeline/'},
