@@ -49,7 +49,7 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 
 Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.
 
-- [📺 Canal Completo no YouTube de Gé Tavares](https://www.youtube.com/@rogtavares)
+- [📺 Canal Completo no YouTube de Gé Tavares]((https://www.youtube.com/watch?v=8JI9wQ8sUdQ&list=PL9yDcJX2aaTVHsMXLsWSmsdeYrIx9RC9z&si=q8M0eaxVR9GZBQ43) <!-- Link válido -->)
 
 ---
 
