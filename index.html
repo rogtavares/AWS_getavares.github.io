@@ -191,13 +191,15 @@ const dados = [
       {nome: 'Amazon EBS', url: 'https://aws.amazon.com/ebs/'},
       {nome: 'AWS Snowball', url: 'https://aws.amazon.com/snowball/'},
       {nome: 'AWS Snowcone', url: 'https://aws.amazon.com/snowcone/'},
-      {nome: 'AWS Snowmobile', url: 'https://aws.amazon.com/snowmobile/'}
+      {nome: 'AWS Snowmobile', url: 'https://aws.amazon.com/snowmobile/'},
+      {nome: 'Amazon S3 on Outposts', url: 'https://aws.amazon.com/s3/outposts/'}
     ]
   },
   {
     categoria: 'Banco de Dados',
     servicos: [
       {nome: 'Amazon Aurora & RDS', url: 'https://aws.amazon.com/rds/'},
+      {nome: 'Amazon Aurora DSQL', url: 'https://aws.amazon.com/rds/aurora/dsql/'},
       {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
       {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
       {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
@@ -206,7 +208,7 @@ const dados = [
       {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
       {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
       {nome: 'Amazon MemoryDB', url: 'https://aws.amazon.com/memorydb/'},
-
+      {nome: 'Amazon RDS on Outposts', url: 'https://aws.amazon.com/rds/outposts/'},
       {nome: 'Amazon RDS Proxy', url: 'https://aws.amazon.com/rds/proxy/'},
       {nome: 'Amazon RDS Custom', url: 'https://aws.amazon.com/rds/custom/'},
       {nome: 'Amazon RDS Performance Insights', url: 'https://aws.amazon.com/rds/performance-insights/'},
@@ -267,7 +269,8 @@ const dados = [
       {nome: 'Amazon EC2 C8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/c8g/'},
       {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
       {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
-      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'}
+      {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'}
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
@@ -309,7 +312,11 @@ const dados = [
       {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
       {nome: 'Amazon Q Developer', url: 'https://aws.amazon.com/q/developer/'},
       {nome: 'AWS CodeStar', url: 'https://aws.amazon.com/codestar/'},
-      {nome: 'AWS Fault Injection Service', url: 'https://aws.amazon.com/fis/'}
+      {nome: 'AWS Fault Injection Service', url: 'https://aws.amazon.com/fis/'},
+      {nome: 'AWS Console to Code', url: 'https://aws.amazon.com/console-to-code/'},
+      {nome: 'AWS Command Line Interface (CLI)', url: 'https://aws.amazon.com/cli/'},
+      {nome: 'AWS Serverless Application Model (SAM)', url: 'https://aws.amazon.com/serverless/sam/'},
+      {nome: 'AWS SDKs e Ferramentas', url: 'https://aws.amazon.com/tools/'}
     ]
   },
   {
@@ -324,7 +331,6 @@ const dados = [
   {
     categoria: 'Low-Code/No-Code',
     servicos: [
-      {nome: 'AWS App Studio', url: 'https://aws.amazon.com/application-composer/'},
       {nome: 'AWS Application Composer', url: 'https://aws.amazon.com/application-composer/'},
       {nome: 'AWS Amplify Studio', url: 'https://aws.amazon.com/amplify/studio/'}
     ],
@@ -415,9 +421,11 @@ const dados = [
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
       {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
+      {nome: 'Amazon Bedrock Agents', url: 'https://aws.amazon.com/bedrock/agents/'},
       {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
       {nome: 'Amazon Bedrock Knowledge Bases', url: 'https://aws.amazon.com/bedrock/knowledge-bases/'},
-      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/'},
+      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/model-evaluation/'},
+      {nome: 'Amazon Bedrock Prompt Management', url: 'https://aws.amazon.com/bedrock/prompt-management/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
       {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/apps/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
@@ -489,7 +497,8 @@ const dados = [
       {nome: 'Amazon ECS', url: 'https://aws.amazon.com/ecs/'},
       {nome: 'Amazon EKS', url: 'https://aws.amazon.com/eks/'},
       {nome: 'AWS Fargate', url: 'https://aws.amazon.com/fargate/'},
-      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'}
+      {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'},
+      {nome: 'Amazon EKS on Outposts', url: 'https://aws.amazon.com/eks/outposts/'}
     ]
   },
   {
@@ -605,8 +614,7 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'},
-      {nome: 'Salesforce', url: 'https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj'}
+      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'}
     ]
   }
 ];

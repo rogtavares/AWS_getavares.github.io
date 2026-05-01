@@ -84,6 +84,7 @@ Guarde tudo com segurança e acesso rápido! 💾🔒
 ### [🧩 Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) <!-- Link válido -->
 ### [🤖 Amazon S3 Intelligent-Tiering](https://aws.amazon.com/s3/storage-classes/intelligent-tiering/) <!-- Link válido -->
 ### [📊 Amazon S3 Storage Lens](https://aws.amazon.com/pt/s3/storage-lens/) <!-- Link válido -->
+### [📦 Amazon S3 on Outposts](https://aws.amazon.com/s3/outposts/) <!-- Link válido -->
 
 ## **3. 📦 Contêineres**
 Implemente, escale e gerencie apps sem complicação! 📦⚡
@@ -94,6 +95,7 @@ Implemente, escale e gerencie apps sem complicação! 📦⚡
 ### [🛠️ ROSA (OpenShift)](https://aws.amazon.com/pt/rosa/) <!-- Link válido -->
 ### [🌍 Amazon EKS Anywhere](https://aws.amazon.com/pt/eks/anywhere/) <!-- Link válido -->
 ### [📦 Amazon EKS Distro](https://eksctl.io/) <!-- Link válido -->
+### [📦 Amazon EKS on Outposts](https://aws.amazon.com/eks/outposts/) <!-- Link válido -->
 
 ## **4. 🗃️ Banco de Dados**
 Dados sempre disponíveis e prontos para crescer! 🗃️📈
@@ -107,6 +109,7 @@ Dados sempre disponíveis e prontos para crescer! 🗃️📈
 ### [📊 Amazon Timestream](https://aws.amazon.com/timestream/) <!-- Link válido -->
 ### [⚡ Amazon MemoryDB](https://aws.amazon.com/memorydb/) <!-- Link válido -->
 ### [📚 Oracle Database@AWS](https://aws.amazon.com/rds/oracle/) <!-- Link válido -->
+### [📚 Amazon RDS on Outposts](https://aws.amazon.com/rds/outposts/) <!-- Link válido -->
 
 ## **5. 📊 Análise de Dados**
 Transforme dados em decisões inteligentes! 📊🤓
@@ -223,11 +226,14 @@ Desenvolva, teste e entregue mais rápido! 💻🚀
 ### [🛠️ Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/) <!-- Link válido -->
 ### [🛠️ AWS AppConfig](https://aws.amazon.com/appconfig/) <!-- Link válido -->
 ### [🛠️ AWS FIS (Fault Injection Simulator)](https://aws.amazon.com/fis/) <!-- Link válido -->
-### [🛠️ Amazon Q Developer (CodeWhisperer)](https://aws.amazon.com/codewhisperer/) <!-- Link válido -->
+### [🛠️ Amazon Q Developer](https://aws.amazon.com/q/developer/) <!-- Link válido -->
+### [🛠️ AWS Console to Code](https://aws.amazon.com/console-to-code/) <!-- Link válido -->
+### [🛠️ AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) <!-- Link válido -->
+### [🛠️ AWS Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) <!-- Link válido -->
+### [🛠️ AWS SDKs e Ferramentas](https://aws.amazon.com/tools/) <!-- Link válido -->
 
 ## **11. 🧩 Low-Code/No-Code**
 Crie aplicações rapidamente com pouco ou nenhum código! 🧩⚡
-### [🛠️ AWS App Studio](https://aws.amazon.com/appstudio/) <!-- Link válido -->
 ### [🛠️ AWS Application Composer](https://aws.amazon.com/application-composer/) <!-- Link válido -->
 ### [🛠️ AWS Amplify Studio](https://aws.amazon.com/amplify/studio/) <!-- Link válido -->
 
@@ -438,7 +444,7 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
 - **LinkedIn** 🌟: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
 - **ARTE Ge TAVARES** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
-- **Salesforce** ☁️: [https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj](https://www.salesforce.com/trailblazer/rogeriotavaresjtx4ba948fgj)
+
 
 
 
