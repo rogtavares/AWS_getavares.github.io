@@ -82,6 +82,7 @@ const dados = [
     servicos: [
       {nome: 'Amazon Aurora & RDS', url: 'https://aws.amazon.com/rds/'},
       {nome: 'Amazon Aurora DSQL', url: 'https://aws.amazon.com/rds/aurora/dsql/'},
+      {nome: 'Amazon Aurora Limitless Database', url: 'https://aws.amazon.com/rds/aurora/limitless/'},
       {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
       {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
       {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
@@ -115,10 +116,11 @@ const dados = [
   {
     categoria: 'Certificações AWS',
     servicos: [
-      {nome: 'AWS Certification - Página Oficial', url: 'https://aws.amazon.com/pt/certification/'},
-      {nome: 'Escolha seu caminho na AWS Certification (PDF)', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
-      {nome: 'Explore mais de 900 cursos AWS gratuitos', url: 'https://explore.skillbuilder.aws/learn/public/catalog/view/4?ctldoc-catalog-0=l-_en&trk=ff4f70ba-e7ec-46d9-bb3f-76c29e4a040e&sc_channel=em'},
-      {nome: 'Desenvolva habilidades de nuvem sob demanda – SkillBuilder AWS', url: 'https://skillbuilder.aws/'}
+      {nome: 'Todas as Certificações AWS', url: 'https://aws.amazon.com/pt/certification/'},
+      {nome: 'Cursos Gratuitos - Skill Builder', url: 'https://skillbuilder.aws/'},
+      {nome: 'Guia de Certificações PDF', url: 'https://d1.awsstatic.com/pt_BR/training-and-certification/docs/AWS_certification_paths.pdf'},
+      {nome: 'Agendar Exames', url: 'https://home.pearsonvue.com/aws'},
+      {nome: 'AWS Training and Certification', url: 'https://aws.amazon.com/training/'}
     ]
   },
   {
@@ -129,6 +131,7 @@ const dados = [
       {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
       {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
       {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
+      {nome: 'AWS Batch on EKS', url: 'https://aws.amazon.com/batch/eks/'},
       {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
       {nome: 'Amazon EC2 Spot Instances', url: 'https://aws.amazon.com/pt/ec2/spot/'},
       {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
@@ -316,6 +319,8 @@ const dados = [
       {nome: 'Amazon Q Business', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
+      {nome: 'Amazon Bedrock Studio', url: 'https://aws.amazon.com/bedrock/studio/'},
+      {nome: 'Amazon Nova', url: 'https://aws.amazon.com/nova/'},
       {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
       {nome: 'Amazon Bedrock Agents', url: 'https://aws.amazon.com/bedrock/agents/'},
       {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
@@ -364,6 +369,7 @@ const dados = [
 
       {nome: 'Amazon CloudWatch RUM', url: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html'},
       {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
+      {nome: 'AWS CloudTrail Lake', url: 'https://aws.amazon.com/cloudtrail/lake/'},
       {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'}
     ]
   },
@@ -493,7 +499,7 @@ const dados = [
     descricao: 'Ferramentas para criar e executar aplicações de realidade virtual (VR), realidade aumentada (AR) e 3D.'
   },
   {
-    categoria: '🔧 Ferramentas Externas/Terceirizadas',
+    categoria: 'Ferramentas Externas e Terceirizadas',
     servicos: [
       {nome: 'Datadog - Monitoramento', url: 'https://www.datadoghq.com/'},
       {nome: 'Kiro.dev - DevOps', url: 'https://kiro.dev/'},
@@ -505,9 +511,9 @@ const dados = [
     descricao: 'Ferramentas e serviços de terceiros que se integram perfeitamente com a AWS para expandir suas capacidades.'
   },
   {
-    categoria: '🎓 AULINHAS GÉ TAVARES AWS',
+    categoria: 'Aulinhas Gé Tavares AWS',
     servicos: [
-      {nome: '📺 Canal Completo no YouTube de Gé Tavares', url: 'https://www.youtube.com/@rogtavares'}
+      {nome: 'Canal Completo no YouTube de Gé Tavares', url: 'https://www.youtube.com/@rogtavares'}
     ],
     descricao: 'Conteúdo educacional gratuito sobre AWS com explicações práticas e didáticas para certificações e uso profissional.'
   },
@@ -554,8 +560,8 @@ const ordemImportancia = [
   'Java & SDKs',
   'Capacitação do Cliente',
   'Certificações AWS',
-  '🔧 Ferramentas Externas/Terceirizadas',
-  '🎓 AULINHAS GÉ TAVARES AWS'
+  'Ferramentas Externas e Terceirizadas',
+  'Aulinhas Gé Tavares AWS'
 ];
 
 dados.sort((a, b) => {
