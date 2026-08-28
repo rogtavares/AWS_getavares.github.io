@@ -21,7 +21,7 @@ Acesse a documentação oficial da AWS para explorar todos os serviços, guias e
 
 ## **🆕 AWS re:Invent 2024 - NOVIDADES**
 🔥 Principais lançamentos do AWS re:Invent 2024! Novos serviços de IA, computação, banco de dados e muito mais.
-### [🧠 Amazon Nova (Modelos de IA Multimodal)](https://aws.amazon.com/bedrock/nova/) <!-- Link válido -->
+### [🧠 Amazon Nova (Modelos de IA Multimodal)](https://aws.amazon.com/nova/) <!-- Link corrigido -->
 ### [🤖 Amazon Q Developer Agent](https://aws.amazon.com/q/developer/) <!-- Link válido -->
 ### [🛠️ AWS App Studio (Low-Code)](https://aws.amazon.com/application-composer/) <!-- Link válido -->
 ### [🗄️ Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) <!-- Link válido -->
@@ -35,7 +35,7 @@ Acesse a documentação oficial da AWS para explorar todos os serviços, guias e
 ### [📝 Amazon Bedrock Prompt Management](https://aws.amazon.com/bedrock/prompt-management/) <!-- Link válido -->
 ### [🐍 AWS Lambda SnapStart for Python](https://aws.amazon.com/lambda/snapstart/) <!-- Link válido -->
 ### [💻 Amazon EC2 R8g Instances (Graviton4)](https://aws.amazon.com/ec2/instance-types/r8g/) <!-- Link válido -->
-### [🚂 AWS Trainium2](https://aws.amazon.com/machine-learning/trainium/) <!-- Link válido -->
+### [🚂 AWS Trainium2](https://aws.amazon.com/ai/machine-learning/trainium/) <!-- Link corrigido -->
 ### [🔐 Amazon VPC Lattice](https://aws.amazon.com/vpc/lattice/) <!-- Link válido -->
 ### [🎯 Amazon S3 Express One Zone](https://aws.amazon.com/s3/storage-classes/express-one-zone/) <!-- Link válido -->
 ### [🧠 Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) <!-- Link válido -->
