@@ -2,6 +2,11 @@
 .vscode/
 .claude/
 
+# IntelliJ - preferencias de conta/perfil especificas da maquina
+.idea/aws.xml
+.idea/awsToolkit.xml
+.idea/amazonq.xml
+
 # Python
 __pycache__/
 *.pyc
