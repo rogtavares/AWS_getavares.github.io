@@ -1,0 +1,20 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
+
+# Generated output
+link_check_results.txt
+
+# OS
+.DS_Store
+Thumbs.db
