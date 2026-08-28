@@ -2,7 +2,13 @@
 <html lang="pt-br" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <title> Gé Tavares AWS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gé Tavares AWS - Mapas Mentais AWS</title>
+    <meta name="description" content="Mapas mentais interativos dos serviços AWS, organizados por categoria e com busca inteligente, para estudar certificações como SAA-C03, CLF-C02, DVA-C02 e mais.">
+    <meta property="og:title" content="Gé Tavares AWS - Mapas Mentais AWS">
+    <meta property="og:description" content="Mapas mentais interativos dos serviços AWS, organizados por categoria e com busca inteligente, para estudar certificações AWS.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rogtavares.github.io/AWS_getavares.github.io/logo.png">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +18,7 @@
 <body>
 
 <div class="header-controls">
-    <button class="theme-toggle" id="themeToggle" title="Alternar Modo Escuro/Claro">🌙</button>
+    <button class="theme-toggle" id="themeToggle" title="Alternar Modo Escuro/Claro" aria-label="Alternar entre modo escuro e claro">🌙</button>
 </div>
 
 <div class="container">
@@ -40,8 +46,8 @@
     </div>
 
     <div class="search-wrapper">
-        <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus>
-        <button class="clear-btn" id="clearBtn" title="Limpar busca">✖</button>
+        <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus aria-label="Buscar serviços AWS">
+        <button class="clear-btn" id="clearBtn" title="Limpar busca" aria-label="Limpar busca">✖</button>
     </div>
 
     <div id="servicos-lista">
@@ -49,7 +55,7 @@
     </div>
 </div>
 
-<button class="back-to-top" id="backToTop" title="Voltar ao topo">↑</button>
+<button class="back-to-top" id="backToTop" title="Voltar ao topo" aria-label="Voltar ao topo da página">↑</button>
 
 <footer>
   Criado por <a href="https://github.com/rogtavares" target="_blank" rel="noopener">Rogério Tavares, engenheiro de software no Itaú</a> • 2026
