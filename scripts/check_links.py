@@ -24,7 +24,7 @@ def check_url(url):
 def main():
     print("Verificando links do index.html...\n")
     
-    urls = extract_urls_from_html('index.html')
+    urls = extract_urls_from_html('../index.html')
     print(f"Total de URLs unicas encontradas: {len(urls)}\n")
     
     broken_links = []

@@ -1,0 +1,24 @@
+# IDE
+.vscode/
+.claude/
+
+# IntelliJ - preferencias de conta/perfil especificas da maquina
+.idea/aws.xml
+.idea/awsToolkit.xml
+.idea/amazonq.xml
+
+# Python
+__pycache__/
+*.pyc
+
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
+
+# Generated output
+link_check_results.txt
+
+# OS
+.DS_Store
+Thumbs.db
