@@ -38,7 +38,7 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Busca Aprimorada:** Encontre serviços rapidamente pelo nome ou categoria.
 
 ## **Benefícios da Plataforma**
-- **Visualização interativa** dos serviços AWS organizedos por categorias.
+- **Visualização interativa** dos serviços AWS organizados por categorias.
 - **Acelera o aprendizado** com mapas mentais navegáveis.
 - **Facilita a memorização** através de estruturas visuais.
 - **Acesso rápido** à documentação oficial da AWS.

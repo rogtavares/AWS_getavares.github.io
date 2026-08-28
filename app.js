@@ -5,7 +5,6 @@ const dados = [
     servicos: [
       {nome: 'Infraestrutura Global da AWS', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/'},
       {nome: 'Regiões e Zonas de Disponibilidade', url: 'https://aws.amazon.com/pt/about-aws/global-infrastructure/regions_az/'},
-      {nome: 'Mapa Interativo da Infraestrutura Global', url: 'https://infrastructure.aws/'},
       {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
       {nome: 'AWS Outposts', url: 'https://aws.amazon.com/outposts/'}
@@ -22,7 +21,7 @@ const dados = [
       {nome: 'Amazon EMR', url: 'https://aws.amazon.com/emr/'},
       {nome: 'Amazon OpenSearch Service', url: 'https://aws.amazon.com/opensearch-service/'},
       {nome: 'Amazon Kinesis', url: 'https://aws.amazon.com/kinesis/'},
-      {nome: 'Managed Apache Flink', url: 'https://aws.amazon.com/managed-flink/'},
+      {nome: 'Managed Apache Flink', url: 'https://aws.amazon.com/managed-service-apache-flink/'},
       {nome: 'AWS Lake Formation', url: 'https://aws.amazon.com/lake-formation/'},
       {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'}, // Mantido apenas Amazon MSK
       {nome: 'AWS Glue DataBrew', url: 'https://aws.amazon.com/glue/features/databrew/'},
@@ -110,7 +109,7 @@ const dados = [
       {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
       {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
       {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
-      {nome: 'AWS Support', url: 'https://aws.amazon.com/support/'}
+      {nome: 'AWS Support', url: 'https://aws.amazon.com/premiumsupport/plans/'}
     ]
   },
   {
@@ -140,7 +139,6 @@ const dados = [
       {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
       {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
       {nome: 'AWS ParallelCluster', url: 'https://aws.amazon.com/hpc/parallelcluster/'},
-      {nome: 'AWS SimSpace Weaver', url: 'https://aws.amazon.com/simspace-weaver/'},
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
       {nome: 'AWS Local Zones', url: 'https://aws.amazon.com/about-aws/global-infrastructure/localzones/'},
       {nome: 'AWS Nitro System', url: 'https://aws.amazon.com/ec2/nitro/'},
@@ -188,7 +186,7 @@ const dados = [
       {nome: 'AWS CloudShell', url: 'https://aws.amazon.com/cloudshell/'},
       {nome: 'AWS CodeArtifact', url: 'https://aws.amazon.com/codeartifact/'},
       {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
-      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/appconfig/'},
+      {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/systems-manager/features/appconfig/'},
       {nome: 'Amazon Q Developer', url: 'https://aws.amazon.com/q/developer/'},
       {nome: 'AWS CodeStar', url: 'https://aws.amazon.com/codestar/'},
       {nome: 'AWS Fault Injection Service', url: 'https://aws.amazon.com/fis/'},
@@ -237,17 +235,17 @@ const dados = [
       {nome: 'AWS Compute Optimizer', url: 'https://aws.amazon.com/compute-optimizer/'},
       {nome: 'AWS Config', url: 'https://aws.amazon.com/config/'},
       {nome: 'AWS Control Tower', url: 'https://aws.amazon.com/controltower/'},
-      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/incident-manager/'},
+      {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/features/incident-manager/'},
       {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
       {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
       {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
       {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
       {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
-      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resource-explorer/'},
-      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://aws.amazon.com/resource-groups/'},
+      {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resourceexplorer/'},
+      {nome: 'AWS Resource Groups & Tag Editor', url: 'https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html'},
       {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
       {nome: 'AWS Service Catalog', url: 'https://aws.amazon.com/servicecatalog/'},
-      {nome: 'AWS Service Quotas', url: 'https://aws.amazon.com/servicequotas/'},
+      {nome: 'AWS Service Quotas', url: 'https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html'},
       {nome: 'AWS Systems Manager', url: 'https://aws.amazon.com/systems-manager/'},
       {nome: 'AWS Telco Network Builder', url: 'https://aws.amazon.com/tnb/'},
       {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
@@ -289,7 +287,7 @@ const dados = [
     categoria: 'Machine Learning',
     servicos: [
       {nome: 'Amazon SageMaker AI', url: 'https://aws.amazon.com/sagemaker/'},
-      {nome: 'Amazon SageMaker Studio', url: 'https://aws.amazon.com/sagemaker/studio-lab/'},
+      {nome: 'Amazon SageMaker Studio', url: 'https://aws.amazon.com/sagemaker/studio/'},
       {nome: 'Amazon Augmented AI', url: 'https://aws.amazon.com/augmented-ai/'},
       {nome: 'Amazon CodeGuru', url: 'https://aws.amazon.com/codeguru/'},
       {nome: 'Amazon DevOps Guru', url: 'https://aws.amazon.com/devops-guru/'},
@@ -322,7 +320,7 @@ const dados = [
       {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/model-evaluation/'},
       {nome: 'Amazon Bedrock Prompt Management', url: 'https://aws.amazon.com/bedrock/prompt-management/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
-      {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/apps/'},
+      {nome: 'Amazon Q Apps', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
       {nome: 'AWS AI League', url: 'https://aws.amazon.com/pt/ai/aileague/'},
@@ -380,7 +378,7 @@ const dados = [
       {nome: 'AWS Cloud Map', url: 'https://aws.amazon.com/cloud-map/'},
       {nome: 'Application Recovery Controller', url: 'https://aws.amazon.com/application-recovery-controller/'},
       {nome: 'AWS Network Firewall', url: 'https://aws.amazon.com/network-firewall/'},
-      {nome: 'AWS Network Manager', url: 'https://aws.amazon.com/vpc/network-manager/'},
+      {nome: 'AWS Network Manager', url: 'https://aws.amazon.com/cloud-wan/'},
       {nome: 'Elastic Load Balancing (ELB)', url: 'https://aws.amazon.com/elasticloadbalancing/'},
       {nome: 'AWS PrivateLink', url: 'https://aws.amazon.com/privatelink/'},
       {nome: 'AWS Transit Gateway', url: 'https://aws.amazon.com/transit-gateway/'},
@@ -416,7 +414,6 @@ const dados = [
     categoria: 'Satélite',
     servicos: [
       {nome: 'AWS Ground Station', url: 'https://aws.amazon.com/ground-station/'},
-      {nome: 'AWS Data Exchange for Ground Station', url: 'https://aws.amazon.com/data-exchange/ground-station/'},
       {nome: 'AWS Ground Station with Amazon S3', url: 'https://aws.amazon.com/ground-station/features/'}
     ]
   },
@@ -516,7 +513,7 @@ const dados = [
     servicos: [
       {nome: 'GitHub', url: 'https://github.com/rogtavares'},
       {nome: 'LinkedIn', url: 'https://www.linkedin.com/in/rogtavares/'},
-      {nome: 'Portfólio (Minhas ARTES)', url: 'https://rogeriotavares.myportfolio.com/'}
+      {nome: 'Portfólio (Minhas ARTES)', url: 'https://www.behance.net/getavares'}
     ]
   }
 ];

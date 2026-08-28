@@ -209,7 +209,7 @@ Conecte e entregue com velocidade global! 🌐⚡
 ### [🌍 AWS Cloud Map](https://aws.amazon.com/cloud-map/) <!-- Link válido -->
 ### [🌍 Application Recovery Controller](https://aws.amazon.com/application-recovery-controller/) <!-- Link válido -->
 ### [🌍 AWS Network Firewall](https://aws.amazon.com/network-firewall/) <!-- Link válido -->
-### [🌍 AWS Network Manager](https://aws.amazon.com/vpc/network-manager/) <!-- Link válido -->
+### [🌍 AWS Network Manager](https://aws.amazon.com/cloud-wan/) <!-- Link corrigido -->
 ### [🌍 AWS VPC Lattice](https://aws.amazon.com/vpc/lattice/) <!-- Link válido -->
 ### [🌍 AWS Verified Access](https://aws.amazon.com/verified-access/) <!-- Link válido -->
 
@@ -224,7 +224,7 @@ Desenvolva, teste e entregue mais rápido! 💻🚀
 ### [🛠️ AWS X-Ray](https://aws.amazon.com/xray/) <!-- Link válido -->
 ### [🛠️ AWS CodeArtifact](https://aws.amazon.com/codeartifact/) <!-- Link válido -->
 ### [🛠️ Amazon CodeCatalyst](https://aws.amazon.com/codecatalyst/) <!-- Link válido -->
-### [🛠️ AWS AppConfig](https://aws.amazon.com/appconfig/) <!-- Link válido -->
+### [🛠️ AWS AppConfig](https://aws.amazon.com/systems-manager/features/appconfig/) <!-- Link corrigido -->
 ### [🛠️ AWS FIS (Fault Injection Simulator)](https://aws.amazon.com/fis/) <!-- Link válido -->
 ### [🛠️ Amazon Q Developer](https://aws.amazon.com/q/developer/) <!-- Link válido -->
 ### [🛠️ AWS Console to Code](https://aws.amazon.com/console-to-code/) <!-- Link válido -->
@@ -256,7 +256,7 @@ Conte com suporte e soluções sob medida! 🙋‍♂️💡
 ### [🛠️ AWS Managed Services](https://aws.amazon.com/managed-services/) <!-- Link válido -->
 ### [🚀 AWS Activate para Startups](https://aws.amazon.com/activate/) <!-- Link válido -->
 ### [💬 AWS re:Post](https://repost.aws/) <!-- Link válido -->
-### [📞 AWS Support](https://aws.amazon.com/support/) <!-- Link válido -->
+### [📞 AWS Support](https://aws.amazon.com/premiumsupport/plans/) <!-- Link corrigido -->
 
 ## **14. 🛠️ Gerenciamento e Governança**
 Controle total da sua nuvem, sem estresse! 🛠️🔍
@@ -272,17 +272,17 @@ Controle total da sua nuvem, sem estresse! 🛠️🔍
 ### [🔍 AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) <!-- Link válido -->
 ### [🚀 AWS Launch Wizard](https://aws.amazon.com/launchwizard/) <!-- Link válido -->
 ### [📉 AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/) <!-- Link válido -->
-### [🏷️ AWS Resource Groups & Tag Editor](https://aws.amazon.com/resource-groups/) <!-- Link válido -->
+### [🏷️ AWS Resource Groups & Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html) <!-- Link corrigido -->
 ### [🛡️ AWS Resilience Hub](https://aws.amazon.com/resilience-hub/) <!-- Link válido -->
-### [🚨 AWS Incident Manager](https://aws.amazon.com/systems-manager/incident-manager/) <!-- Link válido -->
+### [🚨 AWS Incident Manager](https://aws.amazon.com/systems-manager/features/incident-manager/) <!-- Link corrigido -->
 ### [📡 AWS Telco Network Builder](https://aws.amazon.com/tnb/) <!-- Link válido -->
 ### [📋 AWS Health Dashboard](https://health.aws.amazon.com/) <!-- Link válido -->
 ### [⚙️ AWS Proton](https://aws.amazon.com/proton/) <!-- Link válido -->
 ### [🔔 AWS User Notifications](https://aws.amazon.com/notifications/) <!-- Link válido -->
 ### [🛡️ AWS CloudTrail](https://aws.amazon.com/cloudtrail/) <!-- Link válido -->
 ### [📜 AWS License Manager](https://aws.amazon.com/license-manager/) <!-- Link válido -->
-### [🔍 AWS Resource Explorer](https://aws.amazon.com/resource-explorer/) <!-- Link válido -->
-### [📊 AWS Service Quotas](https://aws.amazon.com/servicequotas/) <!-- Link válido -->
+### [🔍 AWS Resource Explorer](https://aws.amazon.com/resourceexplorer/) <!-- Link corrigido -->
+### [📊 AWS Service Quotas](https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html) <!-- Link corrigido -->
 
 ## **15. 🎥 Serviços de Mídia**
 Streaming e mídia sem limites! 🎥🌎
@@ -443,7 +443,7 @@ Conheça mais sobre o autor deste material, Rogério Tavares, através dos links
 
 - **GitHub** 🎓: [https://github.com/rogtavares](https://github.com/rogtavares)
 - **LinkedIn** 🌟: [https://www.linkedin.com/in/rogtavares/](https://www.linkedin.com/in/rogtavares/)
-- **ARTE Ge TAVARES** 📂: [https://rogeriotavares.myportfolio.com/](https://rogeriotavares.myportfolio.com/)
+- **ARTE Ge TAVARES** 📂: [https://www.behance.net/getavares](https://www.behance.net/getavares)
 
 
 
