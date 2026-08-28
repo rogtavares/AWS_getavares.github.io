@@ -31,11 +31,16 @@ A plataforma oferece mapas mentais interativos e navegáveis, com **busca inteli
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
+## **Novidades (Agosto 2026)**
+- **Nova Categoria "Inteligência Artificial Generativa":** separada de Machine Learning, reunindo Amazon Bedrock (Agents, AgentCore, Guardrails, Knowledge Bases), Amazon Nova, a família Amazon Q, Amazon Kiro, AWS Transform e PartyRock.
+- **Revisão Técnica de Links:** todas as URLs de serviços foram checadas contra a documentação oficial da AWS; dezenas de links desatualizados ou quebrados foram corrigidos.
+- **Página Otimizada:** melhorias de acessibilidade (leitores de tela) e de compartilhamento (preview ao enviar o link).
+- **Busca Aprimorada:** Encontre serviços rapidamente pelo nome ou categoria.
+
 ## **Novidades (Fevereiro 2026)**
 - **Revisão Completa de Serviços:** Inclusão de novos serviços como AWS Deadline Cloud, Amazon Q Developer, AWS Supply Chain, AWS Security Agent e AWS Cloud WAN.
 - **Novas Categorias:** "Integração de Aplicativos" (EventBridge, SQS, SNS, AppFlow) e "Low-Code/No-Code".
 - **Infraestrutura Atualizada:** Dados recentes sobre Regiões e Zonas de Disponibilidade.
-- **Busca Aprimorada:** Encontre serviços rapidamente pelo nome ou categoria.
 
 ## **Benefícios da Plataforma**
 - **Visualização interativa** dos serviços AWS organizados por categorias.
@@ -53,7 +58,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 37 (Revisão 01/05/2026)
+**Versão:** 38 (Revisão 28/08/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
