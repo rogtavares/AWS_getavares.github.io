@@ -31,7 +31,7 @@
         <div class="passos">
             <div class="passo">
                 <span class="numero">1</span>
-                <p><strong>Digite</strong> o que procura na barra de busca (ex: "Lambda", "S3", "Certificação")</p>
+                <p><strong>Digite</strong> só algumas letras ou o assunto (ex: "lam" acha Lambda, "s3", "banco", "seguranca"). Não precisa de acento</p>
             </div>
             <div class="passo">
                 <span class="numero">2</span>
@@ -49,6 +49,8 @@
         <input type="text" id="busca" placeholder="Busque por serviços AWS que levam para páginas oficiais da AWS..." autofocus aria-label="Buscar serviços AWS">
         <button class="clear-btn" id="clearBtn" title="Limpar busca" aria-label="Limpar busca">✖</button>
     </div>
+
+    <p class="resultado-info" id="resultadoInfo" role="status" aria-live="polite"></p>
 
     <div id="servicos-lista">
         <!-- Os serviços serão inseridos aqui pelo JavaScript -->

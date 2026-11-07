@@ -581,11 +581,17 @@ dados.sort((a, b) => {
   return ia - ib;
 });
 
+// Normaliza texto para busca: minusculas e sem acentos ("Segurança" -> "seguranca")
+function normalizar(texto) {
+    return texto.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
 function renderizarServicos(filtro) {
     const lista = document.getElementById('servicos-lista');
     lista.innerHTML = '';
     let encontrou = false;
-    const filtroLower = filtro.trim().toLowerCase();
+    let totalEncontrados = 0;
+    const filtroLower = normalizar(filtro.trim());
 
     // Toggle clear button visibility
     const clearBtn = document.getElementById('clearBtn');
@@ -596,14 +602,15 @@ function renderizarServicos(filtro) {
     }
 
     dados.forEach(cat => {
-        const categoriaCombina = cat.categoria && cat.categoria.toLowerCase().includes(filtroLower);
+        const categoriaCombina = cat.categoria && normalizar(cat.categoria).includes(filtroLower);
         const filtrados = filtroLower === ''
             ? cat.servicos
             : categoriaCombina
                 ? cat.servicos
-                : cat.servicos.filter(s => s.nome.toLowerCase().includes(filtroLower));
+                : cat.servicos.filter(s => normalizar(s.nome).includes(filtroLower));
         if (filtrados.length > 0) {
             encontrou = true;
+            totalEncontrados += filtrados.length;
             const divCat = document.createElement('div');
             divCat.className = 'categoria';
             let headerHTML = cat.categoria === 'Sobre o Gé Tavares'
@@ -644,6 +651,18 @@ function renderizarServicos(filtro) {
     });
     if (!encontrou) {
         lista.innerHTML = '<p>Nenhum serviço encontrado.</p>';
+    }
+
+    // Contador de resultados (so aparece quando ha busca ativa)
+    const info = document.getElementById('resultadoInfo');
+    if (filtroLower === '') {
+        info.textContent = '';
+    } else if (totalEncontrados === 0) {
+        info.textContent = 'Nenhum serviço encontrado';
+    } else {
+        info.textContent = totalEncontrados === 1
+            ? '1 serviço encontrado'
+            : `${totalEncontrados} serviços encontrados`;
     }
 }
 

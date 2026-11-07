@@ -36,6 +36,8 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Renomeações:** AWS Security Agent agora é **AWS Continuum**; AWS Application Composer agora é **AWS Infrastructure Composer** (console isolado fecha em 07/12/2026).
 - **Ciclo de vida dos serviços:** serviços descontinuados, encerrados ou em modo de manutenção agora aparecem sinalizados no nome (ex.: FinSpace, Proton, Pinpoint, WorkMail, App Runner, Kendra), para você não estudar o que não existe mais.
 - **Links corrigidos:** 8 URLs quebradas foram trocadas pela documentação oficial atual (Data Firehose, Aurora Limitless, Batch on EKS, Bedrock Evaluations, CloudTrail Lake, EKS on Outposts e outros).
+- **Busca sem acento:** digitar "seguranca" ou "computacao" agora encontra "Segurança" e "Computação".
+- **Contador de resultados:** a busca mostra quantos serviços foram encontrados (ex.: "9 serviços encontrados").
 - **Próxima atualização:** nova versão após o AWS re:Invent 2026 (30/11 a 04/12).
 
 ## **Novidades (Agosto 2026)**
@@ -65,7 +67,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 39 (Revisão 07/11/2026)
+**Versão:** 39.1 (Revisão 07/11/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
