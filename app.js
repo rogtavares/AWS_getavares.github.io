@@ -25,12 +25,12 @@ const dados = [
       {nome: 'AWS Lake Formation', url: 'https://aws.amazon.com/lake-formation/'},
       {nome: 'Amazon MSK', url: 'https://aws.amazon.com/msk/'}, // Mantido apenas Amazon MSK
       {nome: 'AWS Glue DataBrew', url: 'https://aws.amazon.com/glue/features/databrew/'},
-      {nome: 'Amazon FinSpace', url: 'https://aws.amazon.com/finspace/'},
+      {nome: 'Amazon FinSpace (fim do suporte em 07/10/2026)', url: 'https://aws.amazon.com/finspace/'},
 
       {nome: 'AWS Clean Rooms', url: 'https://aws.amazon.com/clean-rooms/'},
       {nome: 'Amazon SageMaker', url: 'https://aws.amazon.com/sagemaker/'},
       {nome: 'AWS Entity Resolution', url: 'https://aws.amazon.com/entity-resolution/'},
-      {nome: 'Amazon Data Firehose', url: 'https://aws.amazon.com/data-firehose/'},
+      {nome: 'Amazon Data Firehose', url: 'https://aws.amazon.com/firehose/'},
       {nome: 'Amazon DataZone', url: 'https://aws.amazon.com/datazone/'},
       {nome: 'Amazon Managed Workflows for Apache Airflow', url: 'https://aws.amazon.com/mwaa/'}, // nome oficial
       {nome: 'AWS B2B Data Interchange', url: 'https://aws.amazon.com/b2b-data-interchange/'},
@@ -44,11 +44,11 @@ const dados = [
       {nome: 'Amazon Connect', url: 'https://aws.amazon.com/connect/'},
       {nome: 'Amazon Chime', url: 'https://aws.amazon.com/chime/'},
       {nome: 'Amazon Simple Email Service (SES)', url: 'https://aws.amazon.com/ses/'},
-      {nome: 'Amazon WorkDocs', url: 'https://aws.amazon.com/workdocs/'},
-      {nome: 'Amazon WorkMail', url: 'https://aws.amazon.com/workmail/'},
+      {nome: 'Amazon WorkDocs (descontinuado)', url: 'https://aws.amazon.com/workdocs/'},
+      {nome: 'Amazon WorkMail (descontinuado)', url: 'https://aws.amazon.com/workmail/'},
 
-      {nome: 'Amazon Pinpoint', url: 'https://aws.amazon.com/pinpoint/'},
-      {nome: 'Amazon One Enterprise', url: 'https://aws.amazon.com/one-enterprise/'},
+      {nome: 'Amazon Pinpoint (suporte encerra em 30/10/2026)', url: 'https://aws.amazon.com/pinpoint/'},
+      {nome: 'Amazon One Enterprise (descontinuado)', url: 'https://aws.amazon.com/one-enterprise/'},
       {nome: 'AWS Wickr', url: 'https://aws.amazon.com/wickr/'},
       {nome: 'AWS AppFabric', url: 'https://aws.amazon.com/appfabric/'},
       {nome: 'AWS End User Messaging', url: 'https://aws.amazon.com/end-user-messaging/'},
@@ -69,6 +69,7 @@ const dados = [
       {nome: 'Amazon S3 Intelligent-Tiering', url: 'https://aws.amazon.com/s3/storage-classes/intelligent-tiering/'},
       {nome: 'Amazon S3 Storage Lens', url: 'https://aws.amazon.com/pt/s3/storage-lens/'},
       {nome: 'Amazon S3 Vector', url: 'https://aws.amazon.com/pt/s3/features/vectors/'},
+      {nome: 'Amazon S3 Tables (Apache Iceberg)', url: 'https://aws.amazon.com/s3/features/tables/'},
       {nome: 'Amazon EBS', url: 'https://aws.amazon.com/ebs/'},
       {nome: 'AWS Snowball', url: 'https://aws.amazon.com/snowball/'},
       {nome: 'AWS Snowcone', url: 'https://aws.amazon.com/snowcone/'},
@@ -81,7 +82,7 @@ const dados = [
     servicos: [
       {nome: 'Amazon Aurora & RDS', url: 'https://aws.amazon.com/rds/'},
       {nome: 'Amazon Aurora DSQL', url: 'https://aws.amazon.com/rds/aurora/dsql/'},
-      {nome: 'Amazon Aurora Limitless Database', url: 'https://aws.amazon.com/rds/aurora/limitless/'},
+      {nome: 'Amazon Aurora Limitless Database', url: 'https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/limitless.html'},
       {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
       {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
       {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
@@ -106,7 +107,7 @@ const dados = [
     servicos: [
     {nome: 'AWS Marketplace', url: 'https://aws.amazon.com/marketplace/'},
     {nome: 'AWS re:Post', url: 'https://repost.aws/'},
-      {nome: 'AWS IQ', url: 'https://aws.amazon.com/iq/'},
+      {nome: 'AWS IQ (encerrado)', url: 'https://aws.amazon.com/iq/'},
       {nome: 'AWS Managed Services', url: 'https://aws.amazon.com/managed-services/'},
       {nome: 'AWS Activate para Startups', url: 'https://aws.amazon.com/activate/'},
       {nome: 'AWS Support', url: 'https://aws.amazon.com/premiumsupport/plans/'}
@@ -130,13 +131,13 @@ const dados = [
       {nome: 'Amazon Lightsail', url: 'https://aws.amazon.com/pt/lightsail/'},
       {nome: 'AWS Elastic Beanstalk', url: 'https://aws.amazon.com/pt/elasticbeanstalk/'},
       {nome: 'AWS Batch', url: 'https://aws.amazon.com/pt/batch/'},
-      {nome: 'AWS Batch on EKS', url: 'https://aws.amazon.com/batch/eks/'},
+      {nome: 'AWS Batch on EKS', url: 'https://docs.aws.amazon.com/batch/latest/userguide/eks.html'},
       {nome: 'AWS Outposts', url: 'https://aws.amazon.com/pt/outposts/'},
       {nome: 'Amazon EC2 Spot Instances', url: 'https://aws.amazon.com/pt/ec2/spot/'},
       {nome: 'AWS Auto Scaling', url: 'https://aws.amazon.com/autoscaling/'},
       {nome: 'AWS Serverless Application Repository', url: 'https://aws.amazon.com/pt/serverless/serverlessrepo/'},
       {nome: 'EC2 Image Builder', url: 'https://aws.amazon.com/pt/image-builder/'},
-      {nome: 'AWS App Runner', url: 'https://aws.amazon.com/pt/apprunner/'},
+      {nome: 'AWS App Runner (modo de manutenção)', url: 'https://aws.amazon.com/pt/apprunner/'},
       {nome: 'AWS Step Functions', url: 'https://aws.amazon.com/step-functions/'},
       {nome: 'AWS ParallelCluster', url: 'https://aws.amazon.com/hpc/parallelcluster/'},
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
@@ -153,7 +154,8 @@ const dados = [
       {nome: 'Amazon EC2 M8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/m8g/'},
       {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
       {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
-      {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'}
+      {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'},
+      {nome: 'AWS Lambda Web Functions (novo - out/2026)', url: 'https://aws.amazon.com/lambda/'}
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
@@ -163,7 +165,7 @@ const dados = [
       {nome: 'Amazon AppStream 2.0', url: 'https://aws.amazon.com/appstream2/'},
       {nome: 'Amazon DCV', url: 'https://docs.aws.amazon.com/pt_br/dcv/?icmpid=docs_homepage_euc'},
       {nome: 'Amazon WorkSpaces', url: 'https://aws.amazon.com/workspaces/'},
-      {nome: 'Amazon WorkSpaces Secure Browser', url: 'https://aws.amazon.com/workspaces/web/'},
+      {nome: 'Amazon WorkSpaces Secure Browser (modo de manutenção)', url: 'https://aws.amazon.com/workspaces/web/'},
       {nome: 'Amazon WorkSpaces Thin Client', url: 'https://aws.amazon.com/workspaces/thin-client/'}
     ]
   },
@@ -172,7 +174,7 @@ const dados = [
     servicos: [
       {nome: 'Amazon GameLift', url: 'https://aws.amazon.com/gamelift/'},
       {nome: 'AWS GameKit', url: 'https://aws.amazon.com/gamekit/'},
-      {nome: 'Amazon Lumberyard', url: 'https://aws.amazon.com/lumberyard/'}
+      {nome: 'Amazon Lumberyard (descontinuado)', url: 'https://aws.amazon.com/lumberyard/'}
     ]
   },
   {
@@ -188,9 +190,9 @@ const dados = [
       {nome: 'Amazon CodeCatalyst', url: 'https://aws.amazon.com/codecatalyst/'},
       {nome: 'AWS AppConfig', url: 'https://aws.amazon.com/systems-manager/features/appconfig/'},
       {nome: 'Amazon Q Developer', url: 'https://aws.amazon.com/q/developer/'},
-      {nome: 'AWS CodeStar', url: 'https://aws.amazon.com/codestar/'},
+      {nome: 'AWS CodeStar (descontinuado)', url: 'https://aws.amazon.com/codestar/'},
       {nome: 'AWS Fault Injection Service', url: 'https://aws.amazon.com/fis/'},
-      {nome: 'AWS Console to Code', url: 'https://aws.amazon.com/console-to-code/'},
+      {nome: 'AWS Console to Code', url: 'https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/'},
       {nome: 'AWS Command Line Interface (CLI)', url: 'https://aws.amazon.com/cli/'},
       {nome: 'AWS Serverless Application Model (SAM)', url: 'https://aws.amazon.com/serverless/sam/'},
       {nome: 'AWS SDKs e Ferramentas', url: 'https://aws.amazon.com/tools/'}
@@ -220,7 +222,7 @@ const dados = [
   {
     categoria: 'Low-Code/No-Code',
     servicos: [
-      {nome: 'AWS Application Composer', url: 'https://aws.amazon.com/application-composer/'},
+      {nome: 'AWS Infrastructure Composer (antigo Application Composer; console isolado fecha em 07/12/2026)', url: 'https://aws.amazon.com/infrastructure-composer/'},
       {nome: 'AWS Amplify Studio', url: 'https://aws.amazon.com/amplify/studio/'}
     ],
     descricao: 'Ferramentas para criar aplicações rapidamente com pouco ou nenhum código, democratizando o desenvolvimento.'
@@ -238,9 +240,9 @@ const dados = [
       {nome: 'AWS Incident Manager', url: 'https://aws.amazon.com/systems-manager/features/incident-manager/'},
       {nome: 'AWS Launch Wizard', url: 'https://aws.amazon.com/launchwizard/'},
       {nome: 'AWS License Manager', url: 'https://aws.amazon.com/license-manager/'},
-      {nome: 'AWS OpsWorks', url: 'https://aws.amazon.com/opsworks/'},
+      {nome: 'AWS OpsWorks (descontinuado)', url: 'https://aws.amazon.com/opsworks/'},
       {nome: 'AWS Organizations', url: 'https://aws.amazon.com/organizations/'},
-      {nome: 'AWS Proton', url: 'https://aws.amazon.com/proton/'},
+      {nome: 'AWS Proton (fim do suporte em 07/10/2026)', url: 'https://aws.amazon.com/proton/'},
       {nome: 'AWS Resource Explorer', url: 'https://aws.amazon.com/resourceexplorer/'},
       {nome: 'AWS Resource Groups & Tag Editor', url: 'https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html'},
       {nome: 'AWS Resilience Hub', url: 'https://aws.amazon.com/resilience-hub/'},
@@ -251,6 +253,7 @@ const dados = [
       {nome: 'AWS Trusted Advisor', url: 'https://aws.amazon.com/premiumsupport/trustedadvisor/'},
       {nome: 'AWS User Notifications', url: 'https://aws.amazon.com/notifications/'},
       {nome: 'AWS Well-Architected Tool', url: 'https://aws.amazon.com/well-architected-tool/'},
+      {nome: 'AWS Well-Architected Agent (preview - novo)', url: 'https://aws.amazon.com/well-architected-tool/'},
       {nome: 'AWS Health Dashboard', url: 'https://health.aws.amazon.com/'},
       {nome: 'AWS Console Mobile Application', url: 'https://aws.amazon.com/console/mobile/'},
       {nome: 'AWS Chatbot', url: 'https://aws.amazon.com/chatbot/'}
@@ -269,7 +272,7 @@ const dados = [
       {nome: 'AWS IoT Analytics', url: 'https://aws.amazon.com/iot-analytics/'},
       {nome: 'AWS IoT Device Defender', url: 'https://aws.amazon.com/iot-device-defender/'},
       {nome: 'AWS IoT TwinMaker', url: 'https://aws.amazon.com/iot-twinmaker/'},
-      {nome: 'AWS IoT Greengrass', url: 'https://aws.amazon.com/greengrass/'},
+      {nome: 'AWS IoT Greengrass (V1 sem suporte desde 07/10/2026; use V2)', url: 'https://aws.amazon.com/greengrass/'},
       {nome: 'AWS IoT Core', url: 'https://aws.amazon.com/iot-core/'},
       {nome: 'AWS IoT Device Management', url: 'https://aws.amazon.com/iot-device-management/'},
       {nome: 'AWS IoT Events', url: 'https://aws.amazon.com/iot-events/'},
@@ -290,12 +293,12 @@ const dados = [
       {nome: 'Amazon SageMaker Studio', url: 'https://aws.amazon.com/sagemaker/studio/'},
       {nome: 'Amazon Augmented AI', url: 'https://aws.amazon.com/augmented-ai/'},
       {nome: 'Amazon CodeGuru', url: 'https://aws.amazon.com/codeguru/'},
-      {nome: 'Amazon DevOps Guru', url: 'https://aws.amazon.com/devops-guru/'},
+      {nome: 'Amazon DevOps Guru (fim do suporte em 30/09/2027)', url: 'https://aws.amazon.com/devops-guru/'},
       {nome: 'Amazon Comprehend', url: 'https://aws.amazon.com/comprehend/'},
       {nome: 'Amazon Comprehend Medical', url: 'https://aws.amazon.com/comprehend/medical/'},
       {nome: 'Amazon Forecast', url: 'https://aws.amazon.com/forecast/'},
       {nome: 'Amazon Fraud Detector', url: 'https://aws.amazon.com/fraud-detector/'},
-      {nome: 'Amazon Kendra', url: 'https://aws.amazon.com/kendra/'},
+      {nome: 'Amazon Kendra (modo de manutenção)', url: 'https://aws.amazon.com/kendra/'},
       {nome: 'Amazon Lex', url: 'https://aws.amazon.com/lex/'},
       {nome: 'Amazon Personalize', url: 'https://aws.amazon.com/personalize/'},
       {nome: 'Amazon Polly', url: 'https://aws.amazon.com/polly/'},
@@ -303,13 +306,13 @@ const dados = [
       {nome: 'Amazon Textract', url: 'https://aws.amazon.com/textract/'},
       {nome: 'Amazon Transcribe', url: 'https://aws.amazon.com/transcribe/'},
       {nome: 'Amazon Translate', url: 'https://aws.amazon.com/translate/'},
-      {nome: 'AWS DeepComposer', url: 'https://aws.amazon.com/deepcomposer/'},
+      {nome: 'AWS DeepComposer (descontinuado)', url: 'https://aws.amazon.com/deepcomposer/'},
       {nome: 'AWS DeepRacer', url: 'https://aws.amazon.com/deepracer/'},
       {nome: 'AWS Panorama', url: 'https://aws.amazon.com/panorama/'},
       {nome: 'Amazon Monitron', url: 'https://aws.amazon.com/monitron/'},
-      {nome: 'Amazon Lookout for Vision', url: 'https://aws.amazon.com/lookout-for-vision/'},
-      {nome: 'Amazon Lookout for Equipment', url: 'https://aws.amazon.com/lookout-for-equipment/'},
-      {nome: 'Amazon Lookout for Metrics', url: 'https://aws.amazon.com/lookout-for-metrics/'},
+      {nome: 'Amazon Lookout for Vision (descontinuado)', url: 'https://aws.amazon.com/lookout-for-vision/'},
+      {nome: 'Amazon Lookout for Equipment (fim do suporte em 07/10/2026)', url: 'https://aws.amazon.com/lookout-for-equipment/'},
+      {nome: 'Amazon Lookout for Metrics (descontinuado)', url: 'https://aws.amazon.com/lookout-for-metrics/'},
       {nome: 'AWS HealthOmics', url: 'https://aws.amazon.com/healthomics/'},
       {nome: 'AWS Inferentia', url: 'https://aws.amazon.com/ai/machine-learning/inferentia/'},
       {nome: 'AWS Trainium', url: 'https://aws.amazon.com/ai/machine-learning/trainium/'},
@@ -325,17 +328,18 @@ const dados = [
       {nome: 'IA Generativa na AWS (visão geral)', url: 'https://aws.amazon.com/ai/generative-ai/'},
       {nome: 'Amazon Bedrock', url: 'https://aws.amazon.com/bedrock/'},
       {nome: 'Amazon Bedrock Studio', url: 'https://aws.amazon.com/bedrock/studio/'},
-      {nome: 'Amazon Bedrock Agents', url: 'https://aws.amazon.com/bedrock/agents/'},
+      {nome: 'Amazon Bedrock Agents (Classic em manutenção; use AgentCore)', url: 'https://aws.amazon.com/bedrock/agents/'},
       {nome: 'Amazon Bedrock AgentCore', url: 'https://aws.amazon.com/pt/bedrock/agentcore/'},
       {nome: 'Amazon Bedrock Guardrails', url: 'https://aws.amazon.com/bedrock/guardrails/'},
       {nome: 'Amazon Bedrock Knowledge Bases', url: 'https://aws.amazon.com/bedrock/knowledge-bases/'},
-      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/model-evaluation/'},
+      {nome: 'Amazon Bedrock Model Evaluation', url: 'https://aws.amazon.com/bedrock/evaluations/'},
       {nome: 'Amazon Bedrock Prompt Management', url: 'https://aws.amazon.com/bedrock/prompt-management/'},
       {nome: 'Amazon Nova (modelos de fundação)', url: 'https://aws.amazon.com/nova/'},
       {nome: 'Amazon Q', url: 'https://aws.amazon.com/q/'},
       {nome: 'Amazon Q Business (migrando para Amazon Quick)', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'Amazon Q Apps (parte do Q Business)', url: 'https://aws.amazon.com/q/business/'},
       {nome: 'Amazon Q Developer', url: 'https://aws.amazon.com/q/developer/'},
+      {nome: 'Amazon Quick (assistente de IA / app desktop)', url: 'https://aws.amazon.com/quick/'},
       {nome: 'Amazon Kiro (IDE de IA agêntica)', url: 'https://kiro.dev/'},
       {nome: 'BI Generativa no Amazon QuickSight (Amazon Quick)', url: 'https://docs.aws.amazon.com/quicksight/latest/user/quicksight-gen-bi.html'},
       {nome: 'AWS Transform (modernização com IA agêntica)', url: 'https://aws.amazon.com/transform/'},
@@ -371,7 +375,7 @@ const dados = [
 
       {nome: 'Amazon CloudWatch RUM', url: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html'},
       {nome: 'AWS CloudTrail', url: 'https://aws.amazon.com/cloudtrail/'},
-      {nome: 'AWS CloudTrail Lake', url: 'https://aws.amazon.com/cloudtrail/lake/'},
+      {nome: 'AWS CloudTrail Lake', url: 'https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake.html'},
       {nome: 'AWS FIS (Fault Injection Simulator)', url: 'https://aws.amazon.com/fis/'}
     ]
   },
@@ -384,7 +388,7 @@ const dados = [
       {nome: 'AWS App Mesh', url: 'https://aws.amazon.com/app-mesh/'},
       {nome: 'AWS Global Accelerator', url: 'https://aws.amazon.com/global-accelerator/'},
       {nome: 'Amazon Route 53', url: 'https://aws.amazon.com/route53/'},
-      {nome: 'AWS Private 5G', url: 'https://aws.amazon.com/private5g/'},
+      {nome: 'AWS Private 5G (descontinuado)', url: 'https://aws.amazon.com/private5g/'},
       {nome: 'AWS Cloud Map', url: 'https://aws.amazon.com/cloud-map/'},
       {nome: 'Application Recovery Controller', url: 'https://aws.amazon.com/application-recovery-controller/'},
       {nome: 'AWS Network Firewall', url: 'https://aws.amazon.com/network-firewall/'},
@@ -405,7 +409,8 @@ const dados = [
       {nome: 'AWS Fargate', url: 'https://aws.amazon.com/fargate/'},
       {nome: 'Amazon ECR', url: 'https://aws.amazon.com/ecr/'},
       {nome: 'Red Hat OpenShift Service on AWS (ROSA)', url: 'https://aws.amazon.com/rosa/'},
-      {nome: 'Amazon EKS on Outposts', url: 'https://aws.amazon.com/eks/outposts/'}
+      {nome: 'Amazon EKS on Outposts', url: 'https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts.html'},
+      {nome: 'Amazon ECS Gateway (novo - compartilha um ALB entre serviços)', url: 'https://aws.amazon.com/ecs/'}
     ]
   },
   {
@@ -453,7 +458,7 @@ const dados = [
       {nome: 'AWS Private CA', url: 'https://aws.amazon.com/private-ca/'},
       {nome: 'Amazon Security Lake', url: 'https://aws.amazon.com/security-lake/'},
       {nome: 'AWS Verified Access', url: 'https://aws.amazon.com/verified-access/'},
-      {nome: 'AWS Security Agent', url: 'https://aws.amazon.com/security-agent/'}
+      {nome: 'AWS Continuum (antigo AWS Security Agent)', url: 'https://aws.amazon.com/continuum/'}
     ]
   },
   {
@@ -463,7 +468,7 @@ const dados = [
       {nome: 'AWS Elemental MediaConvert', url: 'https://aws.amazon.com/mediaconvert/'},
       {nome: 'AWS Elemental MediaLive', url: 'https://aws.amazon.com/medialive/'},
       {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
-      {nome: 'AWS Elemental MediaStore', url: 'https://aws.amazon.com/mediastore/'},
+      {nome: 'AWS Elemental MediaStore (descontinuado)', url: 'https://aws.amazon.com/mediastore/'},
       {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
       {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
       {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
@@ -487,7 +492,7 @@ const dados = [
   {
     categoria: 'Blockchain',
     servicos: [
-      {nome: 'Amazon Managed Blockchain', url: 'https://aws.amazon.com/managed-blockchain/'},
+      {nome: 'Amazon Managed Blockchain (fim do suporte em 29/09/2027)', url: 'https://aws.amazon.com/managed-blockchain/'},
       {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'}
     ],
     descricao: 'Crie e gerencie redes blockchain e Ledgers escaláveis.'
@@ -495,7 +500,7 @@ const dados = [
   {
     categoria: 'Realidade Virtual e Aumentada',
     servicos: [
-      {nome: 'Amazon Sumerian', url: 'https://aws.amazon.com/sumerian/'}
+      {nome: 'Amazon Sumerian (descontinuado)', url: 'https://aws.amazon.com/sumerian/'}
     ],
     descricao: 'Ferramentas para criar e executar aplicações de realidade virtual (VR), realidade aumentada (AR) e 3D.'
   },
