@@ -31,6 +31,13 @@ A plataforma oferece mapas mentais interativos e navegáveis, com **busca inteli
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
+## **Novidades (Novembro 2026)**
+- **Novos serviços:** AWS Lambda Web Functions, AWS Well-Architected Agent (preview), Amazon ECS Gateway, Amazon S3 Tables (Apache Iceberg) e Amazon Quick.
+- **Renomeações:** AWS Security Agent agora é **AWS Continuum**; AWS Application Composer agora é **AWS Infrastructure Composer** (console isolado fecha em 07/12/2026).
+- **Ciclo de vida dos serviços:** serviços descontinuados, encerrados ou em modo de manutenção agora aparecem sinalizados no nome (ex.: FinSpace, Proton, Pinpoint, WorkMail, App Runner, Kendra), para você não estudar o que não existe mais.
+- **Links corrigidos:** 8 URLs quebradas foram trocadas pela documentação oficial atual (Data Firehose, Aurora Limitless, Batch on EKS, Bedrock Evaluations, CloudTrail Lake, EKS on Outposts e outros).
+- **Próxima atualização:** nova versão após o AWS re:Invent 2026 (30/11 a 04/12).
+
 ## **Novidades (Agosto 2026)**
 - **Nova Categoria "Inteligência Artificial Generativa":** separada de Machine Learning, reunindo Amazon Bedrock (Agents, AgentCore, Guardrails, Knowledge Bases), Amazon Nova, a família Amazon Q, Amazon Kiro, AWS Transform e PartyRock.
 - **Revisão Técnica de Links:** todas as URLs de serviços foram checadas contra a documentação oficial da AWS; dezenas de links desatualizados ou quebrados foram corrigidos.
@@ -58,7 +65,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 38 (Revisão 28/08/2026)
+**Versão:** 39 (Revisão 07/11/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
