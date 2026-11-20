@@ -195,7 +195,8 @@ const dados = [
       {nome: 'AWS Console to Code', url: 'https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/'},
       {nome: 'AWS Command Line Interface (CLI)', url: 'https://aws.amazon.com/cli/'},
       {nome: 'AWS Serverless Application Model (SAM)', url: 'https://aws.amazon.com/serverless/sam/'},
-      {nome: 'AWS SDKs e Ferramentas', url: 'https://aws.amazon.com/tools/'}
+      {nome: 'AWS SDKs e Ferramentas', url: 'https://aws.amazon.com/tools/'},
+      {nome: 'AWS Emulator (novo - nov/2026; emulador local das APIs da AWS, gratuito, sem conta AWS)', url: 'https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/'}
     ]
   },
   {
