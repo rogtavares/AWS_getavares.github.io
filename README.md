@@ -32,7 +32,7 @@ A plataforma oferece mapas mentais interativos e navegáveis, com **busca inteli
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
 ## **Novidades (Novembro 2026)**
-- **Novos serviços:** AWS Lambda Web Functions, AWS Well-Architected Agent (preview), Amazon ECS Gateway, Amazon S3 Tables (Apache Iceberg) e Amazon Quick.
+- **Novos serviços:** AWS Lambda Web Functions, AWS Well-Architected Agent (preview), Amazon ECS Gateway, Amazon S3 Tables (Apache Iceberg), Amazon Quick e **AWS Emulator** (emulador local das APIs da AWS, gratuito e sem conta AWS; lançado em 11/11/2026, em Ferramentas do Desenvolvedor).
 - **Renomeações:** AWS Security Agent agora é **AWS Continuum**; AWS Application Composer agora é **AWS Infrastructure Composer** (console isolado fecha em 07/12/2026).
 - **Ciclo de vida dos serviços:** serviços descontinuados, encerrados ou em modo de manutenção agora aparecem sinalizados no nome (ex.: FinSpace, Proton, Pinpoint, WorkMail, App Runner, Kendra), para você não estudar o que não existe mais.
 - **Links corrigidos:** 8 URLs quebradas foram trocadas pela documentação oficial atual (Data Firehose, Aurora Limitless, Batch on EKS, Bedrock Evaluations, CloudTrail Lake, EKS on Outposts e outros).
