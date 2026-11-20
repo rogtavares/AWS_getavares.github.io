@@ -9,7 +9,7 @@ const dados = [
       {nome: 'AWS Wavelength', url: 'https://aws.amazon.com/wavelength/'},
       {nome: 'AWS Outposts', url: 'https://aws.amazon.com/outposts/'}
     ],
-    descricao: 'A Nuvem AWS abrange 120 Zonas de Disponibilidade em 38 Regiões geográficas, com planos anunciados para mais 10 Zonas de Disponibilidade e mais 3 Regiões da AWS no Reino da Arábia Saudita, no Chile e na Nuvem Soberana Europeia da AWS. Atualizado em fevereiro de 2026.'
+    descricao: 'A Nuvem AWS abrange 124 Zonas de Disponibilidade em 39 Regiões geográficas, com planos anunciados para mais 7 Zonas de Disponibilidade e mais 2 Regiões da AWS no Reino da Arábia Saudita e no Chile. Atualizado em novembro de 2026.'
   },
   {
     categoria: 'Análise de Dados',

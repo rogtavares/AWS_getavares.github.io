@@ -38,6 +38,7 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Links corrigidos:** 8 URLs quebradas foram trocadas pela documentação oficial atual (Data Firehose, Aurora Limitless, Batch on EKS, Bedrock Evaluations, CloudTrail Lake, EKS on Outposts e outros).
 - **Busca sem acento:** digitar "seguranca" ou "computacao" agora encontra "Segurança" e "Computação".
 - **Contador de resultados:** a busca mostra quantos serviços foram encontrados (ex.: "9 serviços encontrados").
+- **Infraestrutura global atualizada:** 124 Zonas de Disponibilidade em 39 Regiões (dados da página oficial da AWS em novembro/2026).
 - **Próxima atualização:** nova versão após o AWS re:Invent 2026 (30/11 a 04/12).
 
 ## **Novidades (Agosto 2026)**
@@ -67,7 +68,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 39.1 (Revisão 07/11/2026)
+**Versão:** 39.2 (Revisão 07/11/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
