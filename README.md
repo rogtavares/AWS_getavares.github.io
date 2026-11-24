@@ -31,6 +31,11 @@ A plataforma oferece mapas mentais interativos e navegáveis, com **busca inteli
 
 Organizados por categorias, os mapas oferecem uma visualização clara e interativa dos serviços AWS e suas interações, simplificando conceitos complexos e tornando o estudo mais dinâmico e eficaz.
 
+## **Novidades (Versão 40 - Novembro 2026)**
+- **Novos serviços:** AWS Lambda Durable Functions (fluxos de várias etapas com checkpoint e replay) e AWS Lambda Managed Instances (funções Lambda rodando em instâncias EC2), ambos lançados no re:Invent 2025.
+- **Ciclo de vida dos serviços:** Amazon QLDB, AWS Panorama, AWS RoboMaker e AWS Elastic Transcoder agora aparecem como "descontinuado"; AWS Migration Hub e Application Discovery Service aparecem em "modo de manutenção" (fechados para novos clientes desde 07/11/2025; a AWS indica o AWS Transform).
+- **Próxima atualização (v41):** lançamentos do AWS re:Invent 2026 (30/11 a 04/12).
+
 ## **Novidades (Novembro 2026)**
 - **Novos serviços:** AWS Lambda Web Functions, AWS Well-Architected Agent (preview), Amazon ECS Gateway, Amazon S3 Tables (Apache Iceberg), Amazon Quick e **AWS Emulator** (emulador local das APIs da AWS, gratuito e sem conta AWS; lançado em 11/11/2026, em Ferramentas do Desenvolvedor).
 - **Renomeações:** AWS Security Agent agora é **AWS Continuum**; AWS Application Composer agora é **AWS Infrastructure Composer** (console isolado fecha em 07/12/2026).
@@ -39,7 +44,6 @@ Organizados por categorias, os mapas oferecem uma visualização clara e interat
 - **Busca sem acento:** digitar "seguranca" ou "computacao" agora encontra "Segurança" e "Computação".
 - **Contador de resultados:** a busca mostra quantos serviços foram encontrados (ex.: "9 serviços encontrados").
 - **Infraestrutura global atualizada:** 124 Zonas de Disponibilidade em 39 Regiões (dados da página oficial da AWS em novembro/2026).
-- **Próxima atualização:** nova versão após o AWS re:Invent 2026 (30/11 a 04/12).
 
 ## **Novidades (Agosto 2026)**
 - **Nova Categoria "Inteligência Artificial Generativa":** separada de Machine Learning, reunindo Amazon Bedrock (Agents, AgentCore, Guardrails, Knowledge Bases), Amazon Nova, a família Amazon Q, Amazon Kiro, AWS Transform e PartyRock.
@@ -68,7 +72,7 @@ Conteúdo educacional gratuito sobre AWS com explicações práticas e didática
 
 ---
 
-**Versão:** 39.2 (Revisão 07/11/2026)
+**Versão:** 40 (Revisão 23/11/2026)
 
 **Autor:** Gé Tavares, engenheiro de software Itaú.
 
