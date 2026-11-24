@@ -86,7 +86,7 @@ const dados = [
       {nome: 'Amazon DynamoDB', url: 'https://aws.amazon.com/dynamodb/'},
       {nome: 'Amazon ElastiCache', url: 'https://aws.amazon.com/elasticache/'},
       {nome: 'Amazon Neptune', url: 'https://aws.amazon.com/neptune/'},
-      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'},
+      {nome: 'Amazon QLDB (descontinuado)', url: 'https://aws.amazon.com/qldb/'},
       {nome: 'Amazon DocumentDB', url: 'https://aws.amazon.com/documentdb/'},
       {nome: 'Amazon Keyspaces', url: 'https://aws.amazon.com/keyspaces/'},
       {nome: 'Amazon Timestream', url: 'https://aws.amazon.com/timestream/'},
@@ -155,7 +155,9 @@ const dados = [
       {nome: 'Amazon EC2 R8g Instances', url: 'https://aws.amazon.com/ec2/instance-types/r8g/'},
       {nome: 'AWS Lambda Response Streaming', url: 'https://aws.amazon.com/lambda/'},
       {nome: 'AWS Deadline Cloud', url: 'https://aws.amazon.com/deadline-cloud/'},
-      {nome: 'AWS Lambda Web Functions (novo - out/2026)', url: 'https://aws.amazon.com/lambda/'}
+      {nome: 'AWS Lambda Web Functions (novo - out/2026)', url: 'https://aws.amazon.com/lambda/'},
+      {nome: 'AWS Lambda Durable Functions', url: 'https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows'},
+      {nome: 'AWS Lambda Managed Instances', url: 'https://aws.amazon.com/about-aws/whats-new/2025/11/aws-lambda-managed-instances'}
     ],
     descricao: 'Serviços de computação escaláveis para executar aplicações na nuvem, desde servidores virtuais até computação serverless.'
   },
@@ -309,7 +311,7 @@ const dados = [
       {nome: 'Amazon Translate', url: 'https://aws.amazon.com/translate/'},
       {nome: 'AWS DeepComposer (descontinuado)', url: 'https://aws.amazon.com/deepcomposer/'},
       {nome: 'AWS DeepRacer', url: 'https://aws.amazon.com/deepracer/'},
-      {nome: 'AWS Panorama', url: 'https://aws.amazon.com/panorama/'},
+      {nome: 'AWS Panorama (descontinuado)', url: 'https://aws.amazon.com/panorama/'},
       {nome: 'Amazon Monitron', url: 'https://aws.amazon.com/monitron/'},
       {nome: 'Amazon Lookout for Vision (descontinuado)', url: 'https://aws.amazon.com/lookout-for-vision/'},
       {nome: 'Amazon Lookout for Equipment (fim do suporte em 07/10/2026)', url: 'https://aws.amazon.com/lookout-for-equipment/'},
@@ -352,9 +354,9 @@ const dados = [
   {
     categoria: 'Migração e Transferência',
     servicos: [
-      {nome: 'AWS Migration Hub', url: 'https://aws.amazon.com/migration-hub/'},
+      {nome: 'AWS Migration Hub (modo de manutenção; use AWS Transform)', url: 'https://aws.amazon.com/migration-hub/'},
       {nome: 'Application Migration Service', url: 'https://aws.amazon.com/application-migration-service/'},
-      {nome: 'Application Discovery Service', url: 'https://aws.amazon.com/application-discovery/'},
+      {nome: 'Application Discovery Service (modo de manutenção)', url: 'https://aws.amazon.com/application-discovery/'},
       {nome: 'Database Migration Service', url: 'https://aws.amazon.com/dms/'},
       {nome: 'AWS Transfer Family', url: 'https://aws.amazon.com/aws-transfer-family/'},
       {nome: 'AWS Snow Family', url: 'https://aws.amazon.com/snow/'},
@@ -423,7 +425,7 @@ const dados = [
   {
     categoria: 'Robótica',
     servicos: [
-      {nome: 'AWS RoboMaker', url: 'https://aws.amazon.com/robomaker/'}
+      {nome: 'AWS RoboMaker (descontinuado)', url: 'https://aws.amazon.com/robomaker/'}
     ]
   },
   {
@@ -471,7 +473,7 @@ const dados = [
       {nome: 'AWS Elemental MediaPackage', url: 'https://aws.amazon.com/mediapackage/'},
       {nome: 'AWS Elemental MediaStore (descontinuado)', url: 'https://aws.amazon.com/mediastore/'},
       {nome: 'AWS Elemental MediaTailor', url: 'https://aws.amazon.com/mediatailor/'},
-      {nome: 'AWS Elastic Transcoder', url: 'https://aws.amazon.com/elastictranscoder/'},
+      {nome: 'AWS Elastic Transcoder (descontinuado)', url: 'https://aws.amazon.com/elastictranscoder/'},
       {nome: 'Amazon Interactive Video Service (IVS)', url: 'https://aws.amazon.com/ivs/'},
       {nome: 'AWS Elemental MediaConnect', url: 'https://aws.amazon.com/mediaconnect/'}
     ]
@@ -494,7 +496,7 @@ const dados = [
     categoria: 'Blockchain',
     servicos: [
       {nome: 'Amazon Managed Blockchain (fim do suporte em 29/09/2027)', url: 'https://aws.amazon.com/managed-blockchain/'},
-      {nome: 'Amazon QLDB', url: 'https://aws.amazon.com/qldb/'}
+      {nome: 'Amazon QLDB (descontinuado)', url: 'https://aws.amazon.com/qldb/'}
     ],
     descricao: 'Crie e gerencie redes blockchain e Ledgers escaláveis.'
   },
